@@ -7,7 +7,7 @@
                 <ul class="nav navbar-nav">
 			      {% for link in site.data.nav %}
 				  <li>
-                      <a href="{{ link.url }}">{{ link.title }}</a>
+                      <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
                   </li>
 			      {% endfor %}
                 </ul>
