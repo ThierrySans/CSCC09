@@ -1,0 +1,211 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@base-color: #30bebe;
+@light-color: #e4f8f8;
+
+@brand-primary: @base-color;
+@jumbotron-bg: @light-color;
+
+@navbar-default-bg: white;
+
+@dropdown-bg: white;
+@dropdown-link-color: @navbar-default-link-color;
+@dropdown-link-hover-color: @navbar-default-link-hover-color;
+@dropdown-link-hover-bg: @light-color;
+
+@navbar-default-link-active-bg: @light-color;
+
+.light{
+    color: @base-color;
+}
+
+.em{
+    color: red !important;
+}
+
+.odd{
+    background-color:@light-color;
+}
+
+
+body {
+    min-height: 2000px;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+footer{
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 800px;
+}
+
+p, ul{
+	line-height: 180%;
+}
+
+.navbar{
+    padding-top:25px;
+}
+
+#utsc_logo{
+    margin-top:-25px;
+    width:250px;
+    height: auto;
+}
+
+#content{
+    margin-top:50px;
+	min-height: 200px;
+}
+
+#header{
+    .jumbotron();
+    h1{
+        font-size: 42px;
+    }
+    #instructor {
+      .make-row();
+      font-size: @jumbotron-font-size;
+      div:first-child{
+        .make-xs-column(2);
+        font-weight:bold;
+      }
+      div:last-child {
+        .make-xs-column(10);
+      }
+    }
+}
+
+#syllabus {
+    width:800px;
+    padding-left:@jumbotron-padding*2;
+}
+
+#updates{
+    .make-row();
+    #posts{
+        .make-xs-column(7);
+    }
+    #news{
+        .make-xs-column(5);
+    }
+}
+
+.post{
+        .make-row();
+        border-collapse: collapse;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-bottom: 1px solid @gray-light;
+        .date{
+            .make-xs-column(2);
+        }
+        .title{
+             .make-xs-column(10);
+             font-weight: bold;
+             color: @base-color;
+        }
+        .content{
+             .make-xs-column-offset(2);
+             .make-xs-column(10);
+        }
+}
+
+// .grid{
+//     margin-top:20px;
+//     margin-bottom:20px;
+//     .hrow{
+//         font-weight: bold;
+//         border-bottom: 1px solid #999;
+//     }
+//     .brow{
+//         font-weight: bold;
+//         border-top: 1px solid #999;
+//     }
+//     .row{
+//         .make-row();
+//         margin-top:5px;
+//         .hcolumn{
+//              font-weight: bold;
+//              .make-xs-column(2);
+//         }
+//         .column{
+//              .make-xs-column(4);
+//         }
+//     }
+//
+// }
+
+.week{
+    .make-row();
+    border-collapse: collapse;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid @gray-light;
+    .week_id{
+        .make-xs-column(1);
+    }
+    .date{
+        .make-xs-column(1);
+    }
+    .topic{
+         .make-xs-column(4);
+         font-weight: bold;
+         color: @base-color;
+    }
+    ul{
+        line-height: 120%;
+        padding: 0pt;
+    }
+    .notes{
+         .make-xs-column(3);
+    }
+    .readings{
+         .make-xs-column(3);
+    }
+}
+
+.hrow{
+        font-weight: bold;
+        border-bottom: 1px solid #999;
+        .topic{
+            color: inherit;
+        }
+}
+
+.book{
+    .make-row();
+    margin-top:20px;
+    margin-bottom:20px;
+    img{
+         .make-xs-column(2);
+         width:100px;
+    }
+    .description{
+         .make-xs-column(10);
+         margin-top:20px;
+         .title{
+             font-weight: bold;
+         }
+         .editor
+         {
+         	font-style: italic;
+         }
+    }
+}
+
+.feedEkList{
+    // width:450px;
+    list-style:none outside none;
+    background-color:#FFFFFF;
+    border:1px solid @gray-light;
+    padding:4px 6px;
+    color:#3E3E3E;
+    li{border-bottom:1px solid @gray-light; padding:5px;}
+}
+
+.itemDate{font-size:11px;color:#AAAAAA;}
+
+

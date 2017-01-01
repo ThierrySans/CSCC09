@@ -1,0 +1,33 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+@page{size:a4;}
+
+@media print{
+
+    #header{
+        .jumbotron();
+        h1{
+            font-size: 35px;
+        }
+        // page-break-after: always;
+        #instructor, #timing {
+            div{
+                font-size: @jumbotron-font-size*0.9;
+            }
+        }
+    }
+
+    #page{
+      .make-row();
+      #left{
+        .make-xs-column(12);
+      }
+      #right{
+        display: none !important;
+      }
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+}
