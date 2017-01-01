@@ -1,0 +1,16 @@
+- title: Announcements & News
+  url: /updates/
+
+- title: Schedule
+  url: /schedule/
+
+- title: Course Work
+  url: /work/
+
+- title: Piazza
+  url:  {{site.data.main.piazza}}
+
+- title: Github
+  url: {{site.data.main.github}}
+
+

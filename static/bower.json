@@ -1,0 +1,26 @@
+{
+  "name": "15437",
+  "authors": [
+    "ThierrySans <thierry.sans@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "less": "*",
+    "moment": "*",
+    "FeedEk": "enginkizil/FeedEk#*"
+  }
+}
