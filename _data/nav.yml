@@ -1,16 +1,23 @@
 - title: Announcements & News
   url: /updates/
+  absolute: False
 
 - title: Schedule
   url: /schedule/
+  absolute: False
 
 - title: Course Work
   url: /work/
+  absolute: False
 
 - title: Piazza
-  url:  {{site.data.main.piazza}}
+  url:  https://piazza.com/mail.utoronto.ca/spring2017/cscc09
+  absolute: True
 
 - title: Github
-  url: {{site.data.main.github}}
-
-
+  url: https://github.com/ThierrySans/cscc09-w17
+  absolute: True
+  
+- title: Feedback
+  url: https://goo.gl/forms/n8porhFwU0ou8eOj1
+  absolute: True

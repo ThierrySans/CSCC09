@@ -3,8 +3,8 @@ ref: CSCC09
 title: Programming on the Web
 edition: Winter 2017
 description: An introduction to software development on the web. Concepts underlying the development of programs that operate on the web. Operational concepts of the internet and the web, static and dynamic client content, dynamically served content, n-tiered architectures, web development processes and security on the web.
-website: https://cscc09-f16.github.io
-github: https://github.com/ThierrySans/cscc09-f16
-piazza: https://piazza.com/mail.utoronto.ca/winter2017/cscc09/home
-feedback: 
+website: https://thierrysans.github.io/cscc09-w17/
+github: https://github.com/ThierrySans/cscc09-w17
+piazza: https://piazza.com/mail.utoronto.ca/spring2017/cscc09
+feedback: https://goo.gl/forms/n8porhFwU0ou8eOj1
 

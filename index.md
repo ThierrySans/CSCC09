@@ -28,13 +28,77 @@ For specific prerequisite requirements see the UTSC Registrar.
 
 ## Course Timing
 
-
+<div class="grid">
+    <div class="hrow row">
+        <div class="hcolumn column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Lectures</div>
+        <div class="column">Monday 11am-12pm (room IC-220)</div>
+        <div class="column">Friday 11am-1pm (room SW-143)</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Tutorial #1</div>
+        <div class="column">Mon 9am-11am (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Tutorial #2</div>
+        <div class="column">Mon 3pm-5pm (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Tutorial #3</div>
+        <div class="column">Friday 9am-11am (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Tutorial #4</div>
+        <div class="column">Friday 1pm-3pm (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+</div>
 
 ## Course Staff
 
 We encourage you to post questions regarding course materials and assignments on Piazza. However, if you need extended support, the course staff will hold office hours.
 
-## Course Information:
+<div class="grid">
+    <div class="hrow row">
+        <div class="hcolumn column"></div>
+        <div class="column">Role</div>
+        <div class="column">Office Hours</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Thierry Sans</div>
+        <div class="column">Instructor</div>
+        <div class="column">TBD (room IC-346)</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Colin Druery</div>
+        <div class="column">Teaching Assistant</div>
+        <div class="column">TBD</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Jana Gablanja</div>
+        <div class="column">Teaching Assistant</div>
+        <div class="column">TBD</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Edouard Magharian</div>
+        <div class="column">Teaching Assistant</div>
+        <div class="column">TBD</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Ryan Williams</div>
+        <div class="column">Teaching Assistant</div>
+        <div class="column">TBD</div>
+    </div>
+</div>
+
+## Course Information
 
 - The [course website]({{site.data.main.website}}) and its [Github repository]({{site.data.main.github}})
 
@@ -48,18 +112,32 @@ We encourage you to post questions regarding course materials and assignments on
 
 - The [anonymous feedback form]({{site.data.main.feedback}}>)
 
-	If you have feedback about the course, you can send an anonymous feedback to the course instructor. (You also have the *option* of including your name.) Since the sender cannot be determined, comments sent through the feedback form are considered public, and they may receive a response at the beginning of class or on the discussion board.
+	If you have feedback about the course, you can send an anonymous feedback to the course instructor (you also have the *option* of including your name). Since the sender cannot be determined, comments sent through the feedback form are considered public, and they may receive a response at the beginning of class or on the discussion board.
 
 ## Marking Scheme
 
-- **Assignments 40%:**
+The numeric marks of assignments, project and final exam will be used to compute a composite numeric score that will determine your final letter grade for the course.
 
-Over the term, you will complete 2 assignments (worth 10% each). All two assignments are individual work, and each is due on the Friday of the week it is due. To submit your assignment, create a pull request against the assignment's upstream Git repository.
+The weighting of assignments and tests is set as:
 
-- **Project 40% (5% proposal, 30% project, 5% presentation)**
-
-- **Final Exam (40%):**
-The final exam is comprehensive, 3 hours, and held during the exam period. You must obtain a 40% to pass the course; otherwise, your final mark will be set no higher than 48%.
+<div class="grid">
+    <div class="hrow row">
+        <div class="hcolumn column"></div>
+        <div class="column">Weight</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Assignments</div>
+        <div class="column">20%</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Project</div>
+        <div class="column">40%</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Final Exam</div>
+        <div class="column">40%</div>
+    </div>
+</div>
 
 ## Submission Policy
 
@@ -71,10 +149,7 @@ If an emergency arises that prevents you from being able to complete any piece o
 
 ## Re-mark Policy
 
-If a piece of work has been mis-marked or if you believe the rubric used to
-evaluate the work is not appropriate, you may request a re-mark. For a re-mark
-to succeed, you must clearly and concisely express what you believe was
-mis-marked. To request a re-mark, use a private post on piazza. Requests must be submitted within **1 week** of the marks being returned.
+If a piece of work has been mis-marked or if you believe the rubric used to evaluate the work is not appropriate, you may request a re-mark. For a re-mark to succeed, you must clearly and concisely express what you believe was mis-marked. To request a re-mark, use a private post on piazza. Requests must be submitted within **1 week** of the marks being returned.
 
 ## Academic Integrity
 
@@ -92,7 +167,4 @@ Failure to comply with these guidelines is a serious academic offence. In past a
 
 ## Accessibility Needs
 
-The University of Toronto is committed to accessibility. If you require
-accommodations for a disability, or have any accessibility concerns about the
-course, the classroom or course materials, please contact Accessibility
-Services as soon as possible: disability.services@utoronto.ca or <http://studentlife.utoronto.ca/accessibility>
+The University of Toronto is committed to accessibility. If you require accommodations for a disability, or have any accessibility concerns about the course, the classroom or course materials, please contact Accessibility Services as soon as possible: disability.services@utoronto.ca or <http://studentlife.utoronto.ca/accessibility>

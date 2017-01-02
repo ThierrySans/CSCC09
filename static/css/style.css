@@ -6463,6 +6463,8 @@ button.close {
 #updates:after,
 .post:before,
 .post:after,
+.grid .row:before,
+.grid .row:after,
 .week:before,
 .week:after,
 .book:before,
@@ -6489,6 +6491,7 @@ button.close {
 #header #instructor:after,
 #updates:after,
 .post:after,
+.grid .row:after,
 .week:after,
 .book:after {
   clear: both;
@@ -6895,6 +6898,40 @@ ul {
   position: relative;
   float: left;
   width: 83.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.grid .hrow {
+  font-weight: bold;
+  border-bottom: 1px solid #999;
+}
+.grid .brow {
+  font-weight: bold;
+  border-top: 1px solid #999;
+}
+.grid .row {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 5px;
+}
+.grid .row .hcolumn {
+  font-weight: bold;
+  position: relative;
+  float: left;
+  width: 16.66666667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.grid .row .column {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;

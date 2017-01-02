@@ -1,13 +1,17 @@
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span></button> <a class="navbar-brand" href="/"><span class="light">{{site.data.main.ref}}</span> {{site.data.main.edition}}</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span></button> <a class="navbar-brand" href={{"/" | absolute_url }}><span class="light">{{site.data.main.ref}}</span> {{site.data.main.edition}}</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
 			      {% for link in site.data.nav %}
 				  <li>
+                      {% if link.absolute %}
+                      <a href="{{link.url}}">{{ link.title }}</a>
+                      {% else %}
                       <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+                      {% endif %}
                   </li>
 			      {% endfor %}
                 </ul>

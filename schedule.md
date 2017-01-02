@@ -25,7 +25,7 @@ permalink: /schedule/
                                 {% if pair[1] == nil %}
                                     <li>{{note}}</li>
                                 {% else %}
-                                    <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
+                                    <li><a href="{{pair[1] | absolute_url }}">{{pair[0]}}</a></li>
                                 {% endif %}
                             {% endfor %}
     					{% endfor %}
@@ -38,7 +38,7 @@ permalink: /schedule/
                             {% if pair[1] == nil %}
                                 <li>{{reading}}</li>
                             {% else %}
-                                <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
+                                <li><a href="{{pair[1] | absolute_url  }}">{{pair[0]}}</a></li>
                             {% endif %}
                         {% endfor %}
 					{% endfor %}
