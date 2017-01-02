@@ -103,14 +103,12 @@ We encourage you to post questions regarding course materials and assignments on
 - The [course website]({{site.data.main.website}}) and its [Github repository]({{site.data.main.github}})
 
 	One of the nice things about using Github for the course web site is that you can contribute to the course web site. If you see something on the course web site that should be fixed, or want to improve the UI, please feel free to submit a pull request. 
-	
-	You are especially encouraged to add to the resources page.  If you find particularly useful tutorials, guides, blog posts, please add them to the resources page with an annotation stating what the resource is about and what makes it useful.
 
-- [The Piazza discussion Board]({{site.data.main.piazza}}>)
+- [The Piazza discussion Board]({{ site.data.main.piazza }})
 
 	The discussion board is the best place to ask technical questions, and general questions about the course, assignments and labs. For personal issues, please use private posts. I try to respond by the end of the next day. However, due to volume, it may take longer, especially on weekends.
 
-- The [anonymous feedback form]({{site.data.main.feedback}}>)
+- The [anonymous feedback form]({{site.data.main.feedback}})
 
 	If you have feedback about the course, you can send an anonymous feedback to the course instructor (you also have the *option* of including your name). Since the sender cannot be determined, comments sent through the feedback form are considered public, and they may receive a response at the beginning of class or on the discussion board.
 

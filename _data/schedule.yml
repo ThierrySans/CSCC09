@@ -1,7 +1,7 @@
 lectures:
     - topic: HTML & CSS
       notes:
-          - Introduction
+          - Introduction: slides/C09-Introduction.pdf
           - HTML & CSS
       readings: 
           - W3C Markup Validation Service: https://validator.w3.org/
