@@ -48,5 +48,5 @@ permalink: /schedule/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule(3);
+   make_schedule(0);
 </script>
