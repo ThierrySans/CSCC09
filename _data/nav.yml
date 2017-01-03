@@ -2,8 +2,8 @@
   url: /updates/
   absolute: False
 
-- title: Schedule
-  url: /schedule/
+- title: Lectures
+  url: /lectures/
   absolute: False
 
 - title: Course Work

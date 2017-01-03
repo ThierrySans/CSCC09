@@ -6955,7 +6955,7 @@ ul {
 .week .date {
   position: relative;
   float: left;
-  width: 8.33333333%;
+  width: 16.66666667%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -6963,7 +6963,7 @@ ul {
 .week .topic {
   position: relative;
   float: left;
-  width: 33.33333333%;
+  width: 25%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -6974,15 +6974,11 @@ ul {
   line-height: 120%;
   padding: 0pt;
 }
-.week .notes {
-  position: relative;
-  float: left;
-  width: 25%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.week .readings {
+.week .notes,
+.week .readings,
+.week .lab,
+.week .hw,
+.week .project {
   position: relative;
   float: left;
   width: 25%;

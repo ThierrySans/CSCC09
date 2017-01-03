@@ -40,22 +40,22 @@ For specific prerequisite requirements see the UTSC Registrar.
         <div class="column">Friday 11am-1pm (room SW-143)</div>
     </div>
     <div class="row">
-        <div class="hcolumn column">Tutorial #1</div>
+        <div class="hcolumn column">Practical #1</div>
         <div class="column">Mon 9am-11am (room BV-473)</div>
         <div class="column"></div>
     </div>
     <div class="row">
-        <div class="hcolumn column">Tutorial #2</div>
+        <div class="hcolumn column">Practical #2</div>
         <div class="column">Mon 3pm-5pm (room BV-473)</div>
         <div class="column"></div>
     </div>
     <div class="row">
-        <div class="hcolumn column">Tutorial #3</div>
+        <div class="hcolumn column">Practical #3</div>
         <div class="column">Friday 9am-11am (room BV-473)</div>
         <div class="column"></div>
     </div>
     <div class="row">
-        <div class="hcolumn column">Tutorial #4</div>
+        <div class="hcolumn column">Practical #4</div>
         <div class="column">Friday 1pm-3pm (room BV-473)</div>
         <div class="column"></div>
     </div>
@@ -100,21 +100,21 @@ We encourage you to post questions regarding course materials and assignments on
 
 ## Course Information
 
-- The [course website]({{site.data.main.website}}) and its [Github repository]({{site.data.main.github}})
+- The [course website]({{site.data.settings.website}}) and its [Github repository]({{site.data.settings.github}})
 
 	One of the nice things about using Github for the course web site is that you can contribute to the course web site. If you see something on the course web site that should be fixed, or want to improve the UI, please feel free to submit a pull request. 
 
-- [The Piazza discussion Board]({{ site.data.main.piazza }})
+- [The Piazza discussion Board]({{ site.data.settings.piazza }})
 
 	The discussion board is the best place to ask technical questions, and general questions about the course, assignments and labs. For personal issues, please use private posts. I try to respond by the end of the next day. However, due to volume, it may take longer, especially on weekends.
 
-- The [anonymous feedback form]({{site.data.main.feedback}})
+- The [anonymous feedback form]({{site.data.settings.feedback}})
 
 	If you have feedback about the course, you can send an anonymous feedback to the course instructor (you also have the *option* of including your name). Since the sender cannot be determined, comments sent through the feedback form are considered public, and they may receive a response at the beginning of class or on the discussion board.
 
 ## Marking Scheme
 
-The numeric marks of assignments, project and final exam will be used to compute a composite numeric score that will determine your final letter grade for the course.
+The numeric marks of labs, assignments, project and final exam will be used to compute a composite numeric score that will determine your final letter grade for the course.
 
 The weighting of assignments and tests is set as:
 
@@ -124,8 +124,12 @@ The weighting of assignments and tests is set as:
         <div class="column">Weight</div>
     </div>
     <div class="row">
+        <div class="hcolumn column">Labs</div>
+        <div class="column">10%</div>
+    </div>
+    <div class="row">
         <div class="hcolumn column">Assignments</div>
-        <div class="column">20%</div>
+        <div class="column">30%</div>
     </div>
     <div class="row">
         <div class="hcolumn column">Project</div>
@@ -133,7 +137,7 @@ The weighting of assignments and tests is set as:
     </div>
     <div class="row">
         <div class="hcolumn column">Final Exam</div>
-        <div class="column">40%</div>
+        <div class="column">20%</div>
     </div>
 </div>
 

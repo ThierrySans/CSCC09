@@ -1,0 +1,59 @@
+- topic: HTML & CSS
+  notes:
+      - Introduction: slides/C09-Introduction.pdf
+      - HTML & CSS
+  readings: 
+      - W3C Markup Validation Service: https://validator.w3.org/
+      - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
+      - A Complete Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- topic: Javascript
+  notes: 
+    - Client-side JS
+    - Manipulating the DOM
+    - Exploring HTML5
+    
+- topic: Web API
+  notes:
+      - The HTTP protocol
+      - Server-side JS (NodeJS) 
+      - Building a REST API
+      - Ajax & JSON
+  
+- topic: Storing Data
+  notes: 
+      - SQL vs NoSQL databases
+      - File upload
+  
+- topic: Managing users
+  notes: 
+      - Authentication
+      - Authorization
+      
+- topic: Security
+
+- topic: Web Frameworks
+  notes: 
+      - AngularJS
+      - ReactJS
+  
+- topic: Advanced Javascript
+  notes:
+      - Asynchronism
+      - web workers
+      - web sockets
+
+- topic: Building large scale web applications
+  notes:
+      - Form validation
+      - Templates
+      - i18N
+
+- topic: Deploying large scale web applications
+
+- topic: Beyond web applications
+  notes:
+      - Browser extensions 
+      - Mobile development
+
+- topic: Project presentations
