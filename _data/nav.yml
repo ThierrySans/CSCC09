@@ -6,6 +6,10 @@
   url: /lectures/
   absolute: False
 
+- title: Labs
+  url: /labs/
+  absolute: False
+  
 - title: Course Work
   url: /work/
   absolute: False
