@@ -1,7 +1,7 @@
 - topic: HTML & CSS
   notes:
-      - Introduction: slides/C09-Introduction.pdf
-      - HTML & CSS
+      - Introduction: 01-Introduction.pdf
+      - HTML & CSS: 01-HTMLandCSS.pdf
   readings: 
       - W3C Markup Validation Service: https://validator.w3.org/
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
@@ -36,6 +36,8 @@
   notes: 
       - AngularJS
       - ReactJS
+
+- topic: <span class="em">Spring Break</span>
   
 - topic: Advanced Javascript
   notes:

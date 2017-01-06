@@ -26,41 +26,6 @@ No assumptions are made about prior exposure to web development. Students should
 
 For specific prerequisite requirements see the UTSC Registrar.
 
-## Course Timing
-
-<div class="grid">
-    <div class="hrow row">
-        <div class="hcolumn column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-    </div>
-    <div class="row">
-        <div class="hcolumn column">Lectures</div>
-        <div class="column">Monday 11am-12pm (room IC-220)</div>
-        <div class="column">Friday 11am-1pm (room SW-143)</div>
-    </div>
-    <div class="row">
-        <div class="hcolumn column">Practical #1</div>
-        <div class="column">Mon 9am-11am (room BV-473)</div>
-        <div class="column"></div>
-    </div>
-    <div class="row">
-        <div class="hcolumn column">Practical #2</div>
-        <div class="column">Mon 3pm-5pm (room BV-473)</div>
-        <div class="column"></div>
-    </div>
-    <div class="row">
-        <div class="hcolumn column">Practical #3</div>
-        <div class="column">Friday 9am-11am (room BV-473)</div>
-        <div class="column"></div>
-    </div>
-    <div class="row">
-        <div class="hcolumn column">Practical #4</div>
-        <div class="column">Friday 1pm-3pm (room BV-473)</div>
-        <div class="column"></div>
-    </div>
-</div>
-
 ## Course Staff
 
 We encourage you to post questions regarding course materials and assignments on Piazza. However, if you need extended support, the course staff will hold office hours.
@@ -78,25 +43,63 @@ We encourage you to post questions regarding course materials and assignments on
     </div>
     <div class="row">
         <div class="hcolumn column">Colin Druery</div>
-        <div class="column">Teaching Assistant</div>
-        <div class="column">TBD</div>
+        <div class="column">Teaching Assistant (PRA02)</div>
+        <div class="column">Wed 2:00pm-3:30pm</div>
     </div>
     <div class="row">
         <div class="hcolumn column">Jana Gablanja</div>
-        <div class="column">Teaching Assistant</div>
-        <div class="column">TBD</div>
+        <div class="column">Teaching Assistant (PRA01)</div>
+        <div class="column">Mon 12:00pm-1:30pm</div>
     </div>
     <div class="row">
         <div class="hcolumn column">Edouard Magharian</div>
-        <div class="column">Teaching Assistant</div>
-        <div class="column">TBD</div>
+        <div class="column">Teaching Assistant (PRA04)</div>
+        <div class="column">Tue 5:00pm-6:30pm</div>
     </div>
     <div class="row">
         <div class="hcolumn column">Ryan Williams</div>
-        <div class="column">Teaching Assistant</div>
-        <div class="column">TBD</div>
+        <div class="column">Teaching Assistant (PRA03)</div>
+        <div class="column">Fri 3:00-4:30pm</div>
     </div>
 </div>
+
+
+## Course Timing
+
+<div class="grid">
+    <div class="hrow row">
+        <div class="hcolumn column"></div>
+        <div class="column"></div>
+        <div class="column"></div>
+        <div class="column">Instructor</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">Lectures</div>
+        <div class="column">Monday 11am-12pm (room IC-220)</div>
+        <div class="column">Friday 11am-1pm (room SW-143)</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">PRA01</div>
+        <div class="column">Mon 9am-11am (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">PRA02</div>
+        <div class="column">Mon 3pm-5pm (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">PRA03</div>
+        <div class="column">Friday 9am-11am (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column">PRA04</div>
+        <div class="column">Friday 1pm-3pm (room BV-473)</div>
+        <div class="column"></div>
+    </div>
+</div>
+
 
 ## Course Information
 

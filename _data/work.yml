@@ -1,4 +1,5 @@
 - week:
+  hw: Course registration
     
 - week:
   lab: HTML & CSS
@@ -20,10 +21,13 @@
 - week: 
   lab: Security
   hw: Users & Security
+  
+- week: 
+  lab: <span class="em">Spring Break</span>
+  project: Project registration & proposal
     
 - week:
   lab: Deploying
-  project: Proposal
     
 - week:
     

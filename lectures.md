@@ -46,5 +46,5 @@ permalink: /lectures/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule(0);
+   make_schedule("20170102",7,0);
 </script>
