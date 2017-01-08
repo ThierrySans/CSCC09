@@ -23,7 +23,7 @@ permalink: /lectures/
                                 {% if pair[1] == nil %}
                                     <li>{{note}}</li>
                                 {% else %}
-                                    <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
+                                    <li><a href="{{forloop.index}}/{{pair[1]}}">{{pair[0]}}</a></li>
                                 {% endif %}
                             {% endfor %}
     					{% endfor %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <a href='/'><div id="close_button" class="header_button"></div></a>
+    </header>
+    
+    <form class="complex_form" id="profile_form">
+      <div class="form_title">Change your profile</div>
+      <input type="text" id="profile_form_name" class="form_element" placeholder="Enter your name"/>
+      
+      <div class="form_radio">
+          <input type="radio" name="profile_form_image_selector" value="url" />
+          <label class="form_element" for="url">URL</label>
+          <input type="radio" name="profile_form_image_selector" value="file" />
+          <label class="form_element" for="file">File Upload</label>
+      </div>
+      
+      <input type="text" id="profile_form_image_url" class="form_element" placeholder="Enter the image url"/>
+      <input type="file" id="profile_form_image_file" class="form_element">
+      <input type="submit" class="btn"/>
+    </form>
+   
+    <footer>
+        <a href='credits.html'>credits</a>
+    </footer>
+</body>
+</html>

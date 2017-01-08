@@ -1,7 +1,7 @@
 - topic: HTML & CSS
   notes:
-      - Introduction: 01-Introduction.pdf
-      - HTML & CSS: 01-HTMLandCSS.pdf
+      - Introduction: Introduction.pdf
+      - HTML & CSS: HTMLandCSS.pdf
   readings: 
       - W3C Markup Validation Service: https://validator.w3.org/
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/

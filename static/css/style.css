@@ -6867,6 +6867,13 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+.screenshot img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  height: auto;
+}
 .post {
   margin-left: -15px;
   margin-right: -15px;

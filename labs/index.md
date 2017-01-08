@@ -6,14 +6,18 @@ permalink: /labs/
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Date</div>
-	<div class="lab">Labs</div>
+	<div class="topic">Labs</div>
+    <div class="notes">Handout</div>
 </div>
 
 {% for e in site.data.labs %}
 <div class="week {% cycle "odd", "even" %}">
     <div class="week_id">{{forloop.index}}</div>
     <div class="date"></div>
-	<div class="lab">{{e.lab}}</div>
+	<div class="topic">{{e.lab}}</div>
+    {% if e.handout %}
+    <div class="notes"><a href="{{forloop.index}}/">handout</a></div>
+    {% endif %}
 </div>
 {% endfor %}
 
