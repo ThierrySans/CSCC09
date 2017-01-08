@@ -36,11 +36,10 @@ To setup your workspace, follow these steps:
     $ cp -R cscc09-w17/labs/2/microblog _your_utorid_/labs/2/
     ```
 
-1. more to today's lab starter code
+1. move to today's lab starter code
 
     ```shell
     $ cd _your_utorid_/labs/2/microblog
-
     ```
 
 1. start browser-sync to monitor the starter code directory
