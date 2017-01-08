@@ -18,23 +18,33 @@ You can work on your own laptop or on any linux lab machine. This lab has a star
 To setup your workspace, follow these steps: 
 
 1. clone the course repo cscc09-w17
+    
     ```shell
     $ git clone https://github.com/ThierrySans/cscc09-w17
     ```
+
 1. clone your own repo
+    
     ```shell
     $ git clone https://github.com/UTSCC09/_your_utorid_
     ```
+
 1. copy today's lab into your repository
+    
     ```shell
     $ mkdir -p _your_utorid_/labs/2/
     $ cp -R cscc09-w17/labs/2/microblog _your_utorid_/labs/2/
     ```
+
 1. more to today's lab starter code
+
     ```shell
     $ cd _your_utorid_/labs/2/microblog
+
     ```
+
 1. start browser-sync to monitor the starter code directory
+
     ```shell
     $ browser-sync start --server --no-online --files="**/*"
     ```
