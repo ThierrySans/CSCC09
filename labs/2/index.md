@@ -13,7 +13,7 @@ This handout is meant to guide your learning experience by giving you problems t
 
 ###  Recommended work setup
 
-You can work on your own laptop or on any linux lab machine. This lab has a starter code that can be found on the course Github repository `https://github.com/ThierrySans/cscc09-w17/labs/2/microblog`. Therefore, we recommend you to copy the starter code into your Github repository and work from there. In addition, we recommend you to work with [browser-sync](https://www.browsersync.io/) to automatically refresh your browser once any of your file is saved. 
+You can work on your own laptop or on any linux lab machine. This lab has a starter code that can be found on the course Github repository `/labs/2/microblog`. Therefore, we recommend you to copy the starter code into your Github repository and work from there. In addition, we recommend you to work with [browser-sync](https://www.browsersync.io/) to automatically refresh your browser once any of your file is saved. 
 
 To setup your workspace, follow these steps: 
 
