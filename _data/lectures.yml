@@ -9,9 +9,10 @@
 
 - topic: Javascript
   notes: 
-    - Client-side JS
-    - Manipulating the DOM
-    - Exploring HTML5
+    - Introduction: C09-Javascript.pdf
+    - Javascript in the browser: C09-Javascript-browser.pdf
+    - Building front-ends: C09-BuildingFrontends.pdf
+    - Exploring HTML5: C09-HTML5.pdf
     
 - topic: Web API
   notes:
