@@ -43,7 +43,7 @@ Your code muts be of good quality and follow all recommendations given throughou
 - all icons, images and other design elements are appropriately credited in `credits.html`.
 - all code found online and adapted are appropriately credited as comments
 
-Remember, any code found online and properly credited can constitute an academic violation. 
+Remember, any code found online and improperly credited can constitute an academic violation. 
 
 ### Marking 
 
