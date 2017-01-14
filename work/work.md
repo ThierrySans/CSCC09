@@ -3,6 +3,8 @@ layout: default
 permalink: /work/
 ---
 
+The objective of these assignments is to build an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook (the photo album part), Picasa or Flickr.
+
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Deadline (11:59pm)</div>
@@ -15,7 +17,13 @@ permalink: /work/
 <div class="week {% cycle "odd", "even" %}">
     <div class="week_id">{{forloop.index}}</div>
     <div class="date"></div>
-    <div class="lab">{{e.hw}}</div>
+    <div class="lab">
+        {% if e.handout %}
+        <a href="{{e.handout}}">{{e.hw}}</a>
+        {% else %}
+        {{e.hw}}
+        {% endif %}
+    </div>
     <div class="lab">{{e.project}}</div>
 </div>
 {% endfor %}
