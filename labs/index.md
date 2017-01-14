@@ -3,6 +3,8 @@ layout: default
 permalink: /labs/
 ---
 
+Throughout the labs, you will ge guided to develop a web application called *Microblog* that allows users to share short messages.
+
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Date</div>
