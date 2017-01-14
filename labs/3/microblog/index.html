@@ -10,48 +10,31 @@
 <body>
     <header>
         <h1>Microblog</h1>
-        <a href="/profile.html"><div id="profile_button" class="header_button"></div></a>
     </header>
-    
-    <form class="complex_form" id="message_form">
+    <form class="complex_form" id="create_message_form">
       <div class="form_title">Post a message</div>
-      <div class="form_radio">
-          <input type="radio" name="message_type_selector" value="text" />
-          <label class="form_element" for="text">Text</label>
-          <input type="radio" name="message_type_selector" value="drawing" />
-          <label class="form_element" for="drawing">Drawing</label>
-      </div>
-      <textarea id="message_form_content" class="form_element" placeholder="Enter your message"  rows="5"></textarea>
+      <input type="text" id="create_message_name" class="form_element" placeholder="Enter your name"/>
+      <textarea id="create_message_content" class="form_element" placeholder="Enter your message"  rows="5"></textarea>
       <input type="submit" class="btn"/>
     </form>
     
     <div id="messages">
       <div class="message">
             <div class="message_header">
-                <div class="message_avatar"><img src="uploads/student.png" alt="Alice"/></div>
+                <div class="message_avatar"><img src="media/user.png" alt="Alice"/></div>
                 <div class="message_name">Alice</div>
             </div>
             <div class="message_content">This microblog is way better than piazza!</div>
             <div class="message_vote">
-                <div class="down_button vote_button">1</div>
-                <div class="up_button vote_button">512</div>
+                <div class="down_button vote_button">0</div>
+                <div class="up_button vote_button">0</div>
             </div>
-        </div>
-        <div class="message">
-            <div class="message_header">
-                <div class="message_avatar"><img src="uploads/prof.png" alt="Thierry"/></div>
-                <div class="message_name">Thierry</div>
-            </div>
-            <div class="message_content">Welcome to CSCC09!</div>
-            <div class="message_vote">  
-                <div class="down_button vote_button">2</div>
-                <div class="up_button vote_button">128</div>
-                </div>
         </div>
    </div>
    
     <footer>
         <a href='/credits.html'>credits</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

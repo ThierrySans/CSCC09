@@ -1,4 +1,4 @@
-# [CSCC09 Programming on the Web ( Winter 2017)](https://cscc09-f16.github.io/)
+# [CSCC09 Programming on the Web ( Winter 2017)](https://thierrysans.github.io/cscc09-w17/)
 
 This is the source code for the CSCC09 Winter 2017 course website.
 
