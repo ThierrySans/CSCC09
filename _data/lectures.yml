@@ -16,10 +16,11 @@
     
 - topic: Web API
   notes:
-      - The HTTP protocol
-      - Server-side JS (NodeJS) 
-      - Building a REST API
-      - Ajax & JSON
+      - The HTTP protocol: C09-HTTP.pdf
+      - Web REST API
+      - Ajax
+      - JSON
+      - Server-side JS (NodeJS)     
   
 - topic: Storing Data
   notes: 
