@@ -31,7 +31,7 @@ Indeed, you do need to clone the repositories again if you have already done so 
     
     ```
     $ mkdir -p _your_utorid_/labs/3/
-    $ cp -R cscc09-w17/labs/3/microblog _your_utorid_/labs/3/
+    $ cp -R cscc09-w17/labs/3/ _your_utorid_/labs/3/
     ```
 
 1. move to today's lab starter code:
