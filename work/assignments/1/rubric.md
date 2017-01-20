@@ -5,6 +5,7 @@ permalink: work/assignments/1/rubric/
 
 ---
 **Grade (TA only)**
+
 - max: 20
 - score:
 
@@ -28,7 +29,10 @@ Complete this rubric by filling the blanks and selecting options using an `x` wh
 
 ### Academic integrity declaration
 
-I hereby declared that the work submitted here is mine. 
+I hereby declared that the work submitted here is mine and its production complies with 
+
+1. the Code of Behaviour on Academic Matters of University of Toronto
+1. and the course policy (see website)
 
 - [date] ___________________________
 - [signature or initials] __________
@@ -37,6 +41,7 @@ I hereby declared that the work submitted here is mine.
 
 ---
 **Grade (TA only)**
+
 - max1: 40
 - score1:
  
@@ -101,7 +106,7 @@ I hereby declared that the work submitted here is mine.
     - excellent
     - beyond expectations
 
-In the box below, write any comment you would like to communicate the TA regarding the work done for this part.
+In the box below, write any comment you would like to communicate the TA regarding the work done for this part:
 **Comments**
 ```
 your comments go here. 
@@ -111,6 +116,7 @@ your comments go here.
 
 ---
 **Grade (TA only)**
+
 - max2: 40
 - score2:
  
@@ -179,7 +185,7 @@ your comments go here.
     - _ it works really well under all kinds of usages
     - _ it works exceptionally well and tolerates bad usages (security aside): bad user inputs, UI stress and so on
 
-In the box below, write any comment you would like to communicate the TA regarding the work done for this part. 
+In the box below, write any comment you would like to communicate the TA regarding the work done for this part: 
 **Comments**
 ```
 your comments go here. 
@@ -189,6 +195,7 @@ your comments go here.
 
 ---
 **Grade (TA only)**
+
 - max3: 40
 - score3:
  
@@ -228,7 +235,7 @@ your comments go here.
     - _ is excellent
     - _ is beyond expectations 
     
-In the box below, write any comment you would like to communicate the TA regarding the work done for this part. 
+In the box below, write any comment you would like to communicate the TA regarding the work done for this part: 
 **Comments**
 ```
 your comments go here. 
@@ -238,6 +245,7 @@ your comments go here.
 
 ---
 **Grade (TA only)**
+
 - max4: 20
 - score4:
  
@@ -250,7 +258,7 @@ your comments go here.
     - _ one or several extra features (please describe the(se) feature(s) in the comment box below)
     - _ something else (please describe in the comment box below)
 
-In the box below, write any comment you would like to communicate the TA regarding the work done for this part. 
+In the box below, write any comment you would like to communicate the TA regarding the work done for this part:
 **Comments**
 ```
 your comments go here. 
