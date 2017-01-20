@@ -27,17 +27,18 @@ Complete this rubric by filling the blanks and selecting options using an `x` wh
     - x good but couple of questions were not filled or wrongly filled
     - _ perfect 
 
-### Academic integrity declaration
+## Academic integrity declaration
 
 I hereby declared that the work submitted here is mine and its production complies with 
 
 1. the Code of Behaviour on Academic Matters of University of Toronto
 1. and the course policy (see website)
 
-- [date] ___________________________
-- [signature or initials] __________
+[date] ___________________________
 
-### Designing the UI 
+[signature or initials] __________
+
+## Designing the UI 
 
 ---
 **Grade (TA only)**
@@ -107,12 +108,13 @@ I hereby declared that the work submitted here is mine and its production compli
     - beyond expectations
 
 In the box below, write any comment you would like to communicate the TA regarding the work done for this part:
+
 **Comments**
 ```
 your comments go here. 
 ```
 
-### Building the features
+## Building the features
 
 ---
 **Grade (TA only)**
@@ -186,6 +188,7 @@ your comments go here.
     - _ it works exceptionally well and tolerates bad usages (security aside): bad user inputs, UI stress and so on
 
 In the box below, write any comment you would like to communicate the TA regarding the work done for this part: 
+
 **Comments**
 ```
 your comments go here. 
@@ -236,12 +239,13 @@ your comments go here.
     - _ is beyond expectations 
     
 In the box below, write any comment you would like to communicate the TA regarding the work done for this part: 
+
 **Comments**
 ```
 your comments go here. 
 ```
 
-### Neatness 
+## Neatness 
 
 ---
 **Grade (TA only)**
@@ -259,6 +263,7 @@ your comments go here.
     - _ something else (please describe in the comment box below)
 
 In the box below, write any comment you would like to communicate the TA regarding the work done for this part:
+
 **Comments**
 ```
 your comments go here. 
