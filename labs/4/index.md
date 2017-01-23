@@ -34,7 +34,7 @@ This lab has a starter code that can be found on the course Github repository `/
 1. copy the `app.js` skeleton provided to you for this lab: 
 
     ```
-    $ cp -R cscc09-w17/labs/4/microblog _your_utorid_/labs/4/
+    $ cp -R cscc09-w17/labs/4/app.s _your_utorid_/labs/4/
     ```
 
 ### Submission
