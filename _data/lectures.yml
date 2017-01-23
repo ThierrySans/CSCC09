@@ -22,6 +22,8 @@
       - Web REST API: slides/C09-REST.pdf
       - JSON: slides/C09-JSON.pdf
       - Ajax: slides/C09-Ajax.pdf
+  readings:
+      - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
   
 - topic: Storing Data
   notes: 

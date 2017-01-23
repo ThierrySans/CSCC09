@@ -13,6 +13,10 @@
 - title: Course Work
   url: /work/
   absolute: False
+  
+- title: Resources
+  url: /resources/
+  absolute: False
 
 - title: Piazza
   url:  https://piazza.com/mail.utoronto.ca/spring2017/cscc09
