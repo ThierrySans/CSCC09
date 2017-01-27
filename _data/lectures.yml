@@ -24,11 +24,12 @@
       - Ajax: slides/C09-Ajax.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
+      - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - topic: Storing Data
   notes: 
-      - SQL vs NoSQL databases
-      - File upload
+      - Storing data: slides/C09-Data.pdf
+      - File upload: slides/C09-Files.pdf
   
 - topic: Managing users
   notes: 
