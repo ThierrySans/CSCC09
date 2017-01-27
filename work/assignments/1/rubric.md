@@ -49,27 +49,27 @@ I hereby declared that the work submitted here is mine and its production compli
 ---
 
 1. The UI elements for the **uploader form** are: [select one]
-    - _ missing
-    - _ almost missing with couple of exceptions
-    - _ mostly there with couple of exceptions
+    - _ completely missing
+    - _ missing for the most part
+    - _ mostly there but couple of elements are missing
     - _ all there without any exception
     
 1. The UI elements for the **display** are: [select one]
-    - _ missing
-    - _ almost missing with couple of exceptions
-    - _ mostly there with couple of exceptions
+    - _ completely missing
+    - _ missing for the most part
+    - _ mostly there but couple of elements are missing
     - _ all there without any exception
     
 1. The UI elements for the **the comment form** are: [select one]
-    - _ missing
-    - _ almost missing with couple of exceptions
-    - _ mostly there with couple of exceptions
+    - _ completely missing
+    - _ missing for the most part
+    - _ mostly there but couple of elements are missing
     - _ all there without any exception
     
 1. The UI elements for the **the comment section*** are: [select one]
-    - _ missing
-    - _ almost missing with couple of exceptions
-    - _ mostly there with couple of exceptions
+    - _ completely missing
+    - _ missing for the most part
+    - _ mostly there but couple of elements are missing
     - _ all there without any exception
     
 1. The CSS layout (not the code) is: [select one]
@@ -99,8 +99,7 @@ I hereby declared that the work submitted here is mine and its production compli
     - _ most of them but couple are missing
     - _ all of them without any exception
     
-1. Overall, the quality of the UI is: [select one]
-    - not implemented
+1. Overall, the quality of the UI design is: [select one]
     - poor
     - fair
     - good
@@ -231,7 +230,6 @@ your comments go here.
     - _ it does not generate error messages in the console
  
 1. Overall, the application code: [select one]
-    - _ is missing for the most part 
     - _ is poorly implemented
     - _ is fairly well implemented
     - _ is good
