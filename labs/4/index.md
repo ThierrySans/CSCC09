@@ -82,7 +82,7 @@ To implement our Web API, we are going to use the [Express.js](http://expressjs.
 To test our api, we are going to use the program `curl`. For instance, our api should answer to this command: 
 
 ``` 
-$ curl --verbose --request POST --header 'Content-Type: application/json' --data `{"content": "Hello World!", "author": "Me"}` http://localhost:3000/
+$ curl --verbose --request POST --header 'Content-Type: application/json' --data '{"content": "Hello World!", "author": "Me"}' http://localhost:3000/
 ``` 
 
 This command sends an HTTP requests to our server with the following parameters:
