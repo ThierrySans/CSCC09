@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /labs/4/
+permalink: /labs/5/
 ---
 
 # Lab 5: Storing Data
