@@ -9,7 +9,7 @@ In this lab, you are going to manipulate files and connect our API to a database
 
 ###  Recommended work setup
 
-This lab has a starter code that can be found on the course Github repository `/labs/5/microblog`. 
+This lab has a starter code that can be found on the course Github repository `/labs/5/microblog/app`. 
 
 ### Submission
 
