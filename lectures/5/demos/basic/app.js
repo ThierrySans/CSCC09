@@ -1,11 +1,16 @@
 var express = require('express')
 var app = express();
 
-var auth = require('basic-auth');
+var getCredentials = function(req){
+    if (!(req.headers.authorization)) return null;
+     var encodedString = req.headers.authorization.split(' ')[1];
+     var decodedString = Buffer.from(encodedString, 'base64').toString("ascii").split(":");
+     return {username: decodedString[0], password: decodedString[1]}; 
+}
 
 var authenticate = function(req, res, next) {
-    var credentials = auth(req);
-    if (!credentials || credentials.name !== 'admin' || credentials.pass !== 'pass4admin') {
+    var credentials = getCredentials(req);    
+    if (!credentials || credentials.username !== 'admin' || credentials.password !== 'pass4admin') {
       res.setHeader('WWW-Authenticate', 'Basic realm="User Realm"');
       return res.status(401).end("Access Denied");
     }
