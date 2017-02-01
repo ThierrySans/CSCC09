@@ -51,7 +51,7 @@ In addition to submitting the app, students must fill and submit the grading rub
 
 - **UI**: 40 points (10 for each component)
 - **Features**: 40 points (10 for each feature)
-- **Code quality and organization** 20 points - it includes quality of
+- **Code quality and organization** 20 points
 - **Neatness**: 20 bonus points
 
 The *Neatness* points will be granted to exceptional submissions only. To be considered, the application must work perfectly and its code being of excellent quality in the first place. No *Neatness* point will be granted to an incomplete or badly written web application. 
