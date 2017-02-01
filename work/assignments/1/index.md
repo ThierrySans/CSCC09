@@ -31,7 +31,7 @@ All of your work should be placed into a directory called `app`. This directory 
 - `app/style`: all css files
 - `app/media`: all media files related to the UI (images, icons and so on)
 
-Your code muts be of good quality and follow all recommendations given throughout the course. In this assignment, it means (non exhaustive): 
+Your code must be of good quality and follow all recommendations given throughout the course. In this assignment, it means (non exhaustive): 
 
 - not use of deprecated HTML tags
 - proper use of id and class attributes
