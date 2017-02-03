@@ -32,7 +32,7 @@ var users = {};
 
 app.put('/api/users/', function (req, res, next) {
     if (req.body.username in users){
-        res.status(409).json("Username:" + req.body.username + " already exists");
+        res.status(409).end("Username:" + req.body.username + " already exists");
         return next();
     }
     var user = new User(req.body);
@@ -70,7 +70,7 @@ app.get('/api/users/', function (req, res, next) {
 app.patch('/api/messages/:id/', function (req, res, next) {
     var message = messages[req.params.id];
     if (!(message)){
-        res.status(404).json("Message id:" + req.params.id + " does not exists");
+        res.status(404).end("Message id:" + req.params.id + " does not exists");
         return next();
     }
     switch(req.body.action){
@@ -90,7 +90,7 @@ app.patch('/api/messages/:id/', function (req, res, next) {
 app.delete('/api/messages/:id/', function (req, res, next) {
     var message = messages[req.params.id];
     if (!(message)){
-        res.status(404).json("Message id:" + req.params.id + " does not exists");
+        res.status(404).end("Message id:" + req.params.id + " does not exists");
         return next();
     } 
     delete messages[req.params.id];
