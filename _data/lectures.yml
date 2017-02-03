@@ -33,8 +33,9 @@
   
 - topic: Managing users
   notes: 
-      - Authentication
-      - Authorization
+      - Passwords: slides/C09-Passwords.pdf
+      - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
+      - WebAuthentication:  slides/C09-WebAuthentication.pdf
       
 - topic: Security
 

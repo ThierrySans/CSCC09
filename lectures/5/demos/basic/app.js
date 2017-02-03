@@ -5,7 +5,7 @@ var getCredentials = function(req){
     if (!(req.headers.authorization)) return null;
      var encodedString = req.headers.authorization.split(' ')[1];
      var decodedString = Buffer.from(encodedString, 'base64').toString("ascii").split(":");
-     return {username: decodedString[0], password: decodedString[1]}; 
+     return {username: decodedString[0], password: decodedString[1]};
 }
 
 var authenticate = function(req, res, next) {
@@ -16,6 +16,8 @@ var authenticate = function(req, res, next) {
     }
     return next();
 };
+
+// curl http://admin:pass4admin@localhost:3000/public/
 
 app.get('/public/', function (req, res, next) {
     return res.end("This is public");
