@@ -5,7 +5,7 @@ permalink: /labs/2/
 
 # Lab 2: HTML & CSS
 
-In this lab, we are going to make your first steps with HTML and CSS. Your goal is to design the UI of our Microblog app. This app should look like similar to the following screenshot:
+In this lab, you are going to make your first steps with HTML and CSS. Your goal is to design the UI of our Microblog app. This app should look like similar to the following screenshot:
 
 <div class="screenshot"><img src="screenshots/main.png" alt="Main"/></div>
 
@@ -78,6 +78,7 @@ At this point, you should see the Microblog application centered with a fixed wi
 The main page contains an example of an HTML form. So far, this form contains an input element that asks the user to enter a name. We want to modify this form to post a longer message instead of a name.   
 
 **Task:** Without modifying the CSS file `form.css`:  
+
 1. replace the input form with a `textarea` element that matches the style defined by the class `form_element` in the `form.css` file. The textarea placeholder should now be *"enter your message*".
 1. add a input button of type submit that matches the style defined by the class `btn` the `form.css` file. 
 
@@ -115,7 +116,7 @@ As a good practice, it is recommended to use the CSS method for all images that 
 
 For instance, the header section contains a profile button that is not shown because there is no image attached to it. Since it is part of the UI, we will use the CSS method method to attach an image to this button. 
 
-**Task 1:** Without modifying the HTML file, use the CSS method to attach the image `media/user.png` to the background of the profile button button. 
+**Task:** Without modifying the HTML file, use the CSS method to attach the image `media/user.png` to the background of the profile button button. 
 
 In contrary, the user profile images contained in the messages are related to the data. Therefore, we prefer to use the `img` HTML elements for these images. For each message, let us change the image profile with a specific one as shown on the screenshot above. You can use any image found on the internet as long as it is free of use *and* that you correctly credit its author. For instance, you can find these image on websites such as: 
 
@@ -124,7 +125,7 @@ In contrary, the user profile images contained in the messages are related to th
 
 For any image you use, you should credit its author on the credits page of you app (`credits.html`). 
 
-**Task 2:** Change the two profile pictures of your messages by
+**Task:** Change the two profile pictures of your messages by
 
 1. downloading two free of use images from the web in a new directory that you will call `uploads`
 1. use these images in your messages  
