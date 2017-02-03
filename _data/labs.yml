@@ -10,9 +10,11 @@
     
 - week:
   lab: Web API
+  handout: True
     
 - week: 
   lab: Storing Data
+  handout: True
     
 - week:
   lab: Managing Users

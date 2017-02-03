@@ -1,7 +1,7 @@
 - topic: HTML & CSS
   notes:
-      - Introduction: Introduction.pdf
-      - HTML & CSS: HTMLandCSS.pdf
+      - Introduction: slides/C09-Introduction.pdf
+      - HTML & CSS: slides/C09-HTMLandCSS.pdf
   readings: 
       - W3C Markup Validation Service: https://validator.w3.org/
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
@@ -9,22 +9,27 @@
 
 - topic: Javascript
   notes: 
-    - Introduction: C09-Javascript.pdf
-    - Javascript in the browser: C09-Javascript-browser.pdf
-    - Building front-ends: C09-BuildingFrontends.pdf
-    - Exploring HTML5: C09-HTML5.pdf
+    - Introduction: slides/C09-Javascript.pdf
+    - Javascript in the browser: slides/C09-Javascript-browser.pdf
+    - Building front-ends: slides/C09-BuildingFrontends.pdf
+    - Exploring HTML5: slides/C09-HTML5.pdf
+  readings:
+      - Mozilla Developer Network: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     
 - topic: Web API
   notes:
-      - The HTTP protocol
-      - Server-side JS (NodeJS) 
-      - Building a REST API
-      - Ajax & JSON
+      - The HTTP protocol: slides/C09-HTTP.pdf
+      - Web REST API: slides/C09-REST.pdf
+      - JSON: slides/C09-JSON.pdf
+      - Ajax: slides/C09-Ajax.pdf
+  readings:
+      - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
+      - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - topic: Storing Data
   notes: 
-      - SQL vs NoSQL databases
-      - File upload
+      - Storing data: slides/C09-Data.pdf
+      - File upload: slides/C09-Files.pdf
   
 - topic: Managing users
   notes: 

@@ -163,7 +163,7 @@ So far, any message added vanishes as soon as the page is refreshed. In the next
 localStorage.setItem(key, value);
 
 // retrieve a value
-localStorage.getItem(key, value);
+localStorage.getItem(key);
 ```
 
 However, HTML5 local storage can only store base types such as `int`, `float`, `boolean` and `string`. One way to go around that limitation is to store data structure such as arrays and objects as strings. To do, we will use JSON to serialize and deserialize data. We will further explain JSON in the next lab. 
@@ -173,14 +173,14 @@ However, HTML5 local storage can only store base types such as `int`, `float`, `
 localStorage.setItem(key, JSON.stringify(object));
 
 // retrieve an object (or an array)
-JSON.parse(localStorage.getItem(key, value));
+JSON.parse(localStorage.getItem(key));
 ```
 
 **Task:** Complete the application to load and store messages locally following our MVC structure. This means that:
 
-1. when the user opens the page page (`window.onload`), the model should load the  whether the messages stored locally (if any)
+1. when the user opens the page page (`window.onload`), the model should load the whether there are messages stored locally (if any)
 
-1. when a new message is added, the model should update the local storage will the new message. 
+1. when a new message is added, the model should update the local storage with the new message. 
 
 
 
