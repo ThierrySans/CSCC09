@@ -4,6 +4,8 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+app.use(express.static('static'));
+
 var Message = (function(){
     var id = 0;
     return function Message(message){

@@ -14,8 +14,7 @@
     
     document.getElementsByName('picture')[0].onchange = function(e){
 		var file = e.target.files[0];
-		var imageType = /image.*/;
-		if (file.type.match(imageType)) {
+		if (file.type.match(/image.*/)) {
 			var reader = new FileReader();
 			reader.onload = function(e) {
                 updateProfile(reader.result, "PREVIEW");

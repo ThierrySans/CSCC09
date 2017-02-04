@@ -29,18 +29,18 @@ app.post('/api/profile/', upload.single('picture'), function (req, res, next) {
 
 app.get('/api/profile/', function (req, res, next) {
     if (profile) res.json({username: profile.username});
-    else res.status(404).end("Profile not set"); 
+    else res.status(404).end("Profile not set");
     next();
 });
 
-app.get('/api/profile/picture/', function (req, res, next) {
-    if (profile){
-        res.setHeader('Content-Type', profile.mimetype);
-        res.sendFile(path.join(__dirname, profile.path));
-    }
-    else res.status(404).end("Profile not set"); 
-    next();
-});
+// app.get('/api/profile/picture/', function (req, res, next) {
+//     if (profile){
+//         res.setHeader('Content-Type', profile.mimetype);
+//         res.sendFile(path.join(__dirname, profile.path));
+//     }
+//     else res.status(404).end("Profile not set");
+//     next();
+// });
 
 app.use(function (req, res, next){
     console.log("HTTP Response", res.statusCode);
