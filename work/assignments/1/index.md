@@ -68,8 +68,8 @@ The best applications might be showcased in class.
 
 You should submit your app and its grading rubric through your Github course repository. Your repository should be organized as follows:
 
-- `assignment\1\app` 
-- `assignment\1\rubric.md`
+- `assignments/1/app` 
+- `assignments/1/rubric.md`
 
 Before submitting your final version. It is strongly recommended to verify that your code is portable. To do so: 
 
