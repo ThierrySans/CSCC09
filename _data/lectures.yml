@@ -38,6 +38,13 @@
       - WebAuthentication:  slides/C09-WebAuthentication.pdf
       
 - topic: Security
+  notes:
+      - The Big Picture: slides/C09-BigPicture.pdf
+      - HTTPS: slides/C09-HTTPS.pdf
+  readings:
+      - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
+
+
 
 - topic: Web Frameworks
   notes: 
