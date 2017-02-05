@@ -106,7 +106,6 @@ Now, we can use this middleware to protect any route that requires an authentica
 - only authenticated users can post new messages
 - only authenticated users can upvote, downvote and delete messages
 
-
 ## Authorization
 
 In this part, we will see that protecting the routing methods is enough. As an example, it is currently possible for an authenticated user to post a message on behalf of someone else since the message author is given as argument of the method `POST /api/messages`.
