@@ -38,9 +38,9 @@ In addition to submitting the app, students must fill and submit the grading rub
 
 You should submit your 1) app, 2) its documentation and 3) its grading rubric through your Github course repository. Your repository should be organized as follows:
 
-- `assignment\2\app` 
-- `assignment\2\README.md`
-- `assignment\2\rubric.md`
+- `assignment/2/app` 
+- `assignment/2/README.md`
+- `assignment/2/rubric.md`
 
 Before submitting your final version. It is strongly recommended to verify that your code is portable. To do so: 
 
