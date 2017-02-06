@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="css/form.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1 id="title">Microblog</h1>
+        <button class="btn header_btn" id="signup_button">Sign Up</button>
+        <button class="btn header_btn" id="signin_button">Sign In</button>
+        <button class="btn header_btn" id="signout_button">Sign Out</button>
+        <button class="btn header_btn" id="profile_button">Update Profile</button>
+    </header>
+    
+    <div class="container" id="error">
+    
+    </div>
+    
+    <div class="container" id="signup">
+        <form class="complex_form" id="signup_form">
+          <div class="form_title">Sign Up</div>
+          <input type="text" id="signup_username" class="form_element" placeholder="Enter a username"/>
+          <input type="password" id="signup_password" class="form_element" placeholder="Enter a password"/>
+          <input type="submit" class="btn"/>
+        </form>
+    </div>
+    
+    <div class="container" id="signin">
+        <form class="complex_form" id="signin_form">
+          <input type="text" id="signin_username" class="form_element" placeholder="Enter your username"/>
+          <input type="password" id="signin_password" class="form_element" placeholder="Enter your password"/>
+          <input type="submit" class="btn"/>
+        </form>
+    </div>
+    
+    <div class="container" id="profile">
+        <form class="complex_form" id="profile_form">
+          <div class="form_title">Update Profile</div>
+          <input type="file" id="profile_picture" class="form_element"/>
+          <input type="submit" id="update_form_submit" class="btn"/>
+        </form>
+    </div>
+    
+    <div class="container" id="main">
+        <form class="complex_form" id="post_form">
+          <div class="form_title">Post a message</div>
+          <textarea rows="5" id="post_content" class="form_element" placeholder="Enter your message"></textarea>
+          <input type="submit" class="btn"/>
+        </form>
+        <div id="messages">
+        
+        </div>
+    </div>
+    
+    <footer>
+        <a href='/credits.html'>credits</a>
+    </footer>
+    <script src="js/model.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
