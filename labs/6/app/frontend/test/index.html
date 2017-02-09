@@ -1,0 +1,30 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tests</title>
+  <link rel="stylesheet" href="mocha.css">
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="chai.js"></script>
+  <script src="mocha.js"></script>
+  <script>
+      mocha.setup('bdd');
+      var assert = chai.assert;
+  </script>
+  <script src="../js/model.js"></script>
+  <script src="test.js"></script>
+    <form class="complex_form" id="test_form">
+      <div class="form_title">Select an image to start the test</div>
+      <input type="file" class="form_element" id="test_file"/>
+    </form>
+  <script>
+    document.getElementById("test_file").onchange = function(e){
+        var files = e.target.files;
+        test(files);
+        mocha.run();
+    };
+  </script>
+</body>
+</html>

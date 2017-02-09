@@ -7,19 +7,19 @@ var model = (function(){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function(e){
             switch(this.readyState){
-                 case (XMLHttpRequest.DONE):
+                 case (XMLHttpRequest.DONE): 
                     if (this.status === 200) {
                         if(json) return callback(null, JSON.parse(this.responseText));
                         return callback(null, this.responseText);
                     }else{
-                        return callback(this.responseText, null);
+                        return callback(new Error(this.responseText), null);
                     }
             }
         };
         xhttp.open(method, url, true);
         if (json && body){
             xhttp.setRequestHeader('Content-Type', 'application/json');
-            xhttp.send(JSON.stringify(body));  
+            xhttp.send(JSON.stringify(body)); 
         }else{
             xhttp.send(body);  
         }        
@@ -43,7 +43,7 @@ var model = (function(){
         doAjax('POST', '/signin/', data, true, function(err, user){
             if (err) return callback(err, null);
             activeUser = user;
-            callback(null, user);
+            return callback(null, user);
         });
     }
     

@@ -1,4 +1,5 @@
 var path = require('path');
+var http = require('http');
 var express = require('express')
 var app = express();
 
@@ -6,13 +7,13 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 var multer  = require('multer');
-var upload = multer({ dest: 'uploads/' });
+var upload = multer({ dest: path.join(__dirname, 'uploads')});
 
-app.use(express.static('frontend'));
+app.use(express.static(path.join(__dirname,'frontend')));
 
 var Datastore = require('nedb');
-var messages = new Datastore({ filename: 'db/messages.db', autoload: true, timestampData : true});
-var users = new Datastore({ filename: 'db/users.db', autoload: true });
+var messages = new Datastore({ filename: path.join(__dirname,'db', 'messages.db'), autoload: true, timestampData : true});
+var users = new Datastore({ filename: path.join(__dirname,'db', 'users.db'), autoload: true });
 
 app.use(function (req, res, next){
     console.log("HTTP request", req.method, req.url, req.body);
@@ -95,7 +96,7 @@ app.get('/api/users/:username/picture/', function (req, res, next) {
         }
         if (user.picture){
             res.setHeader('Content-Type', user.picture.mimetype);
-            res.sendFile(path.join(__dirname, user.picture.path));
+            res.sendFile(user.picture.path);
             return next();
         }
         res.redirect('/media/user.png');
@@ -147,7 +148,15 @@ app.use(function (req, res, next){
     console.log("HTTP Response", res.statusCode);
 });
 
+exports.app = app;
 
-app.listen(3000, function () {
-  console.log('App listening on port 3000')
-});
+if (require.main === module) {
+    http.createServer(app).listen(3000, function(){
+        console.log('HTTP on port 3000');
+    });
+};
+
+
+// app.listen(3000, function () {
+//   console.log('App listening on port 3000')
+// });
