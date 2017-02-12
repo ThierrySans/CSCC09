@@ -9,27 +9,24 @@
 <body>
     <header>
         <a href="/" id="title">Microblog</a>
-        <a href="/signout/" class="btn header_btn" id="signout_button">Sign Out</a>
-        <a href="/profile.html" class="btn header_btn" id="profile_button">Update Profile</a>
+        <a href="/signup.html" class="btn header_btn" id="signup_button">Sign Up</a>
     </header>
     
     <div class="container" id="error">
     </div>
     
-    <div class="container" id="index">
-        <form class="complex_form" id="post_form">
-          <div class="form_title">Post a message</div>
-          <textarea rows="5" id="post_content" class="form_element" placeholder="Enter your message"></textarea>
+    <div class="container">
+        <form class="complex_form" id="signin">
+          <input type="text" id="username" class="form_element" placeholder="Enter your username"/>
+          <input type="password" id="password" class="form_element" placeholder="Enter your password"/>
           <input type="submit" class="btn"/>
         </form>
-        <div id="messages">
-        </div>
     </div>
     
     <footer>
         <a href='/credits.html'>credits</a>
     </footer>
     <script src="js/model.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/signin.js"></script>
 </body>
 </html>

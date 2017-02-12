@@ -4,21 +4,18 @@ var express = require('express')
 var app = express();
 
 var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 var multer  = require('multer');
 var upload = multer({ dest: 'uploads/' });
 
-app.use(express.static('frontend'));
+var cookieParser = require('cookie-parser');
+app.use(cookieParser());
 
 var Datastore = require('nedb');
 var messages = new Datastore({ filename: 'db/messages.db', autoload: true, timestampData : true});
 var users = new Datastore({ filename: 'db/users.db', autoload: true });
-
-app.use(function (req, res, next){
-    console.log("HTTP request", req.method, req.url, req.body);
-    return next();
-});
 
 // Message constructor
 var Message = function(message){
@@ -54,28 +51,49 @@ app.use(session({
     saveUninitialized: true,
 }));
 
-var checkAuthentication = function(req, res, next) {
-  if (!req.session.user) return res.status(403).end("Forbidden");
-  req.user = req.session.user;        
-  next();
-};
+app.use(function (req, res, next){
+    console.log("HTTP request", req.method, req.url, req.body);
+    return next();
+});
 
-// signin, signout
+// serving the frontend
 
-app.delete('/signout/', function (req, res, next) {
+app.get('/', function (req, res, next) {
+    if (!req.session.user) return res.redirect('/signin.html');
+    return next();
+});
+
+app.get('/profile.html', function (req, res, next) {
+    if (!req.session.user) return res.redirect('/signin.html');
+    return next();
+});
+
+app.get('/signout/', function (req, res, next) {
     req.session.destroy(function(err) {
-        if (err) res.status(500).end(err);
+        if (err) return res.status(500).end(err);
+        return res.redirect('/signin.html');
+    });
+});
+
+app.use(express.static('frontend'));
+
+// signout, signin
+
+app.get('/api/signout/', function (req, res, next) {
+    req.session.destroy(function(err) {
+        if (err) return res.status(500).end(err);
         return res.end();
     });
 });
 
-app.post('/signin/', function (req, res, next) {
+app.post('/api/signin/', function (req, res, next) {
     if (!req.body.username || ! req.body.password) return res.status(400).send("Bad Request");
     users.findOne({username: req.body.username}, function(err, user){
-        if (err) return res.status(500).end("Database error");
-        if (!checkPassword(user, req.body.password)) return res.status(401).send("Unauthorized");
+        if (err) return res.status(500).end(err);
+        if (!user || !checkPassword(user, req.body.password)) return res.status(401).end("Unauthorized");
         req.session.user = user;
-        return res.json({username: user.username});
+        res.cookie('username', user.username);
+        return res.json(user);
     });
 });
 
@@ -83,15 +101,21 @@ app.post('/signin/', function (req, res, next) {
 
 app.put('/api/users/', function (req, res, next) {
     var data = new User(req.body);
-    users.insert(data, function (err, user) {
-        if (err) return res.status(409).end("Username " + req.body.username + " already exists");
-        return res.json(user.username);
+    users.findOne({username: req.body.username}, function(err, user){
+        if (err) return res.status(500).end(err);
+        if (user) return res.status(409).end("Username " + req.body.username + " already exists");
+        users.insert(data, function (err, user) {
+            if (err) return res.status(500).end(err);
+            return res.json(user);
+        });
     });
 });
 
-app.post('/api/messages/', checkAuthentication, function (req, res, next) {
+app.post('/api/messages/', function (req, res, next) {
+    if (!req.session.user) return res.status(403).end("Forbidden");
+    req.body.username = req.session.user.username;
     var message = new Message(req.body);
-    messages.insert(message, function (err, data) {
+    messages.insert(message, function (err, data){
         data.id = data._id;
         return res.json(data);
     });
@@ -100,6 +124,7 @@ app.post('/api/messages/', checkAuthentication, function (req, res, next) {
 // Read
 
 app.get('/api/messages/', function (req, res, next) {
+    if (!req.session.user) return res.status(403).end("Forbidden");
     messages.find({}).sort({createdAt:-1}).limit(5).exec(function(err, selectedMessages) { 
         var usernames = selectedMessages.map(function(e){return {username: e.username};});
         users.find({ $or: usernames}, function(err, selectedUsers){
@@ -115,6 +140,7 @@ app.get('/api/messages/', function (req, res, next) {
 });
 
 app.get('/api/users/:username/picture/', function (req, res, next) {
+    if (!req.session.user) return res.status(403).end("Forbidden");
     users.findOne({username: req.params.username}, function(err, user){
         if (err) return res.status(404).end("User username:" + req.params.username + " does not exists");
         if (user.picture){
@@ -127,15 +153,17 @@ app.get('/api/users/:username/picture/', function (req, res, next) {
 
 // Update
 
-app.patch('/api/users/:username/', checkAuthentication, upload.single('picture'), function (req, res, next) {
-     if (req.params.username !== req.user.username) return res.status(403).send("Unauthorized");
+app.patch('/api/users/:username/', upload.single('picture'), function (req, res, next) {
+     if (req.params.username !== req.session.user.username) return res.status(403).send("Forbidden");
      users.update({username: req.params.username}, {$set: {picture: req.file}}, {multi:false}, function (err, n) {
+         console.log(err);
          if (err) return res.status(404).end("User username:" + req.params.username + " does not exists");
          return res.json("");
      });        
 });
 
-app.patch('/api/messages/:id/', checkAuthentication, function (req, res, next) {
+app.patch('/api/messages/:id/', function (req, res, next) {
+    if (!req.session.user) return res.status(403).end("Forbidden");
     var data = {};
     data[req.body.action] = 1;
     messages.update({_id: req.params.id},{$inc: data},  {multi:false}, function (err, n) {
@@ -146,10 +174,11 @@ app.patch('/api/messages/:id/', checkAuthentication, function (req, res, next) {
 
 // Delete
 
-app.delete('/api/messages/:id/', checkAuthentication, function (req, res, next) {
+app.delete('/api/messages/:id/', function (req, res, next) {
+    if (!req.session.user) return res.status(403).end("Forbidden");
     messages.findOne({ _id: req.params.id }, function(err, message){
         if (err) return res.status(404).end("Message id:" + req.params.id + " does not exists");
-        if (message.username !== req.user.username) return res.status(403).send("Unauthorized");
+        if (message.username !== req.session.user.username) return res.status(403).send("Unauthorized");
         messages.remove({ _id: req.params.id }, { multi: false }, function(err, num) {  
             if (err) return res.status(500).send("Database error");
             return res.end();
@@ -157,6 +186,7 @@ app.delete('/api/messages/:id/', checkAuthentication, function (req, res, next) 
     });  
 });
 
-app.listen(3000, function () {
-  console.log('App listening on port 3000')
+var http = require("http");
+http.createServer(app).listen(3000, function(){
+    console.log('HTTP on port 3000');
 });

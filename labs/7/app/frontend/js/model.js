@@ -1,8 +1,6 @@
 var model = (function(){
     "use strict";
     
-    var activeUser;
-    
     var doAjax = function (method, url, body, json, callback){
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function(e){
@@ -27,34 +25,35 @@ var model = (function(){
     
     var model = {};
     
-    // init
-
-    model.init = function (){
-        model.getMessages();
+    model.getActiveUsername = function(callback){
+        var keyValuePairs = document.cookie.split('; ');
+        for(var i in keyValuePairs){
+            var keyValue = keyValuePairs[i].split('=');
+            if(keyValue[0]=== 'username') return callback(null, keyValue[1]);
+        }
+        return callback("No active user", null);
     }
     
     // signUp, signIn and signOut
     
     model.signOut = function(callback){
-        doAjax('DELETE', '/signout/', null, false, callback);
+        doAjax('DELETE', '/api/signout/', null, false, callback);
     }
     
     model.signIn = function(data, callback){
-        doAjax('POST', '/signin/', data, true, function(err, user){
-            if (err) return callback(err, null);
-            activeUser = user;
+        doAjax('POST', '/api/signin/', data, true, function(err, user){
+            if (err) return callback(err, user);
             callback(null, user);
         });
     }
     
-    model.signUp = function(data, callback){
+   // create
+    
+    model.createUser = function(data, callback){
         doAjax('PUT', '/api/users/', data, true, callback);
     }
     
-   // create
-    
     model.createMessage = function (data, callback){
-        data.username = activeUser.username;
         doAjax('POST', '/api/messages/', data, true, callback);
     };
     
@@ -69,7 +68,10 @@ var model = (function(){
     model.updateUser = function (data, callback){
         var formdata = new FormData();
         formdata.append("picture", data.picture);
-        doAjax("PATCH", "/api/users/" + activeUser.username + "/", formdata, false, callback);
+        model.getActiveUsername(function(err, username){
+            if (err) return callback(err, null);
+            doAjax("PATCH", "/api/users/" + username + "/", formdata, false, callback);
+        });
     };
     
     model.upvoteMessage = function (id, callback){
