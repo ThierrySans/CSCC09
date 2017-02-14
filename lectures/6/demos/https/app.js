@@ -16,9 +16,9 @@ app.get('/',function(req,res,next){
 *** HTTP ***
 ************ */
 
-http.createServer(app).listen(3000, function(){
-    console.log('HTTP on port 3000');
-});
+// http.createServer(app).listen(3000, function(){
+//     console.log('HTTP on port 3000');
+// });
 
 /* **********
 *** HTTPS ***
@@ -26,6 +26,8 @@ http.createServer(app).listen(3000, function(){
 
 // Generate a self-signed certificate
 // openssl req -x509 -nodes -newkey rsa:4096 -keyout server.key -out server.crt
+// Read the certificate 
+// openssl x509 -in server.crt -text -noout
 
 var privateKey = fs.readFileSync( 'server.key' );
 var certificate = fs.readFileSync( 'server.crt' );

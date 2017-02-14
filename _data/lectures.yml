@@ -41,10 +41,9 @@
   notes:
       - The Big Picture: slides/C09-BigPicture.pdf
       - HTTPS: slides/C09-HTTPS.pdf
+      - Web Security: slides/C09-WebSecurity.pdf
   readings:
       - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
-
-
 
 - topic: Web Frameworks
   notes: 
