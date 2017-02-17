@@ -24,7 +24,11 @@ The objective of these assignments is to build an application called *The Web Ga
         {{e.hw}}
         {% endif %}
     </div>
-    <div class="lab">{{e.project}}</div>
+    <div class="lab">
+        {% if e.project %}
+        <a href="project/">{{e.project}}</a>
+         {% endif %}
+    </div>
 </div>
 {% endfor %}
 
