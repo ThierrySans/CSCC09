@@ -6,7 +6,7 @@ permalink: work/assignments/2/rubric/
 ---
 **Grade (TA only)**
 
-- max: 20
+- max: 100
 - score:
 
 ---
@@ -259,7 +259,7 @@ your comments go here.
 ---
 **Grade (TA only)**
 
-- max3: 40
+- max4: 20
 - score3:
  
 ---
