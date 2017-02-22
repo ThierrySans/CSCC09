@@ -56,13 +56,13 @@ passport.use(new LocalStrategy(function(username, password, callback) {
       });
 }));
 
-function checkAuthentication(req,res,next) {
+var checkAuthentication = function(req,res,next) {
   if ( !req.isAuthenticated() ) { 
      res.status(403);     
      return res.end("Forbidden"); 
   }                   
   next();
-}
+};
 
 // curl -X POST -d "username=admin&password=pass4admin" http://localhost:3000/signup/
 
