@@ -90,10 +90,13 @@ For the purpose of this lab, we are going to concentrate our efforts on the back
 
 ## Protecting cookies
 
+<!-- To prevent these vulnerabilities (mixed-content, XSS, CSRF), we need to find them and patch them. However, with big and complex applications, it might not always be possible to detect them all and have a 100% secure application. Knowing that the risk exists, you want to mitigate the outcome of such an attack if it occurs. One way is to protect the cookie to be stolen or misused by any of these attacks. This is where the cookie flags come into the picture.  -->
+
 So far, our application is currently setting two cookies:
 
 1. the `session.id` used for authentication on the backend
 1. the `username` used for some ajax requests on the frontend
+
 
 In this part, we are going to protect these two cookies against three kind of attacks using special cookie flags: 
 
@@ -118,6 +121,12 @@ As seen in the lecture, a mixed-content vulnerability on an HTTPS page might exp
 **Task:** Using the `express-session` documentation and the `cookie-parser`, add the `Secure` flag to the two cookies `session.id` and `username`. 
 
 ### SameSite Flag
+
+<!-- A CSRF attack is about injecting an arbitrary URL into the DOM that will be fetched automatically by the browser. The idea is to perform an arbitrary authenticated API request without the user consent. It cannot steal username and password and it has nothing to do with it. I would recommend you to go back to the lecture materials first.
+
+This SameSite cookie flag does not prevent CSRF occurring within the same domain, for that you need to have a CSRF token (I explained that in class as well). However, it protects against CSRF attacks that target cross-origin APIs. Here are more details here:
+
+https://www.sjoerdlangkemper.nl/2016/04/14/preventing-csrf-with-samesite-cookie-attribute/ -->
 
 As seen in the lecture, cookies are typically sent to third parties with cross-origin requests. This can be abused by CSRF attacks. One way to avoid specific cookies to be sent with cross-origin requests is to set a special flag called `SameSite`. 
 

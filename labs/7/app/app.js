@@ -10,9 +10,6 @@ app.use(bodyParser.json());
 var multer  = require('multer');
 var upload = multer({ dest: 'uploads/' });
 
-var cookieParser = require('cookie-parser');
-app.use(cookieParser());
-
 var Datastore = require('nedb');
 var messages = new Datastore({ filename: 'db/messages.db', autoload: true, timestampData : true});
 var users = new Datastore({ filename: 'db/users.db', autoload: true });
