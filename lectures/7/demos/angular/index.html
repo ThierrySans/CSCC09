@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="microblog">
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="css/form.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body ng-controller="myController as myController">
+    <header>
+        <h1 id="title">Microblog</h1>
+        <button class="btn header_btn" ng-click="myController.toggle($event)">Show</button>
+    </header>
+    
+    <form class="complex_form" ng-show="myController.showForm">
+      <div class="form_title">Enter your name</div>
+      <input type="text" class="form_element" placeholder="Enter your name" ng-model="myController.username"></textarea>
+    </form>
+    <form class="complex_form" ng-submit="myController.addMessage($event)" ng-show="myController.showForm">
+      <div class="form_title">Post a message</div>
+      <textarea rows="5" class="form_element" placeholder="Enter your message" ng-model="myController.content"></textarea>
+      <input type="submit" class="btn"/>
+    </form>
+    <div id="messages">
+        <ul>
+            <li ng-repeat="msg in myController.messages.slice().reverse()">
+                <span class="username">{{msg.username}}</span>
+                {{msg.content}}
+            </li>
+            <!--li><span class="username">Thierry</span>Welcome to C09</li-->
+        </ul>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
