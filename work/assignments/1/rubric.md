@@ -266,4 +266,7 @@ In the box below, write any comment you would like to communicate the TA regardi
 ```
 your comments go here. 
 ```
+Kuan Song: 1-4 seems to focus on functionality and not artistic value, so #5 should stay consistent in to omit potential evaluations on artistic values as well. Not much ways to go "beyond expectations" if artistic values is not in the discussion. Same goes for #9. Since most of the questions are just evaluating on functionality, it's hard to go beyond expectations of the assignment. Not like there will extra credit for any WOW factors.
+
+Suggestion: remove "beyond expectations" 5,9
 
