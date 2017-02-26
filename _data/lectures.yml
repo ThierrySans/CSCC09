@@ -1,5 +1,6 @@
 - topic: HTML & CSS
   notes:
+      - FAQ: review/
       - Introduction: slides/C09-Introduction.pdf
       - HTML & CSS: slides/C09-HTMLandCSS.pdf
   readings: 
@@ -9,6 +10,7 @@
 
 - topic: Javascript
   notes: 
+    - FAQ: review/
     - Introduction: slides/C09-Javascript.pdf
     - Javascript in the browser: slides/C09-Javascript-browser.pdf
     - Building front-ends: slides/C09-BuildingFrontends.pdf
@@ -18,6 +20,7 @@
     
 - topic: Web API
   notes:
+      - FAQ: review/
       - The HTTP protocol: slides/C09-HTTP.pdf
       - Web REST API: slides/C09-REST.pdf
       - JSON: slides/C09-JSON.pdf
@@ -28,17 +31,20 @@
   
 - topic: Storing Data
   notes: 
+      - FAQ: review/
       - Storing data: slides/C09-Data.pdf
       - File upload: slides/C09-Files.pdf
   
 - topic: Managing users
   notes: 
+      - FAQ: review/
       - Passwords: slides/C09-Passwords.pdf
       - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
       - WebAuthentication:  slides/C09-WebAuthentication.pdf
       
 - topic: Security
   notes:
+      - FAQ: review/
       - The Big Picture: slides/C09-BigPicture.pdf
       - HTTPS: slides/C09-HTTPS.pdf
       - Web Security: slides/C09-WebSecurity.pdf
