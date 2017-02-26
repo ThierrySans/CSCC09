@@ -39,7 +39,7 @@ We encourage you to post questions regarding course materials and assignments on
     <div class="row">
         <div class="hcolumn column">Thierry Sans</div>
         <div class="column">Instructor</div>
-        <div class="column">by appointment, room IC-346</div>
+        <div class="column">Thurs 10:00am-12:00pm, room IC-346</div>
     </div>
     <div class="row">
         <div class="hcolumn column">Colin Druery</div>
