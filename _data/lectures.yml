@@ -59,6 +59,9 @@
 - topic: <span class="em">Spring Break</span>
 
 - topic: Deploying large scale web applications
+  notes:
+      - Deploying web applications: slides/C09-Deploying.pdf
+      - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
 
 - topic: Building large scale web applications
   notes:
