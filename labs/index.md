@@ -18,7 +18,7 @@ Throughout the labs, you will ge guided to develop a web application called *Mic
     <div class="date"></div>
 	<div class="topic">{{e.lab}}</div>
     {% if e.handout %}
-    <div class="notes"><a href="{{forloop.index}}/">handout</a></div>
+    <div class="notes"><a href="{{e.handout}}">handout</a></div>
     {% endif %}
 </div>
 {% endfor %}
