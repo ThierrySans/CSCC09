@@ -20,7 +20,7 @@ var getMessages = function(callback){
       console.log("Retrieving messages from the database");
       db.find({}, function (err, data) {
           if (err) return callback(err, null);
-          var messages = data.map(function(message){return message.content;});
+          var messages = data.map(function(message){return message.content;}).join("/n");
           console.log("Storing messages in memcached");
           memcached.set('messages', messages, 0, function (err) {
                if (err)  return callback(err, null);
@@ -64,7 +64,7 @@ app.post('/messages/', function (req, res, next) {
 app.get('/messages/', function (req, res, next) {
     getMessages(function(err, data){
         if (err) res.status(500).end(err);
-        else res.end(data.join("\n"));
+        else res.end(data);
         next();
     });
 });
