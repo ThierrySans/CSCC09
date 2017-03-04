@@ -1,140 +1,194 @@
 ---
 layout: default
-permalink: /labs/7/
+permalink: /labs/8/
 ---
 
-# Lab 7: Web Security
+# Lab 8: Deploying
 
-In this lab, you are going to secure our application. 
+As part of your project, you are asked to deploy your web application. As discuss in class, there are plenty of options to deploy your application and you are free to chose the most adequate for you. 
+
+One option is to host your application on our C09 server called `cms-weblab.utsc.utoronto.ca`. This server will run your application in a dedicated *Docker* container. Docker is a virtualization tool that offer a flexible way to create and manage self-contained execution environments. 
+
+In this lab, you will first get familiar with Docker and learn how to run docker containers locally on your machine. Thus, you will learn how to configure a docker container to embed all framework, libraries and software that your need to run your application. For now, you are not going to deploy your application on the courser server. However, you will be able to do so for your project.
 
 ###  Recommended work setup
 
-This lab has a starter code that can be found on the course Github repository `/labs/7/microblog/app`. 
+This lab has a starter code that can be found on the course Github repository `/labs/8/app`. Docker is already installed on the lab machines, however, you can also [install docker on your laptop](https://docs.docker.com/engine/installation/) if you want.
 
 ### Submission
 
 You should push your work to Github at the end of your practical session. 
 
-## HTTPS 
+# Deploying your application using Docker
 
-As seen in the lecture, HTTPS provides two secure mechanisms between the client and the server:
+In this part, we are going to get familiar with Docker. First, we are going to execute a docker container that runs our microblog application on port 443. Thus, we will write a docker configuration file (called a `Dokerfile`) to customize our container and automate the deployment. 
 
-1. an end-to-end secure channel
-1. an authentication handshake
+## Docker hello-world
 
-To setup HTTPS, you need two assets:
+A docker container is a self-contained execution environment. As a user perspective, a docker container is similar to  a virtual machine that runs separately from the operating system running on your host (the one running on your lab machine or your own laptop). A Docker container is created from a Docker image that defines the operating system and the list of programs that will run in the containers. 
 
-1. a secret key that must be remained secret and stored on the server
-1. a public certificate that will be sent to the browser to initiate the HTTPS connection 
-
-These two assets can be generated using the following interactive command:
-
+Let us run the `hello-world` example for Docker. We are going to create a container called `my_container` based on the [hello-world](https://hub.docker.com/_/hello-world/) Docker image, one of the many Docker images available from the [Docker hub](https://hub.docker.com/). When it starts, this container executes the `hello` program and then terminates. 
+ 
 ```
-$ openssl req -x509 -nodes -newkey rsa:4096 -keyout server.key -out server.crt
+docker run --name my_container hello-world
 ```
 
-You can check the information of your newly generated certificate with the following command: 
+As soon as the program terminates, the container shuts down but the container still exists on your machine: 
 
 ```
-openssl x509 -in server.crt -text -noout
+docker ps -a
 ```
 
-Once you have generated the private key and the certificate, you need to configure the application to use HTTPS instead of HTTP. As discussed in class, it is strongly recommended **not** to have both. 
+Terminated Docker containers are no longer useful. You should remove this container from your system. Otherwise, you will not be able to run any new container with the same name (but you can others). 
 
 ```
-var privateKey = fs.readFileSync( 'server.key' );
-var certificate = fs.readFileSync( 'server.crt' );
-var config = {
-        key: privateKey,
-        cert: certificate
-};
-https.createServer(config, app).listen(3000, function () {
-    console.log('HTTPS on port 3030');
-});
+docker rm my_container
 ```
 
-**Task:** Generate a certificate and enable HTTPS on the port 3000. Test your application and make sure that all requests are now secured with HTTPS.   
+## Running your Nodejs app with Docker
 
-## Validating inputs
+To run your application, we are going to use the official Node.js Docker image called [node](https://hub.docker.com/_/node/). This image is based on Linux (Debian) and Node.js is already installed in it. To run our application in this container, we are going to execute this container with the following options:
 
-As seen in the lecture, an attacker could instrument your application to inject arbitrary HTML code (content spoofing) and/or arbitrary javascript code (cross-site scripting) that could be interpreted by the browser. In addition, we have seen that the latter type of vulnerability comes in different forms: reflected, stored and DOM-based. 
+- `-p 443:4000` maps the port 443 of our host to the port 3000 of the container
+- `-v $(pwd)/app:/home/nodejs/app` mount the host current path to another one in the container
+- `bash` start an interactive shell
 
-The examples shown in class have been written to illustrate each vulnerability separately. However, in more complex web applications, these vulnerabilities might not always appear as easy to identify and to exploit. 
-
-As an example, it is obvious that our application is vulnerable to a content spoofing attack when posting a message with the following payload: 
-
+The following command starts the container and gives us a shell into it: 
 ```
-<h1>Hello World!</h1>
-```
-
-However, one might think that it is thus possible to exploit a stored cross-site scripting vulnerability with the following payload: 
-
-```
-<script>alert(document.cookie)</script>
+cd labs/8/
+$ docker run -p 443:3000 -v $(pwd)/app:/home/nodejs/app -it --name my_container node bash
 ```
 
-If you try it (and you should), you will notice that it does not work. This is because the DOM is modified through the `innerHTML` property that does not activate embedded scripts like the method `write` would do. However, it is possible to turn this reflected XSS attack into a DOM-based XSS attack with the following payload: 
+Now, we can install all required npm modules and start our application: 
 
 ```
-<img src="a" onerror="alert(document.cookie);">
+cd /home/nodejs/app
+npm install
+node app.js
 ```
 
-Whatever the attack (content-spoofing, stored XSS, DOM-based XSS), these kind of vulnerabilities could be mitigated by a thorough validation on users' inputs on both frontend and backend meaning: 
+Our application is now available on the regular HTTPS port (443 by default): [https://localhost/](https://localhost/). 
 
-- on the client-side, all data harvested from the browser that the user could access (URL, forms and so on) regardless whether they will later be sent to the server or used directly to modify the DOM
-- on the server-side, all data harvested from HTTP requests (URL, headers, body and so on) regardless on how these requests are supposed to be crafted on the frontend
+As in the first exercise, as soon as we exit the container (CTRL-D), the shell terminates and the container shuts down. Thus, we can now remove it from the system. 
 
-For the purpose of this lab, we are going to concentrate our efforts on the backend. The goal is to validate all data that comes to the server using of one of the many express middleware. For instance, you could use the `express-validator` middleware.  
+```
+docker rm my_container
+```
 
-**Task:** For each routing function, validate all data harvested from HTTP requests. 
+## Writing a Dockerfile
 
-## Protecting cookies
+In this exercise, rather that building our docker container manually, we are going to automate the built using a `Dockerfile` with the following content: 
 
-<!-- To prevent these vulnerabilities (mixed-content, XSS, CSRF), we need to find them and patch them. However, with big and complex applications, it might not always be possible to detect them all and have a 100% secure application. Knowing that the risk exists, you want to mitigate the outcome of such an attack if it occurs. One way is to protect the cookie to be stolen or misused by any of these attacks. This is where the cookie flags come into the picture.  -->
+    ```
+    # base image
+    FROM node
 
-So far, our application is currently setting two cookies:
+    # create the application directory
+    RUN mkdir -p /home/nodejs/app
+    # copy the application
+    COPY ./app /home/nodejs/app
+    # move to working directory
+    WORKDIR /home/nodejs/app
+    # install all npm modules
+    RUN npm install --production
+    # run the nodejs application
+    CMD node app.js
+    ```
 
-1. the `session.id` used for authentication on the backend
-1. the `username` used for some ajax requests on the frontend
+Using this `Dockerfile`, we can create a new image called `my_image` that embeds our web application and runs it automatically when the container starts. 
+
+```
+docker build -t my_image .
+```
+
+This image is stored along with all other images downloaded or built on our machine: 
+
+```
+docker images
+```
+
+Using this new base image, we can now run a container with our app:
+
+```
+docker run -p 443:3000 --name my_container -d my_image
+```
+
+This time, the `run` command terminates but the container is still running in a detached mode (`-d` option). 
+
+```
+docker ps -a
+```
+
+The container will keep on running indefinitely assuming that our application does not have any bug that would terminate the nodejs program. The nodejs program running in the container generates some outputs on `stdout`, but these outputs do not appear in our console since it is occurring inside the container. To show these outputs, we need to show the logs generated by the container: 
+
+```
+docker logs my_container
+```
+
+We cannot remove a running docker container. We need to stop it before removing it: 
+
+```
+docker stop my_container
+docker rm my_container
+```
+
+For deploying your project on the course server, you will need to have such a `Dockerfile` at the root of your Github project repository. The server will automatically run the corresponding Docker container on every `push` event occurring to the repository. 
+
+# Dynamic caching with Memcached
+
+In this part, we are going to modify our application to use Memcached and avoid redundant database requests. 
 
 
-In this part, we are going to protect these two cookies against three kind of attacks using special cookie flags: 
+## Modifying our app
 
-- the `HttpOnly` flag to prevent cross-site scripting attacks 
-- the `Secure` flag to prevent Eavesdropping (via a mixed-content vulnerability)
-- the `SameSite` flag to prevent cross-site request forgery attacks
+In this first exercise, we are going to assume that there are more viewers than posters using our microblog application. This means that, we have a significantly higher number of requests to retrieve the latest messages compared to the number of requests to post new ones. Therefore, we are going to use Memcached to dynamically cache message requests. 
 
-### HttpOnly Flag
+Since, we need to work on developing our app with are not going use Docker to run it. We will simply use nodejs locally in the same way we have been using so far for developing our app. However, since Memcached is not installed on the machine we are going to use the [Memcached](https://hub.docker.com/_/memcached/) Docker image to setup a Memcached server rather than installing it locally. Thanks to this container, Memcached will run locally on its default port 11211. 
 
-As you could see in the previous exercise, an attacker could exploit an XSS vulnerability to steal information stored in the cookies. Although, we have identified and patched one cross-site scripting vulnerability previously, we cannot be 100% sure that our application is secured. If there is another of such a vulnerability, it would be good to make sure that our cookie cannot be read by an arbitrary javascript code.
+```
+docker run -p 11211:11211 --name my_memcached -d memcached
+```
 
-As you may have noticed already in the previous exercise, while exploiting the XSS vulnerability, the `session.id` cookie was not read by the javascript payload, only the `username` was. This is because the `session.id` cookie has the `HttpOnly` flag (set by default by the `express-session` middleware) that makes it unreadable by javascript and its solely purpose it for the browser to send it back to the server.  
+Thus, we need to install the [nodejs Memcached library](https://www.npmjs.com/package/memcached) and configure our app to use it:
 
-The `username` cookie does not have the `HttpOnly` flag set since it is not used for the authentication session. While it is technically feasible to set it up, it is actually not possible to set this flag without breaking the application. 
+```
+var Memcached = require('memcached');
+var memcached = new Memcached('localhost:11211');
+```
 
-**Task:** Using the `cookie-parser` documentation, set the `HttpOnly` flag for the cookie `username` and undertand why the application is no longer working.
+Now, we can modify your application to either `set` or `get` cache values when retrieving and posting messages. For more details, you can check the nodejs Memcached [documentation](https://www.npmjs.com/package/memcached) or take a look at the example shown in class. 
 
-### Secure Flag
+Once your application is working correctly with Memcached, you can stop the Memcached Docker container. 
 
-As seen in the lecture, a mixed-content vulnerability on an HTTPS page might exposed sensitive data such as the `session.id`. To prevent any potential mixed-content vulnerability to leak a cookie value, there is another cookie flag called `Secure`, that instruct the browser to re-attach cookies with HTTPS requests only (and not plain HTTP ones). 
+## Deploying our new app with Docker
 
-**Task:** Using the `express-session` documentation and the `cookie-parser`, add the `Secure` flag to the two cookies `session.id` and `username`. 
+We are now ready to re-deploy our application. However, our application is now using Memcached but the original Docker image `node` does not have Memcached installed in it. We are going to modify our `Dockerfile` to:
 
-### SameSite Flag
+1. install Memcached into our image
+    `RUN apt-get update && apt-get install -y memcached`
+2. run Memcached before executing our app when the container starts
+    `CMD service memcached start && node app.js`
 
-<!-- A CSRF attack is about injecting an arbitrary URL into the DOM that will be fetched automatically by the browser. The idea is to perform an arbitrary authenticated API request without the user consent. It cannot steal username and password and it has nothing to do with it. I would recommend you to go back to the lecture materials first.
+The `Dockerfile` should now be:
 
-This SameSite cookie flag does not prevent CSRF occurring within the same domain, for that you need to have a CSRF token (I explained that in class as well). However, it protects against CSRF attacks that target cross-origin APIs. Here are more details here:
+```
+FROM node
 
-https://www.sjoerdlangkemper.nl/2016/04/14/preventing-csrf-with-samesite-cookie-attribute/ -->
+RUN apt-get update && apt-get install -y memcached
 
-As seen in the lecture, cookies are typically sent to third parties with cross-origin requests. This can be abused by CSRF attacks. One way to avoid specific cookies to be sent with cross-origin requests is to set a special flag called `SameSite`. 
+RUN mkdir -p /home/nodejs/app
+COPY ./app /home/nodejs/app
+WORKDIR /home/nodejs/app
+RUN npm install --production
 
-**Task:** Using the `express-session` documentation and the `cookie-parser`, add the `SameSite` flag to the two cookies `session.id` and `username`. 
+CMD service memcached start && node app.js
+```
 
+Finally, we can rebuild the image and start a new container to test this new image. 
 
+```
+docker build -t my_image .
+docker run -p 443:3000 --name my_container -d my_image
+```
 
-
-
-
-
+Push your work (including the `Dockerfile`) to Github. 

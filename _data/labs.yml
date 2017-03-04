@@ -2,27 +2,27 @@
     
 - week:
   lab: HTML & CSS
-  handout: True
+  handout: 2/
     
 - week:
   lab: Javascript
-  handout: True
+  handout: 3/
     
 - week:
   lab: Web API
-  handout: True
+  handout: 4/
     
 - week: 
   lab: Storing Data
-  handout: True
+  handout: 5/
     
 - week:
   lab: Managing Users
-  handout: True
+  handout: labs/6/
     
 - week: 
   lab: Security
-  handout: True
+  handout: 7/
   
 - week: 
   lab: <span class="em">Spring Break</span>
@@ -31,6 +31,7 @@
     
 - week:
   lab: Deploying
+  handout: 8/
     
 - week:
     
