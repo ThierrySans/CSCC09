@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="css/form.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1 id="title">Microblog</h1>
+        <button class="btn header_btn" id="toggle_button">Toggle</button>
+    </header>
+    
+    <form class="complex_form" id="username_form">
+      <div class="form_title">Enter your name</div>
+      <input type="text" class="form_element" placeholder="Enter your name" id="username_input"></textarea>
+    </form>
+    
+    <form class="complex_form" id="message_form">
+      <div class="form_title">Post a message</div>
+      <textarea rows="5" class="form_element" placeholder="Enter your message" id="content_input"></textarea>
+      <input type="submit" class="btn"/>
+    </form>
+    
+    <div id="messages">
+        <ul>
+            <!--li><span class="username">Thierry</span>Welcome to C09</li-->
+        </ul>
+    </div>
+    <script src="js/frontAPI.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
