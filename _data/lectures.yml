@@ -65,15 +65,16 @@
 
 - topic: Building large scale web applications
   notes:
-      - Form validation
-      - Templates
-      - i18N
+      - Templates: slides/C09-Templates.pdf
+      - i18n & l10n: slides/C09-i18n.pdf
+      - Web Services: slides/C09-WebServices.pdf
 
 - topic: Advanced Javascript
   notes:
       - Asynchronism
       - web workers
       - web sockets
+      - Web RTC
 
 - topic: Beyond web applications
   notes:
