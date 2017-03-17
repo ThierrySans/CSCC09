@@ -1,4 +1,4 @@
-- topic: HTML & CSS
+- week: HTML & CSS
   notes:
       - FAQ: review/
       - Introduction: slides/C09-Introduction.pdf
@@ -8,7 +8,7 @@
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
       - A Complete Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-- topic: Javascript
+- week: Javascript
   notes: 
     - FAQ: review/
     - Introduction: slides/C09-Javascript.pdf
@@ -18,7 +18,7 @@
   readings:
       - Mozilla Developer Network: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     
-- topic: Web API
+- week: Web API
   notes:
       - FAQ: review/
       - The HTTP protocol: slides/C09-HTTP.pdf
@@ -29,20 +29,20 @@
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
-- topic: Storing Data
+- week: Storing Data
   notes: 
       - FAQ: review/
       - Storing data: slides/C09-Data.pdf
       - File upload: slides/C09-Files.pdf
   
-- topic: Managing users
+- week: Managing users
   notes: 
       - FAQ: review/
       - Passwords: slides/C09-Passwords.pdf
       - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
       - WebAuthentication:  slides/C09-WebAuthentication.pdf
       
-- topic: Security
+- week: Security
   notes:
       - FAQ: review/
       - The Big Picture: slides/C09-BigPicture.pdf
@@ -51,34 +51,34 @@
   readings:
       - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
-- topic: Web Frameworks
+- week: Web Frameworks
   notes: 
       - AngularJS
       - ReactJS
 
-- topic: <span class="em">Spring Break</span>
+- break: <span class="em">Spring Break</span>
 
-- topic: Deploying large scale web applications
+- week: Deploying large scale web applications
   notes:
       - Deploying web applications: slides/C09-Deploying.pdf
       - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
 
-- topic: Building large scale web applications
-  notes:
-      - Templates: slides/C09-Templates.pdf
-      - i18n & l10n: slides/C09-i18n.pdf
-      - Web Services: slides/C09-WebServices.pdf
-
-- topic: Advanced Javascript
+- week: Advanced Javascript
   notes:
       - Asynchronism
       - web workers
       - web sockets
       - Web RTC
 
-- topic: Beyond web applications
+- week: Building large scale web applications
+  notes:
+      - Templates: slides/C09-Templates.pdf
+      - i18n & l10n: slides/C09-i18n.pdf
+      - Web Services: slides/C09-WebServices.pdf
+
+- week: Beyond web applications
   notes:
       - Browser extensions 
       - Mobile development
 
-- topic: Project presentations
+- week: Project presentations
