@@ -1,0 +1,5194 @@
+﻿Project Gutenberg's Marks' first lessons in geometry, by Bernhard Marks
+
+This eBook is for the use of anyone anywhere in the United States and most
+other parts of the world at no cost and with almost no restrictions
+whatsoever.  You may copy it, give it away or re-use it under the terms of
+the Project Gutenberg License included with this eBook or online at
+www.gutenberg.org.  If you are not located in the United States, you'll have
+to check the laws of the country where you are located before using this ebook.
+
+Title: Marks' first lessons in geometry
+       in two parts. Objectively presented, and designed for the
+       use of primary classes in grammar schools, academies, etc.
+
+Author: Bernhard Marks
+
+Release Date: March 8, 2017 [EBook #54300]
+
+Language: English
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK MARKS' FIRST LESSONS IN GEOMETRY ***
+
+
+
+
+Produced by Richard Tonsing and the Online Distributed
+Proofreading Team at http://www.pgdp.net (This file was
+produced from images generously made available by The
+Internet Archive)
+
+
+
+
+
+
+
+
+
+                                 MARKS’
+
+                       FIRST LESSONS IN GEOMETRY.
+
+                             IN TWO PARTS.
+
+                         OBJECTIVELY PRESENTED,
+                            AND DESIGNED FOR
+     THE USE OF PRIMARY CLASSES IN GRAMMAR SCHOOLS, ACADEMIES, ETC.
+
+
+                                   BY
+                            BERNHARD MARKS,
+              PRINCIPAL OF LINCOLN SCHOOL, SAN FRANCISCO.
+
+
+                               NEW YORK:
+             PUBLISHED BY IVISON, PHINNEY, BLAKEMAN, & CO.
+                  PHILADELPHIA: J. B. LIPPINCOTT & CO.
+                       CHICAGO: S.C. GRIGGS & CO.
+                                 1869.
+
+
+
+
+       Entered, according to Act of Congress, in the year 1868, by
+                             BERNHARD MARKS,
+ In the Clerk’s Office of the District Court of the United States for the
+                         District of California.
+
+
+            Geo. C. Rand & Avery, Electrotypers and Printers,
+                           3 Cornhill, Boston.
+
+------------------------------------------------------------------------
+
+
+
+
+                                PREFACE.
+
+
+How it ever came to pass that Arithmetic should be taught to the extent
+attained in the grammar schools of the civilized world, while Geometry
+is almost wholly excluded from them, is a problem for which the author
+of this little book has often sought a solution, but with only this
+result; viz., that Arithmetic, being considered an elementary branch, is
+included in all systems of elementary instruction; but Geometry, being
+regarded as a higher branch, is reserved for systems of advanced
+education, and is, on that account, reached by but very few of the many
+who need it.
+
+The error here is fundamental. Instead of teaching the _elements of all
+branches_, _we teach elementary branches_ much too exhaustively.
+
+The elements of Geometry are much easier to learn, and are of more value
+when learned, than advanced Arithmetic; and, if a boy is to leave school
+with merely a grammar-school education, he would be better prepared for
+the active duties of life with a _little_ Arithmetic and _some_
+Geometry, than with _more_ Arithmetic and _no_ Geometry.
+
+Thousands of boys are allowed to leave school at the age of fourteen or
+sixteen years, and are sent into the carpenter-shop, the machine-shop,
+the mill-wright’s, or the surveyor’s office, stuffed to repletion with
+Interest and Discount, but so utterly ignorant of the merest elements of
+Geometry, that they could not find the centre of a circle already
+described, if their lives depended upon it.
+
+Unthinking persons frequently assert that young children are incapable
+of reasoning, and that the truths of Geometry are too abstract in their
+nature to be apprehended by them.
+
+To these objections, it may be answered, that any ordinary child, five
+years of age, can deduce the conclusion of a syllogism if it understands
+the terms contained in the propositions; and that nothing can be more
+palpable to the mind of a child than forms, magnitudes, and directions.
+
+There are many teachers who imagine that the perceptive faculties of
+children should be cultivated _exclusively_ in early youth, and that the
+reason should be addressed only at a later period.
+
+It is certainly true that perception should receive a larger share of
+attention than the other faculties during the first school years; but it
+is equally certain that _no_ faculty can be safely disregarded, even for
+a time. The root does not attain maturity before the stem appears;
+neither does the stem attain its growth before its branches come forth
+to give birth in turn to leaves; but root, stem, and leaves are found
+simultaneously in the youngest plant.
+
+That the reason may be profitably addressed through the medium of
+Geometry at as early an age as seven years is asserted by no less an
+authority than President Hill of Harvard College, who says, in the
+preface to his admirable little Geometry, that a child seven years old
+may be taught Geometry more easily than one of fifteen.
+
+The author holds that this science should be taught in all primary and
+grammar schools, for the same reasons that apply to all other branches.
+One of these reasons will be stated here, because it is not sufficiently
+recognized even by teachers. It is this:—
+
+The prime object of school instruction is to place in the hands of the
+pupil the means of continuing his studies without aid after he leaves
+school. The man who is not a student of some part of God’s works cannot
+be said to live a rational life. It is the proper business of the school
+to do for each branch of science exactly what _is_ done for reading.
+
+Children are taught to read, not for the sake of what is contained in
+their readers, but that they may be able to read all through life, and
+thereby fulfil one of the requirements of civilized society. So, enough
+of each branch of science should be taught to enable the pupil to pursue
+it after leaving school.
+
+If this view is correct, it is wrong to allow a pupil to reach the age
+of fourteen years without knowing even the alphabet of Geometry. He
+should be taught at least how to _read_ it.
+
+It certainly does seem probable, that if the youth who now leave school
+with so much Arithmetic, and no Geometry, were taught the first
+rudiments of the science, thousands of them would be led to the study of
+the higher mathematics in their mature years, by reason of those
+attractions of Geometry which Arithmetic does not possess.
+
+
+
+
+                      TO THE PROFESSIONAL READER.
+
+
+This little book is constructed for the purpose of instructing large
+classes, and with reference to being used also by teachers who have
+themselves no knowledge of Geometry.
+
+The first statement will account for the many, and perhaps seemingly
+needless, repetitions; and the second, for the _suggestive_ style of
+some of the questions in the lessons which _develop_ the matter
+contained in the review-lessons.
+
+Attention is respectfully directed to the following points:—
+
+First the particular, then the general. See page 25.
+
+Why is _m n g_ an acute angle?
+
+What is an acute angle?
+
+Here the attention is directed first to this particular angle; then this
+is taken as an example of its kind, and the idea generalized by
+describing the class. See also page 29.
+
+Why are the lines _e f_ and _g h_ said to be parallel?
+
+When are lines said to be parallel?
+
+Many of the questions are intended to test the vividness of the pupil’s
+conception. See page 29.
+
+Also page 78. If the circumference were divided into 360 equal parts,
+would each arc be large or small?
+
+Many of the questions are intended to test the attention of the pupil.
+
+The thing is not to be recognized by the definition; but the definition
+is to be a description of the thing, a description of the conception
+brought to the mind of the pupil by means of the name.
+
+
+
+
+                               CONTENTS.
+
+
+                                PART I.
+
+                 LINES                               9
+
+                 POINTS                              9
+
+                 CROOKED LINES                      10
+
+                 CURVED LINES                       11
+
+                 STRAIGHT LINES                     11
+
+                 OTHER LINES                        11
+
+                 POSITIONS OF LINES                 14
+
+                 ANGLES                             17
+
+                 RELATIONS OF ANGLES                20
+
+                 ADJACENT ANGLES                    20
+
+                 VERTICAL ANGLES                    21
+
+                 KINDS OF ANGLES                    23
+
+                 RIGHT ANGLES                       23
+
+                 ACUTE ANGLES                       24
+
+                 OBTUSE ANGLES                      24
+
+                 RELATIONS OF LINES                 27
+
+                 PERPENDICULAR LINES                27
+
+                 PARALLEL LINES                     28
+
+                 OBLIQUE LINES                      28
+
+                 INTERIOR ANGLES                    30
+
+                 EXTERIOR ANGLES                    31
+
+                 OPPOSITE ANGLES                    32
+
+                 ALTERNATE ANGLES                   33
+
+                 PROBLEMS RELATING TO ANGLES        38
+
+                 POLYGONS                           40
+
+                 TRIANGLES                          44
+
+                 ISOSCELES TRIANGLES                48
+
+                 PROBLEMS RELATING TO TRIANGLES     53
+
+                 QUADRILATERALS                     55
+
+                 PARALLELOGRAMS                     59
+
+                 COMPARISON AND CONTRAST OF FIGURES 62
+
+                 MEASUREMENT OF SURFACES            66
+
+                 PROBLEMS RELATING TO SURFACES      71
+
+                 THE CIRCLE AND ITS LINES           73
+
+                 ARCS AND DEGREES                   78
+
+                 PARTS OF THE CIRCLE                82
+
+                               PART II.
+
+                         AXIOMS AND THEOREMS.
+
+                 AXIOMS. ILLUSTRATED                85
+
+                 THEOREMS. ILLUSTRATED              88
+
+
+
+
+                       FIRST LESSONS IN GEOMETRY.
+
+
+
+
+                              PART FIRST.
+
+
+
+
+                             LESSON FIRST.
+
+
+                                 LINES.
+
+    NOTE TO THE TEACHER.—In all the development-lessons, the pupils are
+    to be occupied with the diagrams, and not with the printed matter.
+
+    See Note A, Appendix.
+
+  Refer to DIAGRAM 1, and show that
+
+  What are here drawn are intended to represent _length_ only.
+
+  They have a little width, that they may be seen.
+
+  They are called _lines_.
+
+  _A line is that which has length only._
+
+
+                                 POINTS
+
+  Show that
+
+  Position is denoted by a point.
+
+  It occupies no space.
+
+  It has _some_ size, that it may be seen.
+
+  The ends of a line are points.
+
+  A line may be regarded as a succession of points.
+
+  The intersection of two lines is a point.
+
+  A point is named by placing a letter near it.
+
+[Illustration: Diagram 1.]
+
+  A point may be represented by a dot. The point is in the center of the
+    dot.
+
+  _A point is that which denotes position only._
+
+  A line is named by naming the points at its ends.
+
+  Read all the lines in Diagram 1.
+
+
+                             CROOKED LINES.
+
+    See Note B, Appendix.
+
+  Does the line _m_ _n_ change direction at the point 1?
+
+  At what other points does it change direction?
+
+  It is called a crooked line.
+
+  _A crooked line is one that changes direction at_ some _of its
+    points_.
+
+
+                             CURVED LINES.
+
+  The line _o p_ changes direction at every point.
+
+  It is called a curved line.
+
+  _A curved line is one that changes direction at_ every _point_.
+
+
+                            STRAIGHT LINES.
+
+  Does the line _i j_ change direction at any point?
+
+  It is called a straight line.
+
+  _A straight line is one that does_ not _change direction at any
+    point_.
+
+
+                              OTHER LINES.
+
+  The line _q r_ winds about a line.
+
+  It is called a _spiral line_.
+
+  The line _w x_ winds about a point.
+
+  It also is called a spiral line.
+
+  _A spiral line is one that winds about a line or point._
+
+  The line 7 8[1] looks like waves.
+
+Footnote 1:
+
+    To be read seven, eight, not seventy-eight.
+
+  It is called a wave line.
+
+                  *       *       *       *       *
+
+  What kind of a line is _a b_?
+
+  Why? What is a straight line?
+
+  What kind of a line is 11 16?
+
+  Why? What is a crooked line?
+
+  What kind of a line is _o p_?
+
+  Why? What is a curved line?
+
+  What kind of a line is _s t_?
+
+  Why?
+
+  What kind of a line is 9 10?
+
+  Why? What is a spiral line?
+
+  What kind of a line is _w x_?
+
+  Why?
+
+
+
+
+                             LESSON SECOND.
+
+
+                                REVIEW.
+
+  Read all the straight lines. (DIAGRAM 2.)
+
+  Why is _m n_ a straight line?
+
+  Define a straight line.
+
+  Read all the crooked lines.
+
+  Why is 7 8 a crooked line?
+
+  Define a crooked line.
+
+  Read all the curved lines.
+
+  Why is 5 6 a curved line?
+
+  What is a curved line?
+
+  Read all the wave lines.
+
+  Read all the spiral lines.
+
+  Why is 3 4 a spiral line?
+
+  Why is _u v_ a spiral line?
+
+  What is a spiral line?
+
+[Illustration: Diagram 2.]
+
+[Illustration: Diagram 3.]
+
+
+
+
+                             LESSON THIRD.
+
+
+                          POSITIONS OF LINES.
+
+    Let the pupils hold their books so that they will be straight up and
+    down like the wall.
+
+
+                            VERTICAL LINES.
+
+  The straight line _a b_ points to the center of the earth. (DIAGRAM
+    3.)
+
+  It is called a vertical line.
+
+  Name all the vertical lines.
+
+  _A vertical line is a straight line that points to the center of the
+    earth._
+
+
+                           HORIZONTAL LINES.
+
+  The straight line _o p_ points to the horizon.
+
+  It is called a horizontal line.
+
+  Read all the horizontal lines.
+
+  _A horizontal line is a straight line that points to the horizon._
+
+
+                             OBLIQUE LINES.
+
+  The line _s t_ points neither to the center of the earth nor to the
+    horizon.
+
+  It is called an oblique line.
+
+  Read all the oblique lines.
+
+  _An oblique line is a straight line that points neither to the
+    horizon nor to the center of the earth._
+
+    NOTE.—After going through with the lessons on angles, the pupils may
+    be told that oblique lines are so called because they form oblique
+    angles with the horizon.
+
+
+
+
+                             LESSON FOURTH.
+
+
+                                REVIEW.
+
+  Read all the vertical lines. (DIAGRAM 4.)
+
+  Why is _q r_ a vertical line?
+
+  What is a vertical line?
+
+  Read all the horizontal lines.
+
+  Why is 5 6 a horizontal line?
+
+  Define a horizontal line.
+
+  Read all the oblique lines.
+
+  Why is _s t_ an oblique line.
+
+  What is an oblique line?
+
+    NOTE.—Lines that point in the same direction do not approach the
+    same point.
+
+[Illustration: Diagram 4.]
+
+[Illustration: Diagram 5.]
+
+
+
+
+                             LESSON FIFTH.
+
+
+                                ANGLES.
+
+  Do the lines _a b_ and _c d_ (DIAGRAM 5.) point in the same direction?
+    (See note, page 15.)
+
+  Then they form an _angle_ with each other.
+
+  What other line forms an angle with _a b_?
+
+  Which of the two lines _c d_, _e f_, has the greater difference of
+    direction from the line _a b_?
+
+  Then which one forms the greater angle with _a b_?
+
+  What line forms a still greater angle with the line _a b_?
+
+  _An angle is the difference of direction of two straight lines._
+
+  If the lines _a b_, _e f_, were made longer, would their direction be
+    changed?
+
+  Then would there be any greater or less difference of direction?
+
+  Then would the angles formed by them be any greater or less?
+
+  Then does the _size_ of an angle depend upon the length of the lines
+    that form it?
+
+  If the lines _a b_, _e f_, were shortened, would the angle formed by
+    them be any smaller?
+
+  If two lines form an angle with each other, and meet, the point of
+    meeting is called the vertex.
+
+  What is the vertex of the angle formed by the lines _k j_, _i j_?—_i
+    j_, _i l_?
+
+  An angle is named by three letters, that which denotes the vertex
+    being in the middle. Thus, the angle formed by _k j_, _i j_, is read
+    _k j i_, or _i j k_.
+
+  Read the four angles formed by the lines _m n_ and _o p_.
+
+  The eight formed by _r s_, _t u_, and _v w_.
+
+
+
+
+                             LESSON SIXTH.
+
+
+                                REVIEW.
+
+  Read all the lines that form angles with the line _a b_. (DIAGRAM 6.)
+
+  Which of them forms the greatest angle with it?
+
+[Illustration: Diagram 6.]
+
+  Which the least?
+
+  Of the two lines _c d_, _g h_, which forms the greater angle with _e
+    f_?
+
+  Read all the angles whose vertices are at _o_ on _i j_.
+
+  Which angle is the greater, _l o m_, or _m o j_?—_i o k_, or _i o
+    l_?—_l o j_, or _m o j_?
+
+  Read all the angles formed by the lines _v w_ and _x y_.
+
+  Read all the angles above the line _n p_.
+
+  Below the line _n p_. Above the line _q r_.
+
+  At the right of the line 5 _u_.
+
+  At the left. At the right of the line _s t_.
+
+  At the left of the line _s t_.
+
+  Which angle is the greater, _n_ 1 3, or _n_ 2 4?
+
+  If the lines _x y_ and _v w_ were lengthened or produced, would the
+    angles _v z x_, _y z w_ be any greater?
+
+  If they were shortened, would the angles be any less?
+
+  What is an angle?
+
+  Does the size of an angle depend upon the length of the lines which
+    form it?
+
+[Illustration: Diagram 7.]
+
+
+
+
+                            LESSON SEVENTH.
+
+
+                          RELATIONS OF ANGLES.
+
+
+                            ADJACENT ANGLES.
+
+  Are the angles _a e c_, _c e b_ (DIAGRAM 7.), on the same side of any
+    line? What line?
+
+  By what other straight line are they both formed?
+
+  Then, because they are both on the same side of the same straight line
+    _a b_, and are both formed by the second straight line _c d_, they
+    are called “_adjacent angles_.”
+
+  The angles _c e b_, _b e d_ are both on the same side of what straight
+    line?
+
+  They are both formed by what second straight line?
+
+  Then what kind of angles are they?
+
+  Why are they called adjacent angles?
+
+  Read the adjacent angles below the line _a b_. Below the line _c d_.
+
+  How many pairs of adjacent angles can be formed by two straight lines?
+
+  Read all the adjacent angles formed by the lines _l m_ and _n p_.
+
+
+                            VERTICAL ANGLES.
+
+  Are the angles _a e c_, _b e d_ formed by the same straight lines?
+
+  Are they adjacent angles?
+
+  They are called “vertical angles.”
+
+  Vertical angles are angles formed by the same straight lines, but not
+    adjacent to each other.
+
+  Read the other pair of vertical angles formed by the lines _a b_, _c
+    d_.
+
+  Read all the vertical angles formed by the lines _f g_, _i h_. By _l
+    m_, _n p_.
+
+  Why are the angles _l o n_, _n o m_ adjacent angles?
+
+  Why are the angles _l o n_, _p o m_ vertical angles?
+
+[Illustration: Diagram 8.]
+
+
+
+
+                             LESSON EIGHTH.
+
+
+                                REVIEW.
+
+  Read the pairs of adjacent angles above the line _a b_. (DIAGRAM 8.)
+
+  Why are they adjacent?
+
+  What are adjacent angles?
+
+  Read the adjacent angles below the line _a b_.
+
+  On the right of the line _c d_. On the left.
+
+  How many pairs of adjacent angles are formed by the intersection of
+    two lines.
+
+  Read the pairs of adjacent angles formed by the lines _f g_ and _i h_.
+
+  Read all the adjacent angles formed by the lines _l m_, _n p_.
+
+  Read all the pairs of vertical angles formed by the lines _a b_, _c
+    d_.
+
+  Why are _c e b_ and _a e d_ called vertical angles?
+
+  What are vertical angles?
+
+  Read all the pairs of vertical angles formed by the lines _h i_, _f
+    g_.
+
+  How many pairs of vertical angles are formed by the intersection of
+    two lines?
+
+  Read all the pairs of vertical angles formed by the lines _l m_, _n
+    p_.
+
+
+
+
+                             LESSON NINTH.
+
+
+                            KINDS OF ANGLES.
+
+
+                             RIGHT ANGLES.
+
+  What do we call the angles _a o c_, _c o b_? (DIAGRAM 9.)
+
+  Are they equal to each other?
+
+  Then they are called _right angles_.
+
+  _A right angle is one of two adjacent angles that are equal to each
+    other._
+
+  Are the adjacent angles _c o b_, _b o d_ equal to each other?
+
+  Then what are they called?
+
+  Read the right angles below the line _a b_. On the left of _c d_.
+
+  Read three right angles whose vertices are at _p_.
+
+[Illustration: Diagram 9.]
+
+
+                             ACUTE ANGLES.
+
+  Is the angle _m p q_ greater or less than the right angle _m p r_?
+
+  Then it is called an _acute angle_.
+
+  _An acute angle is one which is less than a right angle._
+
+  Read four acute angles whose vertices are at _p_.
+
+  Acute means sharp.
+
+  Why is _r p s_ an acute angle?
+
+  What is an acute angle?
+
+
+                             OBTUSE ANGLES.
+
+  Is the angle _m p s_ greater or less than the right angle _m p r_?
+
+  Then it is called an _obtuse angle_.
+
+  _An obtuse angle is one which is greater than a right angle._
+
+  What other obtuse angle has its vertex at _p_?
+
+  Obtuse means blunt.
+
+  Read three obtuse angles whose vertices are at _x_.
+
+  Acute and obtuse angles are also called oblique angles.
+
+
+
+
+                             LESSON TENTH.
+
+
+                                REVIEW.
+
+  Read all the right angles formed by the lines _a b_ and _c d_.
+    (DIAGRAM 10.)
+
+  Why are the adjacent angles _c e b_, _b e d_, right angles?
+
+  What is a right angle?
+
+  Read four right angles whose vertices are at _n_.
+
+  Which is the greater, the right angle _p q r_, or the right angle _t s
+    u_?
+
+  Can one right angle be greater than another?
+
+  Read six acute angles whose vertices are at _n_.
+
+  Why is _m n g_ an acute angle?
+
+  What is an acute angle?
+
+  Which is greater, the acute angle _m n g_, or the acute angle _l n m_?
+
+  May one acute angle be greater than another?
+
+  What three acute angles are equal to one right angle?
+
+[Illustration: Diagram 10.]
+
+  Which of the two acute angles _v f w_, _y x z_ is the greater?
+
+  Read four obtuse angles whose vertices are at _n_.
+
+  Why is _f n m_ an obtuse angle?
+
+  What is an obtuse angle?
+
+  What does obtuse mean? Acute?
+
+  By what other name are both called?
+
+  Which is greater, the large acute angle 1 4 2, or the small obtuse
+    angle 1 4 3?
+
+  How much greater than the right angle is the obtuse angle _f n l_?
+
+  How much less than a right angle is _f n i_?
+
+[Illustration: Diagram 11.]
+
+
+
+
+                            LESSON ELEVENTH.
+
+
+                          RELATIONS OF LINES.
+
+
+                          PERPENDICULAR LINES.
+
+  What kind of angles do the lines _a b_ and _c d_ make with each other?
+    (DIAGRAM 11.)
+
+  Then they are perpendicular to each other.
+
+  What line is perpendicular to _x y_?
+
+  Why is it perpendicular to it?
+
+  What line is perpendicular to _z_ 1?
+
+  When is a line said to be perpendicular to another?
+
+  Can a line standing alone be properly called a perpendicular line?
+
+  What two lines are perpendicular to the lines _r s_?
+
+  Is the line _g h_ perpendicular to the line _i j_? Why?
+
+  What other line is perpendicular to the line _i j_?
+
+  Read three lines that are perpendicular to the line _a b_.
+
+
+                            PARALLEL LINES.
+
+  Do the lines _k l_, _m n_, differ in direction? Then do they form any
+    angle with each other?
+
+  They are said to be _parallel_ to each other.
+
+  Read four other lines that are parallel with _k l_.
+
+  What line is parallel with 2 10?
+
+  Why?
+
+  _Lines are parallel with each other when they do not differ in
+    direction._
+
+
+                             OBLIQUE LINES.
+
+  What kind of angles do the lines _u t_ and 8 9 form with each other?
+
+  Then they are said to be oblique to each other.
+
+  _Lines are oblique to each other when they form oblique angles._
+
+    See Note C, Appendix.
+
+[Illustration: Diagram 12.]
+
+
+
+
+                            LESSON TWELFTH.
+
+
+                                REVIEW.
+
+  Read five lines that are perpendicular to the line _a b_. (DIAGRAM
+    12.)
+
+  Five that are perpendicular to _c d_.
+
+  Two that are perpendicular to _u v_, and meet it. Three that do not
+    meet it.
+
+  Why are _o p_ and _m n_ perpendicular to each other?
+
+  When are lines said to be perpendicular to each other?
+
+  Read four lines that are parallel with _e f_.
+
+  Why are the lines _e f_ and _g h_ said to be parallel to each other?
+
+  When are lines said to be parallel to each other?
+
+  Read four lines that are parallel to 5 6.
+
+  Four that are parallel to _o p_.
+
+  Is any line parallel to _u v_?
+
+  Can a single line be properly called perpendicular? Parallel?
+
+  If two lines are perpendicular to each other, what angle do they form?
+
+  If parallel, what angle? If oblique?
+
+[Illustration: Diagram 13.]
+
+
+
+
+                           LESSON THIRTEENTH.
+
+
+                          RELATIONS OF ANGLES.
+
+
+                            INTERIOR ANGLES.
+
+  Is the angle _a m n_ between the parallels, or outside of them?
+    (DIAGRAM 13.)
+
+  It is called an _interior angle_.
+
+  Read three other interior angles between the same parallels.
+
+  Why is _b m n_ an interior angle?
+
+  _An interior angle is one that lies between parallel lines._
+
+  Read the interior angles between the parallel lines _g h_ and _k l_.
+
+  Why is _o p l_ an interior angle?
+
+  What is an interior angle?
+
+
+                            EXTERIOR ANGLES.
+
+  Is the angle _a m e_ between the parallels, or outside of them?
+
+  It is called an _exterior angle_.
+
+  Read three other exterior angles formed by the lines _a b_, _c d_, and
+    _e f_.
+
+  Why is the angle _c n f_ an exterior angle?
+
+  _An exterior angle is one that lies outside of the parallels._
+
+
+
+
+                           LESSON FOURTEENTH.
+
+
+                                REVIEW.
+
+  Read all the interior angles formed by the lines _a b_, _c d_, and _e
+    f_.
+
+  Why is _m n d_ an interior angle?
+
+  What is an interior angle?
+
+  Read all the exterior angles formed by the same lines.
+
+  Why is _d n f_ an exterior angle?
+
+  What is an exterior angle?
+
+  Read all interior angles formed by the lines _g h_, _k l_, and _i j_.
+
+  All the remaining interior angles in the diagram. All the exterior
+    angles.
+
+[Illustration: Diagram 14.]
+
+
+
+
+                           LESSON FIFTEENTH.
+
+
+                          RELATIONS OF ANGLES.
+
+
+                            OPPOSITE ANGLES.
+
+  Are the angles _e m b_, _b m n_, on the same side of the intersecting
+    line _e f_?
+
+  Are they adjacent?
+
+  Are _e m b_, _m n d_, on the same side of the intersecting line _e f_?
+
+  Are they adjacent?
+
+  Then they are called opposite angles.
+
+  _Opposite angles lie on the same side of the intersecting line, but
+    are not adjacent._
+
+  Are the angles _e m b_, _f n d_, on the same side of the intersecting
+    line?
+
+  Are they adjacent?
+
+  Then are they opposite?
+
+  Are they interior or exterior angles?
+
+  Then they are “_opposite exterior angles_.”
+
+  Why are they exterior?
+
+  Why are they opposite?
+
+  Are the angles _b m n_, _m n d_, opposite angles?
+
+  Are they interior or exterior angles?
+
+  Then they are “_opposite interior angles_.”
+
+  Why are they opposite? Why interior?
+
+  Read the opposite exterior angles on the left of the line _e f_.
+
+  Read the opposite interior angles on the same side.
+
+  Are the opposite angles _e m a_, _m n c_, both exterior or interior?
+
+  Then they are _opposite exterior and interior angles_.
+
+  Read two pairs of opposite exterior and interior angles on the right
+    of _e f_. On the left.
+
+
+                           ALTERNATE ANGLES.
+
+  Do the angles _b m n_, _m n c_, lie on the same side of the
+    intersecting line _e f_?
+
+  Are they adjacent to each other?
+
+  Are they vertical angles?
+
+  Then they are alternate angles.
+
+  _Alternate angles lie on different sides of the intersecting line,
+    and are neither adjacent nor vertical._
+
+  Are the alternate angles _b m n_, _m n c_, exterior or interior?
+
+  Then they are called “_interior alternate angles_.”
+
+  Read another pair of interior alternate angles between _a b_ and _c
+    d_.
+
+  Are the angles _e m b_, _c n f_, alternate angles? Why?
+
+  Are they exterior or interior?
+
+  Then what may they be called?
+
+  Read another pair of exterior alternate angles.
+
+  Why are _e m a_, _d n f_, alternate angles? Why exterior alternate?
+
+
+
+
+                           LESSON SIXTEENTH.
+
+
+                                REVIEW.
+
+  Read the exterior opposite angles on the right of the line _e f_.
+    (DIAGRAM 14.)
+
+  On the left. On the right of _r s_. On the left.
+
+  Why are _e m a_, _c n f_, exterior angles?
+
+  Why are they opposite angles?
+
+  What are opposite angles?
+
+  Read the interior opposite angles on the right of the intersecting
+    line _e f_.
+
+  On the left of it. On the right of _r s_. On the left.
+
+  Read the interior alternate angles formed by the lines _a b_, _c d_,
+    and _e f_.
+
+  Which pair are acute angles?
+
+  Which pair are obtuse angles?
+
+  Why are _b m n_, _m n c_, interior angles? Why alternate? What are
+    alternate angles?
+
+  Read the exterior alternate angles of the same lines.
+
+  Read the acute interior alternate angles of the parallels _t u_, _v
+    w_. The obtuse.
+
+  The acute exterior alternate angles. Obtuse.
+
+  Read the pair of opposite exterior angles on the right of the line _e
+    f_. On the left.
+
+  On the right of _r s_. On the left.
+
+[Illustration: Diagram 15.]
+
+
+
+
+                          LESSON SEVENTEENTH.
+
+
+                                REVIEW.
+
+  Read thirteen or more angles whose vertices are at _c_. (DIAGRAM 15.)
+
+  Read four obtuse angles.
+
+  Read two right angles.
+
+  What three acute angles equal one right angle?
+
+  Which is greater, the right angle 4, or the right angle 5?
+
+  The obtuse angle 6, or the acute angle 7?
+
+  Read twelve pairs of adjacent angles formed by the lines _w x_, &c.
+
+  Read six pairs of vertical angles formed by the same lines.
+
+  Read all the interior angles formed by the lines _i j_, _k l_, and _m
+    n_.
+
+  Read all the exterior angles formed by the same lines.
+
+  Two pairs of opposite exterior angles.
+
+  Two pairs of opposite interior angles.
+
+  Four pairs of opposite exterior and interior angles.
+
+  Two pairs of alternate interior angles.
+
+  Two pairs of alternate exterior angles.
+
+  Why are the angles _i o m_, _m o j_, called adjacent?
+
+  What are adjacent angles?
+
+  What kind of an angle is _i o m_? Why?
+
+  What is an acute angle?
+
+  What kind of an angle is _m o j_? Why?
+
+  What is an obtuse angle?
+
+  Why are _a c f_, _f c b_, right angles?
+
+  What is a right angle?
+
+  Why are _m o i_, _j o p_, vertical angles?
+
+  What are vertical angles?
+
+  Why is _m o i_ an exterior angle?
+
+  What is an exterior angle?
+
+  Why is _j o p_ an interior angle?
+
+  What is an interior angle?
+
+  Why are _m o i_, _o p k_, opposite angles?
+
+  What are opposite angles?
+
+  Why are _j o p_, _o p k_, alternate angles?
+
+  What are alternate angles?
+
+
+
+
+                           LESSON EIGHTEENTH.
+
+
+                               PROBLEMS.
+
+  Draw an obtuse angle which shall be only a little larger than a right
+    angle.
+
+  Draw one which shall be much greater than a right angle.
+
+  Draw an acute angle which shall be only a little less than a right
+    angle.
+
+  Draw one which shall be much less than a right angle.
+
+  Draw an obtuse angle with lines about one inch long.
+
+  Draw an acute angle with sides three inches long.
+
+  Which is greater, the obtuse angle, or the acute angle?
+
+  Draw a right angle with lines an inch long.
+
+  Draw one with lines five inches long.
+
+  Which is the greater, first or the second?
+
+[Illustration: Diagram 16.]
+
+
+
+
+                           LESSON NINETEENTH.
+
+
+                               POLYGONS.
+
+  Name any thing besides your desk that has a flat surface.
+
+  A flat surface is called a plane.
+
+  How many sides has the plane Fig. A? (DIAGRAM 16.)
+
+  It is called a triangle. “Tri” means “three.”
+
+  What other triangles do you see.
+
+  Triangles are sometimes called trigons.
+
+  _A triangle is a plane figure having three sides._
+
+  How many sides has the plane figure marked B? How many angles?
+
+  It is called a quadrangle, or quadrilateral. “Quad” denotes “four.”
+
+  What other quadrangles do you see?
+
+  Why is Fig. B a quadrangle?
+
+  _A quadrangle is a plane figure having four sides._
+
+  How many sides has the Fig. C?
+
+  It is called a _pentagon_.
+
+  What other pentagon do you see?
+
+  Why is Fig. C a pentagon?
+
+  _A pentagon is a plane figure having five sides._
+
+  In like manner,—
+
+  _A hexagon is a plane figure having six sides._
+
+  _A heptagon is a plane figure having seven sides._
+
+  An octagon has eight sides.
+
+  A nonagon has nine sides.
+
+  A decagon has ten sides.
+
+  All these figures are called _polygons_.
+
+  “Poly” means “many.”
+
+  What do you call a polygon of three sides? Of four sides? Of six
+    sides? &c.
+
+  If the length of each side of triangle A is one inch, how long are the
+    three sides together?
+
+  The sum of the sides of a polygon is its perimeter.
+
+  Which of the triangles has unequal sides? Which has equal sides?
+
+  The latter is called a _regular polygon_.
+
+  Which pentagon has one side longer than any one of its other sides?
+
+  Which has its sides all equal to each other? Are its angles also
+    equal?
+
+  It is therefore a _regular polygon_, or _regular pentagon_.
+
+  Name a hexagon that is not regular.
+
+  Name a regular hexagon.
+
+  A regular octagon. A regular heptagon.
+
+  _A polygon is a plane figure bounded by straight lines._
+
+
+
+
+                           LESSON TWENTIETH.
+
+
+                                REVIEW.
+
+  Name all the triangles. (DIAGRAM 16.)
+
+  Why is Fig. A a triangle?
+
+  What is a triangle?
+
+  What other name is sometimes given to triangles?
+
+  Name all the quadrilaterals.
+
+  Why is Fig. B a quadrilateral?
+
+  What is a quadrilateral, or quadrangle?
+
+  Name all the pentagons, hexagons, heptagons, octagons, and nonagons.
+
+  Why is C a pentagon? What is a pentagon? A hexagon? A heptagon? &c.
+
+  How many polygons in the diagram?
+
+  What is a polygon?
+
+  If each side of Fig. B is one inch, how many inches are there in its
+    perimeter?
+
+  When is a polygon regular?
+
+  Name all the regular polygons in diagram 16.
+
+  Name all the irregular polygons.
+
+[Illustration: Diagram 17.]
+
+
+
+
+                          LESSON TWENTY-FIRST.
+
+
+                               TRIANGLES.
+
+
+                        ACUTE-ANGLED TRIANGLES.
+
+  In the triangle 1, what kind of an angle is _b a c_? _a c b_? _c b a_?
+    (DIAGRAM 17.)
+
+  Then it is called an _acute-angled triangle_.
+
+  _An acute-angled triangle is one whose angles are all acute._
+
+  Read three other acute-angled triangles.
+
+
+                        OBTUSE-ANGLED TRIANGLES.
+
+  In the triangle 4, what kind of an angle is _l k m_?
+
+  Then it is called an _obtuse-angled triangle_.
+
+  _An obtuse-angled triangle is one that has one obtuse angle._
+
+  Name two others.
+
+
+                        RIGHT-ANGLED TRIANGLES.
+
+  In the triangle 3, what kind of an angle is _g i j_?
+
+  Then it is called a _right-angled triangle_.
+
+  _A right-angled triangle is one that has one right angle._
+
+  Name three other right-angled triangles.
+
+  Upon which side does the triangle 3 seem to stand?
+
+  Then _i j_ is called the _base_ of the triangle.
+
+  What letter marks the vertex of the angle opposite the base?
+
+  Then the point _g_ is said to be the vertex of the triangle.
+
+  If, in the triangle 7, we consider _t v_ the base, what point is the
+    vertex?
+
+  If _v_ be considered the vertex, which side will be the base?
+
+  In the triangle 3, what side is opposite the right angle?
+
+  Then _g j_ is called the _hypothenuse_ of the triangle.
+
+  _The hypothenuse of a triangle is the side opposite the right
+    angle._
+
+  Read the hypothenuse of each of the triangles 5, 6, and 11.
+
+  Either side about the right angle may be considered the base.
+
+  Then the other side will be the perpendicular.
+
+  In the triangle 3, if _i j_ is the base, which side is the
+    perpendicular?
+
+  If _g i_ be considered the base, which side is the perpendicular?
+
+  In triangle 5, if _n o_ is the base, which side is the perpendicular?
+
+
+
+
+                         LESSON TWENTY-SECOND.
+
+
+                                REVIEW.
+
+  Name four acute-angled triangles. (DIAGRAM 17.)
+
+  Why is the triangle 8 acute-angled?
+
+  What is an acute-angled triangle?
+
+  Name three obtuse-angled triangles.
+
+  Why is the triangle 9 an obtuse-angled triangle?
+
+  What is an obtuse-angled triangle?
+
+  Name four right-angled triangles.
+
+  Why is the triangle 6 a right-angled triangle?
+
+  What is a right-angled triangle?
+
+  In the triangle 6, which side is the hypothenuse?
+
+  Why?
+
+  What is the hypothenuse?
+
+  What two sides of the triangle 6 may be regarded as the base?
+
+  If _q r_ be considered the base, what do you call the side _q s_?
+
+  Read the hypothenuse of each of the triangles 3, 5, 6, and 11.
+
+[Illustration: Diagram 18.]
+
+
+
+
+                          LESSON TWENTY-THIRD.
+
+
+                       TRIANGLES. (_Continued._)
+
+
+                          ISOSCELES TRIANGLES.
+
+  Of the triangle 1, which two sides are equal to each other?
+
+  Then it is called an _isosceles triangle_.
+
+  _An isosceles triangle is one that has two equal sides._
+
+  Name eight isosceles triangles.
+
+  Why is the triangle 2 an isosceles triangle?
+
+  What kind of a triangle is it on account of its angles?
+
+  Then it is an _acute-angled isosceles triangle_.
+
+  Name four acute-angled isosceles triangles.
+
+  What kind of a triangle is Fig. 4 on account of the angle _k j l_?
+
+  What kind on account of its equal sides?
+
+  Then it is called an _obtuse-angled isosceles triangle_.
+
+  Name one other obtuse-angled isosceles triangle.
+
+  What kind of a triangle is Fig. 6 on account of the angle _q p r_?
+
+  What kind on account of its equal sides?
+
+  Then it is called a _right-angled isosceles triangle_.
+
+  Name one other right-angled isosceles triangle.
+
+  Why is Fig. 12 a right-angled triangle? Why isosceles?
+
+
+                         EQUILATERAL TRIANGLES.
+
+  Which of the isosceles triangles has all its three sides equal to each
+    other?
+
+  It is called an _equilateral triangle_.
+
+  “Equi” means “equal.” “Latus” means a “side.”
+
+  _An equilateral triangle is one that has its three sides equal to
+    each other._
+
+  What kind of a triangle is Fig. 7 on account of its three equal sides?
+
+  What kind on account of its two equal sides _s t_, _s u_, or _t s_, _t
+    u_, or _u s_, _u t_?
+
+  Then must not every equilateral triangle be also isosceles?
+
+  What kind of a triangle is Fig. 2 on account of its equal sides _d e_,
+    _d f_?
+
+  If the side _e f_ is longer than either of the other two sides, is it
+    an equilateral triangle?
+
+  Then is every isosceles triangle also equilateral?
+
+  Name another isosceles triangle that is _not_ equilateral.
+
+  Name one that _is_ equilateral.
+
+  In any equilateral triangle the three angles are equal to each other.
+
+  On account of its equal angles, it is also called an _equiangular
+    triangle_.
+
+  What is Fig. 8 called on account of its three equal sides? On account
+    of its three equal angles?
+
+  Every equilateral triangle is also equiangular.
+
+  Every equiangular triangle is also equilateral.
+
+  Name a triangle that has no two sides equal to each other.
+
+  It is called a _scalene triangle_.
+
+  What kind of a triangle is Fig. 5 on account of its right angle?
+
+  What kind on account of its three unequal sides?
+
+  Then it is a _right-angled scalene triangle_.
+
+  What name can you give Fig. 11 on account of the angle _g e f_?
+
+  On account of its three unequal sides?
+
+  Then what may it be called?
+
+[Illustration: Diagram 19.]
+
+
+
+
+                         LESSON TWENTY-FOURTH.
+
+
+                                REVIEW.
+
+  Name eight isosceles triangles. (DIAGRAM 19.)
+
+  Why is Fig. 2 an isosceles triangle?
+
+  What is an isosceles triangle?
+
+  Name two right-angled isosceles triangles.
+
+  Name five acute-angled isosceles triangles.
+
+  Name one obtuse-angled isosceles triangle.
+
+  Name two isosceles triangles that are also equilateral.
+
+  Are all isosceles triangles equilateral?
+
+  Name six isosceles triangles that are _not_ equilateral.
+
+  What does “equi” mean? “Latus”?
+
+  What are equilateral triangles called on account of their equal
+    angles?
+
+  Are all equilateral triangles equiangular?
+
+  Are all equiangular triangles equilateral?
+
+  What are equilateral triangles?
+
+  Name four scalene triangles.
+
+  Name two right-angled scalene triangles.
+
+  Why is Fig. 3 a right-angled triangle? Why scalene?
+
+  What is a scalene triangle?
+
+  Name one obtuse-angled scalene triangle.
+
+  Name one acute-angled scalene triangle.
+
+
+                               PROBLEMS.
+
+  From the same point draw two straight lines of any length, making an
+    acute angle with each other.
+
+  Make them equal to each other by measuring.
+
+  Join their ends.
+
+  What kind of a triangle is it on account of its angles?
+
+  On account of its two equal sides?
+
+  Write its two names inside of it.
+
+  Draw an isosceles triangle whose equal sides shall each be less than
+    the third side.
+
+  Write its two names within it.
+
+  Draw an oblique straight line twice as long as any short measure or
+    unit.
+
+  At one end draw a straight line perpendicular to it, and three times
+    as long as the same measure.
+
+  Connect the ends of the two lines by a straight line.
+
+  What kind of an angle is that opposite the last line drawn?
+
+  Are any two of its sides equal?
+
+  Write its two names under it.
+
+  Draw a horizontal straight line of any length.
+
+  At one end draw a vertical line of equal length.
+
+  Complete the triangle, and write two names inside.
+
+  Draw a right-angled triangle whose base is of any length, and its
+    perpendicular twice as long.
+
+  Draw a right-angled triangle whose base is three times as long as any
+    short measure, and its perpendicular five times as long as the same
+    measure or unit.
+
+[Illustration: Diagram 20.]
+
+
+                            QUADRILATERALS.
+
+  How many sides has the figure _a b d c_?
+
+  What is it called on account of the number of its sides?
+
+  Name three other quadrilaterals whose vertices are marked.
+
+  Name seven by numbers.
+
+  Quadrilaterals are sometimes named by means of two opposite vertices.
+
+  The quadrilateral _a b d c_, or _c d b a_, may be read _a d_, or _b
+    c_, or _c b_, or _d a_.
+
+  Name the quadrilateral, _g h f e_, four ways.
+
+  How many angles has each figure?
+
+  On account of the number of their angles they are called
+    _quadrangles_.
+
+  Has the quadrilateral _a d_ any two sides parallel to each other?
+
+  Then it is called a _trapezium_.
+
+  _A trapezium is a quadrilateral that has no two sides parallel._
+
+  Name two other trapeziums.
+
+  Why is Fig. 7 a trapezium?
+
+  Has the quadrilateral _e h_ any two sides parallel? Which two? Are the
+    other two sides parallel?
+
+  It is called a “_trapezoid_.”
+
+  “Oid” means like. What does “trapezoid” mean?
+
+  _A trapezoid is a quadrilateral that has only one pair of sides
+    parallel._
+
+  Name another trapezoid.
+
+  Why is Fig. 6 a trapezoid?
+
+  How many pairs of parallel sides has the quadrilateral _i l_?
+
+  Name the horizontal parallels.
+
+  Name the oblique parallels.
+
+  It is called a “_parallelogram_.”
+
+  _A parallelogram is a quadrilateral whose opposite sides are
+    parallel._
+
+  Name five other parallelograms.
+
+  Why is Fig. 4 a parallelogram?
+
+  Why is not Fig. 6 a parallelogram?
+
+  Why is not _e h_ a parallelogram?
+
+  What two names may you give to Fig. 5?
+
+  Why is it a quadrilateral? Why a trapezium?
+
+  What two names may we give to Fig. 6?
+
+  Why is it a quadrilateral? Why a trapezoid?
+
+  What two names may we give to Fig. 3?
+
+  Why is it a parallelogram? Why a quadrilateral?
+
+
+
+
+                          LESSON TWENTY-FIFTH.
+
+
+                                REVIEW.
+
+  How many quadrilaterals in the diagram. (DIAGRAM 20.)
+
+  Why is Fig. _a d_ a quadrilateral?
+
+  What is a quadrilateral?
+
+  On account of the number of its angles, what may it be called?
+
+  Name all the quadrilaterals.
+
+  Name three trapeziums.
+
+  Why is Fig. 5 a trapezium?
+
+  What is a trapezium?
+
+  Name two trapezoids.
+
+  Why is Fig. 6 a trapezoid?
+
+  Name its parallel sides.
+
+  What is a trapezoid?
+
+  Name six parallelograms.
+
+  Why is Fig. 4 a parallelogram?
+
+  Name its two pairs of parallel sides.
+
+  What is a parallelogram?
+
+  What two names can you give to Fig. 4?
+
+  Why the first? Why the second?
+
+  What two names may be given to Fig. 7?
+
+  Why the first? Why the second?
+
+  What two to Fig. 6?
+
+  Why the first? Why the second?
+
+[Illustration: Diagram 21.]
+
+
+
+
+                          LESSON TWENTY-SIXTH.
+
+
+                        KINDS OF PARALLELOGRAMS.
+
+
+                               RHOMBOIDS.
+
+  How many quadrilaterals in the diagram? (DIAGRAM 21.)
+
+  How many parallelograms?
+
+  Has the parallelogram _a d_ any right angle?
+
+  It is called a “_rhomboid_.”
+
+  _A rhomboid is a parallelogram which has no right angle._
+
+  Name five other rhomboids.
+
+  What three names may be given to Fig. 2?
+
+  Why is it a quadrilateral?
+
+  Why a parallelogram? Why a rhomboid?
+
+
+                                RHOMBS.
+
+  Are the four sides of the rhomboid _a d_ equal to each other?
+
+  Are the four sides of the rhomboid _e h_ equal to each other?
+
+  If a triangle has its three sides equal to each other, what do you
+    call it?
+
+  Then when a rhomboid has its sides equal to each other, what may it be
+    called?
+
+  An equilateral rhomboid is called a rhombus.
+
+  _A rhombus is an equilateral rhomboid._
+
+    See Note D, Appendix.
+
+  Name two other rhombuses, or rhombs.
+
+  What four names can you give to Fig. _e h_?
+
+  Why a quadrilateral? Why a parallelogram? Why a rhomboid? Why a
+    rhombus?
+
+
+                              RECTANGLES.
+
+  Has the parallelogram _i l_ any right angles?
+
+  How many?
+
+  It is called a “_rectangle_.”
+
+  _A rectangle is a right-angled parallelogram._
+
+  Name four other rectangles.
+
+  What three names may be given to Fig. _i l_?
+
+  Why a quadrilateral? Why a parallelogram? Why a rectangle?
+
+
+                                SQUARES.
+
+  Has the rectangle _i l_ its four sides equal?
+
+  Has the rectangle _m p_ its four sides equal?
+
+  It is called a “square.”
+
+  _A square is an equilateral rectangle._
+
+  Name another “_square_.”
+
+  What four names may be given to Fig. _m p_?
+
+  Why a quadrilateral? Why a parallelogram? Why a rectangle? Why a
+    square?
+
+
+
+
+                         LESSON TWENTY-SEVENTH.
+
+
+                                REVIEW.
+
+  Name six rhomboids. (DIAGRAM 21.)
+
+  What three names may be given to Fig. 3?
+
+  Why a quadrilateral? Why a parallelogram? Why a rhomboid?
+
+  What is a quadrilateral? Parallelogram? Rhomboid?
+
+  Name three rhombs.
+
+  What four names may you give Fig. 5?
+
+  Why a quadrilateral? Why a parallelogram? Why a rhomboid? Why a rhomb?
+
+  What is a rhomboid? A rhomb?
+
+  Name five rectangles.
+
+  What three names may be given to Fig. 1?
+
+  Why a quadrilateral? Why a parallelogram? Why a rectangle?
+
+  What is a rectangle?
+
+  Name two squares?
+
+  By what four names may Fig. 7 be called?
+
+  Why by the first? By the second? By the third? By the fourth?
+
+  What is a square?
+
+  What is a rectangle?
+
+  What is a parallelogram?
+
+  What is a quadrilateral?
+
+[Illustration: Diagram 22.]
+
+
+
+
+                         LESSON TWENTY-EIGHTH.
+
+
+                        COMPARISON AND CONTRAST.
+
+
+                        TRAPEZIUM AND TRAPEZOID.
+
+  In what respect are Figs. A and B alike?
+
+  On this account, what name may be given to each?
+
+  How does Fig. B differ from Fig. A?
+
+  What particular name may you give to Fig. B?
+
+  What one to Fig. A?
+
+
+                        RHOMBOID AND RECTANGLE.
+
+  In what two respects are Figs. C and D alike?
+
+  On account of the number of their sides, what may each be called?
+
+  Because their opposite sides are parallel, what may each be called?
+
+  In what respect do they differ?
+
+  What particular name may be given to Fig. C?
+
+  What one to Fig. D?
+
+  What three names may you give to the figure with right angles?
+
+  What three to the one _without_ right angles?
+
+
+                         RHOMBOID AND RHOMBUS.
+
+  In what three things are Figs. E and F alike?
+
+  What three names may be given to each?
+
+  How do they differ from each other?
+
+  What particular name may you give to Fig. F?
+
+  What four names has Fig. F?
+
+
+                         RECTANGLE AND SQUARE.
+
+  In what three things are Figs. G and H alike?
+
+  On account of the number of their sides, what may each be called?
+
+  Because their opposite sides are parallel, what may each be called?
+
+  Because they have right angles, what may they be called?
+
+  In what respect is Fig. H different from Fig. G?
+
+  On this account, what particular name may be applied to Fig. H?
+
+  What three names may be applied to Fig. G?
+
+  What _four_ to Fig. H?
+
+
+                          RHOMBUS AND SQUARE.
+
+  In what three things are Figs. F and H alike?
+
+  On account of the number of their sides, what name may be given to
+    each?
+
+  Because their opposite sides are parallel, what name may be given to
+    each?
+
+  Because both are parallelograms, and both have their sides equal, what
+    name may be given to each?
+
+  What particular name has Fig. F?
+
+  What particular name has Fig. H?
+
+  What four names may be given to Fig. F?
+
+  What four to Fig. H?
+
+
+
+
+                          LESSON TWENTY-NINTH.
+
+
+                                REVIEW.
+
+  What two names may be given to Fig. A. (DIAGRAM 22.)
+
+  To Fig. B?
+
+  In what are they alike?
+
+  In what do they differ?
+
+  By what three names may Fig. C be called?
+
+  By what three names may Fig. D be called?
+
+  In what two things are they alike?
+
+  In what one thing do they differ?
+
+  What particular name has C? What one has D?
+
+  What three names may be applied to Fig. E?
+
+  What four to Fig. F?
+
+  What property has F that E has not?
+
+  What particular name has it on that account?
+
+  What three names has Fig. G?
+
+  What four has Fig. H?
+
+  What property has Fig. H that G has not?
+
+  What particular name has it in consequence?
+
+  What four names may you give to Fig. F?
+
+  What four to Fig. H?
+
+  What three names may be applied to either?
+
+  In what three things are they alike?
+
+  In what respect do they differ?
+
+  What particular name has Fig. F?
+
+  What particular name has Fig. H?
+
+[Illustration: Diagram 23.]
+
+
+
+
+                           LESSON THIRTIETH.
+
+
+                        MEASUREMENT OF SURFACES.
+
+  In Fig. 1 (DIAGRAM 23.) call the line _a b a_ unit.
+
+  Rectangle 1 is how many units long?
+
+  How many high?
+
+  Because its sides are equal, what is it called?
+
+  Rectangle 2 is how many units long?
+
+  How many high or wide?
+
+  How many squares does it contain?
+
+  Rectangle 3 is how many units long?
+
+  How many wide?
+
+  How many squares does it contain?
+
+  If it were four units long and one wide, how many squares would it
+    contain?
+
+  If it were five long and one wide? Six long? &c.
+
+  Rectangle 4 is how many units long?
+
+  How many wide?
+
+  How many squares does it contain?
+
+  How many squares in that part which is two units long, _m n_, and one
+    unit wide, _m l_?
+
+  On account of the second unit in width, _l k_, how many times two
+    squares are there?
+
+  If the width were one unit more, how many times two squares would
+    there be?
+
+  Rectangle 5 is how many units long?
+
+  How many units wide or high?
+
+  How many squares does it contain?
+
+  How many squares in that part which is three units long, _o p_, and
+    one unit wide, _o t_?
+
+  The second unit in width, _t q_, gives how many more squares? How many
+    times three squares?
+
+  If another unit were added to the width, how many more squares would
+    be made?
+
+  How many times three squares?
+
+  If it were four units wide, how many times three squares would there
+    be?
+
+  Rectangle 6 is how many units long?
+
+  How many units high or wide?
+
+  How many squares in that part which is four units long and one high?
+
+  How many times four squares in that part which is four long and two
+    high?
+
+  How many times four squares when it is four long and three high?
+
+  If another unit were added to the height, how many more squares would
+    be added?
+
+  How many times four squares would there be?
+
+  If a rectangle were five units long and one unit wide, how many square
+    units would it contain?
+
+  If it were two units wide, how many times five square units would it
+    contain?
+
+  If it were three units wide? Four? &c.
+
+  If your ruler is ten inches long and only one inch wide, how many
+    square inches are there in it?
+
+  If it were two inches wide, how many times ten square inches would it
+    contain?
+
+  If your arithmetic-cover is seven inches long and five inches wide,
+    how many square inches are there in it?
+
+  If a wall of this room is twenty feet long, how many square feet are
+    there in that part which is one foot high? Two high? Three high?
+    Four high?
+
+  If the same wall is sixteen feet high, how many square feet in it?
+
+  Fig. 5 has how many times three squares?
+
+  Fig. 7 has how many times two squares?
+
+  Which has the greater number of squares?
+
+  What difference is there between two times three squares and three
+    times two squares?
+
+
+
+
+                          LESSON THIRTY-FIRST.
+
+
+                                REVIEW.
+
+  Draw a rectangle of any width whose length is three times the width.
+
+  How many squares has it if the width be taken as the unit?
+
+  Make it twice as wide as before.
+
+  How many squares has it now?
+
+  What two numbers multiplied together will give the number of squares?
+
+  Make it three times as wide.
+
+  How many squares has it now?
+
+  What two numbers multiplied together will give the number of squares?
+
+  The cover of a geography is one foot long and one foot wide, how many
+    square feet in it?
+
+  How many inches long is the same cover? How many wide?
+
+  How many square inches does it contain?
+
+  How many square inches are equal to one square foot?
+
+  A table is one yard long and one yard wide, how many square yards in
+    it?
+
+  How many feet long is the same table?
+
+  How many feet wide?
+
+  How many square feet does it contain?
+
+  One square yard equals how many square feet?
+
+  Draw a square whose side is a unit of any length.
+
+  Draw another whose side is two units of the same length.
+
+  The second square is how many times as large as the first one?
+
+  How many squares in half the second square?
+
+  Which is greater, two square inches, or two inches square?
+
+  Two inches square is how many times two square inches?
+
+  Draw a square whose side is three inches.
+
+  How many square inches does it contain?
+
+  How many times as many squares as the square of one inch?
+
+  How many square inches in the bottom row?
+
+  How many in all?
+
+  Which is greater, three inches square, or three square inches?
+
+  Three inches square is how many times three square inches?
+
+
+                               PROBLEMS.
+
+  An equilateral triangle has each of its sides one inch long, what is
+    its perimeter?
+
+  If each side were two inches long, what would be its perimeter?
+
+  An isosceles triangle has its two equal sides each three inches long,
+    and its third side five inches long, what is its perimeter?
+
+  A right-angled isosceles triangle has its base five inches, and its
+    hypothenuse seven inches long, what is its perimeter?
+
+  A square geography-cover is nine inches long on one side, how long all
+    round?
+
+  How many square inches in it?
+
+  A slate is sixteen inches long and twelve wide, how many inches all
+    round it?
+
+  A rectangle is five inches long and three wide, how long all round?
+
+  How many square inches in it?
+
+  A slate is one foot long and eight inches wide, what is its perimeter?
+
+  A room is twenty-four feet long and twenty-one feet wide, how many
+    feet all round it?
+
+  How many square feet in the floor?
+
+  How many pieces of paper each a foot square would exactly cover it?
+
+  A yard of carpet is two feet wide, how many square feet in it?
+
+  Charles and Henry start from the same place, and walk in opposite
+    directions; Charles goes twenty yards, and Henry fifteen, how many
+    yards apart are they?
+
+  If they start from opposite ends of a straight walk twenty-five feet
+    long, and walk towards each other, how many feet will Charles have
+    to walk to meet Henry who has walked fifteen feet?
+
+  A lot is forty rods long and thirty wide, how long must the fence be?
+
+  What length of fence will divide it into four equal parts?
+
+[Illustration: Diagram 24.]
+
+
+
+
+                         LESSON THIRTY-SECOND.
+
+
+                       THE CIRCLE AND ITS LINES.
+
+  If the straight line _c a_ were a string made fast at _c_, with a
+    sharp pencil-point at the other end _a_, and the pencil-point were
+    moved towards _d_, what line would be drawn?
+
+  What kind of a line would it be?
+
+  If the pencil-point continued to move in the same direction until it
+    returned to the starting-point _a_, what curved line would be drawn,
+    naming it by all the points in it which are marked?
+
+  The plane figure bounded by this curve is called a “_circle_.”
+
+  What point is at the centre of this figure?
+
+  _A circle is a plane figure bounded by a curved line, all points of
+    which are equally distant from the centre._
+
+  The curved line is called a “_circumference_.”
+
+  _The circumference of a circle is the curve which bounds it._
+
+  Name a straight line that joins two points in the circumference.
+
+  It is called a “_chord_.”
+
+  _A chord is a straight line that joins two points of a
+    circumference._
+
+  Read six chords in the diagram.
+
+  Which two of these chords pass through the centre?
+
+  They are called “_diameters_.”
+
+  _A diameter is a chord that passes through the centre._
+
+  Name a line that joins the centre with a point of the circumference.
+
+  It is called a “_radius_.”—(Plural, _radii_.)
+
+  _A radius is a straight line that joins the centre to a point of the
+    circumference._
+
+  Read five radii.
+
+  Which is farther from the centre, the point _a_ or the point _d_?
+
+  Can the radius _c d_ be greater than the radius _c a_? Or greater than
+    _c v_, or _c o_?
+
+  _Then all radii of the same circle are equal to each other._
+
+  What do we call the lines _o d_, _c d_, _c o_?
+
+  What part of the diameter _o d_ is the radius _o c_?
+
+  Name a chord that is produced without the circle.
+
+  It is called a “_secant_.”
+
+  _A secant is a chord produced._
+
+  Name two secants.
+
+  If the chord _d i_ were made a secant, would it become longer or
+    shorter?
+
+  In how many points does the straight line _l m_ touch the
+    circumference?
+
+  It is called a “_tangent_.”
+
+  _A tangent is a straight line that touches a circumference in only
+    one point._
+
+  Name three tangents.
+
+
+
+
+                          LESSON THIRTY-THIRD.
+
+
+                                REVIEW.
+
+  Read six chords. (DIAGRAM 24.)
+
+  Why is _i d_ a chord?
+
+  What is a chord?
+
+  Name two diameters.
+
+  Why is _a j_ a diameter?
+
+  What is a diameter?
+
+  Is every chord a diameter?
+
+  Is every diameter a chord?
+
+  Name five radii.
+
+  Why is _c a_ a radius?
+
+  What is a radius?
+
+  A diameter is equal to how many radii?
+
+  Are all radii equal to each other?
+
+  Are all chords equal to each other?
+
+  Are all diameters equal to each other?
+
+  Name two secants.
+
+  Why is either one a secant?
+
+  What is a secant?
+
+  Name three tangents.
+
+  Why is _a b_ a tangent?
+
+  What is a tangent?
+
+  Is a tangent inside of a circle or outside of it?
+
+  Is a chord inside or outside of a circle?
+
+  Is a secant within or without a circle?
+
+  If the radius is three inches, how long is the diameter?
+
+[Illustration: Diagram 25.]
+
+
+
+
+                         LESSON THIRTY-FOURTH.
+
+
+                           ARCS AND DEGREES.
+
+  What small part of the circumference of circle 1 (DIAGRAM 25.) is
+    marked?
+
+  It is called an “_arc_.”
+
+  _An arc is any part of a circumference._
+
+  Read five arcs that are marked.
+
+  Which is longer, the arc _e d_, or the arc _e f_? _b d_, or _b d e_?
+    _a b d_, or _a b d e_?
+
+  Name an arc which is half of the circumference.
+
+  It is called a “_semi-circumference_.”
+
+  “Semi” means “half.”
+
+  _A semi-circumference is half of a circumference._
+
+  Read three arcs, each of which is one-fourth of the circumference.
+
+  If the whole circumference were divided into three hundred and sixty
+    equal arcs, would each arc be large or small?
+
+  Each of these arcs would be called a “_degree_.” [Degrees are marked
+    (°).]
+
+  _A degree of a circumference is a three hundred and sixtieth part of
+    it._
+
+  How many degrees in a semi-circumference?
+
+  How many degrees in one-fourth of a circumference?
+
+  If a fourth of a circumference were divided into three equal parts,
+    how many degrees would there be in each part?
+
+  Into how many parts would each third of a quarter have to be again
+    divided to make single degrees?
+
+  Is an arc of ninety-one degrees greater or less than one-fourth of a
+    circumference?
+
+  Is an arc of a hundred and seventy-nine degrees greater or less than a
+    semi-circumference?
+
+  Can there be more than three hundred and sixty degrees in a
+    circumference?
+
+  If the circumference of circle 1 were divided into degrees, each
+    degree would be so small an arc that it would look like a dot.
+
+  If a degree were divided into sixty equal parts, each part would be
+    called a minute.
+
+  If a minute were divided into sixty equal parts, each part would be
+    called a second.
+
+  How many degrees in the large circle of Fig. 2?
+
+  How many in the smaller one?
+
+  Has a large circle any more degrees than a small circle?
+
+  In the large circle how many degrees from _a_ to _b_?
+
+  In the small circle how many from _a_ to _b_?
+
+  Which is greater, an arc of ninety degrees of the large circle, or one
+    of ninety degrees of the small one?
+
+  Which is greater, an arc of a degree of the large circle, or one of a
+    degree of the small one?
+
+  The angle _a o b_ has its vertex at what part of the larger circle?
+
+  At what part of the smaller circle?
+
+  On how many degrees of the larger circle does the angle stand?
+
+  On how many degrees of the smaller circle does it stand?
+
+  Then it is said to be an angle of 90°.
+
+  If the angle _a o f_ is an angle of 30°, how many degrees must there
+    be in the arc _a f_?
+
+  If the arc _f e_ is an arc of 60°, what is the size of the angle _f o
+    e_?
+
+  An angle of 10° stands upon an arc of how many degrees? Of 8°? Of 1°?
+
+  The angle _a o b_ is what kind of an angle?
+
+  Upon how many degrees does it stand?
+
+  Then a right angle is an angle of how many degrees?
+
+  If an angle stand upon less than 90°, what kind of an angle is it?
+
+  If an angle stand upon more than 90°, what kind of an angle is it?
+
+  Can an angle have as many degrees as a hundred and eighty?
+
+
+
+
+                          LESSON THIRTY-FIFTH.
+
+
+                                REVIEW.
+
+  Read nine arcs whose ends are marked. (DIAGRAM 26.)
+
+  Read three arcs each of which is one-fourth of a circumference.
+
+  Read two arcs each of which is one-half of a circumference.
+
+  Why is _e g_ an arc?
+
+  What is an arc?
+
+  How many degrees in the arc _f h_? In _e h_?
+
+  If the arc _f h_ were divided into three equal parts, how many degrees
+    would there be in each?
+
+  How many degrees in a circumference?
+
+  In a semi-circumference?
+
+  How many more degrees in a large circumference than in a small one?
+
+  If the arc _i f_ is 40°, what is the size of the angle _f o i_?
+
+  If the angle _f o g_ is an angle of 130°, what is the size of the arc
+    _f i h g_?
+
+  How many degrees in each of the adjacent angles _f o h_, _h o e_?
+
+  When two adjacent angles are equal to each other, what is each called?
+
+  How many degrees in a right angle?
+
+[Illustration: Diagram 26.]
+
+
+
+
+                          LESSON THIRTY-SIXTH.
+
+
+                          PARTS OF THE CIRCLE.
+
+  The part of the circle bounded by the chord _a b_ and the arc _a b_ is
+    called a segment.
+
+  Read three segments, each less than half a circle, thus,—the segment
+    bounded by the chord _a d_ and the arc _a b d_.
+
+  _A segment is a part of a circle bounded by an arc and a chord._
+
+  Read two segments that are each half a circle.
+
+  What is the chord called?
+
+  What is the arc called?
+
+  A segment bounded by a diameter and a semi-circumference is a
+    “_semicircle_.”
+
+  _A semicircle is half a circle._
+
+  Read four segments each larger than a semicircle.
+
+  The part of the circle between the two radii _o f_, _o i_, and the arc
+    _f i_, is called a “_sector_.”
+
+  Read four sectors each less than one-fourth of a circle.[2]
+
+Footnote 2:
+
+    Thus, a sector bounded by the two radii _o g_, _o h_, and the arc _g
+      h_.
+
+  _A sector is a part of a circle bounded by two radii and an arc._
+
+  What part of the whole circle is the sector _f o h_?
+
+  It is called a “_quadrant_.”
+
+  _A quadrant is a sector which is one-fourth of a circle._
+
+  Read a sector which is greater than a quadrant.
+
+  If the chord _e f_ be regarded a diameter, what do you call the
+    semicircle below it?
+
+  If it be regarded as two radii, what is the semicircle called?
+
+  Then a semicircle is both a segment and a sector.
+
+
+
+
+                         LESSON THIRTY-SEVENTH.
+
+
+                                REVIEW.
+
+  Name ten segments. (DIAGRAM 26.)
+
+  What is a segment?
+
+  Of the segments named, which are less than a semicircle?
+
+  Which are greater?
+
+  Which two are semicircles?
+
+  Which two are on the chord _a f_?
+
+  Name nine sectors.
+
+  Why is _g o i_ a sector?
+
+  What is a sector?
+
+  Which four of the sectors named are each less than a quadrant?
+
+  Which three are quadrants?
+
+  Which two are greater than a quadrant?
+
+  What part of the circle is both a segment and a sector?
+
+  How many quadrants in a circle?
+
+  How many semicircles?
+
+
+
+
+                              PART SECOND.
+                          AXIOMS AND THEOREMS.
+
+
+
+
+                          AXIOMS ILLUSTRATED.
+
+
+AXIOM 1.
+
+  The triangle A is equal to the triangle C.
+
+  The triangle B is also equal to the triangle C.
+
+  What do you think of the two triangles A and B? Why?
+
+[Illustration]
+
+  _If two things are separately equal to the same thing, they are equal
+    to each other._
+
+
+AXIOM 2.
+
+  The square A is equal to the square B.
+
+  To the rectangle C add the square A, and we have an L pointing in what
+    direction?
+
+  To the same rectangle C add the square B, and we have an L pointing in
+    what direction?
+
+[Illustration]
+
+  Which is larger, the L pointing to the left, or that pointing to the
+    right?
+
+  To what same thing did you add two equals?
+
+  What two equals did you add to it?
+
+  What was the first sum?
+
+  The second?
+
+  What do you think of the two sums?
+
+  _If equals be added to the same thing, the sums will be equal._
+
+
+AXIOM 3.
+
+[Illustration]
+
+  The square A is equal to the square B.
+
+  From the inverted T take away the square A, and we have an L pointing
+    in what direction?
+
+  From the same Fig. T take away the square B, and we have an L pointing
+    in what direction?
+
+  Which is larger, the L pointing to the right, or that pointing to the
+    left?
+
+  What two equal things did we take away from the same thing?
+
+  From what same thing did we take them away?
+
+  What did we find true of the two remainders?
+
+  _If equals be taken from the same thing, the remainders will be
+    equal._
+
+
+AXIOM 4.
+
+[Illustration]
+
+  The rectangle 1 2 is equal to the rectangle 1 3.
+
+  From the rectangle 1 2 take away the square A, and what rectangle
+    remains?
+
+  From the rectangle 1 3 take away the same square A, and what rectangle
+    remains?
+
+  Which is greater, the rectangle B, or the rectangle C?
+
+  What same thing did we take away from equals?
+
+  From what did we first take it?
+
+  What remained?
+
+  From what did we next take it?
+
+  What remained?
+
+  What did we find true of the two remainders?
+
+  _If the same thing be taken from equals, the remainders will be
+    equal._
+
+
+AXIOM 5.
+
+  _If equals be added to equals, the sums will be equal._
+
+
+AXIOM 6.
+
+  _If equals be subtracted from equals, the remainders will be equal._
+
+
+AXIOM 7.
+
+  _If the halves of two things are equal, the wholes will be equal._
+
+
+AXIOM 8.
+
+  _Every Whole is equal to the sum of all its parts._
+
+
+AXIOM 9.
+
+  _From one point to another only one straight line can be drawn._
+
+
+AXIOM 10.
+
+  _A straight line is the shortest distance between two points._
+
+
+AXIOM 11.
+
+  _If two things coincide throughout their whole extent, they are
+    equal._
+
+
+
+
+                         THEOREMS ILLUSTRATED.
+
+
+[Illustration: Diagram 29.]
+
+
+                          DEVELOPMENT LESSON.
+
+  Do the angles Blue, Red, take up all the space on the line _a b_?
+
+  Do the angles Blue, Yellow, Red, take up all the space on the line?
+
+  Do the angles Blue, Yellow, Green, Red, take up all the space on the
+    line?
+
+  Is there room between any two of the angles to put in another angle?
+
+  Then are not the angles Blue, Yellow, Green, Red, equal to all the
+    space on the line _a b_?
+
+    NOTE.—The word _space_, as here used, means _angular space_; and it
+    is indispensable that the teacher impress this fact upon the
+    learner.
+
+    By means of former lessons, the pupil has learned positively, that
+    an angle is the difference between the directions of two lines; and,
+    impliedly, that the included space has nothing to do with the size
+    of the angle. There cannot, therefore, be much danger that the pupil
+    will imbibe any erroneous notion from this style of expression,
+    which is very much more simple than to say that the difference of
+    direction of two given lines is equal to the difference of direction
+    of two other given lines, which style will be used somewhat later in
+    these lessons.
+
+[Illustration: Diagram 30.]
+
+
+                        PROPOSITION I. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Are the adjacent angles Green, Red, equal to all the angular space on
+    the line _a b_?
+
+  Place a paper square corner or right angle on the line _a b_ at the
+    _left_ of _c d_ with its vertex at _c_.
+
+  It will cover all the angle Green and part of the angle Red up to the
+    line _c d_.
+
+  Now place another square corner on the line _a b_ to the _right_ of
+    the line _c d_, and with its vertex at the point _c_.
+
+  It will cover the remaining part of the angle Red, and two edges of
+    the square corners will meet along the line _c d_.
+
+  Are the two right angles equal to all the angular space on the line _a
+    b_?
+
+  Then if the two adjacent angles Green, Red, are equal to all the
+    angular space on the line _a b_, and the two right angles are also
+    equal to the same space, what do you infer concerning the _adjacent
+    angles_ and the _two right angles_?
+
+  What axiom do you apply when you say that the _adjacent_ angles are
+    equal to the _two right angles_?
+
+  To what _same thing_ did you find two things separately equal?
+
+  What did you first see equal to it?
+
+  What did you next see equal to it?
+
+  Then what did you _find_ true?
+
+  If the angle Red were smaller, and the angle Green larger, would the
+    adjacent angles still be equal to two right angles?
+
+  Then,—
+
+  _Any two adjacent angles are equal to two right angles._
+
+  If we draw the straight line _c d_ where the edges of the square
+    corners come together, what kind of angles will _a c d_, _d c b_,
+    be?
+
+  See now if you can understand the following demonstration:—
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Any two adjacent angles are equal to two right angles._
+
+  Let the two straight lines _a b_, _m n_, intersect each other in the
+    point _c_. (DIAGRAM 30.)
+
+  Then will any two adjacent angles, as Green, Red, be equal to two
+    right angles?
+
+  For, from the point _c_, draw the straight line _c d_ so as to make
+    the angles _a c d_, _d c b_, right angles.
+
+  The adjacent angles Green, Red, are equal to all the angular space on
+    the line _a b_.
+
+  The right angles _a c d_, _d c b_, are also equal to all the angular
+    space on the line _a b_.
+
+  Therefore the adjacent angles Green, Red, are equal to two right
+    angles.
+
+
+                            TEST QUESTIONS.
+
+  To what same thing did you find two things equal?
+
+  What did you first see equal to it?
+
+  What did you next see equal to it?
+
+  Then what new thing did you find true?
+
+  What axiom did you make use of?
+
+[Illustration: Diagram 31.]
+
+
+                              TEST LESSON.
+
+  By means of Fig. A,—
+
+  1. Prove that the adjacent angles Green, Red, are equal to two right
+    angles.
+
+  2. Prove that the adjacent angles Blue, Yellow, are equal to two right
+    angles.
+
+  By means of Fig. B,—
+
+  3. Prove that the adjacent angles Green, Red, are equal to two right
+    angles.
+
+  4. Prove that the adjacent angles Yellow, Blue, are equal to two right
+    angles.
+
+  By means of Fig. C,—
+
+  5. Prove that the adjacent angles Red, Blue, are equal to two right
+    angles.
+
+  6. Prove that the adjacent angles Green, Yellow, are equal to two
+    right angles.
+
+  7. Give the preceding demonstrations again, but name the angles by
+    their letters instead of by their colors.
+
+[Illustration: Diagram 32.]
+
+
+                              TEST LESSON.
+
+  By means of Fig. A prove,—
+
+  1. That the adjacent angles _a c m_, _m c b_, are equal to two right
+    angles.
+
+  2. That the adjacent angles _a c n_, _n c b_, are equal to two right
+    angles.
+
+  By means of Fig. B prove,—
+
+  3. That the adjacent angles _a c n_, _n c b_, are equal to two right
+    angles.
+
+  4. That the adjacent angles _a c m_, _m c b_, are equal to two right
+    angles.
+
+  By means of Fig. C prove,—
+
+  5. That the adjacent angles _a c m_, _m c b_, are equal to two right
+    angles.
+
+  6. That the adjacent angles _a c n_, _n c b_, are equal to two right
+    angles.
+
+  By means of Fig. D prove,—
+
+  7. That the adjacent angles _a c n_, _n c b_, are equal to two right
+    angles.
+
+  8. That the adjacent angles _b c m_, _m c a_, are equal to two right
+    angles.
+
+[Illustration: Diagram 33.]
+
+
+                        PROPOSITION II. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  What kind of angles are P and S?
+
+  How do the adjacent angles Yellow, Blue, compare with the right angles
+    P, S?
+
+  How do the adjacent angles Blue, Red, compare with the two right
+    angles?
+
+  Then if the adjacent angles Yellow, Blue, are equal to two right
+    angles, and the adjacent angles Blue, Red, are also equal to two
+    right angles, what do you think of the two pairs of adjacent angles,
+    Yellow, Blue, and Blue, Red?
+
+  If, from the adjacent angles Yellow, Blue, we take away the angle
+    Blue, what remains?
+
+  If, from the adjacent angles Blue, Red, we take away the same angle
+    Blue, what remains?
+
+  Then, since the same angle Blue has been taken from equal pairs of
+    adjacent angles, what do you think of the two remainders, Yellow,
+    Red?
+
+  Suppose the lines _a b_ and _m n_ were so drawn that the angles
+    Yellow, Red, were larger or smaller, would they still be equal to
+    each other?
+
+  Then,—
+
+  _All vertical angles are equal to each other._
+
+[Illustration: Diagram 34.]
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _All vertical angles are equal to each other._
+
+  Let the straight lines _a b_, _m n_, intersect each other at the point
+    _c_, then will any two vertical angles, as Yellow, Red, be equal to
+    each other.
+
+  For the adjacent angles Yellow, Blue, are equal to two right
+    angles.[3]
+
+Footnote 3:
+
+    When this comparison is made, let the pupil look at the right angles
+      P and S.
+
+  The adjacent angles Blue, Red, are also equal to two right angles.
+
+  Therefore the adjacent angles Yellow, Blue, are equal to the adjacent
+    angles Blue, Red.
+
+  If, from the adjacent angles Yellow, Blue, we take away the angle
+    Blue, we shall have left the angle Yellow.
+
+  If, from the adjacent angles Blue, Red, we take away the same angle
+    Blue, we shall have left the angle Red.
+
+  Therefore the vertical angles Yellow, Red, are equal to each other.
+
+
+                            TEST QUESTIONS.
+
+  When you say that the adjacent angles Yellow, Blue, are equal to two
+    right angles, do you know it because you _see_ it, or because you
+    have _proved_ it?
+
+  How do you know that the adjacent angles Blue, Red, are equal to two
+    right angles?
+
+  When you say the adjacent angles Yellow, Blue, are equal to the
+    adjacent angles Blue, Red, what axiom do you use?
+
+  What same thing do you take away from equals?
+
+  From what equals do you take it away?
+
+  When you take the angle Blue from the adjacent angles Yellow, Blue,
+    what is the remainder?
+
+  When you take the same angle Blue from the adjacent angles Blue, Red,
+    what is the remainder?
+
+  What do you find true of the two remainders?
+
+  What axiom do you use?
+
+[Illustration: Diagram 35.]
+
+
+                    OTHER METHODS OF DEMONSTRATION.
+
+  The adjacent angles Yellow, Green, are equal to what?
+
+  The adjacent angles Green, Red, are equal to what?
+
+  Then what do you know of the two pairs of adjacent angles Yellow,
+    Green, and Green, Red?
+
+  From the adjacent angles Yellow, Green, take away the angle Green.
+    What remains?
+
+  From the adjacent angles Green, Red, take the same angle Green. What
+    remains?
+
+  What do you know of the two remainders?
+
+  Why?
+
+  What axiom do you use?
+
+  In the last lesson, when you proved the vertical angles Yellow, Red,
+    equal to each other, you made use of the angle Blue; now prove the
+    same two angles equal by means of the angle Green.
+
+  The adjacent angles Blue, Red, are equal to what?
+
+  The adjacent angles Red, Green, are equal to what?
+
+  Then what do you know of the two pairs of adjacent angles Blue, Red,
+    and Red, Green?
+
+  From the adjacent angles Blue, Red, take away the angle Red. What
+    remains?
+
+  From the adjacent angles Red, Green, take away the same angle Red.
+    What remains?
+
+  Then what do you know of the two remainders, Blue, Green?
+
+  Now apply the preceding demonstration to the vertical angles Blue,
+    Green.
+
+  Prove the vertical angles Blue, Green, equal to each other by means of
+    the angle Yellow.
+
+[Illustration: Diagram 36.]
+
+
+                              TEST LESSON.
+
+  By means of Fig. A,—
+
+  1. Prove that the vertical angles Yellow, Red, are equal to each
+    other, using the angle Green.
+
+  2. Prove the same thing, using the angle Blue.
+
+  3. Prove that the vertical angles Blue, Green, are equal to each
+    other, using the angle Yellow.
+
+  4. Prove the same thing, using the angle Red.
+
+  By means of Fig. B,—
+
+  5. Prove the vertical angles Yellow, Red, equal to each other, using
+    the angle Green.
+
+  6. Prove the same thing, using the angle Blue.
+
+  7. Prove the vertical angles Green, Blue, equal by means of the angle
+    Red.
+
+  8. Prove the same thing by means of the angle Yellow.
+
+  Go through the preceding eight demonstrations again, calling the
+    angles by their letters instead of by their colors.
+
+  By means of Fig. C, prove that
+
+  9. _a c n_ equals _m c b_, by means of _a c m_.
+
+  10. _a c n_ equals _m c b_, by means of _b c n_.
+
+  11. _a c m_ equals _n c b_, by means of _a c n_.
+
+  12. _a c m_ equals _n c b_, by means of _m c b_.
+
+  By means of Fig. D, prove that
+
+  13. _m c a_ equals _b c n_, by means of _a c n_.
+
+  14. _m c a_ equals _b c n_, by means of _m c b_.
+
+  15. _m c b_ equals _a c n_, by means of _m c a_.
+
+  16. _m c b_ equals _a c n_, by means of _b c n_.
+
+[Illustration: Diagram 37.]
+
+
+                       PROPOSITION III. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  In the above diagram, the lines _a b_, _c d_, are parallel, and are
+    intersected by the line _e f_ at the points _m_ and _n_.
+
+  The angle Red measures the difference of direction between the line _m
+    b_ and what other line?
+
+  The angle Yellow measures the difference of direction between the line
+    _n d_ and what other line?
+
+  Then, as the lines _m b_ and _n d_ are parallel, must there not be the
+    same difference of direction between them and the line _e f_?
+
+  Then can there be any difference between the angles which measure
+    those equal directions?
+
+  Then what do you think of the opposite exterior and interior angles
+    Red, Yellow?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Opposite exterior and interior angles are equal to each other._
+
+  Let the straight line _e f_ intersect the two parallel straight lines
+    _a b_, _c d_, at the points _m_ and _n_.
+
+  Then will any two opposite exterior and interior angles, as Red,
+    Yellow, be equal to each other.
+
+  For the angle Red measures the difference of direction of the lines _m
+    b_ and _e f_.
+
+  And the angle Yellow measures the difference of direction of the lines
+    _n d_ and _e f_.
+
+  But because the lines _m b_, _n d_, are parallel, these differences
+    are equal.
+
+  Therefore the angles which measure them are equal; that is,
+
+  The opposite exterior and interior angles Red, Yellow, are equal to
+    each other.
+
+[Illustration: Diagram 38.]
+
+
+                              TEST LESSON.
+
+  By means of Fig. A,—
+
+  1. Prove that the opposite exterior and interior angles Green, Blue,
+    are equal to each other.
+
+  2. Prove that the opposite exterior and interior angles Red, Yellow,
+    are equal to each other.
+
+  3. Prove the opposite exterior and interior angles _c n e_, _a m n_,
+    equal.
+
+  4. Prove the opposite exterior and interior angles _e n d_, _n m b_,
+    equal.
+
+  By means of Fig. B,—
+
+  5. Prove the opposite exterior and interior angles _e m a_, _m n d_,
+    equal.
+
+  6. Prove the opposite exterior and interior angles _a m n_, _d n f_,
+    equal.
+
+  7. Prove the opposite exterior and interior angles _e m b_, _m n c_,
+    equal.
+
+  8. Prove the opposite exterior and interior angles _b m n_, _c n f_,
+    equal.
+
+[Illustration: Diagram 39.]
+
+
+                        PROPOSITION IV. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  What do you know of the opposite exterior and interior angles Red,
+    Yellow?
+
+  What do you know of the vertical angles Red, Green?
+
+  Then if the interior alternate angles Green, Yellow, are separately
+    equal to the angle Red, what new fact do you know?
+
+  What axiom do you employ?
+
+  To what same thing did you find two things equal?
+
+  What two things did you find equal to it?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Any two interior alternate angles are equal to each other._
+
+  Let the straight line _e f_ intersect the two parallel straight lines
+    _a b_, _c d_, in the points _m_ and _n_.
+
+  Then will any two interior alternate angles, as Green, Yellow, be
+    equal to each other.
+
+  For the opposite exterior and interior angles Red, Yellow, are equal.
+
+  The vertical angles Red, Green, are also equal.
+
+  Then because the interior alternate angles Green, Yellow, are
+    separately equal to the angle Red, they are equal to each other.
+
+[Illustration: Diagram 40.]
+
+
+                              TEST LESSON.
+
+  What do you know of the vertical angles Green, Red, in Fig. A?
+
+  What do you know of the opposite exterior and interior angles Red,
+    Yellow?
+
+  Then if the interior alternate angles Green, Yellow, are separately
+    equal to the angle Red, what do you infer?
+
+  By means of Fig. A,—
+
+  1. Prove that the interior alternate angles Green, Yellow, are equal,
+    using the angle Red.
+
+  2. Prove the same angles equal, using the angle Blue.
+
+  3. Go through the same demonstrations again, calling the angles by
+    their letters instead of by their colors.
+
+  By means of Fig. B,—
+
+  4. Prove the interior alternate angles Red, Blue, equal, using the
+    angle Yellow.
+
+  5. Prove the same angles equal, using the angle Green.
+
+  6. Go through the same two demonstrations again, naming the angles by
+    their letters instead of by their colors.
+
+  By means of Fig. C,—
+
+  7. Prove the interior alternate angles _c n m_, _n m b_, equal, using
+    the angle _f n d_.
+
+  8. Prove the same, using the angle _a m e_.
+
+  9. Prove the interior alternate angles _a m n_, _m n d_, equal, using
+    the angle _e m b_.
+
+  10. Prove the same, using the angle _c n f_.
+
+[Illustration: Diagram 41.]
+
+
+                        PROPOSITION V. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  What do you know of the opposite exterior and interior angles Red,
+    Yellow?
+
+  What do you know of the vertical angles Yellow, Green?
+
+  Then if the exterior alternate angles Red, Green, are separately equal
+    to the angle Yellow, what new thing do you know to be true?
+
+  What axiom do you employ?
+
+  To what same thing did you know two things to be equal?
+
+  What two things did you know to be equal to it?
+
+  Then what new thing did you _find_ to be true?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Any two exterior alternate angles are equal to each other._
+
+  Let the straight line _e f_ intersect the two parallel straight lines
+    _a b_, _c d_, at the points _m_ and _n_.
+
+  Then will any two exterior alternate angles, as Red, Green, be equal.
+
+  For the opposite exterior and interior angles Red, Yellow, are equal
+    to each other.
+
+  And the vertical angles Yellow, Green, are also equal to each other.
+
+  Then because the exterior alternate angles Red, Green, are separately
+    equal to the angle Yellow, they are equal to each other.
+
+[Illustration: Diagram 42.]
+
+
+                              TEST LESSON.
+
+  What do you know of the opposite exterior and interior angles Yellow,
+    Red?
+
+  What do you know of the vertical angles Red, Blue?
+
+  Then if the exterior alternate angles Yellow, Blue, are separately
+    equal to the angle Red, what do you know of them?
+
+  By means of Fig. A,—
+
+  1. Prove that the exterior alternate angles Yellow, Blue, are equal,
+    using the angle Red.
+
+  2. Prove the same thing, using the angle Green.
+
+  3. Go through the same demonstrations, calling the angles by their
+    letters.
+
+  4. Prove the exterior alternate angles _e m b_, _c n f_, equal, using
+    the angle _a m n_.
+
+  5. Prove the same, using the angle _m n d_.
+
+  By means of Fig. B,—
+
+  6. Prove that the exterior alternate angles _c m e_, _f n b_, are
+    equal, using the angle _n m d_.
+
+  7. Prove the same, using the angle _a n m_.
+
+  8. Prove the exterior alternate angles _e m d_, _a n f_, equal, using
+    the angle _c m n_.
+
+  9. Prove the same, using the angle _m n b_.
+
+[Illustration: Diagram 43.]
+
+
+                        PROPOSITION VI. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  What do you know of the interior alternate angles Yellow, Red?
+
+  If to the angle Green you add the angle Yellow, what is the sum?
+
+  If to the same angle Green you add the equal angle Red, what is the
+    sum?
+
+  Then, having added equals to the same thing, what do you think of the
+    two sums,—the adjacent angles Green, Yellow, and the interior
+    opposite angles Green, Red?
+
+  What do you know of the adjacent angles Green, Yellow, and the right
+    angles P, S?
+
+  Then if the interior opposite angles Green, Red, and the two right
+    angles P, S, are separately equal to the adjacent angles Green,
+    Yellow, what new thing do you know?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Any two interior opposite angles are equal to two right angles._
+
+  Let the straight line _e f_ intersect the two parallel straight lines
+    _a b_, _c d_, in the points _m_ and _n_.
+
+  Then will any two interior opposite angles be equal to two right
+    angles.
+
+  For the interior alternate angles Yellow, Red, are equal.
+
+  If to the angle Green we add the angle Yellow, we shall have the
+    adjacent angles Green, Yellow.
+
+  If to the same angle Green we add the equal angle Red, we shall have
+    the interior opposite angles Green, Red.
+
+  Then the adjacent angles Green, Yellow, are equal to the interior
+    opposite angles Green, Red.
+
+  But the adjacent angles Green, Yellow, are equal to two right angles.
+
+  Then because the interior opposite angles Green, Red, and two right
+    angles, are separately equal to the two adjacent angles Green,
+    Yellow, they are equal to each other.
+
+[Illustration: Diagram 44.]
+
+
+                              TEST LESSON.
+
+  By means of Fig. A,—
+
+  1. Prove the interior opposite angles Green, Yellow, equal to two
+    right angles, using the angle Red.
+
+  2. Prove the same, using the angle Blue.
+
+  3. Prove the same, using the angle _e g b_.
+
+  4. Prove the same, using the angle _f h d_.
+
+  5. Go through the same demonstrations again, naming the angles by
+    their letters instead of by their colors.
+
+  6. Prove the interior opposite angles Red, Blue, equal to two right
+    angles, using the angle Yellow.
+
+  7. Prove the same, using the angle Green.
+
+  8. Prove the same, using the angle _e g a_.
+
+  9. Prove the same, using the angle _c h f_.
+
+  10. Go through the same demonstrations again, calling the angles by
+    their letters instead of by their colors.
+
+  By means of Fig. B,—
+
+  11. Prove the interior opposite angles _a g h_, _g h c_, equal to two
+    right angles, using the angle _g h d_.
+
+  12. Prove the same, using the angle _c h f_.
+
+  13. Prove the same, using the angle _a g e_.
+
+  14. Prove the interior opposite angles _b g h_, _g h d_, equal to two
+    right angles, using the angle _a g h_.
+
+  15. Prove the same, using the angle _e g b_.
+
+  16. Prove the same, using the angle _f h d_.
+
+  Compare the angles Yellow, Green, each with its exterior opposite
+    angle, and see if you can prove that the exterior opposite angles _e
+    g b_, _f h d_, are also equal to two right angles.
+
+[Illustration: Diagram 45.]
+
+
+                       PROPOSITION VII. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Suppose we do not know whether the lines _a b_, _c d_, are parallel,
+    or not;
+
+  But, by measuring, we find that the interior angles Blue, Yellow, on
+    the same side of the secant[4] line _e f_, are equal to two right
+    angles:
+
+Footnote 4:
+
+    “Secant” means “_cutting_.”
+
+  The adjacent angles Blue, Red, are equal to what?
+
+  Then, if the interior angles Blue, Yellow, are equal to two right
+    angles,
+
+  And the adjacent angles Blue, Red, are also equal to two right angles,
+
+  What do you infer?
+
+  From the interior angles Blue, Yellow, take away the angle Blue: what
+    remains?
+
+  From the adjacent angles Blue, Red, take away the same angle Blue:
+    what remains?
+
+  What do you know of the two remainders?
+
+  The angle Red measures the direction of the line _g b_ from what line?
+
+  The equal angle Yellow measures the direction of the line _h d_ from
+    what line?
+
+  Then if the lines _g b_, _h d_, have the same direction from the line
+    _e f_, what do you call them?
+
+[Illustration: Diagram 46.]
+
+
+                             DEMONSTRATION.
+
+  We wish to prove, that,
+
+  _If a straight line intersects two other straight lines so that two
+    interior angles on the same side of the intersecting line are equal
+    to two right angles, the two lines are parallel._
+
+  Let the straight line _e f_ intersect the two straight lines _a b_, _c
+    d_, in the points _g_ and _h_, so that the angles Red, Blue, are
+    equal to two right angles.
+
+  Then will the lines _a b_, _c d_, be parallel.
+
+  For the angles Red, Blue, are supposed equal to two right angles.
+
+  The adjacent angles Red, Green, are known to be also equal to two
+    right angles.
+
+  Then the interior angles Red, Blue, are equal to the adjacent angles
+    Red, Green.
+
+  If from the interior angles Red, Blue, we take away the angle Red, we
+    have left the angle Blue.
+
+  If from the adjacent angles Red, Green, we take the same angle Red, we
+    shall have left the angle Green.
+
+  Then the angle Blue is equal to the angle Green.
+
+  But the angle Blue measures the direction of the line _h d_ from the
+    line _e f_.
+
+  And the angle Green measures the direction of the line _g b_ from the
+    line _e f_.
+
+  Then the lines _g b_, _h d_, have the same direction, and are
+    parallel.
+
+
+                              TEST LESSON.
+
+  1. Prove the same without the colors.
+
+  2. Prove the same, using the angle _f h d_.
+
+  3. Prove the same, supposing the angles _a g h_, _g h c_, equal to two
+    right angles, and using the angle _a g e_.
+
+  4. Prove the same, using the angle _c h f_.
+
+    See Note E, Appendix.
+
+
+                       PROPOSITION VIII. THEOREM.
+
+  The following demonstration is very easy. Read it once, and see if you
+    can go through it without a second reading:—
+
+
+                             DEMONSTRATION.
+
+[Illustration]
+
+  We wish to prove that
+
+  _The sum of any two sides of a triangle is greater than the third
+    side._
+
+  Let the figure _a b c_ be a triangle, then will the sum of any two
+    sides, as _a c_, _c b_, be greater than the third side _a b_.
+
+  For the straight line _a b_ is the shortest distance between the two
+    points _a_ and _b_, and is therefore less than the broken line _a c
+    b_.
+
+
+                        PROPOSITION IX. PROBLEM.
+
+  The following solution is so easy that you will understand it at
+    once:—
+
+  We wish
+
+  _To construct an equilateral triangle on a given straight line._
+
+[Illustration]
+
+
+                               SOLUTION.
+
+  Let _a b_ be the given line.
+
+  With the point _a_ as a centre, and _a b_ as a radius, draw the
+    circumference of the circle, or a part of one.
+
+  With the point _b_ as a centre, and the same radius _a b_, draw
+    another circumference, or a part of one.
+
+  From the point _c_, in which the circumferences or arcs intersect,
+    draw the straight lines _a c_ and _b c_.
+
+  Now, because the lines _a b_ and _a c_ are radii of the same circle,
+    they are equal.
+
+  And, because the lines _a b_ and _b c_ are radii of the same circle,
+    they are also equal.
+
+  Then, because the two lines _a c_, _b c_, are separately equal to the
+    line _a b_, they are equal to each other, and the triangle is
+    equilateral.
+
+[Illustration]
+
+
+                        PROPOSITION X. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Let the figure _a b c_ be a triangle.
+
+  Produce the side _a c_ to _d_.
+
+  We have now another angle, _b c d_, and we wish to find out if it is
+    equal to any of the angles of the triangle.
+
+  From the point _c_ draw the line _c e_ parallel to _a b_.
+
+  Because the straight line _a d_ intersects the two parallels _a b_, _c
+    e_, the angle _a_ is equal to what other angle?
+
+  Because the straight line _b c_ intersects the two parallels _a b_, _c
+    e_, the angle _b_ is equal to what other angle?
+
+  Then the angles _a_ and _b_ are equal to what two angles?
+
+  How does the angle _b c d_ compare with the angles _b c e_, _e c d_?
+
+  Then, if the angles _a_ and _b_, on the one hand, and the angle _b c
+    d_, on the other, are separately equal to the angles _b c e_, _e c
+    d_,
+
+  What have you found out?
+
+  What axiom have you just employed?
+
+  To what same thing have you found two other things equal?
+
+  What two things did you find equal to it?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove, that,
+
+  _If any side of a triangle be produced, the new angle formed will be
+    equal to the sum of the angles that are not adjacent to it._
+
+  Let _a b c_ be a triangle.
+
+  Produce the side _a c_ to _d_; then will the new angle _b c d_ be
+    equal to the sum of the angles _a_ and _b_.
+
+  For from the point _c_ draw _c e_ parallel to _a b_.
+
+  Then, because the straight line _a d_ intersects the two parallels _a
+    b_, _c e_, in the points _a_ and _c_,
+
+  The opposite exterior and interior angles _a_ and _e c d_ are equal to
+    each other.
+
+  And because the straight line _b c_ intersects the same parallels in
+    the points _b_ and _c_,
+
+  The interior alternate angles _b_ and _b c e_ are equal.
+
+  Then the angles _a_ and _b_ of the triangle are equal to the angles _b
+    c e_ and _e c d_.
+
+  But the new angle _b c d_ is equal to the angles _b c e_, _e c d_.
+
+  Then because the new angle _b c d_, and the angles _a_ and _b_ are
+    separately equal to the angles _b c e_, _e c d_, they are equal to
+    each other.
+
+[Illustration]
+
+
+                        PROPOSITION XI. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Let the figure _a b c_ be a triangle.
+
+  Produce the side _a c_ to _d_.
+
+  By the last theorem, the angle _b c d_ is equal to what angles of the
+    triangle?
+
+  What angle must we add to these angles to make up the three angles of
+    the triangle?
+
+  If we add the same angle to the angle _b c d_, what adjacent angles do
+    we get?
+
+  Then the three angles of the triangle, _a_, _b_, and _c_, are equal to
+    what two angles?
+
+  But the adjacent angles _a c b_ and _b c d_ are equal to what?
+
+  Then, because the three angles of the triangle, _a_, _b_, and _c_, and
+    two right angles, are separately equal to the two adjacent angles
+    _c_ and _b c d_.
+
+  What new thing have you found out?
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The three angles of any triangle are equal to two right angles._
+
+  Let the figure _a b c_ be a triangle; then will the sum of the angles
+    _a_, _b_, and _c_, be equal to two right angles.
+
+  For, produce the side _a c_ to _d_.
+
+  The new angle _b c d_ is equal to the sum of the angles _a_ and _b_.
+
+  If to the angles _a_ and _b_ we add the angle _c_, we shall have the
+    three angles of the triangle.
+
+  If to the angle _b c d_ we add the same angle _c_, we shall have the
+    adjacent angles _c_ and _b c d_.
+
+  Then the three angles of the triangle _a_, _b_, _c_, are equal to the
+    adjacent angles _c_ and _b c d_.
+
+  But the adjacent angles _c_ and _b c d_ are equal to two right angles.
+
+  Then, because the three angles of the triangle are equal to the
+    adjacent angles _c_ and _b c d_, they are equal to two right angles.
+
+[Illustration]
+
+
+                       PROPOSITION XII. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Let the Fig. A B C D be a parallelogram.
+
+  Produce the side C D to F.
+
+  Because the straight line B D intersects the parallels A B and C F,
+    the angle B is equal to what other angle?
+
+  Because the straight line C F intersects the parallels A C and B D,
+    the angle C is equal to what other angle?
+
+  Then what follows from this?
+
+  To what angle did you find two others equal?
+
+  What two angles did you find equal to it?
+
+  What axiom do you think of?
+
+  See if you can go through the demonstration without reading it even
+    once.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The opposite angles of a parallelogram are equal to each other._
+
+  Let the Fig. A B C D be a parallelogram.
+
+  Then will any two opposite angles, as B and C, be equal to each other.
+
+  For produce the line C D to F.
+
+  Because the straight line B D meets the two parallels A B and C F,
+
+  The interior alternate angles B and E are equal to each other.
+
+  Because the straight line C F meets the two parallels B D and A C,
+
+  The opposite exterior and interior angles C and E are equal to each
+    other.
+
+  Then, because the angles B and C are separately equal to the angle E,
+    they are equal to each other.
+
+                  *       *       *       *       *
+
+  1. Prove the same by producing the line A B towards the left.
+
+  2. Prove the same by producing the line B D downwards.
+
+  3. Prove the angles A and D equal to each other by producing the line
+    C D towards the left.
+
+  4. Prove the same by producing the line D B upwards.
+
+  5. See if you can prove the same by drawing a diagonal through the
+    points A and D.
+
+[Illustration]
+
+
+                       PROPOSITION XIII. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  In these two triangles we have tried to make the side _a b_ of the one
+    equal to the side _d e_ of the other; the side _a c_ of the one
+    equal to the side _d f_ of the other; and the included angle _b a c_
+    of the one equal to the included angle _e d f_ of the other.
+
+  We now wish to find out if the third side _b c_ of the one is equal to
+    the third side _e f_ of the other, and if the two remaining angles
+    _b_ and _c_ of the one are equal to the two remaining angles _e_ and
+    _f_ of the other.
+
+  Suppose we were to cut the triangle _d e f_ out of the page, and place
+    it upon the triangle _a b c_, so that the line _d e_ should fall
+    upon the line _a b_, and the point _d_ upon the point _a_.
+
+  As the line _d e_ is equal to the line _a b_, upon what point will the
+    point _e_ fall?
+
+  If the angle _e d f_ were less than the angle _b a c_, would the line
+    _d f_ fall within or without the triangle?
+
+  If the angle _e d f_ were greater than the angle _b a c_, where would
+    the line _d f_ fall?
+
+  Since the angle _a_ is equal to _d_, where, then, must the line _d f_
+    fall?
+
+  As the line _d f_ is equal to the line _a c_, upon what point will the
+    point _f_ fall?
+
+  Then, if the point _e_ falls upon the point _b_, and the point _f_
+    upon the point _c_, where will the line _e f_ fall?
+
+  Now, because the three sides of the triangle _d e f_ exactly fall upon
+    the three sides of the triangle _a b c_, we say _the two magnitudes
+    coincide throughout their whole extent_, and are therefore equal.
+
+  What three parts of the triangle _a b c_ did we suppose to be equal to
+    three corresponding parts of the triangle _d e f_ before we placed
+    one upon the other.
+
+  What line of the one do we _find_ equal to a line in the other?
+
+  What two angles of the one do we _find_ equal to two angles in the
+    other?
+
+  What do you think of the areas of the triangles?
+
+[Illustration]
+
+
+                             DEMONSTRATION.
+
+  We wish to prove, that,
+
+  _If two triangles have two sides, and the included angle of the one
+    equal to two sides and the included angle of the other, each to
+    each, the two triangles are equal in all respects._
+
+  Let the triangles _a b c_ and _d e f_ have the side _a b_ of the one
+    equal to the side _d e_ of the other; the side _a c_ of the one
+    equal to the side _d f_ of the other; and the included angle _b a c_
+    of the one equal to the included angle _e d f_ of the other, each to
+    each; then will the two triangles be equal in all their parts.
+
+  For, place the triangle _d e f_ upon the triangle _a b c_, so that the
+    line _d e_ shall fall upon the line _a b_, with the point _d_ upon
+    the point _a_.
+
+  Because the line _d e_ is equal to the line _a b_, the point _e_ will
+    fall upon the point _b_.
+
+  Because the angle _e d f_ is equal to the angle _b a c_, the line _d
+    f_ will fall upon the line _a c_.
+
+  Because the line _d f_ is equal to the line _a c_, the point _f_ will
+    fall upon the point _c_.
+
+  Then, because the point _e_ is on the point _b_, and the point _f_ on
+    the point _c_, the line _e f_ will coincide with the line _b c_, and
+    the two triangles will be found equal in all their parts;
+
+  That is, the angle _e_ is found to be equal to the angle _b_, the
+    angle _f_ to the angle _c_, the line _e f_ to the line _b c_, and
+    the area of the triangle _a b c_ to the area of the triangle _d e
+    f_.
+
+[Illustration]
+
+
+                       PROPOSITION XIV. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  In these two triangles we have tried to make the angle _b_ of the one
+    equal to the angle _e_ of the other; the angle _c_ of the one equal
+    to the angle _f_ of the other; and the included side _b c_ of the
+    one equal to the included side _e f_ of the other.
+
+  We now wish to find out if the remaining angle _a_ of the one is equal
+    to the remaining angle _d_ of the other, and if the two remaining
+    sides _a b_ and _a c_ of the one are equal to the two remaining
+    sides _d e_ and _d f_ of the other.
+
+  Suppose we were to cut the triangle _d e f_ out of the page and place
+    it upon the triangle _a b c_, so that the line _e f_ shall fall upon
+    the line _b c_, with the point _e_ upon the point _b_.
+
+  Because the line _e f_ is equal to the line _b c_, upon what point
+    will the point _f_ fall?
+
+  Because the angle _e_ is equal to the angle _b_, where will the line
+    _e d_ fall?
+
+  Because the angle _f_ is equal to the angle _c_, where will the line
+    _d f_ fall?
+
+  Then, if the line _d e_ falls upon the line _a b_ and the line _d f_
+    upon the line _a c_, where will the point _d_ fall?
+
+  Now because the three sides of the triangle _d e f_ exactly fall upon
+    the three sides of the triangle _a b c_, we say _the two magnitudes
+    coincide throughout their whole extent, and are therefore equal_.
+
+  Suppose the angle _e_ were greater than the angle _b_, would the line
+    _e d_ fall within or without the triangle?
+
+  If it were less, where would the line fall?
+
+  Why does the line _d e_ fall exactly upon the line _a b_?
+
+[Illustration]
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that,
+
+  _If two triangles have two angles, and the included side of the one
+    equal to two angles and the included side of the other, each to
+    each, the two triangles are equal to each other in all respects._
+
+  Let the triangles _a b c_ and _d e f_ have the angle _b_ of the one
+    equal to the angle _e_ of the other; the angle _c_ of the one equal
+    to the angle _f_ of the other; and the included side _b c_ of the
+    one equal to the included side _e f_ of the other, each to each;
+    then will the two triangles be equal in all their parts.
+
+  For place the triangle _d e f_ upon the triangle _a b c_, so that the
+    line _e f_ shall fall upon the line _b c_, with the point _e_ upon
+    the point _b_.
+
+  Because the line _e f_ is equal to the line _b c_ the point _f_ will
+    fall upon the point _c_.
+
+  Because the angle _e_ is equal to the angle _b_, the line _e d_ will
+    fall upon the line _b a_, and the point _d_ will be somewhere in the
+    line _b a_.
+
+  Because the angle _f_ is equal to the angle _c_, the line _f d_ will
+    fall upon the line _c a_, and the point _d_ will be somewhere in the
+    line _c a_.
+
+  Then, because the point _d_ is in the two lines, _b a_ and _c a_, it
+    must be in their intersection, or upon the point _a_.
+
+  And, as the two triangles coincide throughout their whole extent, they
+    are equal in all their parts.
+
+  That is, the angle _a_ is found to be equal to the angle _d_; the side
+    _b a_ to the side _e d_; the side _c a_ to the side _f d_; and the
+    area of the triangle _a b c_ to the area of the triangle _d e f_.
+
+[Illustration]
+
+
+                        PROPOSITION XV. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The opposite sides of any parallelogram are equal._
+
+  Let the figure _a b c d_ be a parallelogram; then will the sides _a b_
+    and _c d_ be equal to each other; likewise the sides _a d_ and _b
+    c_.
+
+  For, draw the diagonal _b d_.
+
+  Because the figure is a parallelogram, the sides _a b_ and _d c_ are
+    parallel, and the interior alternate angles _n_ and _o_ are equal.
+
+  Because the figure is a parallelogram, the interior alternate angles
+    _r_ and _m_ are equal.
+
+  Then the two triangles _a d b_, _b d c_, have two angles and the
+    included side of the one equal to two angles and the included side
+    of the other, each to each, and are therefore equal;
+
+  And the side _a b_ opposite the angle _m_ is equal to the side _c d_
+    opposite the equal angle _r_;
+
+  And the side _a d_ opposite the angle _n_ is equal to the side _b c_
+    opposite the equal angle _o_.
+
+
+                                 TEST.
+
+  Prove the same by drawing a diagonal from _a_ to _c_.
+
+[Illustration]
+
+
+                       PROPOSITION XVI. THEOREM.
+
+
+                          DEVELOPMENT LESSON.
+
+  Suppose A B to be a straight line, and C any point out of it.
+
+  From the point C draw a perpendicular C F to A B.
+
+  Let us see if this perpendicular is not shorter than any other line we
+    can draw from the same point to the same line.
+
+  Draw any other line from C to A B as C E.
+
+  Now, as C E is any line whatever other than a perpendicular, if we
+    find that the perpendicular C F is shorter than it we must conclude
+    that it is the shortest line that can be drawn from C to A B.
+
+  Produce C F until F D is equal to C F, and then join E and D.
+
+  In the triangles E F C, E F D, what two sides were drawn equal?
+
+  What line is a side to each?
+
+  How great an angle is C F E?
+
+  What is a right angle?
+
+  Then how do the angles C F E and E F D compare with each other?
+
+  If the two triangles E F C, E F D, have the side C F of the one equal
+    to the side F D of the other, the side E F common to both, and the
+    included angle E F C of the one equal to the included angle E F D of
+    the other, each to each, what do you infer?
+
+  Then what third side of the one have you found equal to a third side
+    of the other?
+
+  C E is what part of the broken line C E D?
+
+  C F is what part of the line C D?
+
+  Which is shorter, the straight line C D, or the broken line C E D?
+
+  Then how does the half of C D or C F compare with the half of C E D or
+    C E?
+
+  If C E is any line whatever other than a perpendicular, what may we
+    now say of the perpendicular from the point C to the straight line A
+    B?
+
+[Illustration]
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _A perpendicular is the shortest distance from a point to a straight
+    line._
+
+  Let A B be a straight line, and C A point out of it; then will the
+    perpendicular C E be the shortest line that can be drawn from the
+    point to the line.
+
+  For draw any other line from C to A B, as C F.
+
+  Produce C E until E D equals C E, and join F D.
+
+  The two triangles F E C, F E D, have the side C E of the one equal to
+    the side E D of the other, the side F E common, and the included
+    angle F E C of the one equal to the included angle F E D of the
+    other, they are therefore equal, and the side C F equals the side F
+    D.
+
+  But the straight line C D is the shortest distance between the two
+    points C D; therefore it is shorter than the broken line C F D.
+
+  Then C E, the half of C D, is shorter than C F, the half C F D.
+
+  And, as C F is any line other than a perpendicular, the perpendicular
+    C E is the shortest line that can be drawn from C to A B.
+
+[Illustration]
+
+
+                       PROPOSITION XVII. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _A tangent to a circumference is perpendicular to a radius at the
+    point of contact._
+
+  Let the straight line A B be tangent at the point D to the
+    circumference of the circle whose centre is C.
+
+  Join the centre C with the point of contact D, the tangent will be
+    perpendicular to the radius C D.
+
+  For draw any other line from the centre to the tangent, as C F.
+
+  As the point D is the only one in which the tangent touches the
+    circumference, any other point, as F, must be without the
+    circumference.
+
+  Then the line C F, reaching _beyond_ the circumference, must be longer
+    than the radius C D, which would reach only to it; therefore C D is
+    shorter than any other line which can be drawn from the point C to
+    the straight line A B; therefore it is perpendicular to it.
+
+
+                      PROPOSITION XVIII. THEOREM.
+
+
+                             DEMONSTRATION.
+
+[Illustration]
+
+  We wish to prove that
+
+  _In any isosceles triangle, the angles opposite the equal sides are
+    equal._
+
+  Let the triangle A B C be isosceles, having the side A B equal to the
+    side A C; then will the angle B, opposite the side A C, be equal to
+    the angle C, opposite the equal side A B.
+
+  For draw the line A D so as to divide the angle A into two equal
+    parts, and let it be long enough to divide the side B C at some
+    point as D.
+
+  Now the two triangles A D B, A D C, have the side A B of the one equal
+    to the side A C of the other, the side A D common to both, and the
+    included angle B A D of the one equal to the included angle C A D of
+    the other; therefore the two triangles are equal in all respects,
+    and the angle B, opposite the side A C, is equal to the angle C,
+    opposite the side A B.
+
+[Illustration]
+
+
+                       PROPOSITION XIX. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that,
+
+  _If two triangles have the three sides of the one equal to the three
+    sides of the other, each to each, they are equal in all their
+    parts._
+
+  Let the two triangles A B C, A D C, have the side A B of the one equal
+    to the side A D of the other; the side B C of the one equal to the
+    side D C of the other, and the third side likewise equal; then will
+    the two triangles be equal in all their parts.
+
+  For place the two triangles together by their longest side, and join
+    the opposite vertices B and D by a straight line.
+
+  Because the side A B is equal to the side A D, the triangle B A D is
+    isosceles, and the angles A B D, A D B, opposite the equal sides are
+    equal.
+
+  Because the side B C is equal to the side D C, the triangle B C D is
+    isosceles, and the angles C B D, C D B, opposite the equal sides are
+    equal.
+
+  If to the angle A B D we add the angle D B C, we shall have the angle
+    A B C.
+
+  And if to the equal of A B D, that is, A B D, we add the equal of D B
+    C, that is, B D C, we shall have the angle A D C.
+
+  Therefore the angle A B C is equal to the angle A D C.
+
+  Then the two triangles A B C, A D C, have two sides, and the included
+    angle of the one equal to two sides and the included angle of the
+    other, each to each, and are equal in all their parts; that is, the
+    three angles of the one are equal to the three angles of the other,
+    and their areas are equal.
+
+[Illustration]
+
+
+                        PROPOSITION XX. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _An angle at the circumference is measured by half the arc on which
+    it stands._
+
+  Let B A D be an angle whose vertex is in the circumference of the
+    circle whose centre is C; then will it be measured by half the arc B
+    D.
+
+  For through the centre draw the diameter A E, and join the points C
+    and B.
+
+  The exterior angle E C B is equal to the sum of the angles B and B A
+    C.
+
+  Because the sides C A, C B, are radii of the circle, they are equal,
+    the triangle is isosceles, the angles B and B A C opposite the equal
+    sides are equal, and the angle B A C is half of both.
+
+  Then, because the angle B A C is half of B and B A C, it must be half
+    of their equal E C B.
+
+  But E C B, being at the centre, is measured by B E; then half of it,
+    or B A C, must be measured by half B E.
+
+  In like manner, it may be proved that the angle C A D is measured by
+    half E D.
+
+  Then, because B A C is measured by half B E, and C A D by half E D,
+    the whole angle B A D must be measured by half the whole arc B D.
+
+
+                              SECOND CASE.
+
+  Suppose the angle were wholly on one side of the centre, as F A B.
+
+  Draw the diameter A E and the radius B C as before.
+
+  Prove that the angle B A E is measured by half the arc B E.
+
+  Draw another radius from C to F, and prove that F A E is measured by
+    half the arc F E.
+
+  Then, because the angle F A E is measured by half the arc F E, and the
+    angle B A E is measured by half the arc B E,
+
+  The difference of the angles, or F A B, must be measured by half the
+    difference of the arcs, or half of F B.
+
+[Illustration]
+
+
+                       PROPOSITION XXI. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _Parallel chords intercept equal arcs of the circumference._
+
+  Let the chords A B, C D, be parallel; then will the intercepted arcs A
+    C and B D be equal.
+
+  For draw the straight line B C.
+
+  Because the lines A B and C D are parallel, the interior alternate
+    angles A B C, B C D, are equal.
+
+  But the angle A B C is measured by half the arc A C;
+
+  And the angle B C D is measured by half the arc B D:
+
+  Then, because the angles are equal, the half arcs which measure them
+    must be equal, and the whole arcs themselves must be equal.
+
+[Illustration]
+
+
+                       PROPOSITION XXII. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The angle formed by a tangent and a chord meeting at the point of
+    contact is measured by half the intercepted arc._
+
+  Let the tangent C A B and the chord A D meet at the point of contact
+    A; then will the angle B A D be measured by half the intercepted arc
+    A D.
+
+  For draw the diameter A E F.
+
+  Because A B is a tangent, and A E a radius at the point of contact,
+    the angle B A F is a right angle, and is measured by the semicircle
+    A D F.
+
+  Because the angle F A D is at the circumference, it is measured by
+    half the arc D F.
+
+  Then the difference between the angles B A F and D A F, or B A D, must
+    be measured by half the difference of the arcs A D F and D F, or A
+    D;
+
+  That is, the angle B A D is measured by half the arc A D.
+
+[Illustration]
+
+
+                      PROPOSITION XXIII. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _A tangent and chord parallel to it intercept equal arcs of the
+    circumference._
+
+  Let A B be tangent to the circumference at the point D, and let C F be
+    a chord parallel to the tangent; then will the intercepted arcs C D
+    and D F be equal.
+
+  For from the point of contact D, draw the straight line D C.
+
+  Because the tangent and chord are parallel, the interior alternate
+    angles A D C and D C F are equal.
+
+  But the angle A D C, being formed by the tangent D A and the chord D
+    C, is measured by half the intercepted arc D C;
+
+  And the angle D C F, being at the circumference, is measured by half
+    the arc on which it stands, D F:
+
+  Then, because the angles are equal, the half arcs which measure them
+    are equal, and the arcs themselves are equal.
+
+[Illustration]
+
+
+                       PROPOSITION XXIV. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The angle formed by the intersection of two chords in a circle is
+    measured by half the sum of the intercepted arcs._
+
+  Let the chords A B and C D intersect each other in the point E; then
+    will the angle B E D or A E C be measured by half the sum of the
+    arcs A C, B D.
+
+  For from the point C draw C F parallel to A B.
+
+  Because the chords A B and C F are parallel, the arcs A C, B F, are
+    equal.
+
+  Add each of these equals to B D, and we have B D plus A C equal to B D
+    plus B F; that is, the sum of the arcs B D, A C, is equal to the arc
+    F D.
+
+  Because the chords A B, C F, are parallel, the opposite exterior and
+    interior angles D E B, D C F, are equal.
+
+  But D C F is an angle at the circumference, and is therefore measured
+    by half the arc F D.
+
+  Then the equal angle D E B must be measured by half of the arc F D, or
+    its equal B D, plus A C.
+
+[Illustration]
+
+
+                       PROPOSITION XXV. THEOREM.
+
+
+                             DEMONSTRATION.
+
+  We wish to prove that
+
+  _The angle formed by two secants meeting without a circle is measured
+    by half the difference of the intercepted arcs._
+
+  Let the secants A B, A C, intersect the circumference in the points D
+    and E; then will the angle B A C be measured by half the difference
+    between the arcs B C and D E.
+
+  For from the point D draw the chord D F parallel to E C.
+
+  Because A C and D F are parallel, the opposite exterior and interior
+    angles B D F and B A C are equal.
+
+  Because the chords D F, E C, are parallel, the arcs D E and F C are
+    equal.
+
+  If from the arc B C we take the arc D E, or its equal F C, we shall
+    have left the arc B F;
+
+  But the angle B D F, being at the circumference, is measured by half
+    the arc B F:
+
+  Then the equal of B D F, or B A C, must be measured by half the arc B
+    F, or half the difference between the intercepted arcs B C and D E.
+
+
+
+
+                               APPENDIX.
+
+
+    NOTE A.—To those teachers who think that the line should be derived
+    from a surface, and the surface from a solid, the author would say,
+    that, according to his experience, children apprehend the ideas
+    conveyed by the terms _line_ and _surface_ as readily as they do any
+    ideas whatever; and that, therefore, there seems to be no necessity
+    for extraordinary care in this case to avoid giving wrong
+    impressions.
+
+    Still, if it be considered desirable in this manner to derive lines
+    and surfaces, it will be apparent that all that can be done in the
+    matter is to give such instruction only by way of a preliminary
+    lesson.
+
+                  *       *       *       *       *
+
+    NOTE B.—Crooked and curved lines are here treated of before straight
+    lines, because the first two are defined by means of an affirmative
+    property,—they _do_ change direction; while the last is defined by
+    means of the absence of one,—they do _not_ change direction. It is
+    easier for a child to comprehend what is than what is _not_.
+
+                  *       *       *       *       *
+
+    NOTE C.—If the pupils are old enough, they may be shown that
+    vertical lines cannot be parallel, but only seem so on account of
+    their shortness and nearness to each other.
+
+                  *       *       *       *       *
+
+    NOTE D.—This definition may be considered objectionable because
+    _rhomboid_ means like a rhomb. That the more general figure, the
+    rhomboid, has been named from the more restricted one, the rhomb, is
+    unfortunate, because it interferes with the symmetry of the
+    nomenclature. The rhomb possesses all the properties of the
+    rhomboid, and should, therefore, when these are considered, be
+    called by the same name; its additional property entitles it to a
+    name which should comprehend the other names. If the rectangle had
+    been called a squaroid, the difficulty would have been repeated.
+
+                  *       *       *       *       *
+
+    NOTE E.—If teachers consider it desirable, they may require the
+    class to prove, by way of corollary, such propositions as assert the
+    parallelism of the lines when the interior alternate angles are
+    equal, when the opposite exterior and interior angles are equal,
+    &c., in continuation of what has already been done.
+
+------------------------------------------------------------------------
+
+
+                           TOWNSEND’S ANALYSIS
+                                  OF THE
+                    CONSTITUTION OF THE UNITED STATES
+
+  A CHART of 52 pages on one roller, designed to hang in Class-Rooms. An
+ exposition of the Constitution; making it one of the most interesting as
+            it is the most important study for our young men.
+
+
+                 TOWNSEND’S ANALYSIS OF CIVIL GOVERNMENT.
+
+                       A TEXT-BOOK TO ACCOMPANY THE
+                        CHART OF THE CONSTITUTION
+
+
+                        WELLS’ SCIENTIFIC SERIES.
+                              CONTAINING THE
+                 LATEST RESEARCHES IN PHYSICAL SCIENCES,
+                                AND THEIR
+                 PRACTICAL APPLICATION TO EVERY-DAY LIFE.
+
+                      Science of Common Things.
+                      Natural Philosophy.
+                      Principles of Chemistry.
+                      First Principles of Geology.
+
+
+                         GRAY’S BOTANICAL SERIES,
+
+ By ASA GRAY, Fisher Professor of Natural Science in Harvard University.
+           The leading Botanist in America. They have no equal.
+
+ “How Plants Grow.”
+ Lessons in Botany.
+ Manual of Botany (New Edition).
+ Gray’s Lessons and Manual in 1 vol.
+ Gray’s Field, Forest and Garden Botany.
+ Gray’s School and Field Book of Botany.
+    [Consisting of Gray’s Lessons, and Field, Forest and Garden Botany,
+    bound in 1 vol.]
+ Manual, with Mosses.
+ Structural and Systematic Botany.
+
+
+                BRYANT & STRATTON’S BOOK-KEEPING SERIES.
+           The best TEXT-BOOKS ever prepared on this subject.
+
+                        Common School Edition.
+                        High School Edition.
+                        Counting-House Edition.
+
+
+                       WILSON’S SCHOOL HISTORIES.
+
+                   Primary American History.
+                   History of the United States.
+                   American History, School Edition.
+                   Outlines of General History.
+                   Parley’s Universal History.
+
+------------------------------------------------------------------------
+
+
+
+
+                          TRANSCRIBER’S NOTES
+
+
+ 1. Moved advertisements from before title page to the end.
+ 2. Silently corrected typographical errors.
+ 3. Retained anachronistic and non-standard spellings as printed.
+ 4. Enclosed italics font in _underscores_.
+
+
+
+
+
+End of Project Gutenberg's Marks' first lessons in geometry, by Bernhard Marks
+
+*** END OF THIS PROJECT GUTENBERG EBOOK MARKS' FIRST LESSONS IN GEOMETRY ***
+
+***** This file should be named 54300-0.txt or 54300-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/5/4/3/0/54300/
+
+Produced by Richard Tonsing and the Online Distributed
+Proofreading Team at http://www.pgdp.net (This file was
+produced from images generously made available by The
+Internet Archive)
+
+Updated editions will replace the previous one--the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for the eBooks, unless you receive
+specific permission. If you do not charge anything for copies of this
+eBook, complying with the rules is very easy. You may use this eBook
+for nearly any purpose such as creation of derivative works, reports,
+performances and research. They may be modified and printed and given
+away--you may do practically ANYTHING in the United States with eBooks
+not protected by U.S. copyright law. Redistribution is subject to the
+trademark license, especially commercial redistribution.
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works
+
+1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.
+
+1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country outside the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no
+  restrictions whatsoever. You may copy it, give it away or re-use it
+  under the terms of the Project Gutenberg License included with this
+  eBook or online at www.gutenberg.org. If you are not located in the
+  United States, you'll have to check the laws of the country where you
+  are located before using this ebook.
+
+1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm web site
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that
+
+* You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."
+
+* You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.
+
+* You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
+
+* You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from both the Project Gutenberg Literary Archive Foundation and The
+Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+trademark. Contact the Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org
+
+
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.
+
+The Foundation's principal office is in Fairbanks, Alaska, with the
+mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+volunteers and employees are scattered throughout numerous
+locations. Its business office is located at 809 North 1500 West, Salt
+Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+date contact information can be found at the Foundation's web site and
+official page at www.gutenberg.org/contact
+
+For additional contact information:
+
+    Dr. Gregory B. Newby
+    Chief Executive and Director
+    gbnewby@pglaf.org
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+
+Section 5. General Information About Project Gutenberg-tm electronic works.
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our Web site which has the main PG search
+facility: www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+

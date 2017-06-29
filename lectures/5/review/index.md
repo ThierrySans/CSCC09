@@ -18,9 +18,9 @@ permalink: /lectures/5/review/
 - How does third-party authentication like OAuth work? 
 - How are sessions useful for authentication?
 
-- When signin up, how is the username and password sent from the browser to the server? 
+- When signing up, how is the username and password sent from the browser to the server? 
 - What is the correct way to store user passwords? What is stored in the database exactly? 
-- When signin in, how is the username and password sent from the browser to the server?
+- When signing in, how is the username and password sent from the browser to the server?
 - How are passwords verified?
 
 

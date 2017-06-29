@@ -68,7 +68,7 @@ I hereby declared that the work submitted here is mine and its production compli
     - _ sign up
 
 1. Authentication: [select many]
-    - _ credentials are sent over using POST requests when signing up
+    - _ credentials are sent over using POST/PUT requests when signing up
     - _ credentials are sent over using POST requests when signing in
     - _ passwords are stored as salted hashes
     - _ session authentication is implemented and correctly used
