@@ -1,10 +1,44 @@
 # Site settings
 ref: CSCC09
 title: Programming on the Web
-edition: Winter 2017
+edition: Spring 2017
 description: An introduction to software development on the web. Concepts underlying the development of programs that operate on the web. Operational concepts of the internet and the web, static and dynamic client content, dynamically served content, n-tiered architectures, web development processes and security on the web.
-website: https://thierrysans.github.io/cscc09-w17/
-github: https://github.com/ThierrySans/cscc09-w17
+website: https://thierrysans.github.io/CSCC09/
+github: https://github.com/ThierrySans/CSCC09
 piazza: https://piazza.com/mail.utoronto.ca/spring2017/cscc09
 feedback: https://goo.gl/forms/tKp5b4eBPgTd4IKu2
 
+instructor:
+  name: Thierry Sans
+  email: thierry.sans@utoronto.ca
+  website: https://thierrysans.github.io/
+  github: ThierrySans
+  twitter: ThierrySans
+  office: IC 346
+  hours: Tues 2-3, Thur 11-12, Fri 1-2
+
+# Each TA has a `name` (required), `photo`, and `link`
+assistants:
+  - name: Nishant Arora
+    photo: /static/img/people/nishant.jpg
+    link: https://github.com/whizzzkid/
+
+  - name: Eugene Cheung
+    photo: /static/img/people/eugene.jpg
+    link: https://github.com/arkon/
+
+  - name: Simon Cook
+    photo: /static/img/people/simon.jpg
+
+  - name: Yizheng Ding
+    photo: /static/img/people/yizheng.jpg
+
+  - name: Nigel Fong
+    photo: /static/img/people/nigel.jpg
+    link: https://github.com/nigef/
+
+  - name: Candice Lin
+    photo: /static/img/people/candice.jpg
+
+  - name: Rachel Franz
+    photo: /static/img/people/rachel.jpg

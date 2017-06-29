@@ -1,4 +1,4 @@
-# [CSCC09 Programming on the Web ( Winter 2017)](https://thierrysans.github.io/cscc09-w17/)
+# [CSCC09 Programming on the Web](https://thierrysans.github.io/CSCC09/)
 
 This is the source code for the CSCC09 Winter 2017 course website.
 
@@ -53,7 +53,7 @@ A local server will be started on <http://localhost:4000>.
 To pull changes from the original repo, set up a remote to do so:
 
 ```shell
-$ git remote add upstream git@github.com:CSC309-Fall-2016/CSC309-Fall-2016.github.io.git
+$ git remote add upstream git@github.com:ThierrySans/CSCC09.git
 $ git pull upstream master
 $ git push origin master
 ```
