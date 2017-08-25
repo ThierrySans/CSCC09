@@ -6928,6 +6928,16 @@ ul {
 }
 .grid .row .hcolumn {
   font-weight: bold;
+}
+.grid .row .column1 {
+  position: relative;
+  float: left;
+  width: 8.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.grid .row .column2 {
   position: relative;
   float: left;
   width: 16.66666667%;
@@ -6935,7 +6945,15 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-.grid .row .column {
+.grid .row .column3 {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.grid .row .column4 {
   position: relative;
   float: left;
   width: 33.33333333%;

@@ -68,30 +68,34 @@ We encourage you to post questions regarding course materials and assignments on
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column">Instructor</div>
+        <div class="hcolumn column4"></div>
+        <div class="column4">Time</div>
+        <div class="column4">Location</div>
     </div>
     <div class="row">
-        <div class="hcolumn column">Lectures</div>
-        <div class="column">Monday 11am-12pm (room SW-128)</div>
-        <div class="column">Friday 11am-1pm (room SW-143)</div>
+        <div class="hcolumn column4">LEC01</div>
+        <div class="column4">Monday 11am-12pm</div>
+        <div class="column4">SW-128</div>
     </div>
     <div class="row">
-        <div class="hcolumn column">PRA01</div>
-        <div class="column">Mon 9am-11am (room BV-473)</div>
-        <div class="column"></div>
+        <div class="hcolumn column4">LEC01</div>
+        <div class="column4">Friday 11am-1pm</div>
+        <div class="column4">SW-143</div>
     </div>
     <div class="row">
-        <div class="hcolumn column">PRA02</div>
-        <div class="column">Friday 9am-11am (room BV-473)</div>
-        <div class="column"></div>
+        <div class="hcolumn column4">PRA01</div>
+        <div class="column4">Mon 9am-11am</div>
+        <div class="column4">BV-473</div>
     </div>
     <div class="row">
-        <div class="hcolumn column">PRA03</div>
-        <div class="column">Friday 1pm-3pm (room BV-473)</div>
-        <div class="column"></div>
+        <div class="hcolumn column4">PRA02</div>
+        <div class="column4">Friday 9am-11am</div>
+        <div class="column4">BV-473</div>
+    </div>
+    <div class="row">
+        <div class="hcolumn column4">PRA03</div>
+        <div class="column4">Friday 1pm-3pm</div>
+        <div class="column4">BV-473</div>
     </div>
     <div class="row">
         <div class="hcolumn column">PRA04</div>
