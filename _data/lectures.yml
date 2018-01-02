@@ -1,8 +1,8 @@
 - week: HTML & CSS
   notes:
-      - FAQ: review/
-      - Introduction: slides/C09-Introduction.pdf
-      - HTML & CSS: slides/C09-HTMLandCSS.pdf
+      # - FAQ: review/
+      # - Introduction: slides/C09-Introduction.pdf
+      # - HTML & CSS: slides/C09-HTMLandCSS.pdf
   readings: 
       - W3C Markup Validation Service: https://validator.w3.org/
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
@@ -10,74 +10,74 @@
 
 - week: Javascript
   notes: 
-    - FAQ: review/
-    - Introduction: slides/C09-Javascript.pdf
-    - Javascript in the browser: slides/C09-Javascript-browser.pdf
-    - Building front-ends: slides/C09-BuildingFrontends.pdf
-    - Exploring HTML5: slides/C09-HTML5.pdf
+    # - FAQ: review/
+    # - Introduction: slides/C09-Javascript.pdf
+    # - Javascript in the browser: slides/C09-Javascript-browser.pdf
+    # - Building front-ends: slides/C09-BuildingFrontends.pdf
+    # - Exploring HTML5: slides/C09-HTML5.pdf
   readings:
       - Mozilla Developer Network: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     
 - week: Web API
   notes:
-      - FAQ: review/
-      - The HTTP protocol: slides/C09-HTTP.pdf
-      - Web REST API: slides/C09-REST.pdf
-      - JSON: slides/C09-JSON.pdf
-      - Ajax: slides/C09-Ajax.pdf
+      # - FAQ: review/
+      # - The HTTP protocol: slides/C09-HTTP.pdf
+      # - Web REST API: slides/C09-REST.pdf
+      # - JSON: slides/C09-JSON.pdf
+      # - Ajax: slides/C09-Ajax.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
   notes: 
-      - FAQ: review/
-      - Storing data: slides/C09-Data.pdf
-      - File upload: slides/C09-Files.pdf
+      # - FAQ: review/
+      # - Storing data: slides/C09-Data.pdf
+      # - File upload: slides/C09-Files.pdf
   
 - week: Managing users
   notes: 
-      - FAQ: review/
-      - Passwords: slides/C09-Passwords.pdf
-      - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
-      - WebAuthentication:  slides/C09-WebAuthentication.pdf
+      # - FAQ: review/
+      # - Passwords: slides/C09-Passwords.pdf
+      # - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
+      # - WebAuthentication:  slides/C09-WebAuthentication.pdf
       
 - week: Security
   notes:
-      - FAQ: review/
-      - The Big Picture: slides/C09-BigPicture.pdf
-      - HTTPS: slides/C09-HTTPS.pdf
-      - Web Security: slides/C09-WebSecurity.pdf
+      # - FAQ: review/
+      # - The Big Picture: slides/C09-BigPicture.pdf
+      # - HTTPS: slides/C09-HTTPS.pdf
+      # - Web Security: slides/C09-WebSecurity.pdf
   readings:
       - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
+- break: <span class="em">Spring Break</span>
+
 - week: Web Frameworks
   notes: 
-      - AngularJS
-      - ReactJS
-
-- break: <span class="em">Spring Break</span>
+      # - AngularJS
+      # - ReactJS
 
 - week: Deploying large scale web applications
   notes:
-      - Deploying web applications: slides/C09-Deploying.pdf
-      - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
+      # - Deploying web applications: slides/C09-Deploying.pdf
+      # - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
 
 - week: Advanced Javascript
   notes:
-      - Asynchronism
-      - web workers
-      - web sockets
-      - Web RTC
+      # - Asynchronism
+      # - web workers
+      # - web sockets
+      # - Web RTC
 
 - week: Building large scale web applications
   notes:
-      - Templates: slides/C09-Templates.pdf
-      - i18n & l10n: slides/C09-i18n.pdf
-      - Web Services: slides/C09-WebServices.pdf
+      # - Templates: slides/C09-Templates.pdf
+      # - i18n & l10n: slides/C09-i18n.pdf
+      # - Web Services: slides/C09-WebServices.pdf
 
 - week: Beyond web applications
   notes:
-      - Advertising, Analytics and Tracking: slides/C09-WebAdvertising.pdf
+      # - Advertising, Analytics and Tracking: slides/C09-WebAdvertising.pdf
 
 - week: Project presentations

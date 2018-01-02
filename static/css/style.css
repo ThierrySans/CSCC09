@@ -6459,8 +6459,8 @@ button.close {
 .modal-footer:after,
 #header #instructor:before,
 #header #instructor:after,
-#updates:before,
-#updates:after,
+#main:before,
+#main:after,
 .post:before,
 .post:after,
 .grid .row:before,
@@ -6489,7 +6489,7 @@ button.close {
 .modal-header:after,
 .modal-footer:after,
 #header #instructor:after,
-#updates:after,
+#main:after,
 .post:after,
 .grid .row:after,
 .week:after,
@@ -6843,26 +6843,23 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-#syllabus {
-  width: 800px;
-  padding-left: 60px;
-}
-#updates {
+#main {
   margin-left: -15px;
   margin-right: -15px;
 }
-#updates #posts {
+#main #syllabus {
   position: relative;
   float: left;
-  width: 58.33333333%;
+  width: 66.66666667%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-left: 60px;
 }
-#updates #news {
+#main #news {
   position: relative;
   float: left;
-  width: 41.66666667%;
+  width: 33.33333333%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;

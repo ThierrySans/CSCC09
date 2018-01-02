@@ -2,35 +2,30 @@
     
 - week:
   lab: HTML & CSS
-  handout: 2/
+  # handout:
+  #     - introduction to docker: 02/
+  #     - caesar 26: https://seclab.herokuapp.com/leagues/CSCD27F17/challenges/caesar-26/
     
 - week:
   lab: Javascript
-  handout: 3/
     
 - week:
   lab: Web API
-  handout: 4/
     
 - week: 
   lab: Storing Data
-  handout: 5/
     
 - week:
   lab: Managing Users
-  handout: labs/6/
+    
+- break: <span class="em">Reading Week</span>
     
 - week: 
   lab: Security
-  handout: 7/
-  
-- break: <span class="em">Spring Break</span>
     
 - week:
     
 - week:
-  lab: Deploying
-  handout: 8/
     
 - week:
     

@@ -6,7 +6,7 @@ permalink: /lectures/
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Date</div>
-	<div class="topic">Topic</div>
+	<div class="topic">Lecture</div>
     <div class="notes">Notes</div>
     <div class="readings">Resources</div>
 </div>
@@ -30,7 +30,7 @@ permalink: /lectures/
                                     {% if pair[1] == nil %}
                                         <li>{{note}}</li>
                                     {% else %}
-                                        <li><a href="{{week_id}}/{{pair[1]}}">{{pair[0]}}</a></li>
+                                        <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
                                     {% endif %}
                                 {% endfor %}
         					{% endfor %}
@@ -55,5 +55,5 @@ permalink: /lectures/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule("20170102",7,0);
+   make_schedule({{site.data.settings.first}},7,0);
 </script>

@@ -3,7 +3,7 @@ layout: default
 permalink: /resources/
 ---
 
-# References
+# Essentials
 
 ### Git
 
@@ -18,13 +18,13 @@ permalink: /resources/
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/)
 - [Node.js](https://nodejs.org/api/)
 
-### Security
-
-- [Hacksplaining](https://www.hacksplaining.com/)
-
 ### Behind the scenes
 
 - [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
+### Security
+
+- [Hacksplaining](https://www.hacksplaining.com/)
 
 # Framework, Libraries and APIs
 
@@ -37,6 +37,7 @@ permalink: /resources/
 
 - [AngularJS](https://angularjs.org/)
 - [React](https://facebook.github.io/react/)
+- [Vue.js](https://vuejs.org/)
 - [Ember.js](http://emberjs.com/)
 - [Backbone.js](http://backbonejs.org/)
 

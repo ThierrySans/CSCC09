@@ -3,12 +3,10 @@ layout: default
 permalink: /labs/
 ---
 
-Throughout the labs, you will ge guided to develop a web application called *Microblog* that allows users to share short messages.
-
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Date</div>
-	<div class="topic">Labs</div>
+	<div class="topic">Lab</div>
     <div class="notes">Handout</div>
 </div>
 
@@ -23,16 +21,24 @@ Throughout the labs, you will ge guided to develop a web application called *Mic
     {% assign week_id = week_id | plus: 1 %}
     <div class="week_id">{{week_id}}</div>
     <div class="date"></div>
-	<div class="topic">{{e.lab}}</div>
-    {% if e.handout %}
-    <div class="notes"><a href="{{e.handout}}">handout</a></div>
-    {% endif %}
+	<div class="topic">{{e.week}}</div>
+    <div class="notes">
+        {% for note in e.notes %}
+            {% for pair in note %}
+                {% if pair[1] == nil %}
+                    <li>{{note}}</li>
+                {% else %}
+                    <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
+                {% endif %}
+            {% endfor %}
+		{% endfor %}
+    </div>
     {% endif %}
 </div>
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule("20170102",7,0);
+   make_schedule({{site.data.settings.first}},7,0);
 </script>
    
 

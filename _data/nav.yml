@@ -1,7 +1,3 @@
-- title: Announcements & News
-  url: /updates/
-  absolute: False
-
 - title: Lectures
   url: /lectures/
   absolute: False
@@ -19,11 +15,11 @@
   absolute: False
 
 - title: Piazza
-  url:  https://piazza.com/mail.utoronto.ca/spring2017/cscc09
+  url:  https://piazza.com/mail.utoronto.ca/spring2018/cscc09
   absolute: True
 
 - title: Github
-  url: https://github.com/ThierrySans/cscc09-w17
+  url: https://github.com/ThierrySans/CSCC09
   absolute: True
   
 - title: Feedback

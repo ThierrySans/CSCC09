@@ -5,33 +5,33 @@
 - week:
     
 - week:
-  hw: Frontend
-  handout: assignments/1/
+  #hw: Frontend
+  #handout: assignments/1/
     
 - week:
     
 - week: 
-  hw: Backend
-  handout: assignments/2/
+  #hw: Backend
+  #handout: assignments/2/
     
 - week:
-  project: Project registration
+  #project: Project registration
     
 - break: 
-  hw: Users & Security
-  handout: assignments/3/
-  project: Project proposal
+  #hw: Users & Security
+  #handout: assignments/3/
+  #project: Project proposal
     
 - week:
     
 - week:
-  project: Beta Version
+  #project: Beta Version
     
 - week:
     
 - week:
-  project: Final Version
+  #project: Final Version
     
 - week:
-  project: Presentation
+  #project: Presentation
      

@@ -5,9 +5,14 @@
 	  {% include menu.html %}
     <div id="content" class="container">
 		{% include header.html %}
-		<div id="syllabus">
-			{{ content }}
-		</div>
+		<div id="main">
+            <div id="syllabus">
+			    {{ content }}
+		    </div>
+            <div id="news">
+                {% include news.html %}
+            </div>
+        </div>
     </div>
 	{% include footer.html %}
   </body>

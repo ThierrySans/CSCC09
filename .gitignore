@@ -9,3 +9,4 @@ Thumbs.db
 node_modules
 uploads
 db
+*.lock

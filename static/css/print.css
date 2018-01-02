@@ -6760,19 +6760,20 @@ button.close {
   #header #timing div {
     font-size: 18.9px;
   }
-  #page {
+  #main {
     margin-left: -15px;
     margin-right: -15px;
   }
-  #page #left {
+  #main #syllabus {
     position: relative;
     float: left;
     width: 100%;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-left: 30px;
   }
-  #page #right {
+  #main #news {
     display: none !important;
   }
   a[href]:after {
