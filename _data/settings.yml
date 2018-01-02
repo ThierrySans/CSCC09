@@ -14,33 +14,41 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: Monday 3pm-5pm
+  hours: TBD
   location: IC-346
   contact: Piazza only (no mail)
-  # hours: Thurs 10:00am-12:00pm
 
 assistants:
     - name: TBD
       role:  TA
-      contact: #'&#101;&#100;&#111;&#117;&#097;&#114;&#100;&#046;&#109;&#097;&#103;&#104;&#097;&#114;&#105;&#097;&#110;&#064;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#046;&#099;&#097;'
-      hours: by appointment
-      location: ''
+      contact: TBD #'&#101;&#100;&#111;&#117;&#097;&#114;&#100;&#046;&#109;&#097;&#103;&#104;&#097;&#114;&#105;&#097;&#110;&#064;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#046;&#099;&#097;'
+      hours: TBD
+      location: TBD
   
 timings:
     - section: LEC01 
-      time: Thursday 11:00-13:00
-      location: MW 170 
+      time: Monday 11:00-12:00
+      location: MW 160 
+    - section: 
+      time: Friday 11:00-13:00
+      location: HW 214 
+    - section: LEC02
+      time: Monday 13:00-15:00
+      location: IC 220 
+    - section: 
+      time: Friday 14:00-15:00
+      location: MV 160
     - section: PRA01
-      time: Monday 13:00-14:00
+      time: Monday 9:00-11:00
       location: BV 473        
     - section: PRA02
-      time: Tuesday 14:00-15:00
+      time: Monday 15:00-17:00
       location: BV 473        
     - section: PRA03
-      time: Friday 11:00-12:00
+      time: Friday 9:00-11:00
       location: BV 473        
     - section: PRA04
-      time: Friday 12:00-13:00
+      time: Thursday 18:00-20:00
       location: BV 473
         
 first: 20180108
