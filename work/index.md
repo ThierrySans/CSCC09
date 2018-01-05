@@ -3,11 +3,10 @@ layout: default
 permalink: /work/
 ---
 
-The objective of these assignments is to build an application called *The Web Gallery* where users can share pictures and comments. This application is similar to existing web applications such as Facebook (the photo album part), Picasa or Flickr.
-
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Deadline (11:59pm)</div>
+    <div class="lab">Labs</div>
     <div class="hw">Assignments</div>
     <div class="project">Project</div>
 </div>
@@ -23,22 +22,25 @@ The objective of these assignments is to build an application called *The Web Ga
     {% endif %}
     <div class="date"></div>
     <div class="lab">
-        {% if e.handout %}
-        <a href="{{e.handout}}">{{e.hw}}</a>
-        {% else %}
-        {{e.hw}}
+        {% if e.lab %}
+            {{e.lab}}
         {% endif %}
     </div>
-    <div class="lab">
+    <div class="hw">
+        {% if e.hw %}
+            {{e.hw}}
+         {% endif %}
+    </div>
+    <div class="project">
         {% if e.project %}
-        <a href="project/">{{e.project}}</a>
+            {{e.project}}
          {% endif %}
     </div>
 </div>
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule("20170102",7,6);
+   make_schedule({{site.data.settings.first}},7,6);
 </script>
    
 

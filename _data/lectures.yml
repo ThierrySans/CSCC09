@@ -1,7 +1,7 @@
 - week: HTML & CSS
   notes:
       # - FAQ: review/
-      # - Introduction: slides/C09-Introduction.pdf
+      - Introduction: 01/slides/C09-Introduction.pdf
       # - HTML & CSS: slides/C09-HTMLandCSS.pdf
   readings: 
       - W3C Markup Validation Service: https://validator.w3.org/
