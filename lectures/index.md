@@ -19,8 +19,8 @@ permalink: /lectures/
         <div class="date"></div>
         <div class="topic">{{e.break}}</div>
     {% else %}
-        {% assign week_id = week_id | plus: 1 %}
         <div class="week_id">{{week_id}}</div>
+        {% assign week_id = week_id | plus: 1 %}
         <div class="date"></div>
     	<div class="topic">{{e.week}}</div>
         <div class="notes">
@@ -55,5 +55,6 @@ permalink: /lectures/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule({{site.data.settings.first}},7,0);
+   // make_schedule({{site.data.settings.first}},7,0);
+   make_schedule(20180101,7,0);
 </script>
