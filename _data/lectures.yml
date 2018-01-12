@@ -6,8 +6,8 @@
   notes:
       - HTML & CSS: 01/slides/C09-HTMLandCSS.pdf
   readings: 
-      - HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
-      - CSS: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
+      - HTML on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
+      - CSS on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
       - A Complete Guide to Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
       - A Complete Guide to Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
       - W3C Markup Validation Service: https://validator.w3.org/
@@ -16,12 +16,12 @@
 - week: Javascript
   notes: 
     # - FAQ: review/
-    # - Introduction: slides/C09-Javascript.pdf
-    # - Javascript in the browser: slides/C09-Javascript-browser.pdf
-    # - Building front-ends: slides/C09-BuildingFrontends.pdf
-    # - Exploring HTML5: slides/C09-HTML5.pdf
+    - Javascript: 02/slides/C09-Javascript.pdf
+    - Javascript in the browser #: slides/C09-Javascript-browser.pdf
+    - Building frontends #: slides/C09-BuildingFrontends.pdf
+    - Exploring HTML5 #: slides/C09-HTML5.pdf
   readings:
-      - Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      - Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     
 - week: Web API
   notes:

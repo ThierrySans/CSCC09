@@ -23,17 +23,21 @@ permalink: /work/
     <div class="date"></div>
     <div class="lab">
         {% if e.lab %}
-            {{e.lab}}
+             {% if e.lab.handout %}
+                 <a href="{{e.lab.handout}}">{{e.lab.title}}</a>
+             {% else %}
+                 {{e.lab.title}}
+              {% endif %}
         {% endif %}
     </div>
     <div class="hw">
         {% if e.hw %}
-            {{e.hw}}
+            {{e.hw.title}}
          {% endif %}
     </div>
     <div class="project">
         {% if e.project %}
-            {{e.project}}
+            {{e.project.title }}
          {% endif %}
     </div>
 </div>

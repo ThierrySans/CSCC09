@@ -1,39 +1,51 @@
 - week:
     
 - week:
-  lab: HTML & CSS
+  lab: 
+      title: HTML & CSS
+      handout: /labs/02/
     
 - week:
-  lab: Javascript
-  hw: Frontend
+  lab:
+      title: Javascript
+  hw:
+      title: HTML & CSS
     
 - week:
-  lab: Web API
+  lab: 
+      title: Web API
     
 - week: 
-  lab: Storing Data
-  hw: Backend
+  lab: 
+      title: Storing Data
+  hw: 
+      title: Backend
     
 - week:
   lab: Managing Users
   
     
 - break: <span class="em">Reading Week</span>
-  hw: Managing Users
-  project: Proposal
+  hw: 
+      title: Managing Users
+  project: 
+      title: Proposal
     
 - week: 
-  lab: Security
+  lab: 
+      title: Security
     
 - week:
     
 - week:
     
 - week:
-  project: Beta Version
+  project: 
+      title: Beta Version
     
 - week:
     
 - week:
-  project: Deliverable and Presentation
+  project: 
+      title: Deliverable and Presentation
  
