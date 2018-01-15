@@ -17,9 +17,9 @@
   notes: 
     # - FAQ: review/
     - Javascript: 02/slides/C09-Javascript.pdf
-    - Javascript in the browser: slides/C09-Javascript-browser.pdf
-    - Building frontends: slides/C09-BuildingFrontends.pdf
-    - Exploring HTML5: slides/C09-HTML5.pdf
+    - Javascript in the browser: 02/slides/C09-Javascript-browser.pdf
+    - Building frontends: 02/slides/C09-BuildingFrontends.pdf
+    - Exploring HTML5: 02/slides/C09-HTML5.pdf
   readings:
       - Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
     
