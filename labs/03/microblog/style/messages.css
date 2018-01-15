@@ -1,0 +1,75 @@
+#messages{
+    font-size: 16px;
+    display:flex;
+    flex-direction: column; 
+}
+
+.message{
+    display:flex;
+    flex-flow:flex-start;
+    align-items:center;
+    width:100%;
+    margin:auto;
+    height:150px;
+    margin-top:20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey; 
+}
+
+.message_user{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width:100px;
+}
+
+.message_picture{
+    width:60px;
+    height:60px;
+    object-fit: contain;
+}
+
+.message_picture img{
+    max-width:100%;
+}
+
+.message_username{
+    padding-top:5px;
+}
+
+.message_content{
+    width:500px;
+    font-size: 24px;
+}
+
+.vote_button{
+    width: 64px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    text-align:center;
+}
+
+.icon{
+    width:50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:75%;
+
+}
+
+.delete-icon{
+    background-image: url('../media/delete-icon.png');
+}
+
+.upvote-icon{
+    margin-left: auto;
+    background-image: url('../media/upvote-icon.png');
+}
+
+.downvote-icon{
+    background-image: url('../media/downvote-icon.png');
+}

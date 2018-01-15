@@ -8,8 +8,10 @@
 - week:
   lab:
       title: Javascript
+      handout: ../labs/03/
   hw:
       title: HTML & CSS
+      handout: ../assignments/01/
     
 - week:
   lab: 

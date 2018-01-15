@@ -32,7 +32,11 @@ permalink: /work/
     </div>
     <div class="hw">
         {% if e.hw %}
-            {{e.hw.title}}
+            {% if e.hw.handout %}
+                <a href="{{e.hw.handout}}">{{e.hw.title}}</a>
+            {% else %}
+                {{e.hw.title}}
+             {% endif %}
          {% endif %}
     </div>
     <div class="project">
