@@ -82,7 +82,7 @@ The main page contains an example of an HTML form. So far, this form contains an
 
 **Task:** Without modifying the CSS file `form.css`:  
 
-1. replace the input form with a `textarea` element that matches the style defined by the class `form_element` in the `form.css` file. The textarea placeholder should now be *"enter your message*".
+1. add a `textarea` element that matches the style defined by the class `form_element` in the `form.css` file. The textarea placeholder should now be *"enter your message*".
 1. add a input button of type submit that matches the style defined by the class `btn` the `form.css` file. 
 
 At this point, the user should be able to fill the form and hit the button submit. This action will make the page to refresh for now. In the next lab, we will learn how to attach a Javascript method to the submit action. 
