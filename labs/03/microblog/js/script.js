@@ -11,10 +11,10 @@ document.getElementById('create_message_form').addEventListener('submit', functi
     e.className = "message";
     e.innerHTML=`
         <div class="message_user">
-            <img class="message_picture" src="media/user.png" alt="${message.author}">
-            <div class="message_username">${message.author}</div>
+            <img class="message_picture" src="media/user.png" alt="${username}">
+            <div class="message_username">${username}</div>
         </div>
-        <div class="message_content">${message.author}</div>
+        <div class="message_content">${content}</div>
         <div class="upvote-icon icon">0</div>
         <div class="downvote-icon icon">0</div>
         <div class="delete-icon icon"></div>

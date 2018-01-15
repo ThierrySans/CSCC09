@@ -14,7 +14,7 @@ var api = (function(){
     // add a message
     // return an message object
     module.addMessage = function(author, content){
-        // store data !!
+        // store data here
         return {author: author, content: content}
     }
     
