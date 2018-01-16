@@ -14,16 +14,33 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: TBD
-  location: IC-346
+  hours: Thursday 2-3pm (or by appointment)
+  location: IC 346
   contact: Piazza only (no mail)
+  role: LEC
 
+# https://www.fingerlakesbmw.org/main/flobfuscate.php
 assistants:
-    - name: TBD
-      role:  TA
-      contact: TBD #'&#101;&#100;&#111;&#117;&#097;&#114;&#100;&#046;&#109;&#097;&#103;&#104;&#097;&#114;&#105;&#097;&#110;&#064;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#046;&#099;&#097;'
+    - name: Jana Gablan
+      role:  PRA04
+      contact: "&#106;&#97;&#110;&#97;&#46;&#103;&#97;&#98;&#108;&#97;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Monday 5-6pm
+      location: IC 400
+    - name: Daniel Persaud
+      role:  PRA01
+      contact: "&#100;&#101;&#118;&#46;&#112;&#101;&#114;&#115;&#97;&#117;&#100;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Thursday 3:15-4:15pm
+      location: IC 400
+    - name: Justin Sabourin
+      role:  PRA03
+      contact: "&#106;&#46;&#115;&#97;&#98;&#111;&#117;&#114;&#105;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Monday 11:30-12:30pm
+      location: IC 400
+    - name: Eugenia Zhang
+      role:  PRA02
+      contact: "&#101;&#117;&#103;&#101;&#110;&#105;&#97;&#46;&#122;&#104;&#97;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
       hours: TBD
-      location: TBD
+      location: IC 400
   
 timings:
     - section: LEC01 

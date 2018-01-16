@@ -40,7 +40,7 @@ We encourage you to post questions regarding course materials and assignments on
     </div>
     <div class="row">
         <div class="hcolumn column3">Thierry Sans</div>
-        <div class="column1">Prof</div>
+        <div class="column1">{{site.data.settings.instructor.role}}</div>
         <div class="column3">{{site.data.settings.instructor.hours}}</div>
         <div class="column2">{{site.data.settings.instructor.location}}</div>
         <div class="column3">{{site.data.settings.instructor.contact}}</div>
