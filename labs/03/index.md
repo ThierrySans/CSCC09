@@ -72,7 +72,7 @@ $ jshint js
 **Task:** Finally, let us improve the loading of Javascript:
 
 1. For better efficiency (and whenever it is possible), it is recommended to load javascript code at the end of the body instead of loading it in the header. By doing so, the browser will start rendering the DOM before loading the script.
-2. To avoid race conditions, any piece of javascript code that works with the DOM must be executed once the DOM has been fully loaded. In our application, attaching an even handler to the form might not work if the DOM is not loaded when the script executes. Therefore, we should encapsulate that piece of code with a `window.onload`. 
+2. To avoid race conditions, any piece of javascript code that works with the DOM must be executed once the DOM has been fully loaded. In our application, attaching an event handler to the form might not work if the DOM is not loaded when the script executes. Therefore, we should encapsulate that piece of code with a `window.onload`. 
     
     ```
     window.onload = function(){
