@@ -29,9 +29,10 @@
             ctx.putImageData(imageData, 0, 0);
     };
     
-    window.onload = function(){
+   window.addEventListener('load', function(){
         drawImage();
         document.querySelector("#grayscale > #gray").onclick = makeItGray;
-    };
+    });
+    
 })();
 

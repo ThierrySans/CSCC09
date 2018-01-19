@@ -7,9 +7,9 @@ document.getElementById('create_message_form').addEventListener('submit', functi
     // clean form
     document.getElementById("create_message_form").reset();
     // create a new message element
-    e = document.createElement('div');
-    e.className = "message";
-    e.innerHTML=`
+    elmt = document.createElement('div');
+    elmt.className = "message";
+    elmt.innerHTML=`
         <div class="message_user">
             <img class="message_picture" src="media/user.png" alt="${username}">
             <div class="message_username">${username}</div>
@@ -20,5 +20,5 @@ document.getElementById('create_message_form').addEventListener('submit', functi
         <div class="delete-icon icon"></div>
     `;
     // add this element to the document
-    document.getElementById("messages").prepend(e);
+    document.getElementById("messages").prepend(elmt);
 });

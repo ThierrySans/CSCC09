@@ -35,10 +35,10 @@
         speechSynthesis.speak(msg);
     };
     
-    window.onload = function(){
+    window.addEventListener('load', function(){
         document.getElementById('speech2text').onclick = record_on;
         document.getElementById('text2speech').onclick = sayit;
-    };
+    });
     
 })();
 

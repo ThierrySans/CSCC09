@@ -25,9 +25,9 @@
         ctx.closePath();
     };
 
-    window.onload = function(){
+    window.addEventListener('load', function(){
         document.getElementById("draw_smiley").onclick = drawSmiley;
-    };
+    });
     
 })();
 

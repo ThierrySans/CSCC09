@@ -12,26 +12,26 @@ var api = (function(){
     ****************************** */ 
     
     // add a message
-    // return an message object
+    // return a message object
     module.addMessage = function(author, content){
         // store data here
         return {author: author, content: content}
     }
     
     // delete a message given its messageId
-    // return an message object
+    // return a message object
     module.deleteMessage = function(messageId){
         
     }
     
     // upvote a message given its messageId
-    // return an message object
+    // return a message object
     module.upvoteMessage = function(messageId){
         
     }
     
     // downvote a message given its messageId
-    // return an message object
+    // return a message object
     module.downvoteMessage = function(messageId){
         
     }

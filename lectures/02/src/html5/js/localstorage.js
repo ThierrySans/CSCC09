@@ -24,12 +24,12 @@
        pullFromLocalStorage();
     };
 
-    window.onload = function(){
+    window.addEventListener('load', function(){
         pullFromLocalStorage();
         document.getElementById("erase_storage").onclick = removeFromLocalStorage;
         document.getElementById("username").onchange = pushUsernameToLocalStorage;
         document.getElementById("comment").onchange = pushCommentToLocalStorage;
-    }
+    });
     
 })();
 

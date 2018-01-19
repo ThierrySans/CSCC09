@@ -12,10 +12,10 @@
          document.querySelector('#longitude span').innerHTML = long;
     }
     
-    window.onload = function(){
+    window.addEventListener('load', function(){
         document.getElementById('getgeo').onclick = getGeolocation;
-    };
-    
+    });
+        
 })();
 
 

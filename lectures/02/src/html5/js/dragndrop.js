@@ -5,7 +5,7 @@
     "use strict";
     
     function createDragNDropZone(){
-        var holder = document.querySelector("#fileUploader");
+        var holder = document.getElementById("fileUploader");
 
         holder.ondragstart = function(e){return false;};
 
@@ -29,15 +29,14 @@
                 // as an HTML element
                 var img = document.createElement('img');
                 img.src = e.target.result;
-                document.querySelector("#container1").appendChild(img);
+                document.getElementById("container1").appendChild(img);
             };
             reader.readAsDataURL(file);
             return false;
         };
     }
     
-    window.onload = createDragNDropZone;
-    
+    window.addEventListener('load', createDragNDropZone);
     
 })();
 

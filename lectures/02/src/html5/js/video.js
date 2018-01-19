@@ -30,7 +30,7 @@
             var r = frame.data [i*4+ 0];
             var g = frame.data [i*4 + 1];
             var b = frame.data [i*4 + 2];
-            if(g > 110 && g < 200 && r < 190 && r > 100 && b < 200 && b > 110){
+            if (g > 110 && g < 200 && r > 100 && r < 190 && b > 110 && b < 200){
                 frame.data[i*4+ 3] = 0;
             }
         }
@@ -54,6 +54,6 @@
         });
     };
 
-    window.onload = setGreenScreen;
+    window.addEventListener('load', setGreenScreen);
     
 })();

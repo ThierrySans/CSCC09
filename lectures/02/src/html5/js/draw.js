@@ -110,11 +110,11 @@
         clearCanvas();
     };
 
-    window.onload = function(){
+    window.addEventListener('load', function(){
         prepareCanvas();
         document.querySelector("#drawing > #erase").onclick = resetCanvas;
         document.querySelector("#drawing > #slow").onclick = function(){redrawSlow(0);};
-    }
+    });
     
 })();
 
