@@ -5,6 +5,7 @@ var api = (function(){
         image objects must have at least the following attributes:
             - (String) imageId 
             - (String) title
+            - (String) author
             - (String) url
             - (Date) date
     
