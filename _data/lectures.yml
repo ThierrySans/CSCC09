@@ -26,10 +26,11 @@
 - week: Web API
   notes:
       # - FAQ: review/
-      # - The HTTP protocol: slides/C09-HTTP.pdf
-      # - Web REST API: slides/C09-REST.pdf
-      # - JSON: slides/C09-JSON.pdf
-      # - Ajax: slides/C09-Ajax.pdf
+      - The HTTP protocol: 03/slides/C09-HTTP.pdf
+      - Javascript on the server: 03/slides/C09-JavascriptServer.pdf
+      - JSON: 03/slides/C09-JSON.pdf
+      - Ajax: 03/slides/C09-Ajax.pdf
+      - Web REST API: 03/slides/C09-REST.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
