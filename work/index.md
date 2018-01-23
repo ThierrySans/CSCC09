@@ -28,6 +28,9 @@ permalink: /work/
              {% else %}
                  {{e.lab.title}}
               {% endif %}
+              {% if e.lab.rubric %}
+                  <a href="{{e.lab.rubric}}">(rubric)</a>
+               {% endif %}
         {% endif %}
     </div>
     <div class="hw">
@@ -37,11 +40,18 @@ permalink: /work/
             {% else %}
                 {{e.hw.title}}
              {% endif %}
+             {% if e.hw.rubric %}
+                 <a href="{{e.hw.rubric}}">(rubric)</a>
+              {% endif %}
          {% endif %}
     </div>
     <div class="project">
         {% if e.project %}
-            {{e.project.title }}
+            {% if e.project.handout %}
+                <a href="{{e.project.handout}}">{{e.project.title}}</a>
+            {% else %}
+                {{e.project.title}}
+             {% endif %}
          {% endif %}
     </div>
 </div>

@@ -1,0 +1,218 @@
+- rubric: 'Designing the UI' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 20
+        
+      - caption: 'The UI elements for the image form are'
+        type: SelectOne
+        options: 
+            - completely missing
+            - missing for the most part
+            - mostly there but couple of elements are missing
+            - all there without any exception
+
+      - caption: 'The UI elements for the image display are'
+        type: SelectOne
+        options: 
+            - completely missing
+            - missing for the most part
+            - mostly there but couple of elements are missing
+            - all there without any exception
+
+      - caption: 'The UI elements for the comment form are'
+        type: SelectOne
+        options: 
+            - completely missing
+            - missing for the most part
+            - mostly there but couple of elements are missing
+            - all there without any exception
+      
+      - caption: 'The UI elements for the comment section are'
+        type: SelectOne
+        options: 
+            - completely missing
+            - missing for the most part
+            - mostly there but couple of elements are missing
+            - all there without any exception
+ 
+      - caption: 'The CSS layout (not the code) is'
+        type: SelectOne
+        options: 
+            - is almost inexistent - close to the default layout
+            - there but chaotic - elements are either misplaced, not aligned, or overlapping each other
+            - ok but several elements were neglected
+            - good but couple of elements were neglected
+            - clean and organized   
+
+      - caption: 'The HTML source code'
+        type: SelectAll
+        options: 
+            - contains the required elements - head, meta charset, title, body
+            - use only relative paths
+            - use the `<img>` tag for data only (not UI)
+            - enforces a clear seperation between the content (HTML), the style (CSS) and the processing (Javascript)
+            - makes a correct use of id and classes attributes
+            - does not use deprecated elements
+
+      - caption: 'The CSS source code'
+        type: SelectAll
+        options: 
+            - use only relative paths
+            - use CSS background properties for UI elements (not data)
+            - does not have a large number of shadowed properties
+
+      - caption: 'All design components borrowed from the web are credited in credit.html'
+        type: SelectOne
+        options: 
+            - no at all
+            - some of them but many are missing
+            - most of them but couple are missing
+            - all of them without any exception 
+
+      - caption: 'Overall, the quality of the UI design is'
+        type: SelectOne
+        options: 
+            - poor
+            - fair
+            - good
+            - excellent
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+- rubric: 'Building the features' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 40
+
+      - caption: 'The application'
+        type: SelectAll
+        options: 
+            - does not use any server side feature
+            - does not use any library
+
+      - caption: 'Adding and deleting images as described in the handout'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+        
+      - caption: 'Browsing through the gallery as described in the handout'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+    
+      - caption: 'Commenting on images as described in the handout'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+      - caption: 'Overall, the application'
+        type: SelectOne
+        options: 
+            - it does not work because several features are not implemented
+            - it does not work well as a simple usage does not give the expected results or generates errors
+            - it works relatively well but a heavy usage does not give the expected results or generates errors
+            - it works really well under all kinds of usages
+            - it works exceptionally well and tolerates bad usages (security aside) - bad user inputs, UI stress and so on
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+- rubric: 'Structure of the frontend' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 20
+
+      - caption: 'The code structure'
+        type: SelectAll
+        options: 
+            - the frontend is structured into the frontend controller and the frontend api
+            - the javascript code is properly enclosed into closures  
+            - the frontend controller push/pull data from/to the DOM (but not the local storage)
+            - the frontend api push/pull data from/to the local storage (but not the DOM)  
+            - the frontend api signature matches the specification
+
+      - caption: 'Frontend API test results'
+        type: Comment          
+        
+      - caption: 'Comments from the course staff ?'
+        type: Comment        
+        
+
+- rubric: 'Code quality and organization' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 20
+
+      - caption: 'The repository is overall'
+        type: SelectOne
+        options: 
+            - not following the required structure
+            - follows the required structure but some files are either misplaced, wrongly named or misspelled
+            - well organized
+
+      - caption: 'The HTML code'
+        type: SelectAll
+        options: 
+            - is clean, well organized and indented properly
+            - does not contain any error from the w3c validator
+            - does not contain any warning from the w3c validator
+
+      - caption: 'The CSS code'
+        type: SelectAll
+        options: 
+            - does not repeat itself (DRY principle) and is easily maintainable
+            - is clean, well organized and indented properly
+            - does not contain any error from the w3c validator
+            - does not contain any warning from the w3c validator
+
+      - caption: 'The Javascript code'
+        type: SelectAll
+        options: 
+            - is clean, well organized and indented properly
+            - does not contain any error from JSHint
+            - does not contain any warning from JSHint
+            - does not repeat itself (DRY principle) and is easily maintainable   
+
+      - caption: 'When the app executes'
+        type: SelectAll
+        options: 
+            - it does not generate superfluous debugging messages in the console
+            - it does not generate error messages in the console
+
+      - caption: 'Overall, the application code'
+        type: SelectOne
+        options: 
+            - is poorly implemented
+            - is fairly well implemented
+            - is good
+            - is excellent
+            - is beyond expectations    
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment

@@ -1,0 +1,31 @@
+- rubric: 'Week 3 Lab' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+        
+      - caption: 'Overall, the quality of the application (not considering the source code) is'
+        type: SelectOne
+        options: 
+            - missing for the most part
+            - poor, most of the required features are missing
+            - marginal, couple of features are missing
+            - fair, all features are implemented but there are many flaws
+            - good, all features are implemented but there are couple of flaws/bugs
+            - excellent, all features are implemented and there is no bug at all
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+      - caption: 'Overall, the quality of the source code is'
+        type: SelectOne
+        options: 
+            - missing of the most part
+            - poor, is messy and hard to review
+            - marginal, the code is not clean and not well organized
+            - fair, is clean, well organized but can be significanly improved
+            - good, is clean, well organized but couple of things can be improved
+            - excellent, is clean, well organized and follows all best practices
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
