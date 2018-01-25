@@ -27,11 +27,11 @@ For this assignment, you are **not** allowed to:
 
 All of your work should be placed into a directory called `assignments/01/webgallery`. This directory must be organized as follows: 
 
-- `app/index.html`
-- `app/credits.html`
-- `app/js`: all javascript files
-- `app/style`: all css files
-- `app/media`: all media files related to the UI (images, icons and so on)
+- `webgallery/index.html`
+- `webgallery/credits.html`
+- `webgallery/js`: all javascript files
+- `webgallery/style`: all css files
+- `webgallery/media`: all media files related to the UI (images, icons and so on)
 
 Your code must be of good quality and follow all recommendations given throughout the course. In this assignment, it means (non necessarily exhaustive): 
 
