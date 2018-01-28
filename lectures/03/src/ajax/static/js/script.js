@@ -7,7 +7,7 @@
             if (xhr.status !== 200) callback("[" + xhr.status + "]" + xhr.responseText, null);
             else callback(null, xhr.responseText);
         };
-        xhr.open("POST", "/", true);
+        xhr.open("POST", "/uri", true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send(encodeURI('content=' + content));
     }
