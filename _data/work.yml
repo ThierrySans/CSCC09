@@ -27,6 +27,7 @@
       title: Storing Data
   hw: 
       title: Backend
+      handout: ../assignments/02/
     
 - week:
   lab: Managing Users
