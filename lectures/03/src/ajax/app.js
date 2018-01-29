@@ -9,6 +9,7 @@ app.use(express.static('static'));
 
 app.use(function (req, res, next){
     console.log("HTTP request", req.method, req.url, req.body);
+    next();
 });
 
 app.post('/uri', function (req, res, next) {
