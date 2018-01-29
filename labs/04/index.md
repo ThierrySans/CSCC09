@@ -144,11 +144,11 @@ For instance, we can define 3 operations (create, read and delete) on messages a
 
 First, we will configure our app to serve both our existing frontend and the api using *Node.js*. 
 
-1. move all frontend files into a directory called `frontend`:
+1. move all frontend files into a directory called `static`:
     
     ```
-    $ mkdir -p _your_email_prefix_/labs/04/frontend/
-    $ cp -R CSCC09/labs/04/microblog/* _your_email_prefix_/labs/04/frontend/*
+    $ mkdir -p _your_email_prefix_/labs/04/static/
+    $ cp -R CSCC09/labs/04/microblog/* _your_email_prefix_/labs/04/static/*
     ```
     
 1. configure `app.js` to serve all frontend files statically:
@@ -157,7 +157,7 @@ First, we will configure our app to serve both our existing frontend and the api
     const express = require('express')
     const app = express();
     
-    app.use(express.static('frontend'));
+    app.use(express.static('static'));
     ...
     ```
 
