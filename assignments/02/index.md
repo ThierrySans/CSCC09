@@ -55,7 +55,7 @@ In this part, you are going to update your frontend to work with the Web API. As
 
 ## Documenting the API
 
-As shown in [lab 4]({{'labs/4/doc/' | absolute_url}}), write a documentation for your API (as a `README.md file) that contains, for each method, :
+As shown in [lab 4]({{'labs/04/doc/' | absolute_url}}), write a documentation for your API (as a `README.md file) that contains, for each method, :
   
 1. Description: a description of the method
 1. Request: HTTP method (either POST, PUT, GET, PATCH or DELETE) and URL   
