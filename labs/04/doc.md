@@ -47,8 +47,6 @@ $ curl -X POST
 ``` 
 $ curl http://localhsot:3000/api/messages/
 ``` 
-  
-###  Update
 
 - description: retrieve the message id
 - request: `GET /api/messages/:id/`
