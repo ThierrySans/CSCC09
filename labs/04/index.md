@@ -95,14 +95,14 @@ This command sends an HTTP requests to our server with the following parameters:
 
 - Method: `POST`
 - Url: `/`
-- JSON header: `Content-Type: application/json`
-- Request body (as a string): `{"content": "Hello World!", "author": "Me"}`
+- Header: `Content-Type: application/json`
+- Body (as a string): `{"content": "Hello World!", "author": "Me"}`
 
 As defined in `app.js`, it returns an HTTP response with the following parameters:
 
 - Status code: `200`
 - Header: `Content-Type: application/json`
-- Body (as a string): `{"content": "Hello World!", "author": "Me"}`
+- Body (as a string): `{"_id": "xy6r3kt45", "content": "Hello World!", "author": "Me", "upvote": 0, "downvote": 0}`
 
 To test our application, we can write a simple shell script that initiates a series of `curl` commands:
 
@@ -124,19 +124,19 @@ For instance, we can define 3 operations (create, read and delete) on messages a
     - Method: `POST`
     - Url: `/api/messages/`
     - Request body  (JSON object): `{"content": "Hello World!", "author": "Me"}`
-    - Response body (JSON object): `{"id": 48}`
+    - Body (JSON object): `{"_id": "xy6r3kt45", "content": "Hello World!", "author": "Me", "upvote": 0, "downvote": 0}`
     
-1. Get all messages
+1. Get the latest messages
 
     - Method: `GET`
     - Url: `/api/messages/`
-    - Response body (JSON list): `[{"content": "Hello World!", "author": "Me"}, ...]`
+    - Response body (JSON list): `[{"_id": "xy6r3kt45", "content": "Hello World!", "author": "Me", "upvote": 0, "downvote": 0}, ...]`
     
 1. Delete a specific message
 
     - Method: `DELETE`
-    - Url: `/api/messages/:id/`
-    - Response body (JSON object): `{"id": 48}`
+    - Url: `/api/messages/xy6r3kt45/`
+    - Response body (JSON object): `{"_id": "xy6r3kt45", "content": "Hello World!", "author": "Me", "upvote": 0, "downvote": 0}`
 
 **Task:** Implement and test this API. 
 
@@ -169,8 +169,8 @@ Here is an example of a function to send Ajax requests with data body encoded in
 function send(method, url, data, callback){
     var xhr = new XMLHttpRequest();
     xhr.onload = function() {
-        if (xhr.status !== 200) return callback("[" + xhr.status + "]" + xhr.responseText, null);
-        return callback(null, JSON.parse(xhr.responseText));
+        if (xhr.status !== 200) callback("[" + xhr.status + "]" + xhr.responseText, null);
+        else callback(null, JSON.parse(xhr.responseText));
     };
     xhr.open(method, url, true);
     if (!data) xhr.send();
@@ -197,7 +197,7 @@ module.addMessage = function(author, content, callback){
 
 ## 5. Fetching messages from time to time
 
-At this point, the app should work well and, once the form is submitted, the new messages should appear below. However, if the user does not submit any new message through the form, the application does not automatically fetch any new messages that might come from other users. To enable that, we need the frontend to query the backend for new messages from time to time and update the UI when new messages have arrived. 
+At this point, the app should work well and, once the form is submitted, the latest messages should appear below. However, if the user does not submit any new message through the form, the application does not automatically fetch any new messages that might come from other users. To enable that, we need the frontend to query the backend for new messages from time to time and update the UI when new messages have arrived. 
 
 To implement such a feature, we can use a Javascript timer to trigger an action. For instance, the following example prints `Hello World!` after 2 sec (but only once).
 
@@ -207,7 +207,7 @@ setTimeout(function(e){
 },2000);
 ```
 
-**Task:** Create a scheduler that retrieves all new messages every 2 seconds. 
+**Task:** Create a scheduler that retrieves all latest messages every 2 seconds. 
 
 ## 6. Finalizing the application
 
