@@ -33,6 +33,7 @@
       - Web REST API: 03/slides/C09-REST.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
+      - 10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
       - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
@@ -44,9 +45,10 @@
 - week: Managing users
   notes: 
       # - FAQ: review/
-      # - Passwords: slides/C09-Passwords.pdf
-      # - Cookies and Sessions: slides/C09-CookiesAndSessions.pdf
-      # - WebAuthentication:  slides/C09-WebAuthentication.pdf
+      - Cookies and Sessions: 05/slides/C09-CookiesAndSessions.pdf
+      - WebAuthentication:  05/slides/C09-WebAuthentication.pdf
+  readings: 
+      - RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
       
 - week: Security
   notes:
