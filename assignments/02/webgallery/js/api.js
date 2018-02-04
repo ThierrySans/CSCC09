@@ -19,7 +19,7 @@ var api = (function(){
     ****************************** */ 
     
     // add an image to the gallery
-    module.addImage = function(title, author, url, callback){
+    module.addImage = function(title, author, file, callback){
         
     }
     

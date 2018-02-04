@@ -39,7 +39,7 @@ You should submit your work to your Github course repository. Before submitting 
 
 In this part, you are going to implement a Web API for your gallery. This api should follow the REST design principles seen in class. This means that the api should define CRUD operations (Create, Read, Update, Delete) on collections and elements. For your application, users should be able to:
 
-- add a new image to the gallery either by uploading a file 
+- add a new image to the gallery by uploading a file 
 - retrieve and delete a given image 
 - add a comment to a given image
 - retrieve comments for a given image (a subset of comment at a time but not all comments at once) 
