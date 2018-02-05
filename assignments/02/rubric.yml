@@ -1,0 +1,267 @@
+- rubric: 'Web API functionality' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 30
+        
+      - caption: 'Adding images'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+
+      - caption: 'Retrieving images'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+            
+      - caption: 'Deleting images'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+
+      - caption: 'Adding comments'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+
+      - caption: 'Retrieving comments'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+            
+      - caption: 'Deleting comments'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+
+      - caption: 'Overall, the quality of the API implementation is'
+        type: SelectOne
+        options: 
+            - poor
+            - fair
+            - good
+            - excellent
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+- rubric: 'REST principles' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 20
+        
+      - caption: 'The API design follows the REST principles since'
+        type: SelectAll
+        options: 
+            - all requests do use the appropriate HTTP method 
+            - all URLs do follow the proper collection/element pattern
+            - all requests do have the appropriate body (when required)
+            - all requests do have the appropriate content-type header
+            - all responses do have the appropriate content-type header
+            - all responses do have the appropriate status-code  
+            
+      - caption: 'Overall, the quality of the REST API is'
+        type: SelectOne
+        options: 
+            - poor
+            - fair
+            - good
+            - excellent     
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+        
+- rubric: 'Web API design' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 20
+
+      - caption: 'Data is'
+        type: SelectOne
+        options: 
+            - not stored at all
+            - stored in memory (global variables)
+            - stored in the database but the database schema does not follow good practices (no seperate collections)
+            - stored in a database and its schema follows good practices
+
+      - caption: 'Data queries'
+        type: SelectOne
+        options: 
+            - missing
+            - poor and sometimes retrieve the entire collection in memory
+            - satisfying but can be significantly improved (for instance multiple queries can be done in one or queries can be done more precise to avoid retrieving unnecessary data)
+            - good overall
+            
+      - caption: 'JSON is'
+        type: SelectOne
+        options: 
+            - not used at all
+            - used but not sometimes not appropriately (JSON is not fully understood)
+            - used appropriately but sometimes without the appropriate content-type
+            - used appropriately with the appropriate content-type
+            
+      - caption: 'Uploaded files are'
+        type: SelectAll
+        options: 
+            - uploaded using the appropriate content-type
+            - stored along with their metadata
+            - served dynamically using one or several routing methods
+            - served with the correct mime-type
+
+      - caption: 'Errors are'
+        type: SelectOne
+        options: 
+            - not handled at all
+            - sparsely handled
+            - correctly handled (the application never crash)
+            - correctly handled and output the correct status when appropriate
+            
+      - caption: 'The API implementation follows the good practices since'
+        type: SelectAll
+        options: 
+            - the API can serve multiple requests simultaneously (for instance it does not rely on global variables that could create race conditions)
+            - the API works independently from the frontent
+
+      - caption: 'Overall, the API'
+        type: SelectOne
+        options: 
+            - does not work because several features are not implemented
+            - does not work well as a simple usage does not give the expected results or generates errors
+            - works relatively well but a heavy usage does not give the expected results or generates errors
+            - works really well under all kinds of usages
+            - works exceptionally well and tolerates bad usages (security aside) such as bad user inputs, UI stress and so on
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment        
+        
+- rubric: 'Refactoring the frontend' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+
+      - caption: 'The frontend and the backend are well integrated'
+        type: SelectOne
+        options: 
+            - no, the frontend is not served by Node.js
+            - the frontend is properly served by Node.js but it is not working with the backend (no API call)
+            - the frontend and the backup are working together
+            
+      - caption: 'The Ajax requests to the API are overall'
+        type: SelectAll
+        options: 
+            - correct with respect to the proposed API implementation
+            - are all strictly asynchronous
+            - are handling errors properly
+            
+      - caption: 'Overall, the quality of the frontend integration is'
+        type: SelectOne
+        options: 
+            - poor
+            - fair
+            - good
+            - excellent                        
+        
+      - caption: 'Comments from the course staff ?'
+        type: Comment        
+        
+- rubric: 'Documenting the API' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+        
+      - caption: 'The API documentation matches all routing methods in the code'
+        type: SelectOne
+        options: 
+            - overall missing 
+            - several methods are missing (either in the code or in the documentation)
+            - overall complete   
+            
+      - caption: 'Looking at the details of the documentation, we can say that overall'
+        type: SelectAll
+        options: 
+            - all descriptions are accurate
+            - all request methods and URL are correct
+            - all request content-types are correct
+            - all request bodies are detailed
+            - all response status are listed
+            - all response content-types are correct
+            - all response bodies are detailed
+            - all examples are correct   
+            
+      - caption: 'Overall, the quality of the documentation is'
+        type: SelectOne
+        options: 
+            - poor
+            - fair
+            - good
+            - excellent     
+        
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+- rubric: 'Code quality and organization' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+
+      - caption: 'The repository is overall'
+        type: SelectOne
+        options: 
+            - not following the required structure
+            - follows the required structure but some files are either misplaced, wrongly named or misspelled
+            - well organized
+
+      - caption: 'The Javascript code'
+        type: SelectAll
+        options: 
+            - is clean, well organized and indented properly
+            - does not contain any error from JSHint
+            - does not contain any warning from JSHint
+            - does not repeat itself (DRY principle) and is easily maintainable   
+
+      - caption: 'When the app executes'
+        type: SelectAll
+        options: 
+            - it does not generate superfluous debugging messages in the console
+            - it does not generate error messages in the console
+
+      - caption: 'Overall, the application code'
+        type: SelectOne
+        options: 
+            - is poorly implemented
+            - is fairly well implemented
+            - is good
+            - is excellent
+            - is beyond expectations    
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment

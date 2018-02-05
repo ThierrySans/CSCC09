@@ -26,9 +26,11 @@
   lab: 
       title: Storing Data
       handout: ../labs/05/
+      rubric: https://grademy.work/rubric?id=C09S18-L5
   hw: 
       title: Backend
       handout: ../assignments/02/
+      rubric: https://grademy.work/rubric?id=C09S18-A2
     
 - week:
   lab: Managing Users
