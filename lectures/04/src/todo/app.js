@@ -21,31 +21,33 @@ var Item = function(content){
 
 app.get('/api/items/', function (req, res, next) {
     items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items) { 
+        if (err) return res.status(500).end(err);
         return res.json(items.reverse());
     });
 });
 
 app.post('/api/items/', function (req, res, next) {
     items.insert(req.body, function (err, item) {
-        res.json(item);
+        if (err) return res.status(500).end(err);
+        return res.json(item);
     });
 });
 
 app.get('/api/items/:id/', function (req, res, next) {
     items.findOne({_id: req.params.id}, function(err, item){
-        if (err) res.status(404).end("Item id #" + req.params.id + " does not exists");
-        else res.json(item);
+        if (err) return res.status(500).end(err);
+        if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
+        return res.json(item);
     });    
 });
 
 app.delete('/api/items/:id/', function (req, res, next) {
     items.findOne({_id: req.params.id}, function(err, item){
-        if (err) res.status(404).end("Item id #" + req.params.id + " does not exists");
-        else{
-            items.remove({ _id: item._id }, { multi: false }, function(err, num) {  
-                res.json(item);
-             });
-         }
+        if (err) return res.status(500).end(err);
+        if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
+        items.remove({ _id: item._id }, { multi: false }, function(err, num) {  
+            res.json(item);
+         });
     });    
 });
 
