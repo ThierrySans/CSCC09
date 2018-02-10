@@ -33,7 +33,7 @@ passport.deserializeUser(function(user, done) {
 });
                                      
 var isAuthenticated = function(req, res, next) {
-    if (!req.isAuthenticated()) return res.status(401).end("access denied");           
+    if (!req.isAuthenticated()) return res.status(401).end("access denied"); 
     else next();
 };
 
