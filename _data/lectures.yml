@@ -53,23 +53,15 @@
 - week: Security
   notes:
       # - FAQ: review/
-      # - The Big Picture: slides/C09-BigPicture.pdf
-      # - HTTPS: slides/C09-HTTPS.pdf
-      # - Web Security: slides/C09-WebSecurity.pdf
+      - Web Security: 06/slides/C09-WebSecurity.pdf
   readings:
       - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
 - break: <span class="em">Spring Break</span>
 
-- week: Web Frameworks
-  notes: 
-      # - AngularJS
-      # - ReactJS
-
-- week: Deploying large scale web applications
+- week: Web Framework
   notes:
-      # - Deploying web applications: slides/C09-Deploying.pdf
-      # - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
+
 
 - week: Advanced Javascript
   notes:
@@ -78,11 +70,16 @@
       # - web sockets
       # - Web RTC
 
-- week: Building large scale web applications
-  notes:
+- week: Developping fast web applications
+  notes: 
       # - Templates: slides/C09-Templates.pdf
       # - i18n & l10n: slides/C09-i18n.pdf
       # - Web Services: slides/C09-WebServices.pdf
+
+- week: Deploying large scale web applications
+  notes:
+      # - Deploying web applications: slides/C09-Deploying.pdf
+      # - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
 
 - week: Beyond web applications
   notes:

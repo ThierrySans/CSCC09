@@ -33,7 +33,10 @@
       rubric: https://grademy.work/rubric?id=C09S18-A2
     
 - week:
-  lab: Managing Users
+  lab: 
+      title: Managing Users
+      handout: ../labs/06/
+      rubric: https://grademy.work/rubric?id=C09S18-L6
   
     
 - break: <span class="em">Reading Week</span>
