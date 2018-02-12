@@ -42,6 +42,8 @@
 - break: <span class="em">Reading Week</span>
   hw: 
       title: Managing Users
+      handout: ../assignments/03/
+      rubric: https://grademy.work/rubric?id=C09S18-A3
   project: 
       title: Proposal
       handout: ../project/

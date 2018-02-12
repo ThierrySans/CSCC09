@@ -1,0 +1,121 @@
+- rubric: 'Authenticated Users and Multiple Galleries' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 70
+        
+      - caption: 'The API support for supporting users and multiple galleries'
+        type: SelectOne
+        options: 
+            - is unimplemented 
+            - is somehow implemented but does not realized its main functionality overall
+            - does achieve its main functionality overall but several features are missing
+            - does work well but couple of features are missing or not working properly
+            - does work very well overall and all features are properly implemented
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+      - caption: 'Users can:'
+        type: SelectAll
+        options: 
+            - sign in
+            - sign out
+            - sign up
+            
+      - caption: 'Authentication'
+        type: SelectAll
+        options: 
+            - credentials are sent over using POST/PUT requests when signing up
+            - credentials are sent over using POST requests when signing in
+            - passwords are stored as salted hashes
+            - session authentication is implemented and correctly used
+
+      - caption: 'Authorization'
+        type: SelectAll
+        options: 
+            - Non authenticated cannot read any picture nor comment
+            - Non-authenticated can sign-up and sign-in into the application
+            - Authenticated users can sign-out of the application
+            - Authenticated users can browse any gallery
+            - Gallery owners can upload and delete pictures to their own gallery only
+            - Authenticated users can post comments on any picture of any gallery
+            - Authenticated users can delete any one of their own comments but not others
+            - Gallery owners can delete any comment on any picture from their own gallery
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+
+- rubric: 'Frontend update' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+        
+      - caption: 'The frontend'
+        type: SelectOne
+        options: 
+            - is not updated 
+            - is somehow updated but does not implement most features overall
+            - is updated but several features are missing
+            - is updated but couple of features are missing or are not working properly
+            - is updated and all features are properly implemented
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+        
+- rubric: 'API documentation' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+        
+      - caption: 'The documentation'
+        type: SelectOne
+        options: 
+            - is not updated 
+            - is somehow updated but several details are missing
+            - is updated but couple of details are missing
+            - is updated and all details are
+            
+      - caption: 'Comments from the course staff ?'
+        type: Comment
+      
+- rubric: 'Code quality and organization' 
+  questions:
+      - caption: 'Score for this rubric'
+        type: Points
+        max: 10
+
+      - caption: 'The repository is overall'
+        type: SelectOne
+        options: 
+            - not following the required structure
+            - follows the required structure but some files are either misplaced, wrongly named or misspelled
+            - well organized
+
+      - caption: 'The Javascript code'
+        type: SelectAll
+        options: 
+            - is clean, well organized and indented properly
+            - does not contain any error from JSHint
+            - does not contain any warning from JSHint
+            - does not repeat itself (DRY principle) and is easily maintainable   
+
+      - caption: 'When the app executes'
+        type: SelectAll
+        options: 
+            - it does not generate superfluous debugging messages in the console
+            - it does not generate error messages in the console
+
+      - caption: 'Overall, the application code'
+        type: SelectOne
+        options: 
+            - is poorly implemented
+            - is fairly well implemented
+            - is good
+            - is excellent
+            - is beyond expectations    
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment  
