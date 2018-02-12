@@ -55,7 +55,7 @@ In this part, you are going to update your frontend to work with the Web API. As
 
 ## Documenting the API
 
-As shown in [lab 4]({{'labs/04/doc/' | absolute_url}}), write a documentation for your API (as a `README.md file) that contains, for each method, :
+As shown in [lab 4]({{'labs/04/doc' | absolute_url}}), write a documentation for your API (as a `README.md file) that contains, for each method, :
   
 1. Description: a description of the method
 1. Request: HTTP method (either POST, PUT, GET, PATCH or DELETE) and URL   
@@ -64,7 +64,7 @@ As shown in [lab 4]({{'labs/04/doc/' | absolute_url}}), write a documentation fo
 1. Response(s): the [HTTP status code](http://www.restapitutorial.com/httpstatuscodes.html)
     - content-type: [optional] the [type of](http://www.iana.org/assignments/media-types/media-types.xhtml) the response body (by default it is raw text)
     - body: [optional] a precise description of the body
-1. Example: aan example of such an API query using `curl`
+1. Example: an example of such an API query using `curl`
 
 
 
