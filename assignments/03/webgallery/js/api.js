@@ -45,8 +45,8 @@ var api = (function(){
         
     }
     
-    // get all imageIds from the gallery (no pagination)
-    module.getAllImageIds = function(callback){
+    // get all imageIds for a given username's gallery (no pagination)
+    module.getAllImageIds = function(username, callback){
 
     }
     
