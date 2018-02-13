@@ -31,7 +31,7 @@ var api = (function(){
     }
     
     // add an image to the gallery
-    module.addImage = function(title, author, file, callback){
+    module.addImage = function(title, file, callback){
         
     }
     
@@ -51,7 +51,7 @@ var api = (function(){
     }
     
     // add a comment to an image
-    module.addComment = function(imageId, author, content, callback){
+    module.addComment = function(imageId, content, callback){
         
     }
     
