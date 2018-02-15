@@ -37,7 +37,7 @@ You should submit your work to your Github course repository. Before submitting 
 
 ## Authenticated Users and Multiple Galleries
 
-In this part, you are going to extend your API to support authenticated users and multiple galleries. Each user will now has his/her own gallery. Users will be authenticated through the API (local authentication based on sessions). In addition of supporting these feature, access to the API is ruled by the following authorization policy: 
+In this part, you are going to extend your API to support authenticated users and multiple galleries. Each user will now have his/her own gallery. Users will be authenticated through the API (local authentication based on sessions). In addition of supporting these feature, access to the API is ruled by the following authorization policy: 
 
 - Non authenticated cannot read any picture nor comment
 - Non-authenticated can sign-up and sign-in into the application
