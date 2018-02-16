@@ -34,7 +34,6 @@ app.post('/signup/', function (req, res, next) {
 
 // curl -X POST -d '{"username":"admin","password": {"$gt": ""}}' -H "Content-Type: application/json" -c cookie.txt http://localhost:3000/signin/
 app.post('/signin/', function (req, res, next) {
-    console.log({username: req.body.username, password: req.body.password});
     users.findOne({username: req.body.username, password: req.body.password}, function(err, user){
         if (!(user)) return res.status(401).end("access denied");
         req.session.user = user;

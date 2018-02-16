@@ -19,8 +19,8 @@ var users = {};
 
 app.post('/api/users/', upload.single('picture'), function (req, res, next) {
     if (req.body.username in users) res.status(409).end('user ' + username + ' already exists');
+    console.log(req.file);
     users[req.body.username] = req.file;
-    console.log(users);
     res.redirect('/');
 });
 

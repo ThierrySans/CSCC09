@@ -51,11 +51,6 @@ app.delete('/api/items/:id/', function (req, res, next) {
     });    
 });
 
-app.use(function (req, res, next){
-    console.log("Storage", JSON.stringify(items, null, 2));
-    console.log("HTTP Response", res.statusCode);
-});
-
 const http = require('http');
 const PORT = 3000;
 
