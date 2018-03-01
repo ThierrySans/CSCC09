@@ -1,3 +1,5 @@
+const crypto = require('crypto');
+const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const app = express();
@@ -67,7 +69,7 @@ app.post('/signup/', function (req, res, next) {
         var hash = generateHash(password, salt);
         users.update({_id: username},{_id: username, salt, hash}, {upsert: true}, function(err){
             if (err) return res.status(500).end(err);
-            req.session.username = user_.id;
+            req.session.username = user._id;
             res.setHeader('Set-Cookie', cookie.serialize('username', user._id, {
                   path : '/', 
                   maxAge: 60 * 60 * 24 * 7 // 1 week in number of seconds
@@ -85,8 +87,8 @@ app.post('/signin/', function (req, res, next) {
     users.findOne({_id: username}, function(err, user){
         if (err) return res.status(500).end(err);
         if (!user) return res.status(401).end("access denied");
-        if (user.password !== password) return res.status(401).end("access denied"); 
-        // initialize cookie
+        if (user.hash !== generateHash(password, user.salt)) return res.status(401).end("access denied"); // invalid password
+        // start a session
         req.session.username = user._id;
         res.setHeader('Set-Cookie', cookie.serialize('username', user._id, {
               path : '/', 
