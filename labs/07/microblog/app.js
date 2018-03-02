@@ -69,11 +69,6 @@ app.post('/signup/', function (req, res, next) {
         var hash = generateHash(password, salt);
         users.update({_id: username},{_id: username, salt, hash}, {upsert: true}, function(err){
             if (err) return res.status(500).end(err);
-            req.session.username = user._id;
-            res.setHeader('Set-Cookie', cookie.serialize('username', user._id, {
-                  path : '/', 
-                  maxAge: 60 * 60 * 24 * 7 // 1 week in number of seconds
-            }));
             return res.json("user " + username + " signed up");
         });
     });
