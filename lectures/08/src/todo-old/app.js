@@ -1,7 +1,11 @@
 const crypto = require('crypto');
+const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const app = express();
+
+const logger = require('morgan');
+app.use(logger('dev'));
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -12,11 +16,6 @@ const validator = require('validator');
 const Datastore = require('nedb');
 var users = new Datastore({ filename: 'db/users.db', autoload: true });
 var items = new Datastore({ filename: path.join(__dirname,'db', 'items.db'), autoload: true, timestampData : true});
-
-var Item = function(content, username){
-    this.content = content;
-    this.owner = username;
-};
 
 const cookie = require('cookie');
 
@@ -53,12 +52,6 @@ app.use(function(req, res, next){
 });
 
 app.use(express.static('static'));
-
-app.use(function (req, res, next){
-    console.log("HTTP request", req.method, req.url, req.body);
-    next();
-});
-
 
 var isAuthenticated = function(req, res, next) {
     if (!req.session.username) return res.status(401).end("access denied");
@@ -163,10 +156,18 @@ app.delete('/api/items/:id/', isAuthenticated, checkId, function (req, res, next
     });    
 });
 
-const http = require('http');
-const PORT = 3000;
 
-http.createServer(app).listen(PORT, function (err) {
+const https = require('https');
+const PORT = 3030;
+
+var privateKey = fs.readFileSync( 'server.key' );
+var certificate = fs.readFileSync( 'server.crt' );
+var config = {
+        key: privateKey,
+        cert: certificate
+};
+
+https.createServer(config, app).listen(PORT, function (err) {
     if (err) console.log(err);
-    else console.log("HTTP server on http://localhost:%s", PORT);
+    else console.log("HTTPS server on https://localhost:%s", PORT);
 });

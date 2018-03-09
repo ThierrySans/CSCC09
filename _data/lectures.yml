@@ -59,9 +59,19 @@
 
 - break: <span class="em">Spring Break</span>
 
-- week: Web Framework
+- week: Deploying large scale web applications
   notes:
+      - Deploying web applications: 07/slides/C09-Deploying.pdf
+      - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
 
+- week: Developping fast web applications
+  notes: 
+      - Developping fast web applications: 08/slides/C09-FastWebapps.pdf
+
+- week: Special topics in Web Development
+  notes:
+      # - i18n & l10n: slides/C09-i18n.pdf
+      # - Web Services: slides/C09-WebServices.pdf
 
 - week: Advanced Javascript
   notes:
@@ -69,17 +79,6 @@
       # - web workers
       # - web sockets
       # - Web RTC
-
-- week: Developping fast web applications
-  notes: 
-      # - Templates: slides/C09-Templates.pdf
-      # - i18n & l10n: slides/C09-i18n.pdf
-      # - Web Services: slides/C09-WebServices.pdf
-
-- week: Deploying large scale web applications
-  notes:
-      # - Deploying web applications: slides/C09-Deploying.pdf
-      # - Deploying large scale web applications: slides/C09-DeployingLargeScale.pdf
 
 - week: Beyond web applications
   notes:

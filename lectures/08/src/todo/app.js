@@ -1,22 +1,30 @@
 const crypto = require('crypto');
+const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const app = express();
+
+const logger = require('morgan');
+app.use(logger('dev'));
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const validator = require('validator');
+/* *****************
+*** db and cache ***
+******************** */
 
 const Datastore = require('nedb');
 var users = new Datastore({ filename: 'db/users.db', autoload: true });
 var items = new Datastore({ filename: path.join(__dirname,'db', 'items.db'), autoload: true, timestampData : true});
 
-var Item = function(content, username){
-    this.content = content;
-    this.owner = username;
-};
+const Memcached = require('memcached');
+var memcached = new Memcached('localhost:11211');
+
+/* *************
+*** security ***
+**************** */
 
 const cookie = require('cookie');
 
@@ -43,6 +51,8 @@ function generateHash (password, salt){
     return hash.digest('base64');
 }
 
+const validator = require('validator');
+
 app.use(function(req, res, next){
     var username = (req.session.username)? req.session.username : '';
     res.setHeader('Set-Cookie', cookie.serialize('username', username, {
@@ -51,14 +61,6 @@ app.use(function(req, res, next){
     }));
     next();
 });
-
-app.use(express.static('static'));
-
-app.use(function (req, res, next){
-    console.log("HTTP request", req.method, req.url, req.body);
-    next();
-});
-
 
 var isAuthenticated = function(req, res, next) {
     if (!req.session.username) return res.status(401).end("access denied");
@@ -80,7 +82,97 @@ var checkId = function(req, res, next) {
     next();
 };
 
-// curl -X POST -d "username=admin&password=pass4admin" http://localhost:3000/signup/
+/* ********************
+*** backend caching ***
+*********************** */
+
+// backend templates
+// see ejs documentation: http://ejs.co/
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'backend'));
+
+memcached.flush(function(err){});
+
+var warmCache = function(callback){
+    console.log("Retrieving items from the database");
+    items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items){
+        if (err) return callback(err, null);
+        console.log("Caching json items");
+        memcached.set('items', items, 0, function(err){
+            if (err) return callback(err, null);
+            memcached.set('items', items, 0, function(err){
+                if (err) return callback(err, null);
+                app.render('index', {items: items}, function(err, html){
+                    if (err) return callback(err, null);
+                    console.log("Caching index.html");
+                    memcached.set('html', html, 0, function(err){
+                        if (err) return callback(err, null);
+                        return callback(null, items);
+                    });
+                });
+            });
+        });
+    });
+}
+
+warmCache(function(err, items){});
+
+/* *****************
+*** static files ***
+******************** */
+
+// app.get('/', function(req, res, next) {
+//     memcached.get('html', function(err, html){
+//         if (err) return res.status(500).end(err);
+//         return res.end(html);
+//     });
+// });
+//
+// app.use(express.static('static'));
+
+// HTTP 2
+var jsFile = fs.readFileSync(path.join(__dirname, 'static', 'bundle.js'));
+var mediaFile = fs.readFileSync(path.join(__dirname, 'static', 'media', 'delete-icon.png'));
+
+app.get('/', function(req, res, next) {
+    var js = res.push('/bundle.js', {
+        status: 200,
+        method: 'GET',
+        response: {
+          'content-type': 'application/javascript'
+        }
+    });
+    js.end(jsFile);
+    var media = res.push('/media/delete-icon.png', {
+        status: 200,
+        method: 'GET',
+        response: {
+          'content-type': 'image/png'
+        }
+    });
+    media.end(mediaFile);
+    // get html from cache
+    memcached.get('html', function(err, html){
+        if (err) return res.status(500).end(err);
+        return res.end(html);
+    });
+});
+
+// app.use(express.static('static'));
+
+/* *****************
+*** Long Polling ***
+******************** */
+
+var longpoll = require("express-longpoll")(app);
+longpoll.create("/api/items");
+process.setMaxListeners(0);
+
+
+/* ********
+*** API ***
+*********** */
+
 app.post('/signup/', checkUsername, function (req, res, next) {
     // extract data from HTTP request
     if (!('username' in req.body)) return res.status(400).end('username is missing');
@@ -102,7 +194,6 @@ app.post('/signup/', checkUsername, function (req, res, next) {
     });
 });
 
-// curl -X POST -d "username=admin&password=pass4admin" -c cookie.txt http://localhost:3000/signin/
 app.post('/signin/', checkUsername, function (req, res, next) {
     // extract data from HTTP request
     if (!('username' in req.body)) return res.status(400).end('username is missing');
@@ -120,7 +211,6 @@ app.post('/signin/', checkUsername, function (req, res, next) {
     });
 });
 
-// curl -b cookie.txt -c cookie.txt http://localhost:3000/signout/
 app.get('/signout/', function(req, res, next){
     req.session.destroy();
     res.setHeader('Set-Cookie', cookie.serialize('username', '', {
@@ -130,26 +220,17 @@ app.get('/signout/', function(req, res, next){
     return res.redirect("/");
 });
 
-app.get('/api/items/', function (req, res, next) {
-    items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items) { 
-        if (err) return res.status(500).end(err);
-        return res.json(items.reverse());
-    });
-});
-
 app.post('/api/items/', sanitizeContent, isAuthenticated, function (req, res, next) {
     items.insert({content: req.body.content, owner: req.session.username}, function (err, item) {
         if (err) return res.status(500).end(err);
-        return res.json(item);
+         // update cache
+        warmCache(function(err, items){
+            if (err) return res.status(500).end(err);
+            // publish long poll
+            longpoll.publish("/api/items", items);
+            return res.json(item);
+        });
     });
-});
-
-app.get('/api/items/:id/', checkId, function (req, res, next) {
-    items.findOne({_id: req.params.id}, function(err, item){
-        if (err) return res.status(500).end(err);
-        if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
-        return res.json(item);
-    });    
 });
 
 app.delete('/api/items/:id/', isAuthenticated, checkId, function (req, res, next) {
@@ -158,15 +239,28 @@ app.delete('/api/items/:id/', isAuthenticated, checkId, function (req, res, next
         if (item.owner !== req.session.username) return res.status(403).end("forbidden");
         if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
         items.remove({ _id: item._id }, { multi: false }, function(err, num) {  
-            res.json(item);
+            // update cache
+            warmCache(function(err, items){
+                if (err) return res.status(500).end(err);
+                 // publish long poll
+                longpoll.publish("/api/items", items);
+                return res.json(item);
+            });
          });
     });    
 });
 
-const http = require('http');
+const http2 = require('spdy');
 const PORT = 3000;
 
-http.createServer(app).listen(PORT, function (err) {
+var privateKey = fs.readFileSync( 'server.key' );
+var certificate = fs.readFileSync( 'server.crt' );
+var config = {
+        key: privateKey,
+        cert: certificate
+};
+
+http2.createServer(config, app).listen(PORT, function (err) {
     if (err) console.log(err);
-    else console.log("HTTP server on http://localhost:%s", PORT);
+    else console.log("HTTPS server on https://localhost:%s", PORT);
 });

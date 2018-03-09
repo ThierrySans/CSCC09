@@ -96,7 +96,7 @@ To receive full credits, the proposal should contains the following information:
 
 - project Title
 - team Members
-- a description of web application
+- a description of the web application
 - a description of the key features that will be completed by the Beta version
 - a description of additional features that will be complete by the Final version
 - a description of the technology that you will use
@@ -139,8 +139,6 @@ Before your final presentation, your team should have updated the application wi
     - content-type: [optional] the [type of](http://www.iana.org/assignments/media-types/media-types.xhtml) the response body (by default it is raw text)
     - body: [optional] a precise description of the body
 1. Example: aan example of such an API query using `curl`
-
-
 
 Given that we have about 40 projects in total. It is not possible to ask all of you to give a presentation in class. Instead, you are going to take a video demoing your app. This video must 3 min long (+-20 seconds). It should show your web app (no slide, no code) and the soundtrack should be you explaining what you are doing on screen. 
 
