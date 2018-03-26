@@ -22,6 +22,7 @@
     - Exploring HTML5: 02/slides/C09-HTML5.pdf
   readings:
       - Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      - Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
   notes:
@@ -70,18 +71,21 @@
 
 - week: Special topics in Web Development
   notes:
-      # - i18n & l10n: slides/C09-i18n.pdf
-      # - Web Services: slides/C09-WebServices.pdf
+      - i18n & l10n: 09/slides/C09-i18n.pdf
+      - Web Services: 09/slides/C09-WebServices.pdf
 
 - week: Advanced Javascript
   notes:
-      # - Asynchronism
-      # - web workers
-      # - web sockets
-      # - Web RTC
+      - Asynchronism, Javascript event loop, Web Workers and Web Sockets: 10/slides/C09-AdvancedJavascript.pdf
+  readings:
+      - Angular vs React vs Vue: https://codeburst.io/angular-vs-react-vs-vue-f470f5b74bf6
+      - Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+      - Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+      - Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+      - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
 
 - week: Beyond web applications
   notes:
-      # - Advertising, Analytics and Tracking: slides/C09-WebAdvertising.pdf
+      - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
 
 - week: Project presentations

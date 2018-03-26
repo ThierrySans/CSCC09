@@ -1,0 +1,32 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html>
+    <%- include('inc/header'); %>
+<body>
+    <header>
+        <h1 id="title">Microblog</h1>
+        <button class="btn header_btn" id="toggle_button"><%= __('toggle_button') %></button>
+    </header>
+    
+    <form class="complex_form" id="username_form">
+      <div class="form_title"><%= __('username_form_title') %></div>
+      <input type="text" class="form_element" placeholder="<%= __('username_form_placeholder') %>" id="username_input"></textarea>
+    </form>
+    
+    <form class="complex_form" id="message_form">
+      <div class="form_title"><%= __('content_form_title') %></div>
+      <textarea rows="5" class="form_element" placeholder="<%= __('content_form_placeholder') %>" id="content_input"></textarea>
+      <button type="submit" class="btn"/><%= __('submit_button') %></button>
+    </form>
+    
+    <div id="messages">
+        <ul>
+            <% messages.forEach(function(message){%>
+                <li><span class="username"><%= message.username %></span><%= message.content %></li>
+            <% }); %>
+        </ul>
+    </div>
+    <script src="js/frontAPI.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

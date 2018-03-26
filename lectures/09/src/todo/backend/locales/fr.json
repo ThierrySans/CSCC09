@@ -1,0 +1,9 @@
+{
+    "hello": "Bonjour i18n",
+    "toggle_button": "Basculer",
+    "username_form_title": "Entrez votre nom",
+    "username_form_placeholder": "Entrez votre nom",
+    "content_form_title": "Entrez votre message",
+    "content_form_placeholder": "Entrez votre message",
+    "submit_button": "Envoyez"
+}
