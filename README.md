@@ -1,6 +1,6 @@
 # [CSCC09 Programming on the Web](https://thierrysans.github.io/CSCC09/)
 
-This is the source code for the CSCC09 Spring 2018 course website.
+This is the source code for the CSCC09 Spring 2019 course website.
 
 The site is built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 Code is based on [@CSC309-Fall-2016/CSC309-Fall-2016.github.io](https://github.com/CSC309-Fall-2016/CSC309-Fall-2016.github.io).
@@ -14,17 +14,17 @@ From GitHub, fork this repo to your account, then clone it to your local machine
 
 ### 1. Install [RVM](https://rvm.io/)
 ```shell
-$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+$ gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 $ curl -sSL https://get.rvm.io | bash -s stable
 ```
 
 You might need to source the RVM config file. Read the instructions on screen carefully.
 
-You can also alternatively use [rbenv](https://github.com/rbenv/rbenv) to manage your Ruby environment.
 
 ### 2. Use the latest version of Ruby
 ```shell
-$ rvm --default use 2.3.1
+$ rvm get stable
+$ rvm use ruby --install --default
 ```
 
 ### 3. Install Bundler (dependancy manager)

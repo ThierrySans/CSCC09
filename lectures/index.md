@@ -11,7 +11,7 @@ permalink: /lectures/
     <div class="readings">Resources</div>
 </div>
 
-{% assign week_id = 0 %}
+{% assign week_id = 1 %}
 {% for e in site.data.lectures %}
 <div class="week {% cycle "odd", "even" %}">
     {% if e.break %}
@@ -55,6 +55,5 @@ permalink: /lectures/
 {% endfor %}
 
 <script type="text/javascript">
-   // make_schedule({{site.data.settings.first}},7,0);
-   make_schedule(20180101,7,0);
+   make_schedule({{site.data.settings.first}},7,0);
 </script>

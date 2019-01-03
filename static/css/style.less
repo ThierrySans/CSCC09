@@ -28,7 +28,7 @@
 }
 
 body {
-    min-height: 2000px;
+    min-height: auto;
     padding-top: 70px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -37,7 +37,7 @@ body {
 footer{
     margin: 0px auto;
     margin-top: 20px;
-    width: 800px;
+    max-width: 800px;
 }
 
 p, ul{
@@ -46,6 +46,12 @@ p, ul{
 
 .navbar{
     padding-top:25px;
+}
+
+
+.navbar-toggle{
+    line-height: 0;
+    padding: 4px 8px;
 }
 
 #utsc_logo{
@@ -57,22 +63,37 @@ p, ul{
 #content{
     margin-top:50px;
 	min-height: 200px;
+    overflow-x: scroll;
 }
 
 #header{
     .jumbotron();
     h1{
-        font-size: 42px;
+        font-size: 20px;
+    }
+    @media screen and (min-width: @screen-sm-min) {
+        h1{
+            font-size: 42px;
+        }
+    }
+    p{
+        font-size: 14px;
+    }
+    @media screen and (min-width: @screen-sm-min) {
+        p{
+            font-size: 21px;
+        }
     }
     #instructor {
-      .make-row();
+      display: flex;
       font-size: @jumbotron-font-size;
+
       div:first-child{
-        .make-xs-column(2);
+        flex-grow: 1;
         font-weight:bold;
       }
       div:last-child {
-        .make-xs-column(10);
+        flex-grow: 5;
       }
     }
 }

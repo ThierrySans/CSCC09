@@ -15,7 +15,7 @@
   absolute: False
 
 - title: Piazza
-  url:  https://piazza.com/mail.utoronto.ca/spring2018/cscc09
+  url:  https://piazza.com/mail.utoronto.ca/spring2019/cscc09/home
   absolute: True
 
 - title: Github
@@ -23,5 +23,5 @@
   absolute: True
   
 - title: Feedback
-  url: https://goo.gl/forms/n8porhFwU0ou8eOj1
+  url: https://goo.gl/forms/nIB52HdQeYiWjsBZ2
   absolute: True

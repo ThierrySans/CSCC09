@@ -6457,8 +6457,6 @@ button.close {
 .modal-header:after,
 .modal-footer:before,
 .modal-footer:after,
-#header #instructor:before,
-#header #instructor:after,
 #main:before,
 #main:after,
 .post:before,
@@ -6488,7 +6486,6 @@ button.close {
 .panel-body:after,
 .modal-header:after,
 .modal-footer:after,
-#header #instructor:after,
 #main:after,
 .post:after,
 .grid .row:after,
@@ -6749,7 +6746,7 @@ button.close {
   background-color: #e4f8f8;
 }
 body {
-  min-height: 2000px;
+  min-height: auto;
   padding-top: 70px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
@@ -6757,7 +6754,7 @@ body {
 footer {
   margin: 0px auto;
   margin-top: 20px;
-  width: 800px;
+  max-width: 800px;
 }
 p,
 ul {
@@ -6765,6 +6762,10 @@ ul {
 }
 .navbar {
   padding-top: 25px;
+}
+.navbar-toggle {
+  line-height: 0;
+  padding: 4px 8px;
 }
 #utsc_logo {
   margin-top: -25px;
@@ -6774,6 +6775,7 @@ ul {
 #content {
   margin-top: 50px;
   min-height: 200px;
+  overflow-x: scroll;
 }
 #header {
   padding-top: 30px;
@@ -6819,29 +6821,31 @@ ul {
   }
 }
 #header h1 {
-  font-size: 42px;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  #header h1 {
+    font-size: 42px;
+  }
+}
+#header p {
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  #header p {
+    font-size: 21px;
+  }
 }
 #header #instructor {
-  margin-left: -15px;
-  margin-right: -15px;
+  display: flex;
   font-size: 21px;
 }
 #header #instructor div:first-child {
-  position: relative;
-  float: left;
-  width: 16.66666667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  flex-grow: 1;
   font-weight: bold;
 }
 #header #instructor div:last-child {
-  position: relative;
-  float: left;
-  width: 83.33333333%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  flex-grow: 5;
 }
 #main {
   margin-left: -15px;

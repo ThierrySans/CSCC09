@@ -54,14 +54,12 @@ permalink: /resources/
 #### API catalogues
 
 - [ProgrammableWeb](http://www.programmableweb.com/)
-- [PublicAPIs](http://www.publicapis.com/)
 - [The Hackathon Toolbox](http://thecodeship.com/general/hackathon-toolbox-essential-tools-practices/)
 
 #### Machine Learning
 
 - [BigML](https://bigml.com/developers)
 - [DatumBox](http://www.datumbox.com/machine-learning-api/)
-- [AlchemyAPI](http://www.alchemyapi.com/)
 - [IBM Watson](https://developer.ibm.com/watson/)
 
 #### Natural Language Processing 
