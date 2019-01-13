@@ -3,18 +3,18 @@
 - week:
   lab: 
       title: HTML & CSS
-      # handout: ../labs/02/
-      # rubric: https://grademy.work/rubric?id=C09S18-L2
+      handout: https://classroom.github.com/a/nf5Ul1xn
+      rubric: https://grademy.work/rubric?id=C09S19-lab2
     
 - week:
   lab:
       title: Javascript
-      # handout: ../labs/03/
-      # rubric: https://grademy.work/rubric?id=C09S18-L3
+      handout: https://classroom.github.com/a/_gxfcLs2
+      rubric: https://grademy.work/rubric?id=C09S19-lab3
   hw:
       title: Frontend
-      # handout: ../assignments/01/
-      # rubric: https://grademy.work/rubric?id=C09S18-A1
+      handout: https://classroom.github.com/a/kDrEX56G
+      rubric: https://grademy.work/rubric?id=C09S19-hw1
     
 - week:
   lab: 
