@@ -5,7 +5,7 @@ permalink: /work/
 
 <div class="week hrow">
     <div class="week_id">Week</div>
-    <div class="date">Deadline (11:59pm)</div>
+    <div class="date">Deadline (10:00pm)</div>
     <div class="lab">Labs</div>
     <div class="hw">Assignments</div>
     <div class="project">Project</div>
