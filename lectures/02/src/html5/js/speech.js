@@ -32,7 +32,7 @@
     let say_it = function(){
         let msg = new SpeechSynthesisUtterance();
         msg.text = document.getElementById('textarea').value;
-        msg.lang = 'fr-fr';
+        msg.lang = 'en-us';
         speechSynthesis.speak(msg);
     };
     
