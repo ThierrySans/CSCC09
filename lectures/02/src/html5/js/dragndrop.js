@@ -5,7 +5,7 @@
     "use strict";
     
     function createDragNDropZone(){
-        var holder = document.getElementById("fileUploader");
+        let holder = document.getElementById("fileUploader");
 
         holder.ondragstart = function(e){return false;};
 
@@ -23,7 +23,7 @@
             let reader = new FileReader();
             reader.onload = function (e) {
                 // as a CSS background
-                // var img = $("#container1")[0];
+                // let img = $("#container1")[0];
                 // img.style.background = 'url(' + e.target.result + ') no-repeat center';
 
                 // as an HTML element

@@ -1,12 +1,12 @@
 (function(){
     "use strict";
     
-    var drawSmiley = function(e){
+    let drawSmiley = function(e){
         // get the canvas
-        var canvas = document.querySelector('#smiley > canvas');
+        let canvas = document.querySelector('#smiley > canvas');
 
         // use getContext to use the canvas for drawing
-        var ctx = canvas.getContext('2d');
+        let ctx = canvas.getContext('2d');
 
         // Draw shapes
         ctx.beginPath();

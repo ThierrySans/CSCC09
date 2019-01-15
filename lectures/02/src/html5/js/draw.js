@@ -6,17 +6,17 @@
 (function(){
     "use strict";
     
-    var canvas;
-    var context;
-    var clickX = [];
-    var clickY = [];
-    var clickDrag = [];
-    var clickColor = [];
-    var paint = false;
+    let canvas;
+    let context;
+    let clickX = [];
+    let clickY = [];
+    let clickDrag = [];
+    let clickColor = [];
+    let paint = false;
 
-    var currentColor = "#000000";
+    let currentColor = "#000000";
 
-    var addClick = function(x, y, dragging)
+    let addClick = function(x, y, dragging)
     {
       clickX.push(x);
       clickY.push(y);
@@ -24,7 +24,7 @@
       clickColor.push(currentColor);
     };
 
-    var prepareCanvas = function(){
+    let prepareCanvas = function(){
         canvas = document.querySelector('#drawing > canvas');
         context = canvas.getContext("2d");
         // clearCanvas();
@@ -34,8 +34,8 @@
         clickColor = [];
 
           canvas.onmousedown = function(e){
-              var mouseX = e.pageX - this.offsetLeft;
-              var mouseY = e.pageY - this.offsetTop;
+              let mouseX = e.pageX - this.offsetLeft;
+              let mouseY = e.pageY - this.offsetTop;
 
               paint = true;
               addClick(e.pageX - this.offsetLeft, e.pageY - this.offsetTop,false);
@@ -58,11 +58,11 @@
         };
     };
 
-    var redraw = function(){
+    let redraw = function(){
       clearCanvas();
       context.lineJoin = "round";
       context.lineWidth = 5;
-      for(var i=0; i < clickX.length; i++)
+      for(let i=0; i < clickX.length; i++)
           {
             if(clickDrag[i]){
                       context.beginPath();
@@ -75,18 +75,18 @@
           }
     };
 
-    var redrawSlow = function(k){
+    let redrawSlow = function(k){
         setTimeout(function(){
             partialRedraw(k);
             if (k<clickX.length) redrawSlow(k+1);
         },100);
     };
 
-    var partialRedraw = function(k){
+    let partialRedraw = function(k){
       clearCanvas();
       context.lineJoin = "round";
       context.lineWidth = 5;
-      for(var i=0; i < clickX.length && i < k; i++)
+      for(let i=0; i < clickX.length && i < k; i++)
           {
             if(clickDrag[i]){
                       context.beginPath();
@@ -99,11 +99,11 @@
           }
     };
 
-    var clearCanvas = function(){
+    let clearCanvas = function(){
         context.clearRect(0, 0, canvas.width, canvas.height);
     };
 
-    var resetCanvas = function(){
+    let resetCanvas = function(){
         clickX=[];
         clickY=[];
         clickDrag=[];

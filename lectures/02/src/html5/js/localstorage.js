@@ -1,24 +1,24 @@
 (function(){
     "use strict";
     
-    var pullFromLocalStorage = function(){
-        var username = localStorage.getItem("username");
-        var comment = localStorage.getItem("comment");
+    let pullFromLocalStorage = function(){
+        let username = localStorage.getItem("username");
+        let comment = localStorage.getItem("comment");
         document.getElementById("username").value = (username)? username : "";
         document.getElementById("comment").value = (comment)? comment : "";
     };
 
-    var pushUsernameToLocalStorage = function(e){
-        var username = document.getElementById("username").value;
+    let pushUsernameToLocalStorage = function(e){
+        let username = document.getElementById("username").value;
         localStorage.setItem("username", username);
     };
 
-    var pushCommentToLocalStorage = function(e){
-        var comment = document.getElementById("comment").value;
+    let pushCommentToLocalStorage = function(e){
+        let comment = document.getElementById("comment").value;
         localStorage.setItem("comment", comment);
     };
 
-    var removeFromLocalStorage = function(){
+    let removeFromLocalStorage = function(){
        localStorage.removeItem("username");
        localStorage.removeItem("comment");
        pullFromLocalStorage();

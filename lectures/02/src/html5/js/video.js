@@ -5,13 +5,13 @@
     // "Chroma Key Video Effects Using JavaScript and the HTML5 Canvas Element"
     // http://tech.pro/tutorial/1281/chroma-key-video-effects-using-javascript-and-the-html5-canvas-element
 
-    var sourceVideo;
-    var hiddenCanvas;
-    var displayCanvas;
-    var hiddenContext;
-    var displayContext;
+    let sourceVideo;
+    let hiddenCanvas;
+    let displayCanvas;
+    let hiddenContext;
+    let displayContext;
 
-    var runAnalysis = function(){
+    let runAnalysis = function(){
         if(sourceVideo.paused || sourceVideo.ended){return;}
         frameConversion();
         if(window.requestAnimationFrame){
@@ -22,15 +22,15 @@
         }
     };
 
-    var frameConversion = function(){
+    let frameConversion = function(){
         hiddenContext.drawImage(sourceVideo,0,0,sourceVideo.videoWidth, sourceVideo.videoHeight);
-        var frame = hiddenContext.getImageData(0,0,sourceVideo.videoWidth, sourceVideo.videoHeight);
-        var length = frame.data.length;
-        for (var i =0; i <length; i++){
-            var r = frame.data [i*4+ 0];
-            var g = frame.data [i*4 + 1];
-            var b = frame.data [i*4 + 2];
-            if (g > 110 && g < 200 && r > 100 && r < 190 && b > 110 && b < 200){
+        let frame = hiddenContext.getImageData(0,0,sourceVideo.videoWidth, sourceVideo.videoHeight);
+        let length = frame.data.length;
+        for (let i =0; i <length; i++){
+            let r = frame.data [i*4+ 0];
+            let g = frame.data [i*4 + 1];
+            let b = frame.data [i*4 + 2];
+            if (g > 150 && r < 130){
                 frame.data[i*4+ 3] = 0;
             }
         }
@@ -38,7 +38,7 @@
         return;
     };
 
-    var setGreenScreen = function(){
+    let setGreenScreen = function(){
         sourceVideo = document.getElementById("sourceVideo");
         sourceVideo.crossOrigin = '';
         hiddenCanvas = document.getElementById("hiddenCanvas");
