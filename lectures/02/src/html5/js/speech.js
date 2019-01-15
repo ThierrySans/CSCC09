@@ -4,9 +4,9 @@
     // http://stiltsoft.com/blog/2013/05/google-chrome-how-to-use-the-web-speech-api/
 
     let recognition = new webkitSpeechRecognition();
-    // recognition.continuous = true;
-    // recognition.interimResults = true;
-    // recognition.lang = "en-us";
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = "en-us";
 
     let record_on = function(){
       document.getElementById('speech2text').innerHTML = "stop";
