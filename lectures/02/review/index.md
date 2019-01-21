@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lectures/2/review/
+permalink: /lectures/02/review/
 ---
 
 - How does Java and Javascript compare?

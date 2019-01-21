@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /lectures/1/review/
+permalink: /lectures/01/review/
 ---
 
 - What are the main advantages of developing software as web applications rather than developing a standalone desktop applications?

@@ -38,7 +38,7 @@ let api = (function(){
     }
     
     // get all items
-    module.getItems = function(){
+    let getItems = function(){
         let todo = JSON.parse(localStorage.getItem('todo'));
         return todo.items;
     }
@@ -48,14 +48,14 @@ let api = (function(){
     // notify all item listeners
     function notifyItemListeners(){
         itemListeners.forEach(function(listener){
-            listener(api.getItems());
+            listener(getItems());
         });
     }
     
     // register an item listener
     module.onItemUpdate = function(listener){
         itemListeners.push(listener);
-        listener(api.getItems());
+        listener(getItems());
     }
     
     return module;
