@@ -1,0 +1,24 @@
+- rubric: 'Proposal' 
+  questions:
+      
+      - caption: 'Pieces of the proposal '
+        type: SelectAll
+        options: 
+            - title
+            - team members
+            - project description
+            - plan for the beta-version 
+            - plan for the final version
+            - tech stack
+            - top 5 challenges
+      
+      - caption: 'Score for the proposal'
+        type: Points
+        max: 10
+        
+      - caption: 'Challenge Factor'
+        type: Points
+        max: 1
+
+      - caption: 'Comments from the course staff ?'
+        type: Comment

@@ -46,7 +46,7 @@
       # rubric: https://grademy.work/rubric?id=C09S18-A3
   project:
       title: Proposal
-      # handout: ../project/
+      handout: ../project/
     
 - week: <span class="em">Reading Week</span>
   lab: 
