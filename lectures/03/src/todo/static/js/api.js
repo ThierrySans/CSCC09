@@ -72,7 +72,7 @@ var api = (function(){
         setTimeout(function(e){
             notifyItemListeners();
             refresh();
-        },2000);
+        }, 2000);
     }());
 
     return module;

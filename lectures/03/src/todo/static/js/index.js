@@ -9,7 +9,6 @@
         
         api.onError(function(err){
             var error_box = document.querySelector('#error_box');
-            console.log(error_box);
             error_box.innerHTML = err;
             error_box.style.visibility = "visible";
         });
