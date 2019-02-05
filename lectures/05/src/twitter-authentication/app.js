@@ -14,7 +14,7 @@ const passport = require('passport');
 const TwitterStrategy = require('passport-twitter').Strategy;
 
 // create credentials at https://apps.twitter.com/app/new
-var TwitterCredentials = JSON.parse(fs.readFileSync('twitter-nogit.json', 'utf8'));
+var TwitterCredentials = JSON.parse(fs.readFileSync('twitter.json.nogit', 'utf8'));
 
 passport.use(new TwitterStrategy(TwitterCredentials, function(token, tokenSecret, profile, callback) {
      console.log(profile);
