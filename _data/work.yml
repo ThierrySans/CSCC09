@@ -35,14 +35,14 @@
 - week:
   lab: 
       title: Managing Users
-      # handout: ../labs/06/
+      handout: https://classroom.github.com/a/4vFjfoAK
       # rubric: https://grademy.work/rubric?id=C09S18-lab6
 
   
 - break: <span class="em">Reading Week</span> 
   hw: 
       title: Managing Users
-      # handout: ../assignments/03/
+      handout: https://classroom.github.com/a/-xFKrvRs
       # rubric: https://grademy.work/rubric?id=C09S18-hw3
   project:
       title: Proposal
