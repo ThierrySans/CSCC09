@@ -27,7 +27,7 @@ app.get('/api/items/', function (req, res, next) {
 });
 
 app.post('/api/items/', function (req, res, next) {
-    items.insert(req.body, function (err, item) {
+    items.insert(new Item(req.body), function (err, item) {
         if (err) return res.status(500).end(err);
         return res.json(item);
     });
