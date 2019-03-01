@@ -67,9 +67,9 @@
   #     - Developping fast web applications: 08/slides/C09-FastWebapps.pdf
 
 - week: Deploying large scale web applications
-  # notes:
-  #     - Deploying web applications: 07/slides/C09-Deploying.pdf
-  #     - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
+  notes:
+      - Deploying web applications: 07/slides/C09-Deploying.pdf
+      - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
 
 - week: Special topics in Web Development
   # notes:
