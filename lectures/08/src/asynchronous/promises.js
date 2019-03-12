@@ -26,7 +26,7 @@ var fetchFile = function(fileurl, filename){
     })
 };
 
-readFile(bookFile);.then(function(res){
+readFile(bookFile).then(function(res){
       var books = JSON.parse(res);
       var lop = books.map(function(book, i){
           return fetchFile(book.url, i.toString());
