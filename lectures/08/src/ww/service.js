@@ -1,4 +1,4 @@
 const { workerData, parentPort } = require('worker_threads');
 
 workerData.sort();
-parentPort.postMessage(a);
+parentPort.postMessage(workerData);
