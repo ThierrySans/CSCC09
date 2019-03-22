@@ -74,12 +74,12 @@
  
 
 - week: Special topics in Web Development
-  # notes:
-  #     - i18n & l10n: 09/slides/C09-i18n.pdf
-  #     - Web Services: 09/slides/C09-WebServices.pdf
+  notes:
+      - i18n & l10n: 09/slides/C09-i18n.pdf
+      - Web Services: 09/slides/C09-WebServices.pdf
 
 - week: Beyond web applications
-  # notes:
-  #     - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
+  notes:
+      - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
 
 - week: Project presentations
