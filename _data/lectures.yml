@@ -69,8 +69,8 @@
 - week: Developping fast web applications
   notes:
       - Developping fast web applications: 10/slides/C09-FastWebapps.pdf
-    readings:
-        - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
+  readings:
+      - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
  
 
 - week: Special topics in Web Development
