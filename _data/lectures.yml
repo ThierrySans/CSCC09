@@ -66,9 +66,9 @@
       - Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
       - Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
-- week: Developping fast web applications
+- week: Developing fast web applications
   notes:
-      - Developping fast web applications: 09/slides/C09-FastWebapps.pdf
+      - Developing fast web applications: 09/slides/C09-FastWebapps.pdf
   readings:
       - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
  
