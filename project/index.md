@@ -5,7 +5,7 @@ permalink: /project/
 
 # Project
 
-In this project, you can build whatever you want and you can use any library, framework, tool and programming language of your choice. However, your project must contain two distinct pieces: 
+In this project, you can build whatever you want (but not a video game) and you can use any library, framework, tool and programming language of your choice. However, your project must contain two distinct pieces: 
 
 - a frontend UI that works relatively well on the commonly used web browsers
 - a web API that follows the REST design principles and that is completely independent from the frontend 
@@ -59,24 +59,32 @@ Based on previous experiences, things that could be quite challenging:
 Contrary to things that are usually not challenging:
 
 - make it look good (it is a requirement)
-- geolocation
+- geolocation (one liner)
 - building a chat app (tons of examples on the web) 
 - speech recognition (covered in class) unless done in context (AI)
 - facebook authentication (or any other third-party authentication) (covered in class)
 - security (it is a requirement) unless you app works with the OS extensively
 - building a complex AI (this course is not an AI course). Instead find an API/library that does it for you
 - complex speech processing (this course is not about NLP), instead find an API/library that does it for you
-- complex gameplay (this course is not about gaming), instead make the game simple and focus on web interactions 
+<!-- - complex gameplay (this course is not about gaming), instead make the game simple and focus on web interactions  -->
 
 Here are few examples of applications from previous years:
 
+- an Amazon-Lambda-like app to design and deploy Web APIs
+- a Lightbeam-like chrome extension
+- a collaborative online whiteboard
+- an app that uses face detection to detect whose attending tutorial sessions
+- an app to mix and host sound content
+- a Trello-like app with video chat integrated
 - a powerful 3D editor
 - a webapp to manage and deploy docker container
 - an amazon lambda type of app
 - newsfeed integrated with a facebook bot 
-- a webVR and webGL game 
-- a drawing and image caption game 
-- a massive multiplayer game that uses webRTC for P2P communications between browsers
+- a webVR application
+- a Soundtracker-like app
+<!-- - a webVR and webGL game  -->
+<!-- - a drawing and image caption game  -->
+<!-- - a massive multiplayer game that uses webRTC for P2P communications between browsers -->
 - a browser extension that adds several project management functionalities to Github
 - a collaborative application to plan travels interactively
 - a GitHub-like to share and showcase private projects to future employers

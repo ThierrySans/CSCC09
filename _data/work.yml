@@ -29,8 +29,8 @@
       # rubric: https://grademy.work/rubric?id=C09S19-lab5
   hw: 
       title: Backend
-      handout: https://classroom.github.com/a/-FaLJFNr
-      rubric: https://grademy.work/rubric?id=C09S19-hw2
+      # handout: https://classroom.github.com/a/-FaLJFNr
+      # rubric: https://grademy.work/rubric?id=C09S19-hw2
     
 - week:
   lab: 
