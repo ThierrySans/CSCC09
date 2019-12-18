@@ -1,7 +1,7 @@
 - week: HTML & CSS
-  notes:
-      - Introduction: 01/slides/C09-Introduction.pdf
-      - HTML & CSS: 01/slides/C09-HTMLandCSS.pdf
+  # notes:
+  #     - Introduction: 01/slides/C09-Introduction.pdf
+  #     - HTML & CSS: 01/slides/C09-HTMLandCSS.pdf
   readings: 
       - HTML on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
       - CSS on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto
@@ -11,55 +11,55 @@
       - W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
 
 - week: Javascript
-  notes:
-    - Javascript: 02/slides/C09-Javascript.pdf
-    - Javascript in the browser: 02/slides/C09-Javascript-browser.pdf
-    - Building frontends: 02/slides/C09-BuildingFrontends.pdf
-    - Exploring HTML5: 02/slides/C09-HTML5.pdf
+  # notes:
+  #   - Javascript: 02/slides/C09-Javascript.pdf
+  #   - Javascript in the browser: 02/slides/C09-Javascript-browser.pdf
+  #   - Building frontends: 02/slides/C09-BuildingFrontends.pdf
+  #   - Exploring HTML5: 02/slides/C09-HTML5.pdf
   readings:
       - Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
       - Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  notes:
-      - The HTTP protocol: 03/slides/C09-HTTP.pdf
-      - Javascript on the server: 03/slides/C09-JavascriptServer.pdf
-      - JSON: 03/slides/C09-JSON.pdf
-      - Ajax: 03/slides/C09-Ajax.pdf
-      - Web REST API: 03/slides/C09-REST.pdf
+  # notes:
+  #     - The HTTP protocol: 03/slides/C09-HTTP.pdf
+  #     - Javascript on the server: 03/slides/C09-JavascriptServer.pdf
+  #     - JSON: 03/slides/C09-JSON.pdf
+  #     - Ajax: 03/slides/C09-Ajax.pdf
+  #     - Web REST API: 03/slides/C09-REST.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       - 10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
       - RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
-  notes:
-      - Storing data: 04/slides/C09-Data.pdf
-      - File upload: 04/slides/C09-Files.pdf
+  # notes:
+  #     - Storing data: 04/slides/C09-Data.pdf
+  #     - File upload: 04/slides/C09-Files.pdf
 
 - week: Managing users
-  notes:
-      - Cookies and Sessions: 05/slides/C09-CookiesAndSessions.pdf
-      - WebAuthentication:  05/slides/C09-WebAuthentication.pdf
+  # notes:
+  #     - Cookies and Sessions: 05/slides/C09-CookiesAndSessions.pdf
+  #     - WebAuthentication:  05/slides/C09-WebAuthentication.pdf
   readings: 
       - RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
       
 - week: Security
-  notes:
-      - Web Security: 06/slides/C09-WebSecurity.pdf
+  # notes:
+  #     - Web Security: 06/slides/C09-WebSecurity.pdf
   readings:
       - Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
 - break: <span class="em">Spring Break</span>
 
 - week: Deploying large scale web applications
-  notes:
-      - Deploying web applications: 07/slides/C09-Deploying.pdf
-      - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
+  # notes:
+  #     - Deploying web applications: 07/slides/C09-Deploying.pdf
+  #     - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
 
 - week: Advanced Javascript
-  notes:
-      - Asynchronism, Javascript event loop, Web Workers and Web Sockets: 08/slides/C09-AdvancedJavascript.pdf
+  # notes:
+  #     - Asynchronism, Javascript event loop, Web Workers and Web Sockets: 08/slides/C09-AdvancedJavascript.pdf
   readings:
       - Angular vs React vs Vue: https://codeburst.io/angular-vs-react-vs-vue-f470f5b74bf6
       - Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
@@ -67,19 +67,19 @@
       - Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
 - week: Developping fast web applications
-  notes:
-      - Developping fast web applications: 09/slides/C09-FastWebapps.pdf
+  # notes:
+  #     - Developping fast web applications: 09/slides/C09-FastWebapps.pdf
   readings:
       - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
  
 
 - week: Special topics in Web Development
-  notes:
-      - i18n & l10n: 10/slides/C09-i18n.pdf
-      - Web Services: 10/slides/C09-WebServices.pdf
+  # notes:
+  #     - i18n & l10n: 10/slides/C09-i18n.pdf
+  #     - Web Services: 10/slides/C09-WebServices.pdf
 
 - week: Beyond web applications
-  notes:
-      - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
+  # notes:
+  #     - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
 
 - week: Project presentations

@@ -1,1 +1,0 @@
-replace sha2 with slow hashing

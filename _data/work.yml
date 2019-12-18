@@ -3,30 +3,30 @@
 - week:
   lab: 
       title: HTML & CSS
-      handout: https://classroom.github.com/a/nf5Ul1xn
-      rubric: https://grademy.work/rubric?id=C09S19-lab2
+      # handout: https://classroom.github.com/a/nf5Ul1xn
+      # rubric: https://grademy.work/rubric?id=C09S19-lab2
     
 - week:
   lab:
       title: Javascript
-      handout: https://classroom.github.com/a/_gxfcLs2
-      rubric: https://grademy.work/rubric?id=C09S19-lab3
+      # handout: https://classroom.github.com/a/_gxfcLs2
+      # rubric: https://grademy.work/rubric?id=C09S19-lab3
   hw:
       title: Frontend
-      handout: https://classroom.github.com/a/kDrEX56G
-      rubric: https://grademy.work/rubric?id=C09S19-hw1
+      # handout: https://classroom.github.com/a/kDrEX56G
+      # rubric: https://grademy.work/rubric?id=C09S19-hw1
     
 - week:
   lab: 
       title: Web API
-      handout: https://classroom.github.com/a/dmemisvb
-      rubric: https://grademy.work/rubric?id=C09S19-lab4
+      # handout: https://classroom.github.com/a/dmemisvb
+      # rubric: https://grademy.work/rubric?id=C09S19-lab4
     
 - week: 
   lab: 
       title: Storing Data
-      handout: https://classroom.github.com/a/GNusP0DY
-      rubric: https://grademy.work/rubric?id=C09S19-lab5
+      # handout: https://classroom.github.com/a/GNusP0DY
+      # rubric: https://grademy.work/rubric?id=C09S19-lab5
   hw: 
       title: Backend
       handout: https://classroom.github.com/a/-FaLJFNr
@@ -35,15 +35,15 @@
 - week:
   lab: 
       title: Managing Users
-      handout: https://classroom.github.com/a/4vFjfoAK
-      rubric: https://grademy.work/rubric?id=C09S19-lab6
+      # handout: https://classroom.github.com/a/4vFjfoAK
+      # rubric: https://grademy.work/rubric?id=C09S19-lab6
 
   
 - break: <span class="em">Reading Week</span> 
   hw: 
       title: Managing Users
-      handout: https://classroom.github.com/a/-xFKrvRs
-      rubric: https://grademy.work/rubric?id=C09S19-hw3
+      # handout: https://classroom.github.com/a/-xFKrvRs
+      # rubric: https://grademy.work/rubric?id=C09S19-hw3
   project:
       title: Proposal
       handout: ../project/
@@ -51,8 +51,8 @@
 - week: <span class="em">Reading Week</span>
   lab: 
       title: Security
-      handout: https://classroom.github.com/a/LiQR1qyB
-      rubric: https://grademy.work/rubric?id=C09S19-lab7
+      # handout: https://classroom.github.com/a/LiQR1qyB
+      # rubric: https://grademy.work/rubric?id=C09S19-lab7
 
 - week: 
     
