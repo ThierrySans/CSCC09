@@ -1,9 +1,6 @@
 # [CSCC09 Programming on the Web](https://thierrysans.github.io/CSCC09/)
 
-This is the source code for the CSCC09 Spring 2019 course website.
-
-The site is built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
-Code is based on [@CSC309-Fall-2016/CSC309-Fall-2016.github.io](https://github.com/CSC309-Fall-2016/CSC309-Fall-2016.github.io).
+This is the source code for the CSCC09 course website.
 
 Enjoy the course!
 
