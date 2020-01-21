@@ -21,12 +21,12 @@
       - Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  # notes:
-  #     - The HTTP protocol: 03/slides/C09-HTTP.pdf
-  #     - Javascript on the server: 03/slides/C09-JavascriptServer.pdf
-  #     - JSON: 03/slides/C09-JSON.pdf
-  #     - Ajax: 03/slides/C09-Ajax.pdf
-  #     - Web REST API: 03/slides/C09-REST.pdf
+  notes:
+      - The HTTP protocol: 03/slides/C09-HTTP.pdf
+      - Javascript on the server: 03/slides/C09-JavascriptServer.pdf
+      - JSON: 03/slides/C09-JSON.pdf
+      - Ajax: 03/slides/C09-Ajax.pdf
+      - Web REST API: 03/slides/C09-REST.pdf
   readings:
       - A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       - 10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
