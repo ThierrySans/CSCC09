@@ -19,31 +19,31 @@
 - week:
   lab: 
       title: Web API
-      # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-lab4
+      handout: https://classroom.github.com/a/8mVDb7cM
+      rubric: https://grademy.work/ThierrySans/C09W20-lab4/
     
 - week: 
   lab: 
       title: Storing Data
       # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-lab5
+      # rubric: 
   hw: 
       title: Backend
-      # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-hw2
+      handout: https://classroom.github.com/a/-pGxEiLc
+      rubric: https://grademy.work/ThierrySans/C09W20-lab4/
     
 - week:
   lab: 
       title: Managing Users
       # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-lab6
+      # rubric: 
 
   
 - break: <span class="em">Reading Week</span> 
   hw: 
       title: Managing Users
       # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-hw3
+      # rubric: 
   project:
       title: Proposal
       handout: ../project/
@@ -52,7 +52,7 @@
   lab: 
       title: Security
       # handout: 
-      # rubric: https://grademy.work/rubric?id=C09S19-lab7
+      # rubric: 
 
 - week: 
     
