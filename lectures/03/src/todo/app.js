@@ -4,8 +4,6 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-app.use(express.static('static'));
-
 var Item = (function(){
     var id = 0;
     return function item(item){
@@ -50,6 +48,8 @@ app.delete('/api/items/:id/', function (req, res, next) {
     }
     next();
 });
+
+app.use(express.static('static'));
 
 app.use(function (req, res, next){
     console.log("Storage", JSON.stringify(items, null, 2));
