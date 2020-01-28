@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Users</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <a href="/" id="title">Users</a>
+    </header>
+    
+    <p id="error_box"></p>
+    
+    <form id="add_user" class="complex_form">
+      <input name="username"  class="form_element" placeholder="Enter your username"/>
+      <input type="file"  class="form_element" name="picture" accept="image/*"/>
+      <input type="submit" class="btn"/>
+    </form>
+    
+    <div id="users">
+    </div>
+    
+    <footer>
+        <a href='/credits.html'>credits</a>
+    </footer>
+    <script src="js/api.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
