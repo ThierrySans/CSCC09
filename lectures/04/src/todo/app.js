@@ -5,9 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-app.use(express.static('static'));
-
-let Datastore = require('nedb');
+const Datastore = require('nedb');
 let items = new Datastore({ filename: path.join(__dirname,'db', 'items.db'), autoload: true, timestampData : true});
 
 app.use(function (req, res, next){
@@ -50,6 +48,8 @@ app.delete('/api/items/:id/', function (req, res, next) {
          });
     });    
 });
+
+app.use(express.static('static'));
 
 const http = require('http');
 const PORT = 3000;

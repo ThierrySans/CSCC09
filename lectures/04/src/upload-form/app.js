@@ -5,17 +5,15 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-var multer  = require('multer');
-var upload = multer({ dest: path.join(__dirname, 'uploads')});
-
-app.use(express.static('static'));
+const multer  = require('multer');
+let upload = multer({ dest: path.join(__dirname, 'uploads')});
 
 app.use(function (req, res, next){
     console.log("HTTP request", req.method, req.url, req.body);
     next();
 });
 
-var users = {};
+let users = {};
 
 app.post('/api/users/', upload.single('picture'), function (req, res, next) {
     if (req.body.username in users) res.status(409).end('user ' + username + ' already exists');
@@ -36,6 +34,8 @@ app.get('/api/users/:username/profile/picture/', function (req, res, next) {
         res.sendFile(profile.path);
     }
 });
+
+app.use(express.static('static'));
 
 const http = require('http');
 const PORT = 3000;
