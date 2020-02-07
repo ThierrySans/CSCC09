@@ -21,7 +21,7 @@ let isAuthenticated = function(req, res, next) {
         if (!(user)) return res.status(401).end("access denied"); // unknown user
         bcrypt.compare(password, user.hash, function(err, valid) {
            if (err) return res.status(500).end(err);
-           if (!valid) return res.status(401).end("access denied");
+           if (!valid) return res.status(401).end("access denied"); //wrong password
            return next();
         });
     });
@@ -40,6 +40,7 @@ app.post('/signup/', function (req, res, next) {
         if (user) return res.status(409).end("username " + username + " already exists");
         // generate a new salt and hash
         bcrypt.genSalt(10, function(err, salt) {
+            if (err) return res.status(500).end(err);
             bcrypt.hash(password, salt, function(err, hash) {
                 // insert new user into the database
                 users.update({_id: username},{_id: username, hash: hash}, {upsert: true}, function(err){

@@ -15,14 +15,9 @@ app.use(session({
 const Datastore = require('nedb');
 let users = new Datastore({ filename: 'db/users.db', autoload: true });
 
-app.use(function(req, res, next){
-    req.user = ('user' in req.session)? req.session.user : null;
-    next();
-});
-
 let isAuthenticated = function(req, res, next) {
-    if (!req.user) return res.status(401).end("access denied");
-    next();
+    if (!req.session.user) return res.status(401).end("access denied");
+    return next();
 };
 
 // curl -X POST -d "username=admin&password=pass4admin" http://localhost:3000/signup/

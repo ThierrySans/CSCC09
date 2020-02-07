@@ -10,7 +10,7 @@ app.use(session({
 
 // curl -c cookie.txt -b cookie.txt http://localhost:3000/
 app.get('/', function (req, res, next) {
-    var nbvisits = (req.session.nbvisits)? req.session.nbvisits + 1 : 1;
+    let nbvisits = (req.session.nbvisits)? req.session.nbvisits + 1 : 1;
     req.session.nbvisits = nbvisits;
     return res.end("You have been visiting this site: " + nbvisits + " times");
 });
