@@ -35,15 +35,15 @@
 - week:
   lab: 
       title: Managing Users
-      # handout: 
-      # rubric: 
+      handout: https://classroom.github.com/a/WyjTQGQW
+      rubric: https://grademy.work/ThierrySans/C09W20-lab6/
 
   
 - break: <span class="em">Reading Week</span> 
   hw: 
       title: Managing Users
-      # handout: 
-      # rubric: 
+      handout: https://classroom.github.com/a/m9w_CA9N
+      rubric: https://grademy.work/ThierrySans/C09W20-hw3/
   project:
       title: Proposal
       handout: ../project/
@@ -52,7 +52,7 @@
   lab: 
       title: Security
       # handout: 
-      # rubric: 
+      # rubric: https://grademy.work/ThierrySans/C09W20-lab7/
 
 - week: 
     
