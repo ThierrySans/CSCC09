@@ -13,17 +13,12 @@ let secret = "please change this secret";
 const Datastore = require('nedb');
 let users = new Datastore({ filename: 'db/users.db', autoload: true });
 
-app.use(function(req, res, next){
-    req.user = null;
+let isAuthenticated = function(req, res, next) {
     let cookies = cookie.parse(req.headers.cookie || '');
     if (cookies.token){
-        req.user = jwt.verify(cookies.token, secret);
+        let user =  jwt.verify(cookies.token, secret);
+        if (!user) return res.status(401).end("access denied");
     }
-    next();
-});
-
-let isAuthenticated = function(req, res, next) {
-    if (!req.user) return res.status(401).end("access denied");
     next();
 };
 
@@ -66,7 +61,7 @@ app.post('/signin/', function (req, res, next) {
            if (err) return res.status(500).end(err);
            if (!valid) return res.status(401).end("access denied");
            // generate a token and store it in a cookie
-           let token = jwt.sign(user, secret);
+           let token = jwt.sign(username, secret);
            res.setHeader('Set-Cookie', cookie.serialize('token', String(token), {
                path: '/',
                maxAge: 60 * 60 * 24 * 7 // 1 week
