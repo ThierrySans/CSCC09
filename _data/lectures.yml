@@ -54,9 +54,9 @@
 - break: <span class="em">Spring Break</span>
 
 - week: Deploying large scale web applications
-  # notes:
-  #     - Deploying web applications: 07/slides/C09-Deploying.pdf
-  #     - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
+  notes:
+      - Deploying web applications: 07/slides/C09-Deploying.pdf
+      - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
 
 - week: Advanced Javascript
   # notes:

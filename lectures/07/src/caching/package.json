@@ -1,0 +1,17 @@
+{
+  "name": "caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-cache-bad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "memcached": "^2.2.2",
+    "nedb": "^1.8.0"
+  }
+}
