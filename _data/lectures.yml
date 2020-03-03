@@ -53,10 +53,13 @@
 
 - break: <span class="em">Spring Break</span>
 
-- week: Deploying large scale web applications
+- week: Deploying web applications
   notes:
       - Deploying web applications: 07/slides/C09-Deploying.pdf
-      - Deploying large scale web applications: 07/slides/C09-DeployingLargeScale.pdf
+
+- week: Deploying large scale web applications
+  notes:
+      - Deploying large scale web applications: 08/slides/C09-DeployingLargeScale.pdf
 
 - week: Advanced Javascript
   # notes:
@@ -74,7 +77,7 @@
       - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
  
 
-- week: Special topics in Web Development
+# - week: Special topics in Web Development
   # notes:
   #     - i18n & l10n: 10/slides/C09-i18n.pdf
   #     - Web Services: 10/slides/C09-WebServices.pdf
