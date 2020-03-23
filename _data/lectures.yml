@@ -70,7 +70,7 @@
       - Understanding Event Loop, Call Stack, Event and Job Queue in Javascript: https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
       - Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
-- week: Developping fast web applications
+- week: Developing fast web applications
   notes:
       - Developing fast web applications: 10/slides/C09-FastWebapps.pdf
   readings:

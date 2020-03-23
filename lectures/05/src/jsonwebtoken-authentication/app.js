@@ -18,6 +18,8 @@ let isAuthenticated = function(req, res, next) {
     if (cookies.token){
         let user =  jwt.verify(cookies.token, secret);
         if (!user) return res.status(401).end("access denied");
+    } else {
+        return res.status(401).end("access denied");
     }
     next();
 };
