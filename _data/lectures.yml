@@ -79,10 +79,10 @@
       - Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
       - Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
 
-# - week: Special topics in Web Development
-  # notes:
-  #     - i18n & l10n: 10/slides/C09-i18n.pdf
-  #     - Web Services: 10/slides/C09-WebServices.pdf
+- week: Special topics in Web Development
+  notes:
+      - i18n & l10n: 11/slides/C09-i18n.pdf
+      - Web Services: 11/slides/C09-WebServices.pdf
 
 # - week: Beyond web applications
   # notes:
