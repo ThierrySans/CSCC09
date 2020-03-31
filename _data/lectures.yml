@@ -84,8 +84,16 @@
       - i18n & l10n: 11/slides/C09-i18n.pdf
       - Web Services: 11/slides/C09-WebServices.pdf
 
-# - week: Beyond web applications
-  # notes:
-  #     - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
+- week: Beyond web applications
+  notes:
+      - Advertising, Analytics and Tracking: 11/slides/C09-WebAdvertising.pdf
+  readings:
+      - The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
-- week: Project presentations
+- week: [extra] Progressive Web Applications
+  readings:
+      - A Simple Progressive Web App Tutorial: https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+      - The Ultimate Guide to Progressive Web Applications: https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications
+      - PWAs on iOS 12.2 beta - the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
+
+# - week: Project presentations
