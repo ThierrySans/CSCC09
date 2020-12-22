@@ -15,3 +15,28 @@ db
 
 *.nogit
 *.old
+
+# node_modules
+
+!/node_modules
+/node_modules/*
+!/node_modules/jquery
+/node_modules/jquery/*
+!/node_modules/jquery/dist
+/node_modules/jquery/dist/*
+!/node_modules/jquery/dist/jquery.min.js
+
+!/node_modules/bootstrap
+/node_modules/bootstrap/*
+!/node_modules/bootstrap/dist
+/node_modules/bootstrap/dist/*
+!/node_modules/bootstrap/dist/js
+/node_modules/bootstrap/dist/js/*
+!/node_modules/bootstrap/dist/js/bootstrap.min.js
+
+!/node_modules/moment
+/node_modules/moment/*
+!/node_modules/moment/min
+/node_modules/moment/min/*
+!/node_modules/moment/min/moment.min.js
+
