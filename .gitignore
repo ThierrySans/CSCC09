@@ -41,4 +41,5 @@ db
 !/node_modules/moment/min
 /node_modules/moment/min/*
 !/node_modules/moment/min/moment.min.js
+!/node_modules/moment/min/moment.min.js.map
 
