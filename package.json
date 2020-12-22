@@ -1,0 +1,25 @@
+{
+  "name": "cscc09",
+  "version": "1.0.0",
+  "description": "This is the source code for the CSCC09 course website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThierrySans/CSCC09.git"
+  },
+  "author": "Thierry Sans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThierrySans/CSCC09/issues"
+  },
+  "homepage": "https://github.com/ThierrySans/CSCC09#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-less": "^3.3.8",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1"
+  }
+}

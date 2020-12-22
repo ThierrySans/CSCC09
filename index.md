@@ -116,11 +116,11 @@ The weighting of course work is set as:
     </div>
     <div class="row">
         <div class="hcolumn column4">Project</div>
-        <div class="column4">30%</div>
+        <div class="column4">50%</div>
     </div>
     <div class="row">
         <div class="hcolumn column4">Final Exam</div>
-        <div class="column4">35%</div>
+        <div class="column4">15%</div>
     </div>
 </div>
 

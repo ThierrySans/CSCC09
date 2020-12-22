@@ -1,12 +1,12 @@
 # Site settings
 ref: CSCC09
 title: Programming on the Web
-edition: Winter 2020
+edition: Winter 2021
 description: An introduction to software development on the web. Concepts underlying the development of programs that operate on the web. Operational concepts of the internet and the web, static and dynamic client content, dynamically served content, n-tiered architectures, web development processes and security on the web.
 website: https://thierrysans.me/CSCC09/
 github: https://github.com/ThierrySans/CSCC09
-piazza: https://piazza.com/mail.utoronto.ca/spring2020/cscc09
-feedback: https://forms.gle/7SNBHPcvotqVGTbL6
+piazza: https://piazza.com/utoronto.ca/winter2021/cscc09
+feedback: https://forms.gle/EZGNMKZPP5TK95mk9
 
 instructor:
   name: Thierry Sans
@@ -14,61 +14,41 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: Wed 10am-12pm (or by appointment)
-  location: IC-346
+  hours: TBD
+  location: online
   contact: Piazza only (no mail)
   role: LEC
 
 # https://www.fingerlakesbmw.org/main/flobfuscate.php
 assistants:
-    - name: Cho Yin Yong
-      role:  PRA01
-      contact: "&#99;&#104;&#111;&#121;&#105;&#110;&#46;&#121;&#111;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: Wed 5-6pm
-      location: IC-402
-    - name: Jordan Liu
-      role:  PRA04
-      contact: "&#106;&#111;&#114;&#100;&#97;&#110;&#46;&#108;&#105;&#117;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: Fri 1-2pm
-      location: IC-402
-    - name: Kasra Rahmani
-      role:  PRA05
-      contact: "&#107;&#97;&#115;&#114;&#97;&#46;&#114;&#97;&#104;&#109;&#97;&#110;&#105;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: Tue 12am-1pm
-      location: IC-402
-    - name: Michael Liu
-      role:  PRA03
-      contact: "&#109;&#105;&#107;&#101;&#108;&#46;&#108;&#105;&#117;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: Wed 2-3pm
-      location: IC-402
-    - name: Spencer McCoubrey
-      role:  PRA02
-      contact: "&#115;&#112;&#101;&#110;&#99;&#101;&#114;&#46;&#109;&#99;&#99;&#111;&#117;&#98;&#114;&#101;&#121;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: Mon 5-6pm
-      location: IC-402
+    # - name: Cho Yin Yong
+    #   role:  PRA01
+    #   contact: "&#99;&#104;&#111;&#121;&#105;&#110;&#46;&#121;&#111;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+    #   hours: Wed 5-6pm
+    #   location: IC-402
 
   
 timings:
     - section: LEC01 
       time: Tuesday 12:00-14:00
-      location: SW-319
+      location: online
     - section: LEC02
       time: Friday 13:00-15:00
-      location: SW-309
+      location: online
     - section: PRA01
       time: Monday 9:00-11:00
-      location: BV-473
+      location: online
     - section: PRA02
       time: Monday 15:00-17:00
-      location: BV-473
+      location: online
     - section: PRA03
       time: Friday 9:00-11:00
-      location: BV-473
+      location: online
     - section: PRA04
       time: Friday 11:00-13:00
-      location: BV-473
+      location: online
     - section: PRA05
       time: Tuesday 10:00-12:00
-      location: BV-473
+      location: online
         
-first: 20200106
+first: 20210112

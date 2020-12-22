@@ -1,5 +1,6 @@
 # Generated static site
 _site
+.jekyll-cache
 
 # OS Files
 Thumbs.db
