@@ -29,12 +29,12 @@ assistants:
 
   
 timings:
-    - section: LEC01 
+    - section: LEC01 & LEC02
       time: Tuesday 12:00-14:00
       location: online
-    - section: LEC02
-      time: Friday 13:00-15:00
-      location: online
+    # - section: LEC02
+    #   time: Friday 13:00-15:00
+    #   location: online
     - section: PRA01
       time: Monday 9:00-11:00
       location: online
