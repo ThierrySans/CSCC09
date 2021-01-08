@@ -15,40 +15,55 @@ instructor:
   github: ThierrySans
   twitter: ThierrySans
   hours: TBD
-  location: online
+  location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
   contact: Piazza only (no mail)
   role: LEC
 
 # https://www.fingerlakesbmw.org/main/flobfuscate.php
 assistants:
-    # - name: Cho Yin Yong
-    #   role:  PRA01
-    #   contact: "&#99;&#104;&#111;&#121;&#105;&#110;&#46;&#121;&#111;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-    #   hours: Wed 5-6pm
-    #   location: IC-402
+    - name: Alexander Greff
+      role:  TBD
+      contact: "&#97;&#108;&#101;&#120;&#46;&#103;&#114;&#101;&#102;&#102;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
+    - name: Frederic Pun
+      role:  TBD
+      contact: "&#102;&#114;&#101;&#100;&#101;&#114;&#105;&#99;&#46;&#112;&#117;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
+    - name: Gabrian Mak
+      role:  TBD
+      contact: "&#103;&#97;&#98;&#114;&#105;&#97;&#110;&#46;&#109;&#97;&#107;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
+    - name: Minh Hoang Nguyen
+      role:  TBD
+      contact: "&#109;&#105;&#110;&#104;&#104;&#111;&#97;&#110;&#103;&#46;&#110;&#103;&#117;&#121;&#101;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
 
   
 timings:
     - section: LEC01 & LEC02
       time: Tuesday 12:00-14:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     # - section: LEC02
     #   time: Friday 13:00-15:00
     #   location: online
     - section: PRA01
       time: Monday 9:00-11:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - section: PRA02
       time: Monday 15:00-17:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - section: PRA03
       time: Friday 9:00-11:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - section: PRA04
       time: Friday 11:00-13:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - section: PRA05
       time: Tuesday 10:00-12:00
-      location: online
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
         
 first: 20210112
