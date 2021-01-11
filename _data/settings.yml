@@ -22,26 +22,30 @@ instructor:
 # https://www.fingerlakesbmw.org/main/flobfuscate.php
 assistants:
     - name: Alexander Greff
-      role:  TBD
+      role:  P03
       contact: "&#97;&#108;&#101;&#120;&#46;&#103;&#114;&#101;&#102;&#102;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
       hours: TBD
       location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - name: Frederic Pun
-      role:  TBD
+      role:  P04
       contact: "&#102;&#114;&#101;&#100;&#101;&#114;&#105;&#99;&#46;&#112;&#117;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
       hours: TBD
       location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - name: Gabrian Mak
-      role:  TBD
+      role:  P02
       contact: "&#103;&#97;&#98;&#114;&#105;&#97;&#110;&#46;&#109;&#97;&#107;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
       hours: TBD
       location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
+    - name: Jiasong Liang 
+      role:  P01
+      contact: "&#106;&#105;&#97;&#115;&#111;&#110;&#103;&#46;&#108;&#105;&#97;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
     - name: Minh Hoang Nguyen
-      role:  TBD
+      role:  P01
       contact: "&#109;&#105;&#110;&#104;&#104;&#111;&#97;&#110;&#103;&#46;&#110;&#103;&#117;&#121;&#101;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
       hours: TBD
       location: <a href="https://utoronto.zoom.us/j/81372636643">Zoom</a>
-
   
 timings:
     - section: LEC01 & LEC02
