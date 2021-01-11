@@ -6316,6 +6316,7 @@ button.close {
 }
 .show {
   display: block !important;
+  visibility: visible;
 }
 .invisible {
   visibility: hidden;
