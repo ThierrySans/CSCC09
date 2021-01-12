@@ -28,30 +28,18 @@ permalink: /lectures/
         <div class="topic">{{e.week}}</div>
         {% endif %}
         <div class="notes">
-                        <ul>
-                            {% for note in e.notes %}
-                                {% for pair in note %}
-                                    {% if pair[1] == nil %}
-                                        <li>{{note}}</li>
-                                    {% else %}
-                                        <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
-                                    {% endif %}
-                                {% endfor %}
-        					{% endfor %}
-                        </ul>
+            <ul>
+            {% for note in e.notes %}
+                <li><a href="{{note[1]}}">{{note[0]}}</a> <a href="{{note[1]}}.pdf">(pdf)</a></li>
+			{% endfor %}
+            </ul>
         </div>
         <div class="readings">
-                        <ul>
-                        {% for reading in e.readings %}
-                            {% for pair in reading %}
-                                {% if pair[1] == nil %}
-                                    <li>{{reading}}</li>
-                                {% else %}
-                                    <li><a href="{{pair[1]}}">{{pair[0]}}</a></li>
-                                {% endif %}
-                            {% endfor %}
-    					{% endfor %}
-                        </ul>
+            <ul>
+            {% for reading in e.readings %}
+                    <li><a href="{{reading[1]}}">{{reading[0]}}</a></li>
+			{% endfor %}
+            </ul>
         </div>
     {% endif %}
     
