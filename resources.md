@@ -12,6 +12,8 @@ permalink: /resources/
 ### HTML, CSS & Javascript
 
 - The ultimate reference: [Mozilla Development Network (MDN)](https://developer.mozilla.org/en-US/)
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid)
 - [Learn HTML & CSS on Codecadmy](https://www.codecademy.com/learn/web)
 - [Learn Javascript on Codecadmy](https://www.codecademy.com/learn/javascript)
 - [Eloquent JavaScript](https://github.com/marijnh/Eloquent-JavaScript)
@@ -32,6 +34,7 @@ permalink: /resources/
 
 - [Bootstrap](http://getbootstrap.com/)
 - [Foundation](http://foundation.zurb.com/)
+- [Tailwind](https://tailwindcss.com/)
 
 #### Frontend framework
 
@@ -44,6 +47,7 @@ permalink: /resources/
 #### Backend framework (Node.js)
 
 - [Express.js](http://expressjs.com/)
+- [How to GraphQL](https://www.howtographql.com/)
 
 #### Cross-platform framework 
 
@@ -71,6 +75,7 @@ permalink: /resources/
 #### Data visualization
 
 - [D3](http://d3js.org/)
+- [ChartJS](https://www.chartjs.org/)
 - [Datavisualization.ch](http://selection.datavisualization.ch/)
 - [Snazzy Maps](http://snazzymaps.com/)
 
@@ -91,10 +96,20 @@ permalink: /resources/
 - [PeerJS](http://peerjs.com/)
 - [DataChannel.js](https://github.com/muaz-khan/WebRTC-Experiment/tree/master/DataChannel)
 
+#### CSS Preprocesors & Advanced Topics
+
+- [scss (or sass)](https://sass-lang.com)
+- [less](http://lesscss.org/)
+- [CSS variables](https://www.w3schools.com/css/css3_variables.asp)
+- [CSS modules](https://css-tricks.com/css-modules-part-1-need)
+- [BEM](http://getbem.com/introduction/) (For more organized css)
+
+
 #### 2D & 3D
 
 - [Snap.svg](http://snapsvg.io/)
 - [three.js](http://threejs.org/)
+- [Anime.js](https://animejs.com/)
 
 
 
