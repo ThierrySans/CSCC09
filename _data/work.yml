@@ -4,17 +4,17 @@
   lab: 
       title: HTML & CSS
       handout: https://classroom.github.com/a/1ZdEH17B 
-      # rubric: https://grademy.work/ThierrySans/C09W21-lab2/
+      rubric: https://grademy.work/ThierrySans/C09W21-lab2/
     
 - week:
   lab:
       title: Javascript
       handout: https://classroom.github.com/a/E4iKOL6r
-      # rubric: https://grademy.work/ThierrySans/C09W21-lab3/
+      rubric: https://grademy.work/ThierrySans/C09W21-lab3/
   hw:
       title: Frontend
       handout: https://classroom.github.com/a/dXsx5Bm2
-      # rubric: https://grademy.work/ThierrySans/C09W21-hw1/
+      rubric: https://grademy.work/ThierrySans/C09W21-hw1/
     
 - week:
   lab: 
