@@ -13,11 +13,11 @@
 
 - week: Javascript
   link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #   Javascript: 02/slides/C09-Javascript.pdf
-  #   Javascript in the browser: 02/slides/C09-Javascript-browser.pdf
-  #   Building frontends: 02/slides/C09-BuildingFrontends.pdf
-  #   Exploring HTML5: 02/slides/C09-HTML5.pdf
+  notes:
+    Javascript: 02/slides/C09-Javascript
+    Javascript in the browser: 02/slides/C09-Javascript-browser
+    Building frontends: 02/slides/C09-BuildingFrontends
+    Exploring HTML5: 02/slides/C09-HTML5
   readings:
       Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
