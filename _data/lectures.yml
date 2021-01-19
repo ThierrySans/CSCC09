@@ -12,7 +12,7 @@
       W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
 
 - week: Javascript
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/NkyJWD9Szwg
   notes:
     Javascript: 02/slides/C09-Javascript
     Javascript in the browser: 02/slides/C09-Javascript-browser
@@ -23,6 +23,7 @@
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     The HTTP protocol: 03/slides/C09-HTTP.pdf
   #     Javascript on the server: 03/slides/C09-JavascriptServer.pdf
