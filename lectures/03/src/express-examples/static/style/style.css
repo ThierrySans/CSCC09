@@ -1,0 +1,11 @@
+html {overflow: -moz-scrollbars-vertical;}
+
+body {
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
