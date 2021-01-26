@@ -23,7 +23,7 @@
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/pIDeUF68X1g
   notes:
       The HTTP protocol: 03/slides/C09-HTTP
       Javascript on the server: 03/slides/C09-JavascriptServer
@@ -36,6 +36,7 @@
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     Storing data: 04/slides/C09-Data.pdf
   #     File upload: 04/slides/C09-Files.pdf

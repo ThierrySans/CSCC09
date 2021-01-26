@@ -19,7 +19,7 @@ var handleRequest = function(request, response){
         if (err) console.error(err);
         else console.log("Body:",data);
         response.setHeader('X-Powered-By', 'nodejs with express');
-        response.statusCode = 404;
+        response.statusCode = 200;
         response.end('hello world!');
     });
 };
