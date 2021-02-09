@@ -42,7 +42,7 @@
       File upload: 04/slides/C09-Files
 
 - week: Managing users
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/5sG1oQEd8fY
   notes:
       Cookies and Sessions: 05/slides/C09-CookiesAndSessions
       WebAuthentication:  05/slides/C09-WebAuthentication
@@ -53,6 +53,7 @@
 - break: <span class="em">Spring Break</span>
       
 - week: Security
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     Web Security: 06/slides/C09-WebSecurity.pdf
   readings:

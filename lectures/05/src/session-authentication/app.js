@@ -16,7 +16,7 @@ const Datastore = require('nedb');
 let users = new Datastore({ filename: 'db/users.db', autoload: true });
 
 let isAuthenticated = function(req, res, next) {
-    if (!req.session.user) return res.status(401).end("access denied");
+    if (!req.session.username) return res.status(401).end("access denied");
     return next();
 };
 
@@ -59,7 +59,7 @@ app.post('/signin/', function (req, res, next) {
            if (err) return res.status(500).end(err);
            if (!valid) return res.status(401).end("access denied");
            // start a session
-           req.session.user = user;
+           req.session.username = username;
            return res.end("user " + username + " has been signed in");
         });        
     });
