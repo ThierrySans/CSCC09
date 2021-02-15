@@ -40,18 +40,18 @@
 - week:
   lab: 
       title: Managing Users
-      # handout: 
-      # rubric: https://grademy.work/ThierrySans/C09W21-lab6/
+      handout: https://classroom.github.com/a/TgSPK1KR
+      rubric: https://grademy.work/ThierrySans/C09W21-lab6/
   hw: 
       title: Managing Users
-      # handout: 
-      # rubric: https://grademy.work/ThierrySans/C09W21-hw3/
+      handout: https://classroom.github.com/a/8R91H8Ly
+      rubric: https://grademy.work/ThierrySans/C09W21-hw3/
     
 - week: <span class="em">Reading Week</span>
   lab: 
       title: Security
-      # handout: 
-      # rubric: https://grademy.work/ThierrySans/C09W21-lab7/
+      handout: https://classroom.github.com/a/ZCohBTi8
+      rubric: https://grademy.work/ThierrySans/C09W21-lab7/
 
 - week: 
     
