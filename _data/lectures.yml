@@ -54,8 +54,8 @@
       
 - week: Security
   link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #     Web Security: 06/slides/C09-WebSecurity.pdf
+  notes:
+      Web Security: 06/slides/C09-WebSecurity
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
