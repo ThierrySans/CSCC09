@@ -59,6 +59,9 @@
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
+- week: Invited Speaker: Bill McConkey
+  link: https://youtu.be/9xsqzwWtGwo
+
 - week: Deploying web applications
   link: https://utoronto.zoom.us/j/81372636643
   # notes:
@@ -97,13 +100,13 @@
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
-- week: Beyond the browser
-  readings:
-      Mobile apps with React native: https://reactnative.dev/
-      Browser apps with Chrome Extensions: https://developer.chrome.com/extensions/getstarted
-      Desktop apps with Electron: https://www.electronjs.org/
-      A Simple Progressive Web App Tutorial: https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
-      The Ultimate Guide to Progressive Web Applications: https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications
-      PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
+# - week: Beyond the browser
+#   readings:
+#       Mobile apps with React native: https://reactnative.dev/
+#       Browser apps with Chrome Extensions: https://developer.chrome.com/extensions/getstarted
+#       Desktop apps with Electron: https://www.electronjs.org/
+#       A Simple Progressive Web App Tutorial: https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+#       The Ultimate Guide to Progressive Web Applications: https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications
+#       PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
 
 # - week: Project presentations
