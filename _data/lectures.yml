@@ -64,8 +64,8 @@
 
 - week: Deploying web applications
   link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #     Deploying web applications: 07/slides/C09-Deploying.pdf
+  notes:
+      Deploying web applications: 08/slides/C09-Deploying
 
 - week: Deploying large scale web applications
   # notes:
