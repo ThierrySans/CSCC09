@@ -63,11 +63,12 @@
   link: https://youtu.be/9xsqzwWtGwo
 
 - week: Deploying web applications
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/yiXqrpMtnoE
   notes:
       Deploying web applications: 08/slides/C09-Deploying
 
 - week: Deploying large scale web applications
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     Deploying large scale web applications: 08/slides/C09-DeployingLargeScale.pdf
 
