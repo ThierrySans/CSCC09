@@ -67,19 +67,19 @@
   notes:
       Deploying web applications: 08/slides/C09-Deploying
 
-- week: Deploying large scale web applications
-  link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #     Deploying large scale web applications: 08/slides/C09-DeployingLargeScale.pdf
-
 - week: Advanced Javascript
-  # notes:
-  #     Asynchronism, Javascript event loop, Web Workers and Web Sockets: 09/slides/C09-AdvancedJavascript.pdf
+  notes:
+      Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
   readings:
       Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
       Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
       Understanding Event Loop, Call Stack, Event and Job Queue in Javascript: https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+
+- week: Deploying large scale web applications
+  link: https://utoronto.zoom.us/j/81372636643
+  # notes:
+  #     Deploying large scale web applications: 08/slides/C09-DeployingLargeScale.pdf
 
 - week: Developing fast web applications
   # notes:
