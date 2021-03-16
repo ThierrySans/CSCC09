@@ -68,7 +68,7 @@
       Deploying web applications: 08/slides/C09-Deploying
 
 - week: Advanced Javascript
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/9C6Rt-gTdN4
   notes:
       Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
   readings:
@@ -78,6 +78,7 @@
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
 - week: Deploying large scale web applications
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     Deploying large scale web applications: 08/slides/C09-DeployingLargeScale.pdf
 
