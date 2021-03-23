@@ -78,7 +78,7 @@
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
 - week: Deploying fast and large scale web applications
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/SAaS5hCaUC0
   notes:
       Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
   readings:
@@ -88,6 +88,7 @@
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
 
 - week: Special topics in Web Development
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     i18n & l10n: 11/slides/C09-i18n.pdf
   #     Web Services: 11/slides/C09-WebServices.pdf
