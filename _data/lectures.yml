@@ -80,7 +80,7 @@
 - week: Deploying fast and large scale web applications
   link: https://utoronto.zoom.us/j/81372636643
   notes:
-      Deploying large scale web applications: 10/slides/C09-DeployingLargeScale.pdf
+      Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
   readings:
       HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
       HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
