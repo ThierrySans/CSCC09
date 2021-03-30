@@ -77,35 +77,37 @@
       Understanding Event Loop, Call Stack, Event and Job Queue in Javascript: https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
-- week: Deploying fast and large scale web applications
+- week: Deploying large scale web applications
   link: https://youtu.be/SAaS5hCaUC0
   notes:
       Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
+
+- week: Building fast web applications
+  link: https://utoronto.zoom.us/j/81372636643
+  notes:
+      Deploying fast web applications: 11/slides/C09-FastWebapps
   readings:
       HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
       HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
+      A Simple Progressive Web App Tutorial: https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+      The Ultimate Guide to Progressive Web Applications: https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications
+      PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
 
-- week: Special topics in Web Development
-  link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #     i18n & l10n: 11/slides/C09-i18n.pdf
-  #     Web Services: 11/slides/C09-WebServices.pdf
-
-- week: Beyond web applications
+- week: Advertising, Analytics and Tracking
   # notes:
   #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising.pdf
+  #     i18n & l10n: 11/slides/C09-i18n.pdf
+  #     Web Services: 11/slides/C09-WebServices.pdf
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
-# - week: Beyond the browser
-#   readings:
-#       Mobile apps with React native: https://reactnative.dev/
-#       Browser apps with Chrome Extensions: https://developer.chrome.com/extensions/getstarted
-#       Desktop apps with Electron: https://www.electronjs.org/
-#       A Simple Progressive Web App Tutorial: https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
-#       The Ultimate Guide to Progressive Web Applications: https://scotch.io/tutorials/the-ultimate-guide-to-progressive-web-applications
-#       PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
+- week: Beyond the browser
+  readings:
+      Mobile apps with React native: https://reactnative.dev/
+      Browser apps with Chrome Extensions: https://developer.chrome.com/extensions/getstarted
+      Desktop apps with Electron: https://www.electronjs.org/
+
 
 # - week: Project presentations
