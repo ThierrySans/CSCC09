@@ -28,6 +28,7 @@
             if (err) console.error(err);
             else res.forEach(insertItem);
         });
+        setTimeout(refreshItems, 5000);
     }
        
     window.addEventListener('load', function(){

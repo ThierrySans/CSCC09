@@ -83,7 +83,7 @@
       Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
 
 - week: Building fast web applications
-  link: https://utoronto.zoom.us/j/81372636643
+  link: https://youtu.be/_3ZEC9IStsQ
   notes:
       Deploying fast web applications: 11/slides/C09-FastWebapps
   readings:
@@ -96,6 +96,7 @@
       PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
 
 - week: Advertising, Analytics and Tracking
+  link: https://utoronto.zoom.us/j/81372636643
   # notes:
   #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising.pdf
   #     i18n & l10n: 11/slides/C09-i18n.pdf
