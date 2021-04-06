@@ -97,10 +97,10 @@
 
 - week: Advertising, Analytics and Tracking
   link: https://utoronto.zoom.us/j/81372636643
-  # notes:
-  #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising.pdf
-  #     i18n & l10n: 11/slides/C09-i18n.pdf
-  #     Web Services: 11/slides/C09-WebServices.pdf
+  notes:
+      i18n & l10n: 12/slides/C09-i18n
+      Web Services: 12/slides/C09-WebServices
+      Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
@@ -109,6 +109,5 @@
       Mobile apps with React native: https://reactnative.dev/
       Browser apps with Chrome Extensions: https://developer.chrome.com/extensions/getstarted
       Desktop apps with Electron: https://www.electronjs.org/
-
 
 # - week: Project presentations
