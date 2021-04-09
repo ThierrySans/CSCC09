@@ -66,6 +66,9 @@
   link: https://youtu.be/yiXqrpMtnoE
   notes:
       Deploying web applications: 08/slides/C09-Deploying
+  readings:
+      Intro to React: https://docs.google.com/presentation/d/1iP-thIdGoNL_-Cyt348sDBaOGOzJ2NZs4II-HJbcxfA/edit?usp=sharing
+      Give me cat: https://github.com/fpunny/cscc09-prac-demo-stuff/tree/master/react-demo
 
 - week: Advanced Javascript
   link: https://youtu.be/9C6Rt-gTdN4
