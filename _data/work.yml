@@ -3,55 +3,55 @@
 - week:
   lab: 
       title: HTML & CSS
-      handout: https://classroom.github.com/a/1ZdEH17B 
-      rubric: https://grademy.work/ThierrySans/C09W21-lab2/
+      # handout: https://classroom.github.com/a/1ZdEH17B
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab2/
     
 - week:
   lab:
       title: Javascript
-      handout: https://classroom.github.com/a/E4iKOL6r
-      rubric: https://grademy.work/ThierrySans/C09W21-lab3/
+      # handout: https://classroom.github.com/a/E4iKOL6r
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab3/
   hw:
       title: Frontend
-      handout: https://classroom.github.com/a/dXsx5Bm2
-      rubric: https://grademy.work/ThierrySans/C09W21-hw1/
+      # handout: https://classroom.github.com/a/dXsx5Bm2
+      # rubric: https://grademy.work/ThierrySans/C09W21-hw1/
     
 - week:
   lab: 
       title: Web API
-      handout: https://classroom.github.com/a/e9v9ROWI
-      rubric: https://grademy.work/ThierrySans/C09W21-lab4/
+      # handout: https://classroom.github.com/a/e9v9ROWI
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab4/
     
 - week: 
   lab: 
       title: Storing Data
-      handout: https://classroom.github.com/a/RzzqBx-V
-      rubric: https://grademy.work/ThierrySans/C09W21-lab5/
+      # handout: https://classroom.github.com/a/RzzqBx-V
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab5/
   hw: 
       title: Backend
-      handout: https://classroom.github.com/a/uDGKU0_o
-      rubric: https://grademy.work/ThierrySans/C09W21-hw2/
-    
-- break: <span class="em">Reading Week</span> 
-  project:
-      title: Proposal
-      handout: ../project/
+      # handout: https://classroom.github.com/a/uDGKU0_o
+      # rubric: https://grademy.work/ThierrySans/C09W21-hw2/
   
 - week:
   lab: 
       title: Managing Users
-      handout: https://classroom.github.com/a/TgSPK1KR
-      rubric: https://grademy.work/ThierrySans/C09W21-lab6/
+      # handout: https://classroom.github.com/a/TgSPK1KR
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab6/
+    
+- break: <span class="em">Reading Week</span> 
+  project:
+      title: Proposal
+      # handout: ../project/
   hw: 
       title: Managing Users
-      handout: https://classroom.github.com/a/8R91H8Ly
-      rubric: https://grademy.work/ThierrySans/C09W21-hw3/
+      # handout: https://classroom.github.com/a/8R91H8Ly
+      # rubric: https://grademy.work/ThierrySans/C09W21-hw3/    
     
 - week: <span class="em">Reading Week</span>
   lab: 
       title: Security
-      handout: https://classroom.github.com/a/ZCohBTi8
-      rubric: https://grademy.work/ThierrySans/C09W21-lab7/
+      # handout: https://classroom.github.com/a/ZCohBTi8
+      # rubric: https://grademy.work/ThierrySans/C09W21-lab7/
 
 - week: 
     

@@ -58,17 +58,14 @@ permalink: /resources/
 #### API catalogues
 
 - [ProgrammableWeb](http://www.programmableweb.com/)
-- [The Hackathon Toolbox](http://thecodeship.com/general/hackathon-toolbox-essential-tools-practices/)
 
 #### Machine Learning
 
 - [BigML](https://bigml.com/developers)
 - [DatumBox](http://www.datumbox.com/machine-learning-api/)
-- [IBM Watson](https://developer.ibm.com/watson/)
 
 #### Natural Language Processing 
 
-- [List of 25+ Natural Language Processing APIs](http://blog.mashape.com/list-of-25-natural-language-processing-apis/)
 - [Wit.ai](https://wit.ai/)
 - [annyang](https://www.talater.com/annyang/)
 
@@ -87,7 +84,6 @@ permalink: /resources/
 
 - [tracking.js](http://trackingjs.com/)
 - [Face Detection](http://facedetection.jaysalvat.com/)
-- [Face++](http://www.faceplusplus.com/)
 - [MyScript](https://developer.myscript.com/)
 
 #### Web RTC (Real Time Communication)
@@ -100,14 +96,12 @@ permalink: /resources/
 
 - [scss (or sass)](https://sass-lang.com)
 - [less](http://lesscss.org/)
-- [CSS variables](https://www.w3schools.com/css/css3_variables.asp)
+- [CSS variables](https://css-tricks.com/everything-need-know-css-variables/)
 - [CSS modules](https://css-tricks.com/css-modules-part-1-need)
-- [BEM](http://getbem.com/introduction/) (For more organized css)
 
 
 #### 2D & 3D
 
-- [Snap.svg](http://snapsvg.io/)
 - [three.js](http://threejs.org/)
 - [Anime.js](https://animejs.com/)
 

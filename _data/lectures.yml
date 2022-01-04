@@ -1,8 +1,8 @@
 - week: HTML & CSS
-  link: https://youtu.be/txNH8QRuFCA
-  notes:
-      Introduction: 01/slides/C09-Introduction
-      HTML & CSS: 01/slides/C09-HTMLandCSS
+  # link: https://youtu.be/txNH8QRuFCA
+  # notes:
+  #     Introduction: 01/slides/C09-Introduction
+  #     HTML & CSS: 01/slides/C09-HTMLandCSS
   readings: 
       HTML on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
       CSS on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto
@@ -12,65 +12,65 @@
       W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
 
 - week: Javascript
-  link: https://youtu.be/NkyJWD9Szwg
-  notes:
-    Javascript: 02/slides/C09-Javascript
-    Javascript in the browser: 02/slides/C09-Javascript-browser
-    Building frontends: 02/slides/C09-BuildingFrontends
-    Exploring HTML5: 02/slides/C09-HTML5
+  # link: https://youtu.be/NkyJWD9Szwg
+  # notes:
+  #   Javascript: 02/slides/C09-Javascript
+  #   Javascript in the browser: 02/slides/C09-Javascript-browser
+  #   Building frontends: 02/slides/C09-BuildingFrontends
+  #   Exploring HTML5: 02/slides/C09-HTML5
   readings:
       Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  link: https://youtu.be/pIDeUF68X1g
-  notes:
-      The HTTP protocol: 03/slides/C09-HTTP
-      Javascript on the server: 03/slides/C09-JavascriptServer
-      JSON: 03/slides/C09-JSON
-      Ajax: 03/slides/C09-Ajax
-      Web REST API: 03/slides/C09-REST
+  # link: https://youtu.be/pIDeUF68X1g
+  # notes:
+  #     The HTTP protocol: 03/slides/C09-HTTP
+  #     Javascript on the server: 03/slides/C09-JavascriptServer
+  #     JSON: 03/slides/C09-JSON
+  #     Ajax: 03/slides/C09-Ajax
+  #     Web REST API: 03/slides/C09-REST
   readings:
       A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
-  link: https://youtu.be/oKMGh_fSoEc
-  notes:
-      Storing data: 04/slides/C09-Data
-      File upload: 04/slides/C09-Files
+  # link: https://youtu.be/oKMGh_fSoEc
+  # notes:
+  #     Storing data: 04/slides/C09-Data
+  #     File upload: 04/slides/C09-Files
 
 - week: Managing users
-  link: https://youtu.be/5sG1oQEd8fY
-  notes:
-      Cookies and Sessions: 05/slides/C09-CookiesAndSessions
-      WebAuthentication:  05/slides/C09-WebAuthentication
+  # link: https://youtu.be/5sG1oQEd8fY
+  # notes:
+  #     Cookies and Sessions: 05/slides/C09-CookiesAndSessions
+  #     WebAuthentication:  05/slides/C09-WebAuthentication
   readings: 
       RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23
       
-- break: <span class="em">Spring Break</span>
-      
 - week: Security
-  link: https://youtu.be/o5Zoo1RCIXo
-  notes:
-      Web Security: 06/slides/C09-WebSecurity
+  # link: https://youtu.be/o5Zoo1RCIXo
+  # notes:
+  #     Web Security: 06/slides/C09-WebSecurity
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
-- week: Invited Speaker - Bill McConkey
-  link: https://youtu.be/9xsqzwWtGwo
+- break: <span class="em">Spring Break</span>
+
+# - week: Invited Speaker - Bill McConkey
+#   # link: https://youtu.be/9xsqzwWtGwo
 
 - week: Deploying web applications
-  link: https://youtu.be/yiXqrpMtnoE
-  notes:
-      Deploying web applications: 08/slides/C09-Deploying
+  # link: https://youtu.be/yiXqrpMtnoE
+  # notes:
+  #     Deploying web applications: 08/slides/C09-Deploying
 
 - week: Advanced Javascript
-  link: https://youtu.be/9C6Rt-gTdN4
-  notes:
-      Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
+  # link: https://youtu.be/9C6Rt-gTdN4
+  # notes:
+  #     Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
   readings:
       Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
       Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
@@ -78,14 +78,14 @@
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
 - week: Deploying large scale web applications
-  link: https://youtu.be/SAaS5hCaUC0
-  notes:
-      Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
+  # link: https://youtu.be/SAaS5hCaUC0
+  # notes:
+  #     Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
 
 - week: Building fast web applications
-  link: https://youtu.be/_3ZEC9IStsQ
-  notes:
-      Deploying fast web applications: 11/slides/C09-FastWebapps
+  # link: https://youtu.be/_3ZEC9IStsQ
+  # notes:
+  #     Deploying fast web applications: 11/slides/C09-FastWebapps
   readings:
       HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
       HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
@@ -96,11 +96,11 @@
       PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
 
 - week: Advertising, Analytics and Tracking
-  link: https://youtu.be/eGli_yIabE8
-  notes:
-      i18n & l10n: 12/slides/C09-i18n
-      Web Services: 12/slides/C09-WebServices
-      Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
+  # link: https://youtu.be/eGli_yIabE8
+  # notes:
+  #     i18n & l10n: 12/slides/C09-i18n
+  #     Web Services: 12/slides/C09-WebServices
+  #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 

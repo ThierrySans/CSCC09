@@ -33,24 +33,21 @@ We encourage you to post questions regarding course materials and assignments on
 <div class="grid">
     <div class="hrow row">
         <div class="hcolumn column3"></div>
-        <div class="column1">Role</div>
         <div class="column3">Office Hours</div>
-        <div class="column2">Location</div>
+        <div class="column3">Location</div>
         <div class="column3">Contact</div>
     </div>
     <div class="row">
         <div class="hcolumn column3">Thierry Sans</div>
-        <div class="column1">{{site.data.settings.instructor.role}}</div>
         <div class="column3">{{site.data.settings.instructor.hours}}</div>
-        <div class="column2">{{site.data.settings.instructor.location}}</div>
+        <div class="column3">{{site.data.settings.instructor.location}}</div>
         <div class="column3">{{site.data.settings.instructor.contact}}</div>
     </div>
     {% for a in site.data.settings.assistants %}
     <div class="row">
         <div class="hcolumn column3">{{a.name}}</div>
-        <div class="column1">{{a.role}}</div>
         <div class="column3">{{a.hours}}</div>
-        <div class="column2">{{a.location}}</div>
+        <div class="column3">{{a.location}}</div>
         <div class="column3">{{a.contact}}</div>
     </div>
     {% endfor %}
@@ -118,25 +115,27 @@ The weighting of course work is set as:
     </div>
     <div class="row">
         <div class="hcolumn column4">Project</div>
-        <div class="column4">50%</div>
+        <div class="column4">40%</div>
     </div>
     <div class="row">
         <div class="hcolumn column4">Final Exam</div>
-        <div class="column4">15%</div>
+        <div class="column4">25%</div>
     </div>
 </div>
 
-## Submission Policy
+Marks of **at least 50% on the project AND at least 50% on the final exam** are required to pass the course. If you receive less than 50% on either the project or the final exam, your overall course grade will be capped at 49.
+
+## Submission and Grading Policy
 
 For each piece of work done for this class (either a lab, an assignment or the project), the student or the team will be required to submit the source code on the Github repository (student repository for individual work, team repository for the project). 
+
+For group work, the instructor reserves the right to assign different grades to each of the team members based on their individual contributions made to the team repository. 
 
 For your work to be graded, it must meet the minimum standards of a professional computer scientist. **All** files required to build the program must be committed to the repository, and the program must work. Last minute difficulties with git can easily be avoided by ensuring all files are added to the repository well before the deadline, and that you know how to commit them. **Your submission may receive a grade of 0, if we cannot get any part of it to work.**
 
 No late submissions will be accepted for any course work, and no make-up assignments will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability.
 
 If an emergency arises that prevents you from being able to complete any piece of work, or attend an exam, contact one of the instructors immediately. You will need to have a properly completed Illness Verification Form signed by a registered doctor in order to be given special consideration.
-
-## Re-mark Policy
 
 If a piece of work has been mis-marked or if you believe the rubric used to evaluate the work is not appropriate, you may request a re-mark. For a re-mark to succeed, you must clearly and concisely express what you believe was mis-marked. To request a re-mark, please contact your TA. Requests must be submitted *within 1 week* of the marks being returned.
 
@@ -145,6 +144,8 @@ If a piece of work has been mis-marked or if you believe the rubric used to eval
 You are expected to comply with the [Code of Behaviour on Academic Matters](http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ppjun011995.pdf). 
 
 Assignment solutions must be prepared individually, except where an assignment handout allows working with a partner. Note that working with a partner may be restricted to just part of an assignment, such as programming task, whereas the rest of the assignment must be solved by an individual.
+
+For group work, you are fully responsible for the piece of work you submit to the team repository as your contribution to the group work. 
 
 When the assignment handout allows you to use snippets of code or third-party library from the web, you should cite the source in the source code. As a rule of thumb, any piece of code larger than 5 lines that has been copied and re-used as is or even slightly modified must be clearly referenced.
 
@@ -158,4 +159,4 @@ Failure to comply with these guidelines is a serious academic offence. In past a
 
 ## Accessibility Needs
 
-The University of Toronto is committed to accessibility. If you require accommodations for a disability, or have any accessibility concerns about the course, the classroom or course materials, please contact Accessibility Services as soon as possible: disability.services@utoronto.ca or <http://studentlife.utoronto.ca/accessibility>
+The University of Toronto is committed to accessibility. If you require accommodations for a disability, or have any accessibility concerns about the course, the classroom or course materials, please contact Accessibility Services as soon as possible: <https://www.utsc.utoronto.ca/ability/welcome-accessability-services>
