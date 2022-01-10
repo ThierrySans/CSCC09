@@ -38,7 +38,7 @@ permalink: /resources/
 
 #### Frontend framework
 
-- [AngularJS](https://angularjs.org/)
+- [Angular](https://angular.io/)
 - [React](https://facebook.github.io/react/)
 - [Vue.js](https://vuejs.org/)
 - [Ember.js](http://emberjs.com/)
