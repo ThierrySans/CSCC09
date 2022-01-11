@@ -1,8 +1,8 @@
 - week: HTML & CSS
   link: https://utoronto.zoom.us/j/82545566516
-  # notes:
-  #     Introduction: 01/slides/C09-Introduction
-  #     HTML & CSS: 01/slides/C09-HTMLandCSS
+  notes:
+      Introduction: 01/slides/C09-Introduction
+      HTML & CSS: 01/slides/C09-HTMLandCSS
   readings: 
       HTML on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
       CSS on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto

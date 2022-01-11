@@ -1,0 +1,43 @@
+body {
+    margin: 20px;
+}
+
+.example{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black; 
+}
+
+.title{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display{
+    grid-column-start: 1;
+}
+
+.display, .css, .html{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray; 
+}
+
+.css{
+    grid-column-start: 3;
+}
+
+pre {
+    overflow: auto;
+}
+
+#credits{
+    margin: 20px;
+}
+
+#credits:hover{
+    /* reset hover example */
+    font-size: 100%;
+}
