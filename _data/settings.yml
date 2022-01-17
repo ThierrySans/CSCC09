@@ -23,24 +23,24 @@ instructor:
 assistants:
     - name: Alexander Greff
       contact: "&#97;&#108;&#101;&#120;&#46;&#103;&#114;&#101;&#102;&#102;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"      
-      hours: TBD
-      location: TBD
+      hours: Wed 10 AM - 11 AM
+      location: <a href="https://utoronto.zoom.us/j/87843211186">Zoom</a>  
     - name: David Yue
       contact: "&#100;&#97;&#118;&#105;&#100;&#46;&#121;&#117;&#101;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: TBD
-      location: TBD
+      hours: Fri 4 PM - 5 PM
+      location: <a href="https://utoronto.zoom.us/j/88902128590">Zoom</a>  
     - name: Rahul Ramani
       contact: "&#114;&#97;&#104;&#117;&#108;&#46;&#114;&#97;&#109;&#97;&#110;&#105;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: TBD
-      location: TBD
-    - name: Lu Wei Chou
+      hours: Thu 2 PM - 3 PM
+      location: <a href="https://utoronto.zoom.us/j/88152212704">Zoom</a>  
+    - name: Peter Chou
       contact: "&#112;&#101;&#116;&#101;&#114;&#46;&#99;&#104;&#111;&#117;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: TBD
-      location: TBD
-    - name: Yuxuan Hu
+      hours: Tue 1 PM - 2 PM
+      location: <a href="https://utoronto.zoom.us/j/87976697143">Zoom</a>  
+    - name: Kevin Hu
       contact: "&#121;&#117;&#120;&#117;&#97;&#110;&#46;&#104;&#117;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-      hours: TBD
-      location: TBD
+      hours: Mon 11 AM - 12 PM
+      location: <a href="https://utoronto.zoom.us/j/89755777547">Zoom</a>  
   
 timings:
     - section: LEC01
@@ -53,23 +53,23 @@ timings:
       instructor: Thierry Sans
     - section: PRA01
       time: Monday 9:00-11:00
-      location: BV 473
-      instructor: TBD
+      location: <a href="https://utoronto.zoom.us/j/89755777547">Zoom</a>  
+      instructor: Kevin Hu
     - section: PRA02
       time: Monday 15:00-17:00
-      location: BV 473
-      instructor: TBD
+      location: <a href="https://utoronto.zoom.us/j/82919333822">Zoom</a>  
+      instructor: David Yue
     - section: PRA03
       time: Friday 9:00-11:00
-      location: BV 473
-      instructor: TBD
+      location: <a href="https://utoronto.zoom.us/j/84118880743">Zoom</a>  
+      instructor: Alexander Greff
     - section: PRA04
       time: Friday 11:00-13:00
-      location: BV 473
-      instructor: TBD
+      location: <a href="https://utoronto.zoom.us/j/82116208608">Zoom</a>  
+      instructor: Rahul Ramani
     - section: PRA05
       time: Tuesday 10:00-12:00
-      location: BV 473
-      instructor: TBD
+      location: <a href="https://utoronto.zoom.us/j/81858297266">Zoom</a>  
+      instructor: Peter Chou
         
 first: 20220110
