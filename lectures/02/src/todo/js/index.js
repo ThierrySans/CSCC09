@@ -3,7 +3,8 @@
         
     window.addEventListener('load', function(){
         
-        function update(items){
+        function update(){
+            let items = api.getItems()
             document.querySelector('#items').innerHTML = '';
             items.forEach(function(item){
                 let element = document.createElement('div');
@@ -14,7 +15,7 @@
                 `;
                   element.querySelector('.delete-icon').addEventListener('click', function(e){
                     api.deleteItem(item.id);
-                    update(api.getItems());
+                    update();
                 }); 
                 document.querySelector('#items').prepend(element);
             });
@@ -25,10 +26,10 @@
             let content = document.querySelector('#content_form').value;
             document.querySelector('#add_item').reset();
             api.addItem(content);
-            update(api.getItems());
+            update();
         });
         
-        update(api.getItems());
+        update();
     });
     
 }());
