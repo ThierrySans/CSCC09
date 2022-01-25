@@ -23,13 +23,8 @@
     
 - week: Web API
   link: https://utoronto.zoom.us/j/82545566516
-  # link: https://youtu.be/pIDeUF68X1g
-  # notes:
-  #     The HTTP protocol: 03/slides/C09-HTTP
-  #     Javascript on the server: 03/slides/C09-JavascriptServer
-  #     JSON: 03/slides/C09-JSON
-  #     Ajax: 03/slides/C09-Ajax
-  #     Web REST API: 03/slides/C09-REST
+  notes:
+      Web API: 03/slides/C09-WebAPI
   readings:
       A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
