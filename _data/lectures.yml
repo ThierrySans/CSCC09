@@ -22,7 +22,7 @@
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  link: https://utoronto.zoom.us/j/82545566516
+  link: https://youtu.be/AuFVC71lRQk
   notes:
       Web API: 03/slides/C09-WebAPI
   readings:
@@ -31,6 +31,7 @@
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
+  link: https://utoronto.zoom.us/j/82545566516
   # link: https://youtu.be/oKMGh_fSoEc
   # notes:
   #     Storing data: 04/slides/C09-Data
