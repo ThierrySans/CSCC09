@@ -19,17 +19,17 @@
 - week:
   lab: 
       title: Web API
-      # handout: https://classroom.github.com/a/e9v9ROWI
+      handout: https://classroom.github.com/a/D5qKDzsX
       # rubric: https://grademy.work/ThierrySans/C09W22-lab4/
     
 - week: 
   lab: 
       title: Storing Data
-      # handout: https://classroom.github.com/a/RzzqBx-V
+      # handout: https://classroom.github.com/a/845uL9bm
       # rubric: https://grademy.work/ThierrySans/C09W22-lab5/
   hw: 
       title: Backend
-      # handout: https://classroom.github.com/a/uDGKU0_o
+      handout: https://classroom.github.com/a/WdtuzA6S
       # rubric: https://grademy.work/ThierrySans/C09W22-hw2/
   
 - week:
