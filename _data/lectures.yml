@@ -32,13 +32,10 @@
   
 - week: Storing Data
   link: https://utoronto.zoom.us/j/82545566516
-  # link: https://youtu.be/oKMGh_fSoEc
-  # notes:
-  #     Storing data: 04/slides/C09-Data
-  #     File upload: 04/slides/C09-Files
+  notes:
+      Storing data and files: 04/slides/C09-StoringData
 
 - week: Managing users
-  # link: https://youtu.be/5sG1oQEd8fY
   # notes:
   #     Cookies and Sessions: 05/slides/C09-CookiesAndSessions
   #     WebAuthentication:  05/slides/C09-WebAuthentication
@@ -47,7 +44,6 @@
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23
       
 - week: Security
-  # link: https://youtu.be/o5Zoo1RCIXo
   # notes:
   #     Web Security: 06/slides/C09-WebSecurity
   readings:
@@ -59,12 +55,10 @@
 #   # link: https://youtu.be/9xsqzwWtGwo
 
 - week: Deploying web applications
-  # link: https://youtu.be/yiXqrpMtnoE
   # notes:
   #     Deploying web applications: 08/slides/C09-Deploying
 
 - week: Advanced Javascript
-  # link: https://youtu.be/9C6Rt-gTdN4
   # notes:
   #     Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
   readings:
@@ -74,12 +68,10 @@
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
 - week: Deploying large scale web applications
-  # link: https://youtu.be/SAaS5hCaUC0
   # notes:
   #     Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
 
 - week: Building fast web applications
-  # link: https://youtu.be/_3ZEC9IStsQ
   # notes:
   #     Deploying fast web applications: 11/slides/C09-FastWebapps
   readings:
@@ -92,7 +84,6 @@
       PWAs on iOS 12.2 beta the good, the bad, and the not-sure-yet-if-good: https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf
 
 - week: Advertising, Analytics and Tracking
-  # link: https://youtu.be/eGli_yIabE8
   # notes:
   #     i18n & l10n: 12/slides/C09-i18n
   #     Web Services: 12/slides/C09-WebServices
