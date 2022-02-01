@@ -13,10 +13,6 @@ app.use(function (req, res, next){
     next();
 });
 
-let Item = function(item){
-    this.content = item.content;
-};
-
 app.get('/api/items/', function (req, res, next) {
     items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items) { 
         if (err) return res.status(500).end(err);
@@ -25,7 +21,7 @@ app.get('/api/items/', function (req, res, next) {
 });
 
 app.post('/api/items/', function (req, res, next) {
-    items.insert(new Item(req.body), function (err, item) {
+    items.insert({content: req.body.content}, function (err, item) {
         if (err) return res.status(500).end(err);
         return res.json(item);
     });
