@@ -31,11 +31,12 @@
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
-  link: https://utoronto.zoom.us/j/82545566516
+  link: https://youtu.be/xZUmVIfSxmg
   notes:
       Storing data and files: 04/slides/C09-StoringData
 
 - week: Managing users
+  link: https://utoronto.zoom.us/j/82545566516
   # notes:
   #     Cookies and Sessions: 05/slides/C09-CookiesAndSessions
   #     WebAuthentication:  05/slides/C09-WebAuthentication
