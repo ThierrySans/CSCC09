@@ -41,7 +41,7 @@
 - break: <span class="em">Reading Week</span> 
   project:
       title: Proposal
-      # handout: ../project/
+      handout: ../project/
   hw: 
       title: Managing Users
       # handout: https://classroom.github.com/a/8R91H8Ly
