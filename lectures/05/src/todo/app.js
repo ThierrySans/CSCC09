@@ -26,8 +26,7 @@ app.use(session({
 }));
 
 app.use(function(req, res, next){
-    req.user = ('user' in req.session)? req.session.user : null;
-    let username = (req.user)? req.user._id : '';
+    let username = (req.session.user)? req.session.user._id : '';
     res.setHeader('Set-Cookie', cookie.serialize('username', username, {
           path : '/', 
           maxAge: 60 * 60 * 24 * 7 // 1 week in number of seconds
@@ -41,7 +40,7 @@ app.use(function (req, res, next){
 });
 
 let isAuthenticated = function(req, res, next) {
-    if (!req.user) return res.status(401).end("access denied");
+    if (!req.session.user) return res.status(401).end("access denied");
     next();
 };
 
@@ -112,7 +111,7 @@ app.get('/api/items/', function (req, res, next) {
 });
 
 app.post('/api/items/', isAuthenticated, function (req, res, next) {
-    items.insert({content: req.body.content, owner: req.user._id}, function (err, item) {
+    items.insert({content: req.body.content, owner: req.session.user._id}, function (err, item) {
         if (err) return res.status(500).end(err);
         return res.json(item);
     });
@@ -129,7 +128,7 @@ app.get('/api/items/:id/', function (req, res, next) {
 app.delete('/api/items/:id/', isAuthenticated, function (req, res, next) {
     items.findOne({_id: req.params.id}, function(err, item){
         if (err) return res.status(500).end(err);
-        if (item.owner !== req.user._id) return res.status(403).end("forbidden");
+        if (item.owner !== req.session.user._id) return res.status(403).end("forbidden");
         if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
         items.remove({ _id: item._id }, { multi: false }, function(err, num) {  
             res.json(item);
