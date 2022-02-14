@@ -35,8 +35,8 @@
 - week:
   lab: 
       title: Managing Users
-      # handout: https://classroom.github.com/a/TgSPK1KR
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab6/
+      handout: https://classroom.github.com/a/c7CCutt_
+      rubric: https://grademy.work/ThierrySans/C09W22-lab6/
     
 - break: <span class="em">Reading Week</span> 
   project:
@@ -44,8 +44,8 @@
       handout: ../project/
   hw: 
       title: Managing Users
-      # handout: https://classroom.github.com/a/8R91H8Ly
-      # rubric: https://grademy.work/ThierrySans/C09W22-hw3/    
+      handout: https://classroom.github.com/a/1LgJUgK-
+      rubric: https://grademy.work/ThierrySans/C09W22-hw3/
     
 - week: <span class="em">Reading Week</span>
   lab: 
