@@ -11,11 +11,6 @@ const Datastore = require('nedb');
 let users = new Datastore({ filename: 'db/users.db', autoload: true });
 let items = new Datastore({ filename: path.join(__dirname,'db', 'items.db'), autoload: true, timestampData : true});
 
-let Item = function(content, username){
-    this.content = content;
-    this.owner = username;
-};
-
 const cookie = require('cookie');
 
 const session = require('express-session');
