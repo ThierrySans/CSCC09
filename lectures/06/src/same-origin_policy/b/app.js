@@ -20,6 +20,7 @@ app.get('/', function (req, res, next) {
     console.log("API data from B");
     // CORS
     res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+    // res.header("Access-Control-Allow-Origin", "*");
     // CORS with credentials
     res.header("Access-Control-Allow-Credentials", true);
     res.end("API data from B (" + req.hasCookie + ")");

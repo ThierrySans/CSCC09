@@ -45,7 +45,7 @@
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23
       
 - week: Security
-  link: https://utoronto.zoom.us/j/82545566516
+  link: https://youtu.be/i2IXYeyrNEw
   notes:
       Web Security: 06/slides/C09-WebSecurity
   readings:
@@ -57,6 +57,7 @@
 #   # link: https://youtu.be/9xsqzwWtGwo
 
 - week: Deploying web applications
+  link: https://utoronto.zoom.us/j/82545566516
   # notes:
   #     Deploying web applications: 08/slides/C09-Deploying
 
