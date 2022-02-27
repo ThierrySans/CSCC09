@@ -53,23 +53,23 @@ timings:
       instructor: Thierry Sans
     - section: PRA01
       time: Monday 9:00-11:00
-      location: <a href="https://utoronto.zoom.us/j/89755777547">Zoom</a>  
+      location: BV 473
       instructor: Kevin Hu
     - section: PRA02
       time: Monday 15:00-17:00
-      location: <a href="https://utoronto.zoom.us/j/82919333822">Zoom</a>  
+      location: BV 473
       instructor: David Yue
     - section: PRA03
       time: Friday 9:00-11:00
-      location: <a href="https://utoronto.zoom.us/j/84118880743">Zoom</a>  
+      location: BV 473
       instructor: Alexander Greff
     - section: PRA04
       time: Friday 11:00-13:00
-      location: <a href="https://utoronto.zoom.us/j/82116208608">Zoom</a>  
+      location: BV 473
       instructor: Rahul Ramani
     - section: PRA05
       time: Tuesday 10:00-12:00
-      location: <a href="https://utoronto.zoom.us/j/81858297266">Zoom</a>  
+      location: BV 473
       instructor: Peter Chou
         
 first: 20220110

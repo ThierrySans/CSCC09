@@ -56,11 +56,6 @@
 # - week: Invited Speaker - Bill McConkey
 #   # link: https://youtu.be/9xsqzwWtGwo
 
-- week: Deploying web applications
-  link: https://utoronto.zoom.us/j/82545566516
-  # notes:
-  #     Deploying web applications: 08/slides/C09-Deploying
-
 - week: Advanced Javascript
   # notes:
   #     Asynchronism, Javascript event loop, Web Workers: 09/slides/C09-AdvancedJavascript
@@ -70,11 +65,16 @@
       Understanding Event Loop, Call Stack, Event and Job Queue in Javascript: https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 
-- week: Deploying large scale web applications
+- week: Deploying web applications at scale
+  link: https://utoronto.zoom.us/j/82545566516
+  # notes:
+  #     Deploying web applications: 08/slides/C09-Deploying
+
+- week: Guest lecture - Error reporting and performances monitoring at scale
   # notes:
   #     Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
 
-- week: Building fast web applications
+- week: Guest lectures - Innovation (Bill McConkey) and Web 3.0 (David Ziming Liu)
   # notes:
   #     Deploying fast web applications: 11/slides/C09-FastWebapps
   readings:

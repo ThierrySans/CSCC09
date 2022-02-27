@@ -53,13 +53,19 @@
       handout: https://classroom.github.com/a/WtKJGP9R
       rubric: https://grademy.work/ThierrySans/C09W22-lab7/
 
-- week: 
+- week:
+  lab: 
+      title: Introduction to React 
     
 - week:
+  lab: 
+      title: Deployment
   project: 
-    title: Beta Version
+      title: Beta Version
     
 - week:
+  lab: 
+      title: Continuous Deployment
     
 - week:
   project: 
