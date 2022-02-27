@@ -54,18 +54,18 @@
       rubric: https://grademy.work/ThierrySans/C09W22-lab7/
 
 - week:
-  lab: 
-      title: Introduction to React 
+  # lab:
+  #     title: Introduction to React
     
 - week:
-  lab: 
-      title: Deployment
+  # lab:
+  #     title: Deployment
   project: 
       title: Beta Version
     
 - week:
-  lab: 
-      title: Continuous Deployment
+  # lab:
+  #     title: Continuous Deployment
     
 - week:
   project: 
