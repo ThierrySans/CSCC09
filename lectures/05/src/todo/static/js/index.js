@@ -24,7 +24,7 @@
                 if (err) return onError(err);
                 document.querySelector('#items').innerHTML = '';
                 items.forEach(function(item){
-                    var element = document.createElement('div');
+                    let element = document.createElement('div');
                     element.className = "item";
                     if (username && item.owner == username){
                         element.innerHTML = `

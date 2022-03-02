@@ -103,17 +103,24 @@ app.get('/signout/', function(req, res, next){
 ******************** */
 
 const longpoll = require("express-longpoll")(app);
-longpoll.create("/api/items");
+longpoll.create("/api/update/");
 process.setMaxListeners(0);
 
 app.post('/api/items/', isAuthenticated, function (req, res, next) {
     items.insert({content: req.body.content, owner: req.session.user._id}, function (err, item) {
         if (err) return res.status(500).end(err);
         items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items){
-            if (err) return callback(err, null);
-            longpoll.publish("/api/items", items);
+            if (err) return res.status(500).end(err);
+            longpoll.publish("/api/update/", items);
             return res.json(item);
         });
+    });
+});
+
+app.get('/api/items/', function (req, res, next) {
+    items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items) { 
+        if (err) return res.status(500).end(err);
+        return res.json(items.reverse());
     });
 });
 
@@ -126,35 +133,19 @@ app.get('/api/items/:id/', function (req, res, next) {
 });
 
 app.delete('/api/items/:id/', isAuthenticated, function (req, res, next) {
-    console.log(req.session.user);
     items.findOne({_id: req.params.id}, function(err, item){
-        console.log(item);
         if (err) return res.status(500).end(err);
         if (item.owner !== req.session.user._id) return res.status(403).end("forbidden");
         if (!item) return res.status(404).end("Item id #" + req.params.id + " does not exists");
         items.remove({ _id: item._id }, { multi: false }, function(err, num) {  
-            res.json(item);
+            if (err) return res.status(500).end(err);
+            items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items){
+                if (err) return res.status(500).end(err);
+                longpoll.publish("/api/update/", items);
+                return res.json(item);
+            });
          });
     });    
-});
-
-/* *********************
-*** Backend Template ***
-************************ */
-
-// backend templates
-// see ejs documentation: http://ejs.co/
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'backend'));
-
-app.get('/', function(req, res, next) {
-    items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items){
-        if (err) return callback(err, null);
-        app.render('index', {items: items}, function(err, html){
-            if (err) return res.status(500).end(err);
-            res.send(html);
-        });
-    });
 });
 
 app.use(express.static('static'));

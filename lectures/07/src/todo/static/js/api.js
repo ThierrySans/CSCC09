@@ -26,13 +26,17 @@ const api = (function(){
     
     module.deleteItem = function(itemId, callback){
         send("DELETE", "/api/items/" + itemId + "/", null, function(err, res){
-            if (err) return callback(err);
-            return callback(null);
+             if (err) return callback(err);
+             return callback(null);
         });
     };
 
     module.getItems = function(callback){
         send("GET", "/api/items/", null, callback);
+    };
+    
+    module.getUpdate = function(callback){
+        send("GET", "/api/update/", null, callback);
     };
     
     module.getCurrentUser = function(){

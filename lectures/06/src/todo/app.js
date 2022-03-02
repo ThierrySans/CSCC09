@@ -23,6 +23,11 @@ app.use(session({
     secret: 'please change this secret',
     resave: false,
     saveUninitialized: true,
+    cookie: { 
+        httpOnly: true, // prevent the session cookie from being read by Javascript onn the browser
+        secure: false,  // prevent the cookie to be sent with http, should be set to true when https is enabled
+        samesite: 'strict' // prevent the cookie from being sent with cross-domain requests, should be set to lax when frontend is served on different domain
+    }
 }));
 
 app.use(function(req, res, next){

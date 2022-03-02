@@ -19,13 +19,12 @@
             error_box.style.visibility = "visible";
         };
         
-        function update(){
-            api.getItems(function(err, items){
-                if (err) return onError(err);
-                document.querySelector('#items').innerHTML = '';
-                items.forEach(function(item){
-                    let element = document.createElement('div');
-                    element.className = "item";
+        function updateView(items){
+            document.querySelector('#items').innerHTML = '';
+            items.forEach(function(item){
+                let element = document.createElement('div');
+                element.className = "item";
+                if (username && item.owner == username){
                     element.innerHTML = `
                         <div class="item_content">${item.content}</div>
                         <div class="delete-icon icon"></div>
@@ -33,25 +32,40 @@
                     element.querySelector('.delete-icon').addEventListener('click', function(e){
                       api.deleteItem(item._id, function(err){
                           if (err) return onError(err);
-                          update();
                       });
                   }); 
-                    document.querySelector('#items').prepend(element);
-                });
+                }else{
+                    element.innerHTML = `
+                        <div class="item_content">${item.content}</div>
+                    `; 
+                } 
+              document.querySelector('#items').prepend(element);
             });
-        };
-        
+        }
+                
         document.querySelector('#add_item').addEventListener('submit', function(e){
             e.preventDefault();
             let content = document.querySelector('#content_form').value;
             document.querySelector('#add_item').reset();
             api.addItem(content, function(err){
                 if (err) return onError(err);
-                update();
             });
         });
         
-        update();
+        function update(){
+            api.getUpdate(function(err, items){
+                if (err) return onError(err);
+                updateView(items);
+                update();
+            });
+        };
+
+        api.getItems(function(err, items){
+            if (err) return onError(err);
+            updateView(items);
+            update();
+        });
+       
     });
     
 }());
