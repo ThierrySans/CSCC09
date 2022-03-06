@@ -54,8 +54,10 @@
       rubric: https://grademy.work/ThierrySans/C09W22-lab7/
 
 - week:
-  # lab:
-  #     title: Introduction to React
+  lab:
+      title: Introduction to React
+      handout: https://classroom.github.com/a/rgX0KNXv
+      rubric: https://grademy.work/ThierrySans/C09W22-lab8/
     
 - week:
   # lab:
