@@ -60,8 +60,10 @@
       rubric: https://grademy.work/ThierrySans/C09W22-lab8/
     
 - week:
-  # lab:
-  #     title: Deployment
+  lab:
+      title: Deployment
+      handout: https://classroom.github.com/a/VB_Nb3n4
+      rubric: https://grademy.work/ThierrySans/C09W22-lab9/
   project: 
       title: Beta Version
     
