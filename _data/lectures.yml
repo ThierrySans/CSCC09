@@ -73,6 +73,13 @@
   notes:
       Deploying web applications: 08/slides/C09-Deploying
 
+- week: Deploying fast and large scale web applications
+  notes:
+      HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
+      HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
+  # notes:
+  #     Deploying large scale web applications: 11/slides/C09-DeployingFastAndLargeScale
+
 - week: Guest lecture - Error reporting and performances monitoring
   # notes:
   #     Deploying large scale web applications: 10/slides/C09-DeployingLargeScale
@@ -80,13 +87,6 @@
 - week: Guest lectures - Innovation (Bill McConkey) and Web 3.0 (David Ziming Liu)
   # notes:
   #     Deploying fast web applications: 11/slides/C09-FastWebapps
-
-- week: Deploying fast and large scale web applications
-  notes:
-      HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
-      HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
-  # notes:
-  #     Deploying large scale web applications: 11/slides/C09-DeployingFastAndLargeScale
 
 - week: Advertising, Analytics and Tracking
   # notes:
