@@ -68,8 +68,9 @@
       title: Beta Version
     
 - week:
-  # lab:
-  #     title: Continuous Deployment
+  lab:
+      title: Continuous Integration and Continuous Deployment
+      handout: https://classroom.github.com/a/zMPR4UDE
     
 - week:
   project: 
