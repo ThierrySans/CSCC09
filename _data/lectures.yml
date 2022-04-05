@@ -89,10 +89,10 @@
   #     Deploying fast web applications: 11/slides/C09-FastWebapps
 
 - week: Advertising, Analytics and Tracking
-  # notes:
-  #     i18n & l10n: 12/slides/C09-i18n
-  #     Web Services: 12/slides/C09-WebServices
-  #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
+  notes:
+      i18n & l10n: 12/slides/C09-i18n
+      Web Services: 12/slides/C09-WebServices
+      Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
