@@ -29,27 +29,27 @@ assistants:
 timings:
     - section: LEC01
       time: Wednesay 11:00-13:00
-      location: TBD
+      location: MW 120
       instructor: Thierry Sans
     - section: LEC02
       time: Wednesday 14:00-16:00
-      location: TBD
+      location: MW 120
       instructor: Thierry Sans
     - section: PRA01
       time: Tuesday 13:00-15:00
-      location: TBD
+      location: BV 473
       instructor: TBD
     - section: PRA02
       time: Thursday 11:00-13:00
-      location: TBD
+      location: BV 473
       instructor: TBD
     - section: PRA03
       time: Thursday 13:00-15:00
-      location: TBD
+      location: BV 473
       instructor: TBD
     - section: PRA04
       time: Thursday 17:00-19:00
-      location: TBD
+      location: BV 473
       instructor: TBD
 
 first: 20220904
