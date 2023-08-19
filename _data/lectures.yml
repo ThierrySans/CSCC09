@@ -1,8 +1,7 @@
 - week: HTML & CSS
-  link: https://youtu.be/R8CJY8Msg4k
-  notes:
-      Introduction: 01/slides/C09-Introduction
-      HTML & CSS: 01/slides/C09-HTMLandCSS
+  # notes:
+  #     Introduction: 01/slides/C09-Introduction
+  #     HTML & CSS: 01/slides/C09-HTMLandCSS
   readings: 
       HTML on MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto
       CSS on MDN: https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto
@@ -12,54 +11,46 @@
       W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
 
 - week: Javascript
-  link: https://youtu.be/yb-kT-mJLyU
-  notes:
-    Javascript: 02/slides/C09-Javascript
-    Javascript in the browser: 02/slides/C09-Javascript-browser
-    Exploring HTML5: 02/slides/C09-HTML5
+  # notes:
+  #   Javascript: 02/slides/C09-Javascript
+  #   Javascript in the browser: 02/slides/C09-Javascript-browser
+  #   Exploring HTML5: 02/slides/C09-HTML5
   readings:
       Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  link: https://youtu.be/AuFVC71lRQk
-  notes:
-      Web API: 03/slides/C09-WebAPI
+  # notes:
+  #     Web API: 03/slides/C09-WebAPI
   readings:
       A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
-  link: https://youtu.be/xZUmVIfSxmg
-  notes:
-      Storing data and files: 04/slides/C09-StoringData
+  # notes:
+  #     Storing data and files: 04/slides/C09-StoringData
 
 - week: Managing users
-  link: https://youtu.be/kaVoIthMPv0
-  notes:
-      Cookies and Sessions: 05/slides/C09-CookiesAndSessions
-      WebAuthentication:  05/slides/C09-WebAuthentication
+  # notes:
+  #     Cookies and Sessions: 05/slides/C09-CookiesAndSessions
+  #     WebAuthentication:  05/slides/C09-WebAuthentication
   readings: 
       RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23
+
+- break: <span class="em">Reading Week</span>      
       
 - week: Security
-  link: https://youtu.be/i2IXYeyrNEw
-  notes:
-      Web Security: 06/slides/C09-WebSecurity
+  # notes:
+  #     Web Security: 06/slides/C09-WebSecurity
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
-- break: <span class="em">Spring Break</span>
-
-# - week: Invited Speaker - Bill McConkey
-#   # link: https://youtu.be/9xsqzwWtGwo
-
 - week: Advanced Javascript
-  notes:
-      Asynchronism, Javascript event loop, Web Workers: 07/slides/C09-AdvancedJavascript
-      Long Polling, Web Sockets, Web RTC: 07/slides/C09-AdvancedInteractions
+  # notes:
+  #     Asynchronism, Javascript event loop, Web Workers: 07/slides/C09-AdvancedJavascript
+  #     Long Polling, Web Sockets, Web RTC: 07/slides/C09-AdvancedInteractions
   readings:
       Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
       Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
@@ -69,32 +60,32 @@
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - week: Deploying web applications
-  link: https://utoronto.zoom.us/j/82545566516
-  notes:
-      Deploying web applications: 08/slides/C09-Deploying
+  # notes:
+  #     Deploying web applications: 08/slides/C09-Deploying
 
 - week: Deploying fast and large scale web applications
-  notes:
-      HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
-      HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
-  notes:
-      Deploying large scale web applications: 09/slides/C09-DeployingFastAndLargeScale
+  # notes:
+  #     HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
+  #     HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
+  # notes:
+  #     Deploying large scale web applications: 09/slides/C09-DeployingFastAndLargeScale
 
-- week: Guest lecture - Maintaining Large(r) Web Apps (Samuel Zhou and Cho Yin Yong)
-  notes: 
-      Maintaining Large(r) Web Apps: 10/slides/C09-MaintainingLargerWebApps
+- week: TBD
+  # notes:
+  #     Maintaining Large(r) Web Apps: 10/slides/C09-MaintainingLargerWebApps
+  #                                              C09-MaintainingLargerWebApps
 
-- week: Guest lectures - Innovation (Bill McConkey) and Web 3.0 (Wayne Zhang)
+- week: TBD
   # notes:
   #     Deploying fast web applications: 11/slides/C09-FastWebapps
 
 - week: Advertising, Analytics and Tracking
-  notes:
-      i18n & l10n: 12/slides/C09-i18n
-      Web Services: 12/slides/C09-WebServices
-      Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
-  readings:
-      The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
+  # notes:
+  #     i18n & l10n: 12/slides/C09-i18n
+  #     Web Services: 12/slides/C09-WebServices
+  #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
+  # readings:
+  #     The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
 
 # - week: Project presentations

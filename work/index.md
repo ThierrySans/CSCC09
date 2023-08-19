@@ -57,8 +57,6 @@ permalink: /work/
 </div>
 {% endfor %}
 
-**All project deliverables are due Friday April 8, 10pm (strict deadline)**
-
 <script type="text/javascript">
    make_schedule({{site.data.settings.first}},7,6);
 </script>

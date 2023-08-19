@@ -3,76 +3,78 @@
 - week:
   lab: 
       title: HTML & CSS
-      handout: https://classroom.github.com/a/lVW1umSW
-      rubric: https://grademy.work/ThierrySans/C09W22-lab2/
+      # handout: https://classroom.github.com/a/lVW1umSW
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab2/
     
 - week:
   lab:
       title: Javascript
-      handout: https://classroom.github.com/a/5mwRnFUK
-      rubric: https://grademy.work/ThierrySans/C09W22-lab3/
+      # handout: https://classroom.github.com/a/5mwRnFUK
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab3/
   hw:
       title: Frontend
-      handout: https://classroom.github.com/a/vGfRkBHl
-      rubric: https://grademy.work/ThierrySans/C09W22-hw1/
+      # handout: https://classroom.github.com/a/vGfRkBHl
+      # rubric: https://grademy.work/ThierrySans/C09W22-hw1/
     
 - week:
   lab: 
       title: Web API
-      handout: https://classroom.github.com/a/D5qKDzsX
-      rubric: https://grademy.work/ThierrySans/C09W22-lab4/
+      # handout: https://classroom.github.com/a/D5qKDzsX
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab4/
     
 - week: 
   lab: 
       title: Storing Data
-      handout: https://classroom.github.com/a/845uL9bm
-      rubric: https://grademy.work/ThierrySans/C09W22-lab5/
+      # handout: https://classroom.github.com/a/845uL9bm
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab5/
   hw: 
       title: Backend
-      handout: https://classroom.github.com/a/WdtuzA6S
-      rubric: https://grademy.work/ThierrySans/C09W22-hw2/
+      # handout: https://classroom.github.com/a/WdtuzA6S
+      # rubric: https://grademy.work/ThierrySans/C09W22-hw2/
   
-- week:
+- break: <span class="em">Reading Week</span> 
   lab: 
       title: Managing Users
-      handout: https://classroom.github.com/a/c7CCutt_
-      rubric: https://grademy.work/ThierrySans/C09W22-lab6/
+      # handout: https://classroom.github.com/a/c7CCutt_
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab6/
     
-- break: <span class="em">Reading Week</span> 
+- week: 
   project:
       title: Proposal
-      handout: ../project/
+      # handout: ../project/
   hw: 
       title: Managing Users
-      handout: https://classroom.github.com/a/1LgJUgK-
-      rubric: https://grademy.work/ThierrySans/C09W22-hw3/
+      # handout: https://classroom.github.com/a/1LgJUgK-
+      # rubric: https://grademy.work/ThierrySans/C09W22-hw3/
     
 - week: <span class="em">Reading Week</span>
   lab: 
       title: Security
-      handout: https://classroom.github.com/a/WtKJGP9R
-      rubric: https://grademy.work/ThierrySans/C09W22-lab7/
+      # handout: https://classroom.github.com/a/WtKJGP9R
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab7/
 
 - week:
   lab:
       title: Introduction to React
-      handout: https://classroom.github.com/a/rgX0KNXv
-      rubric: https://grademy.work/ThierrySans/C09W22-lab8/
+      # handout: https://classroom.github.com/a/rgX0KNXv
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab8/
     
 - week:
   lab:
       title: Deployment
-      handout: https://classroom.github.com/a/VB_Nb3n4
-      rubric: https://grademy.work/ThierrySans/C09W22-lab9/
+      # handout: https://classroom.github.com/a/VB_Nb3n4
+      # rubric: https://grademy.work/ThierrySans/C09W22-lab9/
   project: 
       title: Beta Version
     
 - week:
   lab:
       title: Continuous Integration and Continuous Deployment
-      handout: https://classroom.github.com/a/zMPR4UDE
+      # handout: https://classroom.github.com/a/zMPR4UDE
     
 - week:
     
 - week:
+  project: 
+      title: Final Version and Presentation
  
