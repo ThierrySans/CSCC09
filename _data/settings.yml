@@ -21,10 +21,22 @@ instructor:
 
 # https://www.fingerlakesbmw.org/main/flobfuscate.php
 assistants:
-    # - name: Alexander Greff
-    #   contact: "&#97;&#108;&#101;&#120;&#46;&#103;&#114;&#101;&#102;&#102;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
-    #   hours: Wed 10 AM - 11 AM
-    #   location: <a href="https://utoronto.zoom.us/j/87843211186">Zoom</a>
+    - name: Lazar Glumac
+      contact: "&#108;&#97;&#122;&#97;&#114;&#46;&#103;&#108;&#117;&#109;&#97;&#99;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: TBD
+    - name: Yuqi (Amy) Liang
+      contact: "&#97;&#109;&#121;&#46;&#108;&#105;&#97;&#110;&#103;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: TBD
+    - name: Aum Himendu Patel
+      contact: "&#97;&#117;&#109;&#46;&#112;&#97;&#116;&#101;&#108;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: TBD
+    - name: Benjamin Saobuppha
+      contact: "&#98;&#101;&#110;&#46;&#115;&#97;&#111;&#98;&#117;&#112;&#112;&#104;&#97;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: TBD
+      location: TBD
   
 timings:
     - section: LEC01
@@ -33,23 +45,23 @@ timings:
       instructor: Thierry Sans
     - section: LEC02
       time: Wednesday 14:00-16:00
-      location: MW 120
+      location: MW 110
       instructor: Thierry Sans
     - section: PRA01
       time: Tuesday 13:00-15:00
       location: BV 473
-      instructor: TBD
+      instructor: Lazar Glumac
     - section: PRA02
       time: Thursday 11:00-13:00
       location: BV 473
-      instructor: TBD
+      instructor: Aum Himendu Patel
     - section: PRA03
       time: Thursday 13:00-15:00
       location: BV 473
-      instructor: TBD
+      instructor: Yuqi (Amy) Liang
     - section: PRA04
       time: Thursday 17:00-19:00
       location: BV 473
-      instructor: TBD
+      instructor: Benjamin Saobuppha
 
-first: 20220904
+first: 20230904
