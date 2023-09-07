@@ -1,70 +1,71 @@
-h3{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+h3 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ***** */
 
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
 
 /* ***** */
 
-a:hover{
-    font-size: 200%;
+a:hover {
+  font-size: 200%;
 }
 
 /* ***** */
 
-ul{
- list-style:square;
+ul {
+  list-style: square;
 }
 
 /* ***** */
 
-.emphasize{
-    font-weight: bold;
-    font-style: italic;
+.emphasize {
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* ***** */
 
-#page{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+#page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-#page .component{
-    margin: 2px;
-    padding: 2px;
-    border: 1px solid black; 
+#page .component {
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
 }
 
-#page #head, #foot{
-    grid-column: 1 / span 2;
-}
-
-/* ***** */
-
-#logo{
-    max-width:100%;
+#page #head,
+#foot {
+  grid-column: 1 / span 2;
 }
 
 /* ***** */
 
-.home{
-    display: block;
-    background-image: url("../media/home.png");   
-    width: 64px;
-    height: 64px; 
-    cursor: pointer; /* optional */
+#logo {
+  max-width: 100%;
 }
 
 /* ***** */
 
-form .form_component{
-    margin-bottom: 10px;
+.home {
+  display: block;
+  background-image: url("../media/home.png");
+  width: 64px;
+  height: 64px;
+  cursor: pointer; /* optional */
+}
+
+/* ***** */
+
+form .form_component {
+  margin-bottom: 10px;
 }
 
 form label {
@@ -73,7 +74,8 @@ form label {
   text-align: left;
 }
 
-form input, textarea {
+form input,
+textarea {
   width: 200px;
   box-sizing: border-box;
   border: 1px solid #999;
