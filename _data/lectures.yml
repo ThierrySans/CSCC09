@@ -20,8 +20,8 @@
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
     
 - week: Web API
-  # notes:
-  #     Web API: 03/slides/C09-WebAPI
+  notes:
+      Web API: 03/slides/C09-WebAPI
   readings:
       A Beginner’s Guide to HTTP and REST: https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340
       10 Design Tips For APIs: https://phraseapp.com/blog/posts/best-practice-10-design-tips-for-apis/
