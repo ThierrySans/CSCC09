@@ -4,39 +4,32 @@
   lab: 
       title: HTML & CSS
       handout: https://classroom.github.com/a/AqEuZnNG
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab2/
     
 - week:
   lab:
       title: Javascript
       handout: https://classroom.github.com/a/jOqH5_5v
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab3/
   hw:
       title: Frontend
       handout: https://classroom.github.com/a/rKN_9cct
-      # rubric: https://grademy.work/ThierrySans/C09W22-hw1/
     
 - week:
   lab: 
       title: Web API
-      # handout: https://classroom.github.com/a/D5qKDzsX
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab4/
+      handout: https://classroom.github.com/a/VloqPHwI
     
 - week: 
   lab: 
       title: Storing Data
       # handout: https://classroom.github.com/a/845uL9bm
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab5/
   hw: 
       title: Backend
-      # handout: https://classroom.github.com/a/WdtuzA6S
-      # rubric: https://grademy.work/ThierrySans/C09W22-hw2/
+      handout: https://classroom.github.com/a/bgsG8hha
   
 - break: <span class="em">Reading Week</span> 
   lab: 
       title: Managing Users
       # handout: https://classroom.github.com/a/c7CCutt_
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab6/
     
 - week: 
   project:
@@ -45,25 +38,21 @@
   hw: 
       title: Managing Users
       # handout: https://classroom.github.com/a/1LgJUgK-
-      # rubric: https://grademy.work/ThierrySans/C09W22-hw3/
     
 - week: <span class="em">Reading Week</span>
   lab: 
       title: Security
       # handout: https://classroom.github.com/a/WtKJGP9R
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab7/
 
 - week:
   lab:
       title: Introduction to React
       # handout: https://classroom.github.com/a/rgX0KNXv
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab8/
     
 - week:
   lab:
       title: Deployment
       # handout: https://classroom.github.com/a/VB_Nb3n4
-      # rubric: https://grademy.work/ThierrySans/C09W22-lab9/
   project: 
       title: Beta Version
     
