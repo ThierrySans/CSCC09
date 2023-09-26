@@ -2,7 +2,7 @@ import { readFileSync } from "fs";
 import chai from "chai";
 import chaiHttp from "chai-http";
 
-import { server } from "../app.mjs";
+import { server, getItems } from "../app.mjs";
 
 const expect = chai.expect;
 chai.use(chaiHttp);
@@ -28,8 +28,8 @@ describe("Testing Static Files", () => {
 
 describe("Testing API", () => {
   const testData = [
-    "The quick brown Fox jumps over the lazy Dog",
-    "A man, a plan, a canal – Panama",
+    { id: 0, content: "The quick brown Fox jumps over the lazy Dog" },
+    { id: 1, content: "A man, a plan, a canal – Panama" },
   ];
 
   after(function () {
@@ -41,11 +41,11 @@ describe("Testing API", () => {
       .request(server)
       .post("/api/items")
       .set("content-type", "application/json")
-      .send({ content: testData[0] })
+      .send({ content: testData[0].content })
       .end(function (err, res) {
         expect(res).to.have.status(200);
-        expect(res.body).to.have.property("content", testData[0]);
-        expect(res.body).to.have.property("id", 0);
+        expect(res.body).to.deep.equal(testData[0]);
+        expect(getItems()).to.deep.equal([testData[0]]);
         done();
       });
   });
@@ -56,11 +56,11 @@ describe("Testing API", () => {
       .request(server)
       .post("/api/items")
       .set("content-type", "application/json")
-      .send({ content: testData[1] })
+      .send({ content: testData[1].content })
       .end(function (err, res) {
         expect(res).to.have.status(200);
-        expect(res.body).to.have.property("content", testData[1]);
-        expect(res.body).to.have.property("id", 1);
+        expect(res.body).to.deep.equal(testData[1]);
+        expect(getItems()).to.deep.equal(testData);
         done();
       });
   });
@@ -71,10 +71,7 @@ describe("Testing API", () => {
       .get("/api/items")
       .end(function (err, res) {
         expect(res).to.have.status(200);
-        expect(res.body).to.deep.equal([
-          { id: 0, content: testData[0] },
-          { id: 1, content: testData[1] },
-        ]);
+        expect(res.body).to.deep.equal(testData);
         done();
       });
   });
@@ -85,8 +82,8 @@ describe("Testing API", () => {
       .delete("/api/items/0/")
       .end(function (err, res) {
         expect(res).to.have.status(200);
-        expect(res.body).to.have.property("content", testData[0]);
-        expect(res.body).to.have.property("id", 0);
+        expect(res.body).to.deep.equal(testData[0]);
+        expect(getItems()).to.deep.equal([testData[1]]);
         done();
       });
   });
@@ -97,7 +94,7 @@ describe("Testing API", () => {
       .get("/api/items")
       .end(function (err, res) {
         expect(res).to.have.status(200);
-        expect(res.body).to.deep.equal([{ id: 1, content: testData[1] }]);
+        expect(res.body).to.deep.equal([testData[1]]);
         done();
       });
   });

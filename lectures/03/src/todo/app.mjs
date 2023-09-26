@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 
 let Item = (function () {
   let id = 0;
-  return function item(item) {
+  return function (content) {
     this.id = id++;
-    this.content = item.content;
+    this.content = content;
   };
 })();
 
@@ -20,14 +20,14 @@ app.use(function (req, res, next) {
   next();
 });
 
-let items = [];
+const items = [];
 
 app.get("/api/items/", function (req, res, next) {
   res.json(items);
 });
 
 app.post("/api/items/", function (req, res, next) {
-  let item = new Item(req.body);
+  let item = new Item(req.body.content);
   items.push(item);
   res.json(item);
 });
@@ -49,6 +49,11 @@ app.delete("/api/items/:id/", function (req, res, next) {
 });
 
 app.use(express.static("static"));
+
+// this is used for testing only
+export function getItems() {
+  return JSON.parse(JSON.stringify(items));
+}
 
 export const server = createServer(app).listen(PORT, function (err) {
   if (err) console.log(err);
