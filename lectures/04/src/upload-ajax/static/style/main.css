@@ -1,0 +1,83 @@
+html {
+  overflow: -moz-scrollbars-vertical;
+}
+
+body {
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3c3d3f;
+  text-align: left;
+  width: 400px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  margin-top: 36px;
+  height: 64px;
+  justify-content: flex-end;
+}
+
+header #title {
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+  width: 100%;
+  font-size: 48px;
+}
+
+.header_btn {
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#close_button {
+  background-image: url("../media/close33.png");
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alert {
+  color: red;
+}
+
+/* items */
+
+#users {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.user img {
+  display: block;
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+#error_box {
+  color: red;
+  visibility: hidden;
+}
+
+#error_box::before {
+  content: "Error: ";
+}
