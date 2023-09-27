@@ -1,11 +1,10 @@
 import { createServer } from "http";
 import express from "express";
-import bodyParser from "body-parser";
 
 const PORT = 3000;
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 let Item = (function () {
   let id = 0;

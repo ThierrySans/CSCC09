@@ -1,11 +1,10 @@
 import { createServer } from "http";
 import express from "express";
-import bodyParser from "body-parser";
 
 const PORT = 3000;
 const app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
 
 app.use(function (req, res, next) {
   console.log("HTTP request", req.method, req.url, req.body);

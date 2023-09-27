@@ -2,13 +2,12 @@ import { rmSync } from "fs";
 import { join } from "path";
 import { createServer } from "http";
 import express from "express";
-import bodyParser from "body-parser";
 import Datastore from "nedb";
 
 const PORT = 3000;
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 let items = new Datastore({
   filename: join("db", "items.db"),
