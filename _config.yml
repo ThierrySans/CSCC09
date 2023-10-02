@@ -5,4 +5,5 @@ exclude:
   - README.md
   - "*.key"
   - "*.nogit"
-  - "node_modules"
+  - "**/node_modules"
+  - "**/src"
