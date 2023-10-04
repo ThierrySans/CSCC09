@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ToDo</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="style/form.css" rel="stylesheet" type="text/css" />
+    <script type="module" src="js/index.mjs"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" id="title">ToDo</a>
+      <a href="/signup.html" id="signup" class="btn header_btn hidden"
+        >Sign up</a
+      >
+      <a href="/signout/" id="signout" class="btn header_btn hidden"
+        >Sign out</a
+      >
+    </header>
+
+    <p id="error_box"></p>
+
+    <form id="signin" class="complex_form hidden" method="POST" action="signin">
+      <input
+        type="text"
+        name="username"
+        class="form_element"
+        placeholder="Enter a username"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        class="form_element"
+        placeholder="Enter a password"
+        required
+      />
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+
+    <form id="add_item" class="complex_form hidden">
+      <input
+        id="content_form"
+        type="text"
+        class="form_element"
+        placeholder="Enter your ToDo item"
+        name="item"
+        required
+      />
+    </form>
+
+    <div id="items">
+      <!--div class="item">
+            <div class="item_content">Fill the C09 Github registration form!</div>
+            <div class="delete-icon icon"></div>
+        </div-->
+    </div>
+
+    <footer>
+      <a href="/credits.html">credits</a>
+    </footer>
+  </body>
+</html>

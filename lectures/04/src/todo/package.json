@@ -2,7 +2,7 @@
   "name": "todo",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.mjs",
   "scripts": {
     "prod": "node app.mjs",
     "dev": "nodemon app.mjs",
