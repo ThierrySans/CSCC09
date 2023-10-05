@@ -5,14 +5,15 @@ permalink: /project/
 
 # Project
 
-As a team (2-3 people), you can build whatever you want for your project (except a game). By the end of the semester, your app must be deployed and fully functionning. The course staff will evaluate the application online directly. 
+As a team (2-3 people), you can build whatever you want for your project. By the end of the semester, your app must be deployed and fully functioning. The course staff will evaluate the application online directly. 
 
-Yet, there are two technical contraints:
+Your project will be evaluated based on the richness of the web interactions. However, here are things that will **not** be taken into account:
 
-1. your frontend should be built on either [React](https://reactjs.org/) (strongly recommended), [Angular](https://angular.io/) or [View](https://vuejs.org/). Indeed, you can combine that framework with other UI frameworks such as Material UI, Bootstrap, Tailwind CSS and so on. 
-2. you can choose whatever language/frameworks for the backend, however the data exchange should rely on either [GraphQL](https://graphql.org/) or [gRPC](https://grpc.io/) instead of REST. 
+- wether the application is useful or not
+- the UX (although the UI should be clean and usable)
+- all things unrelated to web development (game play, machine learning model and so on)
 
-If you believe that this stack is not appropriate for your project idea, let's discuss it. We can make exceptions on a case by case basis if it is justified. 
+Your frontend should be built on either [React](https://reactjs.org/) (strongly recommended), [Angular](https://angular.io/) or [View](https://vuejs.org/). Indeed, you can combine that framework with other UI frameworks such as Material UI, Bootstrap, Tailwind CSS and so on. If you believe that nonce of these frameworks are appropriate for your project, let's discuss it. We can make exceptions on a case by case basis if it is justified. 
 
 ## Marking 
 
@@ -31,7 +32,7 @@ Your final version will be evaluated as follows (out of 70%):
 - is it well implemented? 15%
 - how is the quality of the UI/UX? 10%
 
-All team members must ut their best effort to contribute to the project. The instructor reserves the right to assign different grades to each of the team members based on their individual contributions on Github.
+All team members must put their best effort to contribute to the project. The instructor reserves the right to assign different grades to each of the team members based on their individual contributions on Github.
 
 ## Academic Integrity
 
@@ -67,7 +68,7 @@ To receive full credits, the proposal should contains the following information:
 - a description of the key features that will be completed by the Beta version
 - a description of the additional features that will be complete by the Final version
 - a description of the technology stack that you will use to build and deploy it
-- a description of the top 5 technical challenges
+- a description of the top 5 technical challenges. Understand that a challenge is something new that you have to learn or figure out. Anything we have already covered in class cannot be considered as a challenge. Making the application work and deploying it is not a challenge but a project requirement. 
 
 ### Beta Version
 
