@@ -10,7 +10,6 @@ As a team (2-3 people), you can build whatever you want for your project. By the
 Your project will be evaluated based on the richness of the web interactions. However, here are things that will **not** be taken into account:
 
 - wether the application is useful or not
-- the UX (although the UI should be clean and usable)
 - all things unrelated to web development (game play, machine learning model and so on)
 
 Your frontend should be built on either [React](https://reactjs.org/) (strongly recommended), [Angular](https://angular.io/) or [View](https://vuejs.org/). Indeed, you can combine that framework with other UI frameworks such as Material UI, Bootstrap, Tailwind CSS and so on. If you believe that nonce of these frameworks are appropriate for your project, let's discuss it. We can make exceptions on a case by case basis if it is justified. 
