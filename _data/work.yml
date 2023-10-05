@@ -26,13 +26,12 @@
       title: Backend
       handout: https://classroom.github.com/a/bgsG8hha
   
-- break: <span class="em">Reading Week</span> 
-
-    
-- week: 
+- break: <span class="em">Reading Week</span>
   project:
       title: Proposal
-      handout: ../project/
+      handout: ../project/ 
+    
+- week: 
   lab: 
       title: Managing Users
       # handout: https://classroom.github.com/a/c7CCutt_
