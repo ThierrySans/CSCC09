@@ -42,8 +42,8 @@
 - break: <span class="em">Reading Week</span>      
       
 - week: Security
-  # notes:
-  #     Web Security: 06/slides/C09-WebSecurity
+  notes:
+      Web Security: 06/slides/C09-WebSecurity
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
