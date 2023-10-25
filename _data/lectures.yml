@@ -48,9 +48,9 @@
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
 - week: Advanced Javascript
-  # notes:
-  #     Asynchronism, Javascript event loop, Web Workers: 07/slides/C09-AdvancedJavascript
-  #     Long Polling, Web Sockets, Web RTC: 07/slides/C09-AdvancedInteractions
+  notes:
+      Asynchronism, Javascript event loop, Web Workers: 07/slides/C09-AdvancedJavascript
+      Long Polling, Web Sockets, Web RTC: 07/slides/C09-AdvancedInteractions
   readings:
       Using promises: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
       Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
