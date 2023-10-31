@@ -126,10 +126,17 @@ app.get('/signout/', function(req, res, next){
     return res.redirect("/");
 });
 
-app.get('/api/items/', function (req, res, next) {
-    items.find({}).sort({createdAt:-1}).limit(5).exec(function(err, items) { 
-        if (err) return res.status(500).end(err);
-        return res.json(items.reverse());
+app.get("/api/items/", function (req, res, next) {
+    const limit = Math.max(5, (req.params.limit)? parseInt(req.params.limit) : 5);
+    const page = (req.params.page) || 0;
+  items
+    .find({})
+    .sort({ createdAt: -1 })
+    .skip(page * limit)
+    .limit(limit)
+    .exec(function (err, items) {
+      if (err) return res.status(500).end(err);
+      return res.json(items.reverse());
     });
 });
 
