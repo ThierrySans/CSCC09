@@ -60,8 +60,8 @@
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - week: Deploying web applications
-  # notes:
-  #     Deploying web applications: 08/slides/C09-Deploying
+  notes:
+      Deploying web applications: 08/slides/C09-Deploying
 
 - week: Deploying fast and large scale web applications
   # notes:
