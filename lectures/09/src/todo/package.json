@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prod": "node app.mjs",
+    "dev": "nodemon app.mjs",
+    "test": "npx mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie": "^0.6.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-longpoll": "0.0.6",
+    "express-session": "^1.17.3",
+    "memcached": "^2.2.2",
+    "morgan": "^1.10.0",
+    "nedb": "^1.8.0",
+    "spdy": "^4.0.2",
+    "validator": "^13.11.0"
+  }
+}
