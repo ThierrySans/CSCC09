@@ -26,17 +26,17 @@
       title: Backend
       # handout: https://classroom.github.com/a/bgsG8hha
   
-- break: <span class="em">Reading Week</span>
-  project:
-      title: Proposal
-      # handout: ../project/
+# - week: <span class="em">Reading Week</span>
+#   project:
+#       title: Proposal
+#       # handout: ../project/
     
 - week: 
   lab: 
       title: Managing Users
       # handout: https://classroom.github.com/a/vDpol6gU
     
-- week: <span class="em">Reading Week</span>
+- week: 
   lab: 
       title: Security
       # handout: https://classroom.github.com/a/ksxamsty
@@ -48,6 +48,12 @@
   lab:
       title: Introduction to React
       # handout: https://classroom.github.com/a/UfG_H5_z
+  project:
+      title: Proposal
+      # handout: ../project/
+
+
+- break: <span class="em">Reading Week</span>
     
 - week:
   lab:
@@ -60,7 +66,7 @@
   #lab:
       #title: Continuous Integration and Continuous Deployment
       # handout: https://classroom.github.com/a/zMPR4UDE
-    
+
 - week:
     
 - week:

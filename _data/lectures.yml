@@ -37,9 +37,7 @@
   #     WebAuthentication:  05/slides/C09-WebAuthentication
   readings: 
       RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
-      Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23
-
-- break: <span class="em">Reading Week</span>      
+      Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23     
       
 - week: Security
   # notes:
@@ -59,11 +57,13 @@
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
-- week: Deploying web applications
+- week: Deploying Web Applications
   # notes:
   #     Deploying web applications: 08/slides/C09-Deploying
 
-- week: Deploying fast and large scale web applications
+- break: <span class="em">Reading Week</span> 
+
+- week: Scaling and Optimizing Web Applications
   # notes:
   #     HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
   #     HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
