@@ -127,13 +127,13 @@ Marks of **at least 50% on the project AND at least 50% on the final exam** are 
 
 ## Submission and Grading Policy
 
-For each piece of work done for this class (either a lab, an assignment or the project), the student or the team will be required to submit the source code on the Github repository (student repository for individual work, team repository for the project). 
+For each piece of work done for this class (either a lab, an assignment or the project), the student or the team will be required to submit the source code to Gradescope. Only the final submission on Gradescope will be graded.
 
 For group work, the instructor reserves the right to assign different grades to each of the team members based on their individual contributions made to the team repository. 
 
-For your work to be graded, it must meet the minimum standards of a professional computer scientist. **All** files required to build the program must be committed to the repository, and the program must work. Last minute difficulties with git can easily be avoided by ensuring all files are added to the repository well before the deadline, and that you know how to commit them. **Your submission may receive a grade of 0, if we cannot get any part of it to work.**
+For your work to be graded, it must meet the minimum standards of a professional computer scientist. **All** files required to build the program must be committed to the repository, and the program must work. Last minute difficulties with git can easily be avoided by ensuring all files are added to the repository well before the deadline, and that you know how to commit them. **Your submission may receive a grade of 0, if we cannot get any part of it to work.** Each individual is responsible for submitting work
 
-No late submissions will be accepted for any course work, and no make-up assignments will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability.
+No late submissions will be accepted for the labs and the final project. However, each student will have 4 late days which may be spent in units of one day and that can spread into 3 homework. Beyond those grace days, no late submissions will be accepted for any course work, and no make-up assignments will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability.
 
 If an emergency arises that prevents you from being able to complete any piece of work, or attend an exam, contact one of the instructors immediately. 
 
@@ -147,7 +147,9 @@ Assignment solutions must be prepared individually, except where an assignment h
 
 For group work, you are fully responsible for the piece of work you submit to the team repository as your contribution to the group work. 
 
-When the assignment handout allows you to use snippets of code or third-party library from the web, you should cite the source in the source code. As a rule of thumb, any piece of code larger than 5 lines that has been copied and re-used as is or even slightly modified must be clearly referenced.
+When the assignment handout allows you to use snippets of code or third-party library from the web, you should cite the source in the source code. As a rule of thumb, any piece of code larger than 5 lines that has been copied and re-used as is or even slightly modified must be clearly referenced; any piece of code larger than 25 lines should not be copied regardless of any customization.
+
+In the end, you should be fully accountable for every line of code in your code. You should be able to explain in details what this code does when you are asked by the course staff.
 
 You may discuss assignments with other students, for example to clarify the requirements of an assignment, to work through examples that help you understand the technology used for an assignment, or to learn how to configure your system to run a supporting piece of software used in an assignment. However, collaboration at the level of answering written questions or designing and writing code, is strictly forbidden. Written problems and programming assignments must be answered, designed and coded by you alone, using the text, your own notes, and other texts and Web sources as aids.
 
@@ -157,7 +159,7 @@ You are not allowed to ask for help outside of the course Piazza. Asking for hel
 
 The course staff reserves the right to use code and text analysis tools to compare your submission with others to verify that no improper collaboration has occurred.
 
-Failure to comply with these guidelines is a serious academic offence. In past academic offense cases, the Associate Dean has imposed penalties for code violations that range from a mark of zero on plagiarized assignments to academic suspension from the University.
+Failure to comply with these guidelines is a serious academic offense. In past academic offense cases, the Associate Dean has imposed penalties for code violations that range from a mark of zero on plagiarized assignments to academic suspension from the University.
 
 ## Accessibility Needs
 
