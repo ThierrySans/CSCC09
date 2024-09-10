@@ -22,7 +22,7 @@ Upon successful completion of this course, students will be able to:
 
 ## Prerequisite
 
-No assumptions are made about prior exposure to web development. Students should be confortable with programming, learning new programming languages and frameworks on their own. 
+No assumptions are made about prior exposure to web development. Students should be comfortable with programming, learning new programming languages and frameworks on their own. 
 
 For specific prerequisite requirements see the UTSC Registrar.
 
