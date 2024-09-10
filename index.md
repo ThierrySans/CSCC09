@@ -32,23 +32,23 @@ We encourage you to post questions regarding course materials and assignments on
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column3"></div>
-        <div class="column3">Office Hours</div>
-        <div class="column3">Location</div>
-        <div class="column3">Contact</div>
+        <div class="hcolumn col-xs-3 col-sm-3"></div>
+        <div class="col-xs-3 col-sm-3">Office Hours</div>
+        <div class="col-xs-2 col-sm-2">Location</div>
+        <div class="col-xs-4 col-sm-4">Contact</div>
     </div>
     <div class="row">
-        <div class="hcolumn column3">Thierry Sans</div>
-        <div class="column3">{{site.data.settings.instructor.hours}}</div>
-        <div class="column3">{{site.data.settings.instructor.location}}</div>
-        <div class="column3">{{site.data.settings.instructor.contact}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">Thierry Sans</div>
+        <div class="col-xs-3 col-sm-3">{{site.data.settings.instructor.hours}}</div>
+        <div class="col-xs-2 col-sm-2">{{site.data.settings.instructor.location}}</div>
+        <div class="col-xs-4 col-sm-4">{{site.data.settings.instructor.contact}}</div>
     </div>
     {% for a in site.data.settings.assistants %}
     <div class="row">
-        <div class="hcolumn column3">{{a.name}}</div>
-        <div class="column3">{{a.hours}}</div>
-        <div class="column3">{{a.location}}</div>
-        <div class="column3">{{a.contact}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">{{a.name}}</div>
+        <div class="col-xs-3 col-sm-3">{{a.hours}}</div>
+        <div class="col-xs-2 col-sm-2">{{a.location}}</div>
+        <div class="col-xs-4 col-sm-4">{{a.contact}}<span class="spam">whatever</span>utoronto.ca</div>
     </div>
     {% endfor %}
 </div>
@@ -57,17 +57,17 @@ We encourage you to post questions regarding course materials and assignments on
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column3"></div>
-        <div class="column3">Time</div>
-        <div class="column3">Location</div>
-        <div class="column3">Instructor</div>
+        <div class="hcolumn col-xs-3 col-sm-3"></div>
+        <div class="col-xs-3 col-sm-3">Time</div>
+        <div class="col-xs-3 col-sm-3">Location</div>
+        <div class="col-xs-3 col-sm-3">Instructor</div>
     </div>
     {% for t in site.data.settings.timings %}
     <div class="row">
-        <div class="hcolumn column3">{{t.section}}</div>
-        <div class="column3">{{t.time}}</div>
-        <div class="column3">{{t.location}}</div>
-        <div class="column3">{{t.instructor}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">{{t.section}}</div>
+        <div class="col-xs-3 col-sm-3">{{t.time}}</div>
+        <div class="col-xs-3 col-sm-3">{{t.location}}</div>
+        <div class="col-xs-3 col-sm-3">{{t.instructor}}</div>
     </div>
     {% endfor %}
 </div>

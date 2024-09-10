@@ -6544,6 +6544,9 @@ button.close {
     display: none !important;
   }
 }
+.spam {
+  display: none;
+}
 .light {
   color: #30bebe;
 }
