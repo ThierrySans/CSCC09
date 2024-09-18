@@ -56,8 +56,8 @@
 - break: <span class="em">Reading Week</span>
     
 - week:
-  lab:
-      title: Deployment
+  # lab:
+  #     title: Deployment
       # handout: https://classroom.github.com/a/Q7x-mz5d
   project: 
       title: Beta Version
