@@ -22,7 +22,7 @@ app.use(function (req, res, next) {
 const items = [];
 
 app.get("/api/items/", function (req, res, next) {
-  res.json(items);
+	res.json(items);
 });
 
 app.post("/api/items/", function (req, res, next) {

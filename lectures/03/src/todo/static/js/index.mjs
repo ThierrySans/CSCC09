@@ -1,9 +1,9 @@
 import { getItems, addItem, deleteItem } from "/js/api.mjs";
 
 function onError(err) {
-  console.error("[error]", err);
+  console.error(err);
   const error_box = document.querySelector("#error_box");
-  error_box.innerHTML = err;
+  error_box.innerHTML = err.message;
   error_box.style.visibility = "visible";
 }
 

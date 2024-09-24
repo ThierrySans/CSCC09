@@ -1,7 +1,6 @@
-function unhandledStatus(fail){
-	return function(status){
-		return fail(`unhandled status code (${status})`);
-	};
+function handleReponse(res){
+	if (res.status != 200) { return res.text().then(text => { throw new Error(`${text} (status: ${res.status})`)}); }
+	return res.json();
 }
 
 export function addItem(content, fail, success) {
@@ -10,32 +9,23 @@ export function addItem(content, fail, success) {
   		headers: {"Content-Type": "application/json"},
   		body: JSON.stringify({ content: content }),
     })
-    .then(function(response){
-  	 	if (response.status != 200) { throw response.status; }
-  	 	return response.json();
-    })
-    .then(success)
-    .catch(unhandledStatus(fail)); 
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
 
 export function deleteItem(itemId, fail, success) {
 	fetch("/api/items/" + itemId, {
 		method:  "DELETE",
 	})
-	.then(function(response){
-		if (response.status == 404) { return fail(`item id ${itemId} not found (404)`); }
-		if (response.status != 200) { throw response.status; }
-		return success();
-	 })
-	 .catch(unhandledStatus(fail)); 
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
 
 export function getItems(fail, success) {
   fetch("/api/items/")
-	.then(function(response){
-  	 	if (response.status != 200) { throw response.status; }
-  	 	return response.json();
-    })
-    .then(success)
-    .catch(unhandledStatus(fail)); 
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
