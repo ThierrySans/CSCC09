@@ -10,7 +10,6 @@ function onError(err) {
 }
 
 function update() {
-	console.log(page);
   getItems(page, onError, function (items) {
     document.querySelector("#items").innerHTML = "";
 	document.querySelector("#prev").style.visibility = (page==0)?  "hidden" : "visible";
@@ -48,7 +47,10 @@ document.querySelector("#add_item").addEventListener("submit", function (e) {
   e.preventDefault();
   let content = document.querySelector("#content_form").value;
   document.querySelector("#add_item").reset();
-  addItem(content, onError, update);
+  addItem(content, onError, function(){
+	  page=0;
+	  update();
+  });
 });
 
 (function refresh() {
