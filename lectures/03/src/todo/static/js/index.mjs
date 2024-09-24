@@ -20,9 +20,7 @@ function update() {
       element
         .querySelector(".delete-icon")
         .addEventListener("click", function (e) {
-          deleteItem(item.id, onError, function success () {
-            update();
-          });
+          deleteItem(item.id, onError, update);
         });
       document.querySelector("#items").prepend(element);
     });
@@ -33,9 +31,7 @@ document.querySelector("#add_item").addEventListener("submit", function (e) {
   e.preventDefault();
   const content = document.querySelector("#content_form").value;
   document.querySelector("#add_item").reset();
-  addItem(content, onError, function success() {
-    update();
-  });
+  addItem(content, onError, update);
 });
 
 (function refresh() {
