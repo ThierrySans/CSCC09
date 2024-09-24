@@ -39,7 +39,7 @@ app.delete("/api/items/:id/", function (req, res, next) {
   let index = items.findIndex(function (e) {
     return e.id === parseInt(req.params.id);
   });
-  if (index === -1) res.json(null);
+  if (index === -1) res.status(404);
   else {
     let item = items[index];
     items.splice(index, 1);

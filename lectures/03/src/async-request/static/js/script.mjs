@@ -27,7 +27,7 @@ function fetchJson(content, success, failure){
 		body: JSON.stringify({ content: content }),
 	})
 	.then(function(response){
-		if (response.status != 200) { throw new Error("Status: " + xhr.status); }
+		if (response.status != 200) { throw new Error("Status: " + reponse.status); }
 		else { return response.json(); }
 	})
 	.then(success)

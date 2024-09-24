@@ -8,7 +8,7 @@ function onError(err) {
 }
 
 function update() {
-  getItems(function (items) {
+  getItems(onError, function (items) {
     document.querySelector("#items").innerHTML = "";
     items.forEach(function (item) {
       const element = document.createElement("div");
@@ -20,23 +20,22 @@ function update() {
       element
         .querySelector(".delete-icon")
         .addEventListener("click", function (e) {
-          deleteItem(item.id, function () {
+          deleteItem(item.id, onError, function success () {
             update();
-          }, onError);
+          });
         });
       document.querySelector("#items").prepend(element);
     });
-  }, 
-  onError);
+  });
 }
 
 document.querySelector("#add_item").addEventListener("submit", function (e) {
   e.preventDefault();
   const content = document.querySelector("#content_form").value;
   document.querySelector("#add_item").reset();
-  addItem(content, function () {
+  addItem(content, onError, function success() {
     update();
-  }, onError);
+  });
 });
 
 (function refresh() {
