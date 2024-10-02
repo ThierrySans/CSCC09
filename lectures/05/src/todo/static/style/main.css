@@ -90,3 +90,14 @@ footer {
 #error_box::before {
   content: "Error: ";
 }
+
+#nav{
+	margin-top: 20px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav a{
+	text-decoration:none;
+}

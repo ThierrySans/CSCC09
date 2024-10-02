@@ -1,34 +1,33 @@
-function send(method, url, data, callback) {
-  const xhr = new XMLHttpRequest();
-  xhr.onload = function () {
-    if (xhr.status !== 200)
-      callback("[" + xhr.status + "]" + xhr.responseText, null);
-    else callback(null, JSON.parse(xhr.responseText));
-  };
-  xhr.open(method, url, true);
-  if (!data) xhr.send();
-  else {
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(JSON.stringify(data));
-  }
+function handleReponse(res){
+	if (res.status != 200) { return res.text().then(text => { throw new Error(`${text} (status: ${res.status})`)}); }
+	return res.json();
 }
 
-export function addItem(content, callback) {
-  send("POST", "/api/items/", { content: content }, function (err, res) {
-    if (err) return callback(err);
-    return callback(null);
-  });
+export function addItem(content, fail, success) {
+    fetch("/api/items/", {
+  		method:  "POST",
+  		headers: {"Content-Type": "application/json"},
+  		body: JSON.stringify({ content: content }),
+    })
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
 
-export function deleteItem(itemId, callback) {
-  send("DELETE", "/api/items/" + itemId + "/", null, function (err, res) {
-    if (err) return callback(err);
-    return callback(null);
-  });
+export function deleteItem(itemId, fail, success) {
+	fetch("/api/items/" + itemId, {
+		method:  "DELETE",
+	})
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
 
-export function getItems(callback) {
-  send("GET", "/api/items/", null, callback);
+export function getItems(page, fail, success) {
+  fetch(`/api/items/?page=${page}`)
+	.then(handleReponse)
+	.then(success)
+	.catch(fail); 
 }
 
 export function getCurrentUser() {

@@ -125,8 +125,8 @@ app.get("/signout/", function (req, res, next) {
 });
 
 app.get("/api/items/", function (req, res, next) {
-    const limit = Math.max(5, (req.params.limit)? parseInt(req.params.limit) : 5);
-    const page = (req.params.page) || 0;
+    const limit = Math.max(5, (req.query.limit)? parseInt(req.query.limit) : 5);
+    const page = (req.query.page) || 0;
   items
     .find({})
     .sort({ createdAt: -1 })
