@@ -40,8 +40,8 @@
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23     
       
 - week: Security
-  # notes:
-  #     Web Security: 06/slides/C09-WebSecurity
+  notes:
+      Web Security: 06/slides/C09-WebSecurity
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
