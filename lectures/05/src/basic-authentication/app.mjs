@@ -71,7 +71,7 @@ app.get("/private/", isAuthenticated, function (req, res, next) {
 });
 
 // curl http://localhost:3000/public/
-app.get("/public/", function (req, res, next) {
+app.get("/public/", isAuthenticated, (req, res, next) {
   return res.end("This is public");
 });
 
