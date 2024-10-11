@@ -25,11 +25,6 @@
   hw: 
       title: Backend
       handout: https://classroom.github.com/a/Cs2VQ_dn
-  
-# - week: <span class="em">Reading Week</span>
-#   project:
-#       title: Proposal
-#       # handout: ../project/
     
 - week: 
   lab: 
@@ -50,7 +45,7 @@
       # handout: https://classroom.github.com/a/UfG_H5_z
   project:
       title: Proposal
-      # handout: ../project/
+      handout: ../project/
 
 
 - break: <span class="em">Reading Week</span>

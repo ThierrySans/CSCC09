@@ -129,6 +129,14 @@ To make sure that this video is of good quality, here is a good way to proceed:
 2. Check the video quality, edit the video if necessary. Again VLC can do this with VLC. 
 3. Upload this video on Youtube (either as a private or public video) and share the video URL on your Github README file.
 
+## Submission
+
+One team member should create the team repo through Github classroom: https://classroom.github.com/a/DnqlZtdt
+
+Then, all the other team members should join your project repo through Github Classroom.
+
+For the beta and the final version, all of your code should be submitted on this team repository on Github. 
+
 ## Recommendations
 
 Here are some key recommendations to consider: 
