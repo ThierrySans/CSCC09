@@ -131,7 +131,7 @@ To make sure that this video is of good quality, here is a good way to proceed:
 
 ## Submission
 
-One team member should create the team repo through Github classroom: https://classroom.github.com/a/DnqlZtdt
+One team member should create the team repo through [Github classroom](https://classroom.github.com/a/DnqlZtdt)
 
 Then, all the other team members should join your project repo through Github Classroom.
 
