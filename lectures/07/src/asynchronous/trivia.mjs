@@ -1,11 +1,12 @@
 setTimeout(function(){ 
     console.info('1. 5s timeout');
-}, 5000);
+}, 1000);
 
-let a = Array.from({length: 10000000}, () => Math.random());
-console.info('2. array created');
+setTimeout(function(){ 
+    console.info('3. 1s timeout');
+}, 1000);
 
-a.sort();
-console.info('3. array sorted');
+// a.sort();
+// console.info('3. array sorted');
 
 console.info('4. done');

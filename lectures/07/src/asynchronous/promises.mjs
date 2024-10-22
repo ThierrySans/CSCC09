@@ -44,21 +44,23 @@ function write(filename, content){
     })
 }
 
-read(bookFile).then(function(res){
-      let books = JSON.parse(res);
-      let lop = books.map(function(book){
-          return fetch(book.url).then(function(content){
-              return write(book.id, content)
-          })
-      });
-      return Promise.all(lop);
-  })
-  .then(function(res){
-      console.log(res.length);
-  })
-  .catch(function(err){
-      console.log(err);
+read(bookFile)
+.then(function(res){
+  let books = JSON.parse(res);
+  let lop = books.map(function(book){
+      return fetch(book.url)
+	  			.then(function(content){
+          return write(book.id, content)
+      })
   });
+  return Promise.all(lop);
+})
+.then(function(res){
+  console.log(res.length);
+})
+.catch(function(err){
+  console.log(err);
+});
 
 
 

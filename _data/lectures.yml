@@ -56,14 +56,14 @@
       
 - week: Advanced Interactions
   notes:
-  #     Long Polling, Web Sockets, Web RTC: 07/slides/C09-AdvancedInteractions
+      Long Polling, Web Sockets, Web RTC: 08/slides/C09-AdvancedInteractions
   readings:
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - week: Deploying Web Applications
-  # notes:
-  #     Deploying web applications: 08/slides/C09-Deploying
+  notes:
+      Deploying web applications: 09/slides/C09-Deploying
 
 - break: <span class="em">Reading Week</span> 
 
