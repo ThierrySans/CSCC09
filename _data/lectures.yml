@@ -61,11 +61,11 @@
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
+- break: <span class="em">Reading Week</span> 
+
 - week: Deploying Web Applications
   notes:
       Deploying web applications: 09/slides/C09-Deploying
-
-- break: <span class="em">Reading Week</span> 
 
 - week: Scaling and Optimizing Web Applications
   readings:
