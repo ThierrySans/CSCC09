@@ -51,16 +51,13 @@
 - break: <span class="em">Reading Week</span>
     
 - week:
-  # lab:
-  #     title: Deployment
-      # handout: https://classroom.github.com/a/Q7x-mz5d
+  lab:
+      title: Deployment
+      handout: https://classroom.github.com/a/U9PH24ZW
   project: 
       title: Beta Version
     
 - week:
-  #lab:
-      #title: Continuous Integration and Continuous Deployment
-      # handout: https://classroom.github.com/a/zMPR4UDE
 
 - week:
     
