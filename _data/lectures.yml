@@ -75,15 +75,15 @@
       Deploying large scale web applications: 10/slides/C09-DeployingFastAndLargeScale
 
 - week: i18n & l10n, Web Services
-  # notes:
-  #     i18n & l10n: 10/slides/C09-i18n
-  #     Web Services: 10/slides/C09-WebServices
+  notes:
+      i18n & l10n: 11/slides/C09-i18n
+      Web Services: 11/slides/C09-WebServices
 
 # - week: Alumni Panel
 
 - week: Advertising, Analytics and Tracking
-  # notes:
-  #     Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
+  notes:
+      Advertising, Analytics and Tracking: 12/slides/C09-WebAdvertising
   readings:
       The Fractured Future of Browser Privacy: https://www.wired.com/story/chrome-firefox-edge-browser-privacy/
 
