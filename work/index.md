@@ -58,7 +58,7 @@ permalink: /work/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule({{site.data.settings.first}},7,6);
+   get_deadlines({{site.data.settings.first}}, 6);
 </script>
    
 

@@ -43,5 +43,5 @@ permalink: /lectures/
 {% endfor %}
 
 <script type="text/javascript">
-   make_schedule({{site.data.settings.first}},7,2);
+   make_schedule({{site.data.settings.first}});
 </script>

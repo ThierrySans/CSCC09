@@ -1,12 +1,12 @@
 # Site settings
 ref: CSCC09
 title: Programming on the Web
-edition: Fall 2024
+edition: Fall 2025
 description: An introduction to software development on the web. Concepts underlying the development of programs that operate on the web. Operational concepts of the internet and the web, static and dynamic client content, dynamically served content, n-tiered architectures, web development processes and security on the web.
 website: https://thierrysans.me/CSCC09/
 github: https://github.com/ThierrySans/CSCC09
-piazza: https://piazza.com/utoronto.ca/fall2024/cscc09
-feedback: https://forms.gle/aUvTQeQ4rK2F2aPJA
+piazza: https://piazza.com/utoronto.ca/fall2025/cscc09
+feedback: https://forms.gle/F2Wy25YiVMhyFrWd9
 
 instructor:
   name: Thierry Sans
@@ -14,37 +14,25 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: Thursday 2-4 PM
+  hours: TBD
   location: IA 4124
   contact: Piazza only (no email)
   role: Prof.
 
 assistants:
-    - name: Anabelle Hsiao
-      contact: anabelle.hsiao@mail.
-      hours: Monday 1-2 PM
-      location: IC 402
-    - name: Ankit Shrivastava
-      contact: ankit.shrivastava@mail.
-      hours: Friday 3-4 PM
-      location: IC 402
-    - name: Casper Lee
-      contact: casper.sajewskilee@mail.
-      hours: Tuesday 7-8 PM
-      location: IC 402
-    - name: John Guirgis
-      contact: john.guirgis@mail.
-      hours: Wednesday 5-6 PM
-      location: IC 402
+    # - name: Anabelle Hsiao
+    #   contact: Piazza only
+    #   hours: Monday 1-2 PM
+    #   location: IC 402
 
 timings:
     - section: LEC01
       time: Wednesay 11:00-13:00
-      location: KW 160
+      location: HW 215
       instructor: Thierry Sans
     - section: LEC02
       time: Wednesday 14:00-16:00
       location: HW 215
       instructor: Thierry Sans
 
-first: 20240902
+first: 20250901
