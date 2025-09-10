@@ -11,10 +11,10 @@
       W3C CSS Validation Service: https://jigsaw.w3.org/css-validator/
 
 - week: Javascript
-  # notes:
-  #   Javascript: 02/slides/C09-Javascript
-  #   Javascript in the browser: 02/slides/C09-Javascript-browser
-  #   Exploring HTML5: 02/slides/C09-HTML5
+  notes:
+    Javascript: 02/slides/C09-Javascript
+    Javascript in the browser: 02/slides/C09-Javascript-browser
+    Exploring HTML5: 02/slides/C09-HTML5
   readings:
       Javascript on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript
       Modern JavaScript Cheatsheet: https://github.com/mbeaudru/modern-js-cheatsheet
