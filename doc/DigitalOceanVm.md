@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /doc/vm/
+---
+
 ## Accessing the Digital Ocean VM
 
 For the C09 homework 2, 3 and the project, we are providing you with a VM on Digital Ocean. You will access this VM using an SSH key pushed to your Github account.
