@@ -28,8 +28,8 @@
       RESTful API design: http://blog.octo.com/wp-content/uploads/2014/12/OCTO-Refcard_API_Design_EN_3.0.pdf
   
 - week: Storing Data
-  # notes:
-  #     Storing data and files: 04/slides/C09-StoringData
+  notes:
+      Storing data and files: 04/slides/C09-StoringData
 
 - week: Managing users
   # notes:
