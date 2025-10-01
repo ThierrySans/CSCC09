@@ -1,7 +1,7 @@
 import { compare, genSalt, hash } from "bcrypt";
 import { createServer } from "http";
 import express from "express";
-import Datastore from "nedb";
+import Datastore from "@seald-io/nedb";
 import { serialize, parse } from "cookie";
 import jwt from "jsonwebtoken";
 

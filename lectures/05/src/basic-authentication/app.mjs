@@ -1,7 +1,7 @@
 import { compare, genSalt, hash } from "bcrypt";
 import { createServer } from "http";
 import express from "express";
-import Datastore from "nedb";
+import Datastore from "@seald-io/nedb";
 
 const PORT = 3000;
 const app = express();
@@ -71,7 +71,7 @@ app.get("/private/", isAuthenticated, function (req, res, next) {
 });
 
 // curl http://localhost:3000/public/
-app.get("/public/", isAuthenticated, (req, res, next) {
+app.get("/public/", function(req, res, next) {
   return res.end("This is public");
 });
 

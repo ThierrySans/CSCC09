@@ -20,6 +20,11 @@ app.get("/", function (req, res, next) {
   return res.end("You have been visiting this site: " + nbvisits + " times");
 });
 
+app.get("/unchanged", function (req, res, next) {
+  const nbvisits = req.session.nbvisits ? req.session.nbvisits : 1;
+  return res.end("You have been visiting this site: " + nbvisits + " times");
+});
+
 createServer(app).listen(PORT, function (err) {
   if (err) console.log(err);
   else console.log("HTTP server on http://localhost:%s", PORT);
