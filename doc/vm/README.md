@@ -55,7 +55,7 @@ For the C09 homework 2, 3 and the project, we are providing you with a VM on Dig
     ssh root@1.2.3.4
     ```
     
-    Or if you want to pass the public key to the command:
+    Or if you want to pass the private key to the command:
     
     ```
     ssh -i /path/to/my\_private\_key ssh root@1.2.3.4
