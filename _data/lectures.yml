@@ -44,6 +44,10 @@
   readings:
       Security Best Practices with Node.js: https://expressjs.com/en/advanced/best-practice-security.html
 
+- week: Deploying Web Applications
+  notes:
+      Deploying web applications: 07/slides/C09-Deploying
+
 - week: Advanced Javascript
   # notes:
   #     Asynchronism, Javascript event loop, Web Workers: 07/slides/C09-AdvancedJavascript
@@ -62,10 +66,6 @@
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - break: <span class="em">Reading Week</span> 
-
-- week: Deploying Web Applications
-  # notes:
-  #     Deploying web applications: 09/slides/C09-Deploying
 
 - week: Scaling and Optimizing Web Applications
   readings:
