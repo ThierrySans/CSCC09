@@ -46,15 +46,12 @@
 - week:
   project:
       title: Proposal
-      # handout: ../project/
+      handout: ../project/
 
 - break: <span class="em">Reading Week</span>
 
     
 - week:
-  # lab:
-  #     title: Deployment
-  #     handout: https://classroom.github.com/a/U9PH24ZW
   project: 
       title: Beta Version
     

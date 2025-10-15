@@ -10,12 +10,12 @@ As a team (2-3 people), you can build whatever you want for your project. By the
 Your project will be evaluated based on the richness of the web interactions. However, here are things that will **not** be taken into account:
 
 - wether the application is useful or not
-- all things unrelated to web development (game play, machine learning model and so on)
+- all things unrelated to web development (game play, machine learning model, 3D models and so on)
 
 ## Constraints
 
 1. Your frontend must be a Single Page Application (SPA) built with either:
-        - A production-grade React either [Next.js ](https://nextjs.org/), [Remix](https://remix.run/) or [Gatsby](https://www.gatsbyjs.com/) (but you  CANNOT use create-react-app or Expo)
+        - A production-grade React either [Next.js ](https://nextjs.org/), [Remix](https://remix.run/) or [Gatsby](https://www.gatsbyjs.com/) (but you  CANNOT use **create-react-app** or **Expo**)
         - [Angular](https://angular.io/) 
         -  [View](https://vuejs.org/)
         - or [Vite](https://github.com/vitejs/vite)
@@ -29,7 +29,7 @@ Your project will be evaluated based on the richness of the web interactions. Ho
         - GraphQL
         - or JSON-RPC 
 
-4. The application must be deployed on a Virtual Machine (you cannot use Web Host services). The application can be publicly accessible via a URL. 
+4. The application must be entirely deployed on the provided Virtual Machine. The application must be publicly accessible via the VM URL and you are also allowed to have your own custom domain. 
 
 5. The application must have both local authentication and third-party authentication (OAuth). Optionally, you can also add Multi-Factor Authentication with email verification or a TOTP code. 
  
@@ -69,6 +69,14 @@ You have the freedom to build whatever they want as a project, however the follo
 
 Each team member is responsible and will be held accountable for the work he or she submits to the Github repository. 
 
+## On the use of AI
+
+You are permitted to use AI tools to assist in writing your code. However, you must clearly identify all AI-generated portions by providing a link to the AI prompt and its corresponding response. That said, you remain fully responsible for all code submitted under your name and must be able to explain every part of it in detail.
+
+From past experience, AI-generated code is not always of high quality as it can be unnecessarily verbose, poorly designed, and may fail to follow best practices. Projects that relied too heavily on AI have generally received lower grades as a result. 
+
+My recommendation is to use AI critically and thoughtfully. Always question what the generated code does, verify its correctness, and ensure it truly and precisely solves the problem at hand.
+
 ## Project Requirements and Challenge Factor
 
 In the end, the course staff will not judge the idea itself but the overall effort that was put in the project. Instead, we will evaluate the quality of the application and assess whether the application is substantial and challenging. 
@@ -79,12 +87,19 @@ Therefore your project will receive an *challenge factor* that ranges between 0.
 
 ## Deliverables
 
-### Team registration and project proposal
+### Team Registration
 
-As a team, you will submit your proposal on Gradescope. To receive full credits, the proposal should contains the following information: 
+One team member should create the team repo through [Github classroom](https://classroom.github.com/a/XmOgUbBd)
+
+Then, all the other team members should **join the project repo through Github Classroom**.
+
+### Project Proposal
+
+As a team, you will submit your proposal on Github. Your proposal should be in the `README.md` file at the root of your Github repository. Make sure that your proposal is [properly formatted in Markdown format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
+
+To receive full credits, the proposal should contains the following information: 
 
 - project Title
-- team Members
 - a description of the web application
 - a description of the key features that will be completed by the Beta version
 - a description of the additional features that will be complete by the Final version
@@ -121,21 +136,7 @@ Since every project is unique, grading is subjective. While evaluating the appli
 
 ### Presentation
 
-Given that we'll have about 50 projects. It is not possible to ask all of you to give a presentation in class. Instead, you are going to take a video demoing your app. This video must 3 min long (+-20 seconds). It should show your web app (no slide, no code) and the soundtrack should be you explaining what you are doing on screen. 
-
-To make sure that this video is of good quality, here is a good way to proceed: 
-
-1. take a video of you demoing your app. Do not film your physical screen with your phone. Instead, make a video by capturing your screen and your microphone directly on your computer. You can easily do that using VLC: open "File" > "open capture device", select "screen" and check "use mic"
-2. Check the video quality, edit the video if necessary. Again VLC can do this with VLC. 
-3. Upload this video on Youtube (either as a private or public video) and share the video URL on your Github README file.
-
-## Submission
-
-One team member should create the team repo through [Github classroom](https://classroom.github.com/a/DnqlZtdt)
-
-Then, all the other team members should join your project repo through Github Classroom.
-
-For the beta and the final version, all of your code should be submitted on this team repository on Github. 
+Given that we'll have about 50 projects. It is not possible to ask all of you to give a presentation in class. Instead, you are going to take a video demoing your app. This video must 3 min long (+-20 seconds). It should show your web app (no slide, no code) and the soundtrack should be you explaining what you are doing on screen. To make this video, you can either use Zoom or VLC.
 
 ## Recommendations
 
