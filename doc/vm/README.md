@@ -43,20 +43,16 @@ For the C09 homework 2, 3 and the project, we are providing you with a VM on Dig
 
     FYI, there is a script that collects those keys and update your VM every hour. Therefore, once your file has been pushed to Github it can take up to 1h to get updated and grant you access to your VM.
 
-3. **Get your VM IP address** that has been pushed to the file `VM_INFO` your Github project repo.
+3. **Access your VM** using your SSH client. 
 
-    Do not to delete this file. Otherwise, it will be pushed again to the repo automatically. 
-
-4. **Access your VM** using your SSH client. 
-
-    Replace `1.2.3.4` with the IP address found in your VM_INFO: 
+    Replace `repo_name` with the name of your repo: 
 
     ```
-    ssh root@1.2.3.4
+    ssh root@repo_name.amazingcloud.space
     ```
     
     Or if you want to pass the private key to the command:
     
     ```
-    ssh -i /path/to/my\_private\_key ssh root@1.2.3.4
+    ssh -i /path/to/my\_private\_key root@repo_name.amazingcloud.space
     ```
