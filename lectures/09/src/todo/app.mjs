@@ -2,7 +2,7 @@ import { rmSync } from "fs";
 import { compare, genSalt, hash } from "bcrypt";
 import { createServer } from "http";
 import express from "express";
-import Datastore from "nedb";
+import Datastore from "@seald-io/nedb";
 import session from "express-session";
 import { serialize } from "cookie";
 import validator from "validator";
