@@ -60,9 +60,9 @@
       
 - break: <span class="em">Reading Week</span>       
       
-- week: Advanced Interactions
+- week: Real-Time Web Applications
   notes:
-      Long Polling, Web Sockets, Web RTC: 09/slides/C09-AdvancedInteractions
+      Long Polling, Server-Sent Events, Web Sockets, Web RTC: 09/slides/C09-RealTime
   readings:
       Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
       Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
