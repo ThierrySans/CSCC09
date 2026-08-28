@@ -1,9 +1,0 @@
-{
-    "hello": "Hello i18n",
-    "toggle_button": "Toggle",
-    "username_form_title": "Enter your name",
-    "username_form_placeholder": "Enter your name",
-    "content_form_title": "Enter your message",
-    "content_form_placeholder": "Enter your message",
-    "submit_button": "Submit"
-}

@@ -1,55 +1,54 @@
 - week:
   lab: 
       title: HTML & CSS
-      handout: https://classroom.github.com/a/JBSzS2HW
+      # handout: https://classroom.github.com/a/JBSzS2HW
     
 - week:
   lab:
       title: Javascript
-      handout: https://classroom.github.com/a/uovOxT9m
+      # handout: https://classroom.github.com/a/uovOxT9m
 
     
 - week:
   lab: 
       title: Web API
-      handout: https://classroom.github.com/a/6Gk8qon7
+      # handout: https://classroom.github.com/a/6Gk8qon7
   hw:
       title: Frontend
-      handout: https://classroom.github.com/a/hgXDinIs
+      # handout: https://classroom.github.com/a/hgXDinIs
     
 - week: 
   lab: 
       title: Storing Data
-      handout: https://classroom.github.com/a/QK2OhzN9
+      # handout: https://classroom.github.com/a/QK2OhzN9
     
 - week: 
   lab: 
       title: Managing Users
-      handout: https://classroom.github.com/a/oPRIusRK
+      # handout: https://classroom.github.com/a/oPRIusRK
   hw: 
       title: Backend
-      handout: https://classroom.github.com/a/sngxw9lN
+      # handout: https://classroom.github.com/a/sngxw9lN
     
 - week: 
   lab: 
       title: Security
-      handout: https://classroom.github.com/a/nsyuocAG
+      # handout: https://classroom.github.com/a/nsyuocAG
 
 - week:
   lab:
       title: Introduction to React
-      handout: https://classroom.github.com/a/sUdeiTSy
+      # handout: https://classroom.github.com/a/sUdeiTSy
   hw: 
       title: Managing Users
-      handout: https://classroom.github.com/a/afPwA3SX
-
-- week:
-  project:
-      title: Proposal
-      handout: ../project/
+      # handout: https://classroom.github.com/a/afPwA3SX
 
 - break: <span class="em">Reading Week</span>
+  project:
+      title: Proposal
+      # handout: ../project/
 
+- week:
     
 - week:
   project: 

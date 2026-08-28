@@ -17,7 +17,7 @@ function make_schedule(frst){
     $('.week:not(.hrow)').each(function(k){
         // add date (if missing)
         if($(this).find(".date").length){
-			const dd = date.clone().add('d', 5);
+			const dd = date.clone().add('d', 4);
             const e = $(this).find(".date");
             e.html(date.format('MMM D') + ' - ' + dd.format('MMM D'));
             date.add('d', 7);

@@ -13,12 +13,12 @@ Our goal in this course is to learn about the fundamental underlying concepts of
 Upon successful completion of this course, students will be able to:
 
 1. describe the components of a web application
-1. explain the basic architecture of a web server
-1. compare different frameworks from a software architecture point of view, highlighting similarities and differences
-1. write and debug programs that manipulate the DOM
-1. use browser developer tools to analyze and debug a web application
-1. describe and use multiple models for communication between web server and client
-1. build a web application using a variety of JavaScript libraries and frameworks
+2. explain the basic architecture of a web server
+3. compare different frameworks from a software architecture point of view, highlighting similarities and differences
+4. write and debug programs that manipulate the DOM
+5. use browser developer tools to analyze and debug a web application
+6. describe and use multiple models for communication between web server and client
+7. build a web application using a variety of JavaScript libraries and frameworks
 
 ## Prerequisite
 
@@ -115,11 +115,11 @@ The weighting of course work is set as:
     </div>
     <div class="row">
         <div class="hcolumn column4">Project</div>
-        <div class="column4">40%</div>
+        <div class="column4">30%</div>
     </div>
     <div class="row">
         <div class="hcolumn column4">Final Exam</div>
-        <div class="column4">25%</div>
+        <div class="column4">35%</div>
     </div>
 </div>
 
@@ -127,7 +127,7 @@ Marks of **at least 50% on the project AND at least 50% on the final exam** are 
 
 ## Submission and Grading Policy
 
-For each piece of work done for this class (either a lab, an assignment or the project), the student or the team will be required to submit the source code to Gradescope. Only the final submission on Gradescope will be graded.
+For each piece of work done for this class (either a lab, an assignment or the project), the student or the team will be required to submit the source code to Github. Only the final submission on Github will be graded.
 
 For group work, the instructor reserves the right to assign different grades to each of the team members based on their individual contributions made to the team repository. 
 
@@ -149,7 +149,7 @@ You are fully responsible for the piece of work you submit in your name. For gro
 
 When the assignment handout allows you to use snippets of code from the web, you should cite the source in the source code. As a rule of thumb, any piece of code larger than 5 lines that has been copied and re-used as is or even slightly modified must be clearly referenced. However, any piece of code larger than 25 lines should not be re-used. 
 
-You are not allowed to use any AI assistant to produce lab assignment code or writeup. However, you are allowed to use AI for the project only but you must clearly referenced code generated with AI, even slightly modified, in your source code.
+By default, you are not allowed to use any AI assistant to produce code or writeup unless specifically instructed in the assignment handout. When allowed, you must clearly referenced code generated with AI, even slightly modified, in your source code.
 
 In the end, you should be fully accountable for every line of code in your code. You should be able to explain in details what this code does when you are asked by the course staff.
 
