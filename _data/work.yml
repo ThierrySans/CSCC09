@@ -1,12 +1,12 @@
 - week:
   lab: 
       title: HTML & CSS
-      # handout: https://classroom.github.com/a/JBSzS2HW
+      handout: ./lab1/
     
 - week:
   lab:
       title: Javascript
-      # handout: https://classroom.github.com/a/uovOxT9m
+      handout: ./lab1/
 
     
 - week:
@@ -15,7 +15,7 @@
       # handout: https://classroom.github.com/a/6Gk8qon7
   hw:
       title: Frontend
-      # handout: https://classroom50.org/UTSCC09/cscc09f26/assignments/hw1/accept
+      handout: ./hw1/
     
 - week: 
   lab: 

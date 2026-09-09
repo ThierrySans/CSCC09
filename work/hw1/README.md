@@ -5,13 +5,37 @@ permalink: /work/hw1/
 
 # Hw 1 - Building the Web Gallery Frontend
 
-The objective of these assignments is to build an application called _The Web Gallery_ where users can share pictures and comments.
+The objective of these assignments is to build an application called _The Web Gallery_ where users can share pictures and comments with others.
 
-## Deploy your web application on Github Pages
+In this first assignment, we are going to build the frontend and deploy it on Github page. 
 
-Deploy your app on Github Page on your current Github repository as shown here https://docs.github.com/en/pages/quickstart.
+## Submission and Grading
 
-**Important:** There is no need to create another Github repository, you can start the tutorial at step 6 directly. Make sure that your url goes directly to the `/index.html`. 
+**Important:** This homework has some starter code that is available on Classroom 50. If you do not have access to Classroom 50, please send a private message to the instructor on Piazza. 
+
+There are two things to do when submitting your work: 
+
+1. Push your final version of your code to the `main` branch of your hw1 Github repository created through Classroom 50. The timestamp of that latest commit will be used to calculate the number of late days used.
+
+2. Deploy your application on Github Page and make sure that everything works. You work should be accessible through the following URL (replace `repository_name` with your Github repository):
+
+```
+https://UTSCC09.github.io/<repository_name>/
+```
+
+When comes the time for the course staff to grade your work, keep in mind the following:
+
+- The course staff will not execute your source code but it will directly test your app using the deployed URL. If your application does not work from this URL, your work will get a 0. 
+- The course staff will checkout your code at the latest commit on the main branch of your official course repo for that work (created through Classroom 50). Code pushed to different commit or different branch will be ignored.
+- The code deployed should be exactly the same as the source code on Github. If we notice any difference (even the smallest one) between the source code the deployed version and the source code on Github, your work will get a 0.
+
+## Deploying your web application on Github Pages
+
+The starter code that is working and deployable. We recommend to deploy the starter code first to get familiar with the deployment process. Then, as you build your web application, we recommend to push changes to Github and deploy your application as often as possible.
+
+To deploy your application, follow the instructions here https://docs.github.com/en/pages/quickstart.
+
+**Important:** There is no need to create another Github repository as the tutorial suggest in the first steps. Instead, you should use the Github repository created through Classroom 50 exclusively. Therefore, you can start the tutorial at step 6 directly.
 
 On Github Page is setup on the repository, you can access your app on the browser `https://UTSCC09.github.io/<repository_name>/` (replace `repository_name` with your repository). You should see the message `Welcome to HW1!`
 
@@ -58,7 +82,7 @@ Your code must be of good quality and follow all recommendations given throughou
 - all icons, images and other design elements are appropriately credited in `credits.html`.
 - all code found online and adapted are appropriately credited as comments
 
-You must commit your final version of the code on the `master` branch Github repository created through Github Classroom. It is strongly encourager to use your Github repo to commit commit early and push often your code. 
+You must commit your final version of the code on the `master` branch Github repository created through Classroom 50. It is strongly encourager to use your Github repo to commit commit early and push often your code. 
 
 ## Designing the UI
 
@@ -124,21 +148,3 @@ As users browse through the gallery, the comment section should be updated to di
 The comment section should only show that last 10 comments with the most recent on top. The users can navigate through all comments by using buttons that will show the previous or next 10 comments for displayed image.
 
 Users should be able to delete any comment.
-
-## Submission and Grading
-
-Deploy your app on Github Page and make sure that everything works. You work should be accessible through the following URL (replace `repository_name` with your Github repository):
-
-```
-https://UTSCC09.github.io/<repository_name>/
-```
-
-To submit your work, push your final version of your code to the `main` branch of your hw1 Github repository created through Github classroom. The timestamp of that latest commit will be used to calculate the number of late days used.
-
-When comes the time for the course staff to grade your work, keep in mind the following:
-
-- The course staff will not execute your source code but it will directly test your app using the deployed URL. If your application does not work from this URL, your work will get a 0. 
-- The course staff will checkout your code at the latest commit on the main branch of your official course repo for that work (created through Github classroom). Code pushed to different commit or different branch will be ignored.
-- The code deployed on the VM should be exactly the same as the source code on Github. If we notice any difference (even the smallest one) between the source code the deployed version and the source code on Github, your work will get a 0.
-
-
