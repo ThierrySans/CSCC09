@@ -1,0 +1,48 @@
+.complex_form {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px #3c3d3f solid;
+  padding: 20px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.complex_form .form_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: -20px -10px 20px -10px;
+  padding: 10px 0px 10px 25px;
+  color: white;
+  background-color: #3c3d3f;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.complex_form .form_radio {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.complex_form .form_element {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.btn {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #3c3d3f;
+  background: #ffffff;
+  border: 2px #3c3d3f solid;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #3c3d3f;
+  color: #ffffff;
+}

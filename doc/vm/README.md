@@ -56,3 +56,14 @@ For the C09 homework 2, 3 and the project, we are providing you with a VM on Dig
     ```
     ssh -i /path/to/my\_private\_key root@repo_name.amazingcloud.space
     ```
+    
+## Installing Docker on the Digital Ocean VM
+
+1. Install Docker on your VM following these instructions [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04). 
+
+2. Make sure that docker is working:
+
+  ```
+  docker run --rm hello-world
+  ```
+
