@@ -3,6 +3,8 @@ layout: default
 permalink: /work/
 ---
 
+All labs are due on Thurdays 5 PM after the last office hour for the week.
+
 <div class="week hrow">
     <div class="week_id">Week</div>
     <div class="date">Deadline</div>
