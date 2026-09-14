@@ -14,32 +14,28 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: Thu 3 - 4 PM
+  hours: Wed 4 PM - 5 PM
   location: IA 4124
   contact: Piazza only (no email)
   role: Prof.
 
 assistants:
-    # - name: Catherine Sun
-    #   contact: Piazza only
-    #   hours: Friday 5 - 6 PM
-    #   location: IA 3180 (CS Help Center)
-    # - name: Chad Rossouw
-    #   contact: Piazza only
-    #   hours: Monday 11 AM - 12 PM
-    #   location: IA 3180 (CS Help Center)
-    # - name: Janani Gurram
-    #   contact: Piazza only
-    #   hours: Tuesday 4 - 5 PM
-    #   location: IA 3180 (CS Help Center)
+    - name: Arshiya Mahmoodinezhad
+      contact: Piazza only
+      hours: Tue 10 AM - 11 AM
+      location: IA 3180 (CS Help Center)
+    - name: Kevin Zhang
+      contact: Piazza only
+      hours: Thu 4 - 5 PM
+      location: IA 3180 (CS Help Center)
 
 timings:
     - section: LEC01
-      time: Wednesay 11 AM - 1PM
+      time: Wed 11 AM - 1PM
       location: IA 2050
       instructor: Thierry Sans
     - section: LEC02
-      time: Wednesday 2 - 4 PM
+      time: Wed 2 - 4 PM
       location: IA 3120
       instructor: Thierry Sans
 
