@@ -12,7 +12,7 @@
 - week:
   lab: 
       title: Web API
-      # handout: https://classroom.github.com/a/6Gk8qon7
+      handout: ./lab3/
   hw:
       title: Frontend
       handout: ./hw1/
@@ -20,7 +20,7 @@
 - week: 
   lab: 
       title: Storing Data
-      # handout: https://classroom.github.com/a/QK2OhzN9
+      handout: ./lab4/
     
 - week: 
   lab: 
