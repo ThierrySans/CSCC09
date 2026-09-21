@@ -67,3 +67,4 @@ For the C09 homework 2, 3 and the project, we are providing you with a VM on Dig
   docker run --rm hello-world
   ```
 
+3. You can learn more about how to use Docker [here](https://thierrysans.me/CSCD27/doc/docker/)
