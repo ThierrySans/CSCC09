@@ -28,7 +28,7 @@
       # handout: https://classroom.github.com/a/oPRIusRK
   hw: 
       title: Backend
-      # handout: https://classroom.github.com/a/sngxw9lN
+      handout: ./hw2/
     
 - week: 
   lab: 
