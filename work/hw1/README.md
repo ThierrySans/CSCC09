@@ -82,7 +82,7 @@ Your code must be of good quality and follow all recommendations given throughou
 - all icons, images and other design elements are appropriately credited in `credits.html`.
 - all code found online and adapted are appropriately credited as comments
 
-You must commit your final version of the code on the `master` branch Github repository created through Classroom 50. It is strongly encourager to use your Github repo to commit commit early and push often your code. 
+You must commit your final version of the code on the `main` branch Github repository created through Classroom 50. It is strongly encourager to use your Github repo to commit commit early and push often your code. 
 
 ## Designing the UI
 
