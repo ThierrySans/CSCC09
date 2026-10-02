@@ -25,7 +25,7 @@
 - week: 
   lab: 
       title: Managing Users
-      # handout: https://classroom.github.com/a/oPRIusRK
+      handout: ./lab5/
   hw: 
       title: Backend
       handout: ./hw2/
@@ -33,15 +33,15 @@
 - week: 
   lab: 
       title: Security
-      # handout: https://classroom.github.com/a/nsyuocAG
+      handout: ./lab6/
 
 - week:
   lab:
       title: Introduction to React
-      # handout: https://classroom.github.com/a/sUdeiTSy
+      # handout: ./lab7/
   hw: 
       title: Managing Users
-      # handout: https://classroom.github.com/a/afPwA3SX
+      handout: ./hw3/
 
 - break: <span class="em">Reading Week</span>
   project:
