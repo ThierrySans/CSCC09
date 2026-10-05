@@ -73,7 +73,7 @@ To deploy your application:
 4. Run the Docker container:
 
   ```
-  docker run  --rm -d --name web-gallery -p 80:3000 web-gallery:latest 
+  docker run  --rm -d --name web-gallery -p 80:3000 -v $(pwd)/data:/home/app/data web-gallery:latest 
   ```
 
   This will map the port 80 of the VM to the port 3000 of the docker container. 
