@@ -32,9 +32,9 @@
       Storing data and files: 04/slides/C09-StoringData
 
 - week: Managing users
-  # notes:
-  #     Cookies and Sessions: 05/slides/C09-CookiesAndSessions
-  #     WebAuthentication:  05/slides/C09-WebAuthentication
+  notes:
+      Cookies and Sessions: 05/slides/C09-CookiesAndSessions
+      WebAuthentication:  05/slides/C09-WebAuthentication
   readings: 
       RESTful Authentication: https://stackoverflow.com/questions/319530/restful-authentication
       Can JWT be used for sessions: https://medium.com/@yuliaoletskaya/can-jwt-be-used-for-sessions-4164d124fe23       
