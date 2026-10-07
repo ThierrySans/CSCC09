@@ -10,7 +10,6 @@ import { serialize } from "cookie";
 const PORT = 3000;
 const app = express();
 
-app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 let users = new Datastore({ filename: path.resolve(path.join("db", "users.db")), autoload: true });
