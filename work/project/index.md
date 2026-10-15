@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /project/
+permalink: /work/project/
 ---
 
 # Project
