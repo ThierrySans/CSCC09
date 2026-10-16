@@ -38,7 +38,7 @@
 - week:
   lab:
       title: Introduction to React
-      # handout: ./lab7/
+      handout: ./lab7/
   hw: 
       title: Managing Users
       handout: ./hw3/
