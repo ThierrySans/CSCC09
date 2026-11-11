@@ -58,21 +58,20 @@
       Concurrency model and Event Loop: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
       Understanding Event Loop, Call Stack, Event and Job Queue in Javascript: https://medium.com/@Rahulx1/understanding-event-loop-call-stack-event-job-queue-in-javascript-63dcd2c71ecd
       Using Web Workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-     
-      
-- week: Real-Time Web Applications
-  # notes:
-  #     Long Polling, Server-Sent Events, Web Sockets, Web RTC: 09/slides/C09-RealTime
-  readings:
-      Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
-      Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - week: Scaling and Optimizing Web Applications
   readings:
       HTTP/2 the difference between HTTP/1.1, benefits and how to use it: https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
       HTTP/3 the past, the present, and the future: https://blog.cloudflare.com/http3-the-past-present-and-future/
+  notes:
+      Deploying large scale web applications: 09/slides/C09-DeployingFastAndLargeScale   
+      
+- week: Real-Time Web Applications
   # notes:
-  #     Deploying large scale web applications: 10/slides/C09-DeployingFastAndLargeScale
+  #     Long Polling, Server-Sent Events, Web Sockets, Web RTC: 10/slides/C09-RealTime
+  readings:
+      Node.js & WebSocket: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
+      Long Polling vs WebSockets vs Server-Sent Events: https://medium.com/system-design-blog/long-polling-vs-websockets-vs-server-sent-events-c43ba96df7c1
 
 - week: i18n & l10n, Web Services
   # notes:

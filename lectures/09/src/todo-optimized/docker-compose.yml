@@ -1,0 +1,49 @@
+services:
+  certificates:
+    build: ../todo-shared/tls
+    volumes:
+      - ./certs:/certs
+
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:1.11
+    depends_on:
+      certificates:
+        condition: service_completed_successfully
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      ENABLE_HTTP3: "true"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./certs:/etc/nginx/certs:ro
+
+  frontend-build:
+    build:
+      context: ./frontend
+      target: build
+    command: npm run build
+    volumes:
+      - ../todo-shared/frontend:/build/src:ro
+      - ./frontend/dist:/build/dist
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      backend:
+        condition: service_started
+      frontend-build:
+        condition: service_completed_successfully
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html:ro
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: localhost
+
+  backend:
+    build: ../todo-shared/backend
+    restart: unless-stopped
+    volumes:
+      - ./db:/home/app/db
+      - ./uploads:/home/app/uploads

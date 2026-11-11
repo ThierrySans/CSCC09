@@ -1,0 +1,17 @@
+{
+  "name": "caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-cache-bad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@seald-io/nedb": "^4.1.2",
+    "express": "^4.18.2",
+    "memcached": "^2.2.2",
+    "npm-check-updates": "^16.14.6"
+  }
+}
