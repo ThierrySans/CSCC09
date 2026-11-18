@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server-Sent Events</title>
+</head>
+<body>
+    <p id="error"></p>
+    <p id="message"></p>
+    <script>
+      const eventSource = new EventSource('/processing');
+        
+      eventSource.onmessage = function(event) {
+            document.querySelector("#message").innerHTML = event.data;
+      };
+
+      eventSource.onerror = function(event) {
+          eventSource.close();
+      };
+    </script>
+</body>
+</html>

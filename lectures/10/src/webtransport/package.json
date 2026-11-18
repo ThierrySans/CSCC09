@@ -1,0 +1,20 @@
+{
+  "name": "webtransport-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "cert": "node generate-certificate.mjs",
+    "start": "node reliable-streams/app.mjs",
+    "start:streams": "node reliable-streams/app.mjs",
+    "start:datagrams": "node unreliable-datagrams/app.mjs"
+  },
+  "dependencies": {
+    "@fails-components/webtransport": "1.6.11",
+    "@fails-components/webtransport-transport-http3-quiche": "1.6.11",
+    "express": "^5.1.0"
+  }
+}
