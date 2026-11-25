@@ -1,0 +1,9 @@
+{
+    "hello": "Hola i18n",
+    "toggle_button": "Cambiar",
+    "username_form_title": "Como te llama",
+    "username_form_placeholder": "Como te llama",
+    "content_form_title": "Que dices",
+    "content_form_placeholder": "Que dices",
+    "submit_button": "Vamos"
+}
