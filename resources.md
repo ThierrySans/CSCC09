@@ -11,18 +11,20 @@ permalink: /resources/
 
 ### HTML, CSS & Javascript
 
-- The ultimate reference: [Mozilla Development Network (MDN)](https://developer.mozilla.org/en-US/)
+- The ultimate reference: [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid)
-- [Learn HTML & CSS on Codecadmy](https://www.codecademy.com/learn/web)
-- [Learn Javascript on Codecadmy](https://www.codecademy.com/learn/javascript)
+- [Learn HTML on Codecademy](https://www.codecademy.com/learn/learn-html)
+- [Learn CSS on Codecademy](https://www.codecademy.com/learn/learn-css)
+- [Learn Javascript on Codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Eloquent JavaScript](https://github.com/marijnh/Eloquent-JavaScript)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/)
 - [Node.js](https://nodejs.org/api/)
 
 ### Behind the scenes
 
-- [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [How Browsers Work](https://web.dev/articles/howbrowserswork)
+- [JavaScript Event Loop Visualizer](https://frontendatlas.com/javascript/trivia/js-event-loop)
 
 ### Security
 
@@ -33,13 +35,13 @@ permalink: /resources/
 #### Responsive Framework
 
 - [Bootstrap](http://getbootstrap.com/)
-- [Foundation](http://foundation.zurb.com/)
+- [Foundation](https://get.foundation/)
 - [Tailwind](https://tailwindcss.com/)
 
 #### Frontend framework
 
-- [Angular](https://angular.io/)
-- [React](https://facebook.github.io/react/)
+- [Angular](https://angular.dev/)
+- [React](https://react.dev/)
 - [Vue.js](https://vuejs.org/)
 - [Ember.js](http://emberjs.com/)
 - [Backbone.js](http://backbonejs.org/)
@@ -92,7 +94,7 @@ permalink: /resources/
 - [PeerJS](http://peerjs.com/)
 - [DataChannel.js](https://github.com/muaz-khan/WebRTC-Experiment/tree/master/DataChannel)
 
-#### CSS Preprocesors & Advanced Topics
+#### CSS Preprocessors & Advanced Topics
 
 - [scss (or sass)](https://sass-lang.com)
 - [less](http://lesscss.org/)
